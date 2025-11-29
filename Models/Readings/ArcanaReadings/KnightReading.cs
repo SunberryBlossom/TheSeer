@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tarot.Models.Readings.ArcanaReadings
+namespace TheSeer.Models.Readings.ArcanaReadings
 {
     internal class KnightReading
     {

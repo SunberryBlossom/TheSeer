@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tarot.UI.Screens.Menus
+namespace TheSeer.UI.Screens.Menus
 {
     internal class MenuScreen
     {

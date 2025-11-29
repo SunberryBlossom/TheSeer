@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tarot.UI.Screens.Menus.SpreadMenus
+namespace TheSeer.UI.Screens.Menus.SpreadMenus
 {
     internal class OracleSpreadMenu
     {

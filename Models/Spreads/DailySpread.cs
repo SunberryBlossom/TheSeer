@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tarot.Models.Spreads
+namespace TheSeer.Models.Spreads
 {
     internal class DailySpread
     {

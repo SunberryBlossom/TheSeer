@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tarot.Utilities.Helpers
+namespace TheSeer.Utilities.Helpers
 {
     internal class SystemHelper
     {

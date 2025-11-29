@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tarot.Models.Spreads.AngelSpreads
+namespace TheSeer.Models.Spreads.AngelSpreads
 {
     internal class AngelSpread
     {

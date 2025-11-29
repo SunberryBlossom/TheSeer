@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tarot.Models.Spreads.OracleSpreads
+namespace TheSeer.Models.Spreads.OracleSpreads
 {
     internal class OracleSpread
     {

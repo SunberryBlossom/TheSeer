@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tarot.UI.Screens
+namespace TheSeer.UI.Screens
 {
     internal class ReadingLogScreen
     {

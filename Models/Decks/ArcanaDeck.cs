@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tarot.Models.Decks
+namespace TheSeer.Models.Decks
 {
     internal class ArcanaDeck
     {
