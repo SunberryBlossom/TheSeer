@@ -8,5 +8,7 @@ namespace TheSeer.UI.Screens
 {
     internal class Screen
     {
+        private string? Title { get; set; }
+        private 
     }
 }
