@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static TheSeer.Utilities.Enum;
 
 namespace TheSeer.Models
 {
@@ -12,6 +13,7 @@ namespace TheSeer.Models
         private string PasswordHash { get; set; }
         private string Email { get; set; }
         private string Nickname { get; set; }
+        private UserStatus CurrentStatus { get; set; } = UserStatus.LoggedOut;
 
         public User(string username, string passwordHash, string email, string nickname)
         {
@@ -49,8 +51,5 @@ namespace TheSeer.Models
         {
             throw new NotImplementedException();
         }
-
-
-
     }
 }
