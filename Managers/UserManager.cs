@@ -47,7 +47,18 @@ namespace TheSeer2.Managers
 
         public bool NewUser(string username, string password, string email)
         {
-            throw new NotImplementedException();
+            if (_dataService.GetUser(username) != null)
+            {
+                return false;
+            }
+
+            string hashedPassword = _cryptoService.HashPassword(password);
+
+            var newUser = new User(username, hashedPassword, email);
+
+            _dataService.SaveUser(newUser);
+
+            return true;
         }
 
         public void Logout()
