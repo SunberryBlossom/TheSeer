@@ -8,10 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Data\cards.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\cards.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Configuration\" />
-    <Folder Include="Data\" />
     <Folder Include="Constants\" />
-    <Folder Include="Services\" />
     <Folder Include="UI\Menus\" />
     <Folder Include="UI\Prompts\" />
     <Folder Include="UI\Views\" />
