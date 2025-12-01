@@ -4,11 +4,15 @@ using System.Text;
 
 namespace TheSeer2.Models.Enums
 {
-	enum CardSuit
-	{
-		Arcana,
-		Oracle,
-		Angel,
-		Rune
-	}
+    internal enum CardSuit
+    {
+        MajorArcana,
+
+        Wands,
+        Cups,
+        Swords,
+        Pentacles,
+
+        None
+    }
 }
