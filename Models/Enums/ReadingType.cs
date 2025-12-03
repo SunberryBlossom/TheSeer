@@ -10,6 +10,6 @@ namespace TheSeer2.Models.Enums
 		Wanderer,
 		Nuns,
 		Spies,
-		Knights
+		Lords
 	}
 }
