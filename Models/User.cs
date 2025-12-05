@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.Json.Serialization;
 using TheSeer.Utilities.Helpers;
 
 namespace TheSeer.Models
@@ -6,13 +7,28 @@ namespace TheSeer.Models
     internal class User
     {
         // ----------------------- PROPERTIES --------------------------//
+        [JsonInclude]
         public Guid Id { get; init; }
+        
+        [JsonInclude]
         public string Username { get; private set; }
+        
+        [JsonInclude]
         public string PasswordHash { get; private set; }
+        
+        [JsonInclude]
         public DateTime CreatedDate { get; init; }
+        
+        [JsonInclude]
         public DateTime? LastLogin { get; private set; }
+        
+        [JsonInclude]
         public string? Nickname { get; private set; }
+        
+        [JsonInclude]
         public string Email { get; private set; }
+        
+        [JsonInclude]
         public bool TwoAuthOpt { get; private set; }
 
         // ---------------- CONSTRUCTORS -----------------------------//
