@@ -1,22 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using TheSeer2.Interfaces;
-using TheSeer2.Models;
+using TheSeer.Interfaces;
+using TheSeer.Models;
 
 
-namespace TheSeer2.Managers
+namespace TheSeer.Managers
 {
     internal class UserManager
     {
         private readonly IDataService _dataService;
         private readonly ICryptographyService _cryptoService;
+        private readonly IValidationService _validationService;
         private User? _currentUser;
 
-        public UserManager(IDataService dataService, ICryptographyService cryptoService)
+        public UserManager(IDataService dataService, ICryptographyService cryptoService, IValidationService validationService)
         {
             _dataService = dataService;
             _cryptoService = cryptoService;
+            _validationService = validationService;
             _currentUser = null;
         }
 
@@ -45,10 +47,28 @@ namespace TheSeer2.Managers
             return null;
         }
 
-        public bool NewUser(string username, string password, string email)
+        public bool NewUser(string username, string password, string email, out string? errorMessage)
         {
+            errorMessage = null;
+
+            if (!_validationService.IsValidUsername(username, out errorMessage))
+            {
+                return false;
+            }
+
+            if (!_validationService.IsValidPassword(password, out errorMessage))
+            {
+                return false;
+            }
+
+            if (!_validationService.IsValidEmail(email, out errorMessage))
+            {
+                return false;
+            }
+
             if (_dataService.GetUser(username) != null)
             {
+                errorMessage = "Username already exists.";
                 return false;
             }
 

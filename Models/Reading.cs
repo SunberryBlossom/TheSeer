@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using TheSeer2.Models.Enums;
+using System.Text.Json.Serialization;
+using TheSeer.Models.Enums;
 
-namespace TheSeer2.Models
+namespace TheSeer.Models
 {
     internal class Reading
     {
@@ -14,9 +15,12 @@ namespace TheSeer2.Models
         public List<Card> Cards { get; init; }
         public DateTime Timestamp { get; init; }
 
+        // Optional question the user asked when requesting the reading
+        public string? Question { get; init; }
+
         // ---------------- CONSTRUCTORS -----------------------------//
         
-        public Reading(Guid userId, ReadingType type, DeckType deck, List<Card> cards)
+        public Reading(Guid userId, ReadingType type, DeckType deck, List<Card> cards, string? question = null)
         {
             Id = Guid.NewGuid();
             UserId = userId;
@@ -28,11 +32,13 @@ namespace TheSeer2.Models
             
             Cards = cards;
             Timestamp = DateTime.Now;
+            Question = question;
         }
 
         public Reading() 
         {
             Cards = new List<Card>();
+            Question = null;
         }
     }
 }

@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TheSeer2.Services
+namespace TheSeer.UI.Views
 {
-    internal class TheSeer
+    internal class ProfileView
     {
+
     }
 }

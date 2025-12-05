@@ -1,0 +1,58 @@
+[
+  {
+    "Id": "020d1959-70fa-45df-942d-9fd2b944e8a8",
+    "UserId": "831bdcc5-ea5e-44b6-a6bb-43067933af75",
+    "Type": 3,
+    "Deck": 0,
+    "Cards": [
+      {
+        "Id": 9,
+        "Name": "The Hermit",
+        "Deck": 0,
+        "Suit": 0,
+        "UprightMeaning": "The Hermit accepts you into his cave. There you will find counsel, inner strength, prudence, caution, vigilance, patience, and withdrawal. You might be wanting to be alone for now. Others might not see or understand what you do. give yourself space to self-reflect.",
+        "ReversedMeaning": "The Hermit throws rock at you from his hiding spot. He accuses you of imprudence, hastiness, rashness and being immature. Have you isolated yourself lately? Stop it if you care for yourself. Even if time has been spent alone, you have not spent it well. You are avoiding to deal with your real problems, both internally and externally.",
+        "IsReversed": false
+      },
+      {
+        "Id": 16,
+        "Name": "The Tower",
+        "Deck": 0,
+        "Suit": 0,
+        "UprightMeaning": "The Tower crumbles as you near it. Sudden, massive change is about to happen. Abandon the past, child, before it is too late. You might lose money, security or short term happiness... but in the catastrophe, you can build something much stronger than you ever had before.",
+        "ReversedMeaning": "The Tower stands firm. You might be trapped within it, in a bad situation. Shake things up - I know you have been procrastinating this. Question the traditions and habits you have been following blindly. What can you throw away in order to make room for something greater?",
+        "IsReversed": true
+      },
+      {
+        "Id": 38,
+        "Name": "Three of Cups",
+        "Deck": 0,
+        "Suit": 2,
+        "UprightMeaning": "Three cups raise in celebration. Friendship, community and joyful gatherings await. Celebrate with those you love.",
+        "ReversedMeaning": "The cups are empty. Isolation, overindulgence and lack of community sadden you. Reach out to others.",
+        "IsReversed": true
+      }
+    ],
+    "Timestamp": "2025-12-04T14:27:20.8935176+01:00",
+    "Question": null
+  },
+  {
+    "Id": "77ad4953-6f66-4d1d-bf30-7c059cbd036d",
+    "UserId": "e288a661-06e3-4fb8-aac3-ce7f73f91beb",
+    "Type": 1,
+    "Deck": 0,
+    "Cards": [
+      {
+        "Id": 2,
+        "Name": "The High Priestess",
+        "Deck": 0,
+        "Suit": 0,
+        "UprightMeaning": "The High Priestess offers you a smile. She radiates with wisdom, knowledge, learning, intuition, purity, virtue, lack of patience and a will to teach you. You might have to give yourself time to learn something, so that you can make a wise decision. You should pay some time to truly listen to your dreams and their signs. They are worth your attention.",
+        "ReversedMeaning": "The High Priestess remains silent. Her action symbolizes ignorance, lack of understanding, selfishness, shallowness. Are you currently ignoring your intuition?",
+        "IsReversed": true
+      }
+    ],
+    "Timestamp": "2025-12-05T14:34:10.1995732+01:00",
+    "Question": "how should I think about today"
+  }
+]
