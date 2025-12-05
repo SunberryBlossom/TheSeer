@@ -212,6 +212,57 @@ namespace TheSeer.Utilities.Helpers
             }
         }
 
+        /// <summary>
+        /// Reads password input with masked characters (displays * instead of actual characters).
+        /// Supports backspace for corrections and Escape key for cancellation.
+        /// </summary>
+        /// <returns>The entered password, or empty string if cancelled with Escape</returns>
+        public static string ReadPassword()
+        {
+            string password = string.Empty;
+            ConsoleKeyInfo key;
+
+            do
+            {
+                key = Console.ReadKey(true);
+
+                if (key.Key == ConsoleKey.Backspace && password.Length > 0)
+                {
+                    password = password[0..^1];
+                    Console.Write("\b \b"); // Erase last character from screen
+                }
+                else if (key.Key == ConsoleKey.Escape)
+                {
+                    // Allow cancellation with Escape key
+                    password = string.Empty;
+                    Console.WriteLine();
+                    return password;
+                }
+                else if (!char.IsControl(key.KeyChar))
+                {
+                    password += key.KeyChar;
+                    Console.Write("*");
+                }
+            } while (key.Key != ConsoleKey.Enter);
+
+            return password;
+        }
+
+        /// <summary>
+        /// Reads password input with masked characters and prompt (displays * instead of actual characters).
+        /// Supports backspace for corrections and Escape key for cancellation.
+        /// </summary>
+        /// <param name="prompt">The prompt message to display</param>
+        /// <param name="promptColor">Color for the prompt (default: Info)</param>
+        /// <returns>The entered password, or empty string if cancelled with Escape</returns>
+        public static string ReadPassword(string prompt, ConsoleColor promptColor = ConsoleColor.Gray)
+        {
+            Write(prompt, promptColor);
+            string password = ReadPassword();
+            Console.WriteLine();
+            return password;
+        }
+
         // ==================== EFFECTS ====================
 
         public static void PauseForEffect(int milliseconds = 1000)
