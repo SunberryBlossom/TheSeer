@@ -21,7 +21,8 @@ namespace TheSeer.Managers
             _dataService = dataService;
         }
 
-        public Reading CreateReading(Guid userId, ReadingType readingType, DeckType deck)
+        // Added optional question parameter which will be persisted with the reading
+        public Reading CreateReading(Guid userId, ReadingType readingType, DeckType deck, string? question = null)
         {
             ValidateUserId(userId);
 
@@ -31,7 +32,9 @@ namespace TheSeer.Managers
 
             var spread = _spreadService.GetSpread(readingType);
             var drawnCards = _tarotService.DrawCards(deck, spread.CardCount);
-            var reading = new Reading(userId, readingType, deck, drawnCards);
+
+            // Pass question into Reading constructor
+            var reading = new Reading(userId, readingType, deck, drawnCards, question);
             
             _dataService.SaveReading(reading);
 
