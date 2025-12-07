@@ -5,7 +5,6 @@ namespace TheSeer.Models
 {
     internal class Card
     {
-        // ----------------------- PROPERTIES --------------------------//
         public int Id { get; init; }
         public required string Name { get; init; }
         public DeckType Deck { get; init; }
@@ -13,8 +12,6 @@ namespace TheSeer.Models
         public required string UprightMeaning { get; init; }
         public required string ReversedMeaning { get; init; }
         public bool IsReversed { get; set; }
-
-        // ---------------- CONSTRUCTORS -----------------------------//
 
         public Card(int id, string name, DeckType deck, CardSuit suit, string uprightMeaning, string reversedMeaning)
         {
@@ -33,8 +30,6 @@ namespace TheSeer.Models
             UprightMeaning = string.Empty;
             ReversedMeaning = string.Empty;
         }
-
-        // --------------- METHODS -----------------------//
 
         public string GetMeaning()
         {
