@@ -21,13 +21,12 @@ namespace TheSeer.Managers
             _dataService = dataService;
         }
 
-        // Added optional question parameter which will be persisted with the reading
-        public Reading CreateReading(Guid userId, ReadingType readingType, DeckType deck, string? question = null)
+        public Reading CreateReading(Guid userId, SpreadType readingType, DeckType deck, string? question = null)
         {
             ValidateUserId(userId);
 
             // Business rule: Daily reading restriction
-            if (readingType == ReadingType.DailyReading && !CanPerformDailyReading(userId))
+            if (readingType == SpreadType.DailyReading && !CanPerformDailyReading(userId))
                 throw new InvalidOperationException("You have already performed a daily reading today. Please try again tomorrow.");
 
             var spread = _spreadService.GetSpread(readingType);
@@ -35,7 +34,7 @@ namespace TheSeer.Managers
 
             // Pass question into Reading constructor
             var reading = new Reading(userId, readingType, deck, drawnCards, question);
-            
+
             _dataService.SaveReading(reading);
 
             return reading;
@@ -47,9 +46,9 @@ namespace TheSeer.Managers
 
             var userReadings = _dataService.GetUserReadings(userId);
             var today = DateTime.Today;
-            
-            return !userReadings.Any(r => 
-                r.Type == ReadingType.DailyReading && 
+
+            return !userReadings.Any(r =>
+                r.Type == SpreadType.DailyReading &&
                 r.Timestamp.Date == today);
         }
 
@@ -76,7 +75,7 @@ namespace TheSeer.Managers
             return userReadings.FirstOrDefault(r => r.Id == readingId);
         }
 
-        public List<Reading> GetReadingsByType(Guid userId, ReadingType type)
+        public List<Reading> GetReadingsByType(Guid userId, SpreadType type)
         {
             ValidateUserId(userId);
 
@@ -84,7 +83,7 @@ namespace TheSeer.Managers
             return userReadings.Where(r => r.Type == type).ToList();
         }
 
-        public Spread GetSpread(ReadingType readingType)
+        public Spread GetSpread(SpreadType readingType)
         {
             return _spreadService.GetSpread(readingType);
         }
@@ -108,14 +107,14 @@ namespace TheSeer.Managers
             return readings.Max(r => (DateTime?)r.Timestamp);
         }
 
-        public Dictionary<ReadingType, int> GetReadingCountByType(Guid userId)
+        public Dictionary<SpreadType, int> GetReadingCountByType(Guid userId)
         {
             ValidateUserId(userId);
 
             var readings = _dataService.GetUserReadings(userId);
-            
+
             if (!readings.Any())
-                return new Dictionary<ReadingType, int>();
+                return new Dictionary<SpreadType, int>();
 
             return readings
                 .GroupBy(r => r.Type)
