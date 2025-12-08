@@ -14,12 +14,7 @@ namespace TheSeer.Services
         {
             byte[] salt = RandomNumberGenerator.GetBytes(SaltSize);
 
-            byte[] hash = Rfc2898DeriveBytes.Pbkdf2(
-                password,
-                salt,
-                Iterations,
-                HashAlgorithmName.SHA256,
-                HashSize);
+            byte[] hash = Rfc2898DeriveBytes.Pbkdf2(password, salt, Iterations, HashAlgorithmName.SHA256, HashSize);
 
             string base64Salt = Convert.ToBase64String(salt);
             string base64Hash = Convert.ToBase64String(hash);
@@ -44,12 +39,7 @@ namespace TheSeer.Services
             byte[] salt = Convert.FromBase64String(parts[1]);
             byte[] expectedHash = Convert.FromBase64String(parts[2]);
 
-            byte[] actualHash = Rfc2898DeriveBytes.Pbkdf2(
-                password,
-                salt,
-                iterations,
-                HashAlgorithmName.SHA256,
-                expectedHash.Length);
+            byte[] actualHash = Rfc2898DeriveBytes.Pbkdf2( password, salt, iterations, HashAlgorithmName.SHA256, expectedHash.Length);
 
             return CryptographicOperations.FixedTimeEquals(actualHash, expectedHash);
         }
