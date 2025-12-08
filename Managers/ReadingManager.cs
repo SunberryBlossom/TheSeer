@@ -25,14 +25,11 @@ namespace TheSeer.Managers
         {
             ValidateUserId(userId);
 
-            // Business rule: Daily reading restriction
             if (readingType == SpreadType.DailyReading && !CanPerformDailyReading(userId))
                 throw new InvalidOperationException("You have already performed a daily reading today. Please try again tomorrow.");
 
             var spread = _spreadService.GetSpread(readingType);
             var drawnCards = _tarotService.DrawCards(deck, spread.CardCount);
-
-            // Pass question into Reading constructor
             var reading = new Reading(userId, readingType, deck, drawnCards, question);
 
             _dataService.SaveReading(reading);
