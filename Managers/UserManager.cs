@@ -51,20 +51,9 @@ namespace TheSeer.Managers
         {
             errorMessage = null;
 
-            if (!_validationService.IsValidUsername(username, out errorMessage))
-            {
-                return false;
-            }
+            bool ok = _validationService.IsValidUsername(username, out errorMessage) && _validationService.IsValidPassword(password, out errorMessage) && _validationService.IsValidEmail(email, out errorMessage);
 
-            if (!_validationService.IsValidPassword(password, out errorMessage))
-            {
-                return false;
-            }
-
-            if (!_validationService.IsValidEmail(email, out errorMessage))
-            {
-                return false;
-            }
+            if (!ok) return false;
 
             if (_dataService.GetUser(username) != null)
             {
