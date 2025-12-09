@@ -10,11 +10,10 @@ namespace TheSeer.Services
 {
     internal class JsonDataService : IDataService
     {
-        private readonly string _dataDirectory;           // runtime data (output folder)
+        private readonly string _dataDirectory;
         private readonly string _usersFilePath;
         private readonly string _readingsFilePath;
 
-        // optional repo data copy (project root Data folder) — null when not found
         private readonly string? _repoDataDirectory;
 
         private List<User> _users;
@@ -27,7 +26,6 @@ namespace TheSeer.Services
 
         public JsonDataService()
         {
-            // runtime data lives in the app base directory (output folder)
             _dataDirectory = Path.Combine(AppContext.BaseDirectory, "Data");
             Directory.CreateDirectory(_dataDirectory);
 
@@ -37,10 +35,8 @@ namespace TheSeer.Services
             EnsureFileExists(_usersFilePath);
             EnsureFileExists(_readingsFilePath);
 
-            // attempt to locate repository root (look for .git folder upwards from base dir)
             _repoDataDirectory = FindRepoDataDirectory(AppContext.BaseDirectory);
 
-            // create repo Data folder if we found repo and it doesn't exist
             if (_repoDataDirectory != null)
             {
                 try
@@ -49,7 +45,6 @@ namespace TheSeer.Services
                 }
                 catch
                 {
-                    // ignore permission issues; copy-back will be best-effort
                     _repoDataDirectory = null;
                 }
             }
@@ -60,9 +55,7 @@ namespace TheSeer.Services
 
         public User? GetUser(string username)
         {
-            return _users
-                .Where(u => u.Username != null)
-                .FirstOrDefault(u => u.Username.Equals(username, StringComparison.OrdinalIgnoreCase));
+            return _users.Where(u => u.Username != null).FirstOrDefault(u => u.Username.Equals(username, StringComparison.OrdinalIgnoreCase));
         }
 
         public void SaveUser(User user)
@@ -92,9 +85,7 @@ namespace TheSeer.Services
 
         public List<Reading> GetUserReadings(Guid userId)
         {
-            return _readings.Where(r => r.UserId == userId)
-                           .OrderByDescending(r => r.Timestamp)
-                           .ToList();
+            return _readings.Where(r => r.UserId == userId).OrderByDescending(r => r.Timestamp).ToList();
         }
 
         private List<T> LoadFromFile<T>(string filePath)
@@ -126,7 +117,6 @@ namespace TheSeer.Services
             {
                 string jsonText = JsonSerializer.Serialize(items, _jsonOptions);
 
-                // atomic-ish write: write to temp then replace
                 string tmpPath = filePath + ".tmp";
                 File.WriteAllText(tmpPath, jsonText);
                 File.Copy(tmpPath, filePath, overwrite: true);
@@ -134,7 +124,6 @@ namespace TheSeer.Services
 
                 Log($"Successfully saved {items.Count} items to {filePath}");
 
-                // attempt to copy runtime-updated file back to repo Data folder (best-effort)
                 TryCopyToRepo(filePath);
             }
             catch (Exception ex)
@@ -158,11 +147,6 @@ namespace TheSeer.Services
                 }
             }
         }
-
-        /// <summary>
-        /// Attempts to find the repository root by walking up from startPath and looking for a '.git' folder,
-        /// then returns the 'Data' directory path inside that repo if found, otherwise null.
-        /// </summary>
         private static string? FindRepoDataDirectory(string startPath)
         {
             try
@@ -171,7 +155,7 @@ namespace TheSeer.Services
                 while (dir != null)
                 {
                     var gitPath = Path.Combine(dir.FullName, ".git");
-                    if (Directory.Exists(gitPath) || File.Exists(gitPath)) // git could be a file (worktrees) — accept either
+                    if (Directory.Exists(gitPath) || File.Exists(gitPath))
                     {
                         return Path.Combine(dir.FullName, "Data");
                     }
@@ -187,10 +171,6 @@ namespace TheSeer.Services
             return null;
         }
 
-        /// <summary>
-        /// Copies a runtime-updated data file back to the repo Data folder (if present).
-        /// Best-effort: logs and swallows exceptions so runtime behavior is unaffected.
-        /// </summary>
         private void TryCopyToRepo(string runtimeFilePath)
         {
             if (string.IsNullOrWhiteSpace(_repoDataDirectory))
@@ -204,7 +184,6 @@ namespace TheSeer.Services
 
                 var repoFilePath = Path.Combine(_repoDataDirectory, fileName);
 
-                // Make a temp copy and replace to reduce partial-write risk
                 string tmpRepo = repoFilePath + ".tmp";
                 File.Copy(runtimeFilePath, tmpRepo, overwrite: true);
                 File.Copy(tmpRepo, repoFilePath, overwrite: true);
