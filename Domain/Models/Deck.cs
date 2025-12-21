@@ -16,9 +16,9 @@ namespace TheSeer.Domain.Models
         public string CardBackImage { get; set; }
         public bool IsLocked { get; set; }
 
+        public virtual SystemType SystemType { get; set; }
         public virtual ICollection<Reading> Readings { get; set; }
         public  virtual ICollection<FavoriteDeck> FavoriteDecks { get; set; }
-        public virtual SystemType SystemType { get; set; }
         public virtual ICollection<Meaning> Meanings { get; set; }
         public virtual ICollection<Card> Cards { get; set; }
 
