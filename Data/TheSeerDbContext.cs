@@ -10,6 +10,7 @@ namespace TheSeer.Data
     {
         public TheSeerDbContext(DbContextOptions<TheSeerDbContext> options) : base(options) { }
         public DbSet<Deck> Decks { get; set; }
+        public DbSet<Reading> Readings { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
