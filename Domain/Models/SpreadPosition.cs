@@ -15,7 +15,7 @@ namespace TheSeer.Domain.Models
         public int YPos { get; set; }
         public int RotationDegrees { get; set; }
 
-        public Spread Spread { get; set; }
+        public Spread Spread { get; set; } = null!;
         public ICollection<DrawnCard> DrawnCards { get; set; } = new List<DrawnCard>();
     }
 }
