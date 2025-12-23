@@ -17,7 +17,9 @@ namespace TheSeer.Data
         public DbSet<Card> Cards { get; set; }
         public DbSet<Meaning> Meanings { get; set; }
         public DbSet<SystemType> SystemTypes { get; set; }
-        public DbSet<FavoriteDeck> favoriteDecks { get; set; }
+        public DbSet<FavoriteDeck> FavoriteDecks { get; set; }
+        public DbSet<JournalEntry> JournalEntries { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
