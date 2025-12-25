@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TheSeer.Domain.Models
 {
-    internal class FavoriteDeck
+    public class FavoriteDeck
     {
         public Guid UserId { get; set; }
         public int DeckId { get; set; }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TheSeer.Domain.Models
 {
-    internal class Card
+    public class Card
     {
         public int Id { get; set; }
         public int DeckId { get; set; }

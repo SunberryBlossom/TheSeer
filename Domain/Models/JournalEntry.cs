@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TheSeer.Domain.Models
 {
-    internal class JournalEntry
+    public class JournalEntry
     {
         public Guid Id { get; set; }
         public Guid ReadingId { get; set; }

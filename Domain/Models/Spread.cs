@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TheSeer.Domain.Models
 {
-    internal class Spread
+    public class Spread
     {
         public int Id { get; set; }
         public int SystemTypeId { get; set; }

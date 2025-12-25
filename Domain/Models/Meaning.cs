@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TheSeer.Domain.Models
 {
-    internal class Meaning
+    public class Meaning
     {
         public int Id { get; set; }
         public int CardId { get; set; }
