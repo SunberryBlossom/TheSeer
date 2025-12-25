@@ -17,8 +17,8 @@ namespace TheSeer.Data.Configurations
             builder.Property(je => je.Header).HasMaxLength(150).IsRequired();
             builder.Property(je => je.Content).IsRequired();
 
-            builder.HasOne(je => je.Reading).WithMany(r => r.JournalEntries).HasForeignKey(je => je.ReadingId);
-            builder.HasOne(je => je.User).WithMany(u => u.JournalEntries).HasForeignKey(je => je.UserId).IsRequired();
+            builder.HasOne(je => je.Reading).WithMany(r => r.JournalEntries).HasForeignKey(je => je.ReadingId).OnDelete(DeleteBehavior.NoAction);
+            builder.HasOne(je => je.User).WithMany(u => u.JournalEntries).HasForeignKey(je => je.UserId).OnDelete(DeleteBehavior.NoAction).IsRequired();
         }
 
     }

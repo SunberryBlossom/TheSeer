@@ -8,7 +8,7 @@ using TheSeer.Domain.Models;
 
 namespace TheSeer.Data.Configurations
 {
-    internal class UserConfiguration : IEntityTypeConfiguration<User>
+    public class UserConfiguration : IEntityTypeConfiguration<User>
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
@@ -21,6 +21,10 @@ namespace TheSeer.Data.Configurations
             builder.Property(u => u.CreatedAt).IsRequired();
             builder.Property(u => u.IsActive).IsRequired();
             builder.Property(u => u.Role).IsRequired();
+
+            builder.HasMany(u => u.FavoriteDecks).WithOne(fd => fd.User).HasForeignKey(fd => fd.UserId).OnDelete(DeleteBehavior.Cascade);
+            builder.HasMany(u => u.JournalEntries).WithOne(je => je.User).HasForeignKey(je => je.UserId).OnDelete(DeleteBehavior.Cascade);
+            builder.HasMany(u => u.Readings).WithOne(r => r.User).HasForeignKey(r => r.UserId).OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

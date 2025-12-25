@@ -19,9 +19,9 @@ namespace TheSeer.Data.Configurations
             builder.Property(dc => dc.IsReversed).IsRequired();
             builder.Property(dc => dc.DrawOrder).IsRequired();
 
-            builder.HasOne(dc => dc.Reading).WithMany(r => r.DrawnCards).HasForeignKey(dc => dc.ReadingId).IsRequired();
+            builder.HasOne(dc => dc.Reading).WithMany(r => r.DrawnCards).HasForeignKey(dc => dc.ReadingId).OnDelete(DeleteBehavior.Cascade).IsRequired();
             builder.HasOne(dc => dc.SpreadPosition).WithMany(sp => sp.DrawnCards).HasForeignKey(dc => dc.SpreadPositionId).IsRequired();
-            builder.HasOne(dc => dc.Card).WithMany(c => c.DrawnCards).HasForeignKey(dc => dc.CardId).IsRequired();
+            builder.HasOne(dc => dc.Card).WithMany(c => c.DrawnCards).HasForeignKey(dc => dc.CardId).OnDelete(DeleteBehavior.Restrict).IsRequired();
         }
     }
 }

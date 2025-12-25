@@ -18,8 +18,8 @@ namespace TheSeer.Data.Configurations
             builder.Property(m => m.KeyWords).HasMaxLength(100).IsRequired();
             builder.Property(m => m.IsReversed).IsRequired();
 
-            builder.HasOne(m => m.Card).WithMany(c => c.Meanings).HasForeignKey(m => m.CardId).IsRequired();
-            builder.HasOne(m => m.Deck).WithMany(d => d.Meanings).HasForeignKey(m => m.DeckId);
+            builder.HasOne(m => m.Card).WithMany(c => c.Meanings).HasForeignKey(m => m.CardId).OnDelete(DeleteBehavior.Cascade).IsRequired();
+            builder.HasOne(m => m.Deck).WithMany(d => d.Meanings).HasForeignKey(m => m.DeckId).OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

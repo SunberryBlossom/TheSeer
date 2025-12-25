@@ -17,7 +17,7 @@ namespace TheSeer.Data.Configurations
             builder.Property(sp => sp.Description).HasMaxLength(500).IsRequired();
             builder.Property(sp => sp.SequenceNumber).IsRequired();
 
-            builder.HasOne(sp => sp.Spread).WithMany(s => s.SpreadPositions).HasForeignKey(sp => sp.SpreadId).IsRequired();
+            builder.HasOne(sp => sp.Spread).WithMany(s => s.SpreadPositions).HasForeignKey(sp => sp.SpreadId).OnDelete(DeleteBehavior.Cascade).IsRequired();
 
             builder.HasMany(sp => sp.DrawnCards).WithOne(dc => dc.SpreadPosition).HasForeignKey(dc => dc.SpreadPositionId).OnDelete(DeleteBehavior.Cascade);
 
