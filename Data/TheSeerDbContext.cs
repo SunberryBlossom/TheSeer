@@ -31,33 +31,80 @@ namespace TheSeer.Data
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(TheSeerDbContext).Assembly);
 
+            SeedStaticData(modelBuilder);
+
+            SeedFromJson<Card>(modelBuilder, "TheSeerCards.json");
+            SeedFromJson<Meaning>(modelBuilder, "TheSeerCardsMeanings.json");
+            SeedFromJson<Spread>(modelBuilder, "TheSeerOriginalDeckSpreads.json");
+            SeedFromJson<SpreadPosition>(modelBuilder, "TheSeerOriginalSpreadPositions.json");
+
+            SeedFromJson<Card>(modelBuilder, "ElderFutharkRunes.json");
+            SeedFromJson<Meaning>(modelBuilder, "ElderFutharkRuneMeanings.json");
+            SeedFromJson<Spread>(modelBuilder, "ElderFutharkSpreads.json");
+            SeedFromJson<SpreadPosition>(modelBuilder, "ElderFutharkSpreadPositions.json");
+
+            SeedFromJson<Card>(modelBuilder, "TheSeerOracleCards.json");
+            SeedFromJson<Meaning>(modelBuilder, "TheSeerOracleCardsMeanings.json");
+            SeedFromJson<Spread>(modelBuilder, "TheSeerOracleDeckSpreads.json");
+            SeedFromJson<SpreadPosition>(modelBuilder, "TheSeerOracleSpreadPositions.json");
+        }
+
+        private void SeedFromJson<T>(ModelBuilder modelBuilder, string fileName) where T : class
+        {
+            string folderName = "SeedData";
+            string path = Path.Combine(AppContext.BaseDirectory, folderName, fileName);
+
+            if (!File.Exists(path))
+            {
+                path = Path.Combine(Directory.GetCurrentDirectory(), folderName, fileName);
+            }
+
+            // OM FILEN FORTFARANDE INTE FINNS - STOPPA ALLT OCH BERÄTTA VARFÖR
+            if (!File.Exists(path))
+            {
+                var errorPath = Path.GetFullPath(path);
+                throw new Exception($"STOPP! Migrationen hittar inte filen: {fileName}. Den letade här: {errorPath}");
+            }
+
+            var json = File.ReadAllText(path);
+            var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+            var data = JsonSerializer.Deserialize<List<T>>(json, options);
+
+            if (data != null && data.Any())
+            {
+                modelBuilder.Entity<T>().HasData(data);
+            }
+        }
+
+        private void SeedStaticData(ModelBuilder modelBuilder)
+        {
             modelBuilder.Entity<SystemType>().HasData
-                (
-                    new SystemType
-                    {
-                        Id = 1,
-                        Name = "Tarot",
-                        CanBeReversed = true,
-                        DefaultCardCount = 78,
-                        Description = "The classical system for introspection, guidance and spirital development. Usually has 78 cards, always divided into the major and minor arcana."
-                    },
-                    new SystemType
-                    {
-                        Id = 2,
-                        Name = "Runes",
-                        CanBeReversed = true,
-                        DefaultCardCount = 24,
-                        Description = "An old norse system built upon the old futhark of 24 runes. Each rune symbolize natural powers and gods or godesses. Used to interpret hidden energies and bigger happenings in life."
-                    },
-                    new SystemType
-                    {
-                        Id = 3,
-                        Name = "Oracle",
-                        CanBeReversed = false,
-                        DefaultCardCount = 44,
-                        Description = "A free and intuitive system for guidance. Not as strict as the Tarot system. Usually have unique themes, and can be flexible regarding card count."
-                    }
-                );
+    (
+        new SystemType
+        {
+            Id = 1,
+            Name = "Tarot",
+            CanBeReversed = true,
+            DefaultCardCount = 78,
+            Description = "The classical system for introspection, guidance and spirital development. Usually has 78 cards, always divided into the major and minor arcana."
+        },
+        new SystemType
+        {
+            Id = 2,
+            Name = "Runes",
+            CanBeReversed = true,
+            DefaultCardCount = 24,
+            Description = "An old norse system built upon the old futhark of 24 runes. Each rune symbolize natural powers and gods or godesses. Used to interpret hidden energies and bigger happenings in life."
+        },
+        new SystemType
+        {
+            Id = 3,
+            Name = "Oracle",
+            CanBeReversed = false,
+            DefaultCardCount = 44,
+            Description = "A free and intuitive system for guidance. Not as strict as the Tarot system. Usually have unique themes, and can be flexible regarding card count."
+        }
+    );
 
             modelBuilder.Entity<Deck>().HasData
                 (
@@ -110,82 +157,6 @@ namespace TheSeer.Data
                         DateOfPublish = new DateOnly(2025, 12, 26)
                     }
                 );
-
-            var path = Path.Combine(Directory.GetCurrentDirectory(), "SeedData", "TheSeerCards.json");
-
-            if (File.Exists(path))
-            {
-                var json = File.ReadAllText(path);
-                var cards = JsonSerializer.Deserialize<List<Card>>(json);
-
-                if (cards != null)
-                {
-                    modelBuilder.Entity<Card>().HasData(cards);
-                }
-            }
-
-            string fileName = "TheSeerCardsMeanings.json";
-            string folderName = "SeedData";
-            path = Path.Combine(AppContext.BaseDirectory, folderName, fileName);
-
-            if (!File.Exists(path))
-            {
-                path = Path.Combine(Directory.GetCurrentDirectory(), folderName, fileName);
-            }
-
-            if (File.Exists(path))
-            {
-                var json = File.ReadAllText(path);
-                var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-                var meanings = JsonSerializer.Deserialize<List<Meaning>>(json, options);
-
-                if (meanings != null && meanings.Any())
-                {
-                    modelBuilder.Entity<Meaning>().HasData(meanings);
-                }
-            }
-
-            fileName = "TheSeerOriginalDeckSpreads.json";
-
-            path = Path.Combine(AppContext.BaseDirectory, folderName, fileName);
-
-            if (!File.Exists(path))
-            {
-                path = Path.Combine(Directory.GetCurrentDirectory(), folderName, fileName);
-            }
-
-            if (File.Exists(path))
-            {
-                var json = File.ReadAllText(path);
-                var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-                var meanings = JsonSerializer.Deserialize<List<Spread>>(json, options);
-
-                if (meanings != null && meanings.Any())
-                {
-                    modelBuilder.Entity<Spread>().HasData(meanings);
-                }
-            }
-
-            fileName = "TheSeerOriginalSpreadPositions.json";
-
-            path = Path.Combine(AppContext.BaseDirectory, folderName, fileName);
-
-            if (!File.Exists(path))
-            {
-                path = Path.Combine(Directory.GetCurrentDirectory(), folderName, fileName);
-            }
-
-            if (File.Exists(path))
-            {
-                var json = File.ReadAllText(path);
-                var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-                var positions = JsonSerializer.Deserialize<List<SpreadPosition>>(json, options);
-
-                if (positions != null && positions.Any())
-                {
-                    modelBuilder.Entity<SpreadPosition>().HasData(positions);
-                }
-            }
         }
     }
 }
