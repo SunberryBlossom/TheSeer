@@ -76,6 +76,60 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="SeedData\ElderFutharkRuneMeanings.json" />
+    <None Remove="SeedData\ElderFutharkRunes.json" />
+    <None Remove="SeedData\ElderFutharkSpreadPositions.json" />
+    <None Remove="SeedData\ElderFutharkSpreads.json" />
+    <None Remove="SeedData\TheSeerCards.json" />
+    <None Remove="SeedData\TheSeerCardsMeanings.json" />
+    <None Remove="SeedData\TheSeerOracleCards.json" />
+    <None Remove="SeedData\TheSeerOracleCardsMeanings.json" />
+    <None Remove="SeedData\TheSeerOracleDeckSpreads.json" />
+    <None Remove="SeedData\TheSeerOracleSpreadPositions.json" />
+    <None Remove="SeedData\TheSeerOriginalDeckSpreads.json" />
+    <None Remove="SeedData\TheSeerOriginalSpreadPositions.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="SeedData\ElderFutharkRuneMeanings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SeedData\ElderFutharkRunes.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SeedData\ElderFutharkSpreadPositions.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SeedData\ElderFutharkSpreads.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SeedData\TheSeerCards.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SeedData\TheSeerCardsMeanings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SeedData\TheSeerOracleCards.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SeedData\TheSeerOracleCardsMeanings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SeedData\TheSeerOracleDeckSpreads.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SeedData\TheSeerOracleSpreadPositions.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SeedData\TheSeerOriginalDeckSpreads.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SeedData\TheSeerOriginalSpreadPositions.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.1">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
