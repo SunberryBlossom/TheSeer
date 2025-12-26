@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "SpreadId": 1,
+    "SequenceNumber": 1,
+    "Label": "The Question",
+    "Description": "This card reflects the core of your conundrum. It represents the seeker and the singular energy surrounding the current situation."
+  },
+  {
+    "Id": 2,
+    "SpreadId": 2,
+    "SequenceNumber": 1,
+    "Label": "The Pious Path",
+    "Description": "What one ought to do. This sister represents the light, the virtuous action, and the direction that leads to growth and peace."
+  },
+  {
+    "Id": 3,
+    "SpreadId": 2,
+    "SequenceNumber": 2,
+    "Label": "The Devilish Path",
+    "Description": "What one ought to avoid. This sister warns of temptations, stagnant energies, or actions that will lead the seeker into darker lands."
+  },
+  {
+    "Id": 4,
+    "SpreadId": 3,
+    "SequenceNumber": 1,
+    "Label": "The Shadow of the Past",
+    "Description": "The spy who looks behind. This position reveals the roots of the situation and the events that have already left their mark on your soul."
+  },
+  {
+    "Id": 5,
+    "SpreadId": 3,
+    "SequenceNumber": 2,
+    "Label": "The Eye of the Present",
+    "Description": "The spy who watches the now. This card reveals hidden movements and truths occurring in your life right this moment that you might not yet see."
+  },
+  {
+    "Id": 6,
+    "SpreadId": 3,
+    "SequenceNumber": 3,
+    "Label": "The Fog of the Future",
+    "Description": "The spy who gazes ahead. This card shows the most likely manifestation of your current path and what is currently forming in the mists of tomorrow."
+  },
+  {
+    "Id": 7,
+    "SpreadId": 4,
+    "SequenceNumber": 1,
+    "Label": "The Lord of the Body",
+    "Description": "Governs the physical realm. This card speaks to your health, your home, your finances, and your tangible impact on the world."
+  },
+  {
+    "Id": 8,
+    "SpreadId": 4,
+    "SequenceNumber": 2,
+    "Label": "The Lord of the Mind",
+    "Description": "Governs logic and communication. This card reflects your thoughts, your plans, and the mental clarity (or confusion) you currently possess."
+  },
+  {
+    "Id": 9,
+    "SpreadId": 4,
+    "SequenceNumber": 3,
+    "Label": "The Lord of the Spirit",
+    "Description": "Governs the ethereal reach. This card shows your connection to the divine, your intuition, and your higher purpose."
+  },
+  {
+    "Id": 10,
+    "SpreadId": 4,
+    "SequenceNumber": 4,
+    "Label": "The Lord of the Subconscious",
+    "Description": "Governs the mysterious depths. This card reveals the hidden drives, dreams, and suppressed emotions that influence you from the shadows."
+  }
+]

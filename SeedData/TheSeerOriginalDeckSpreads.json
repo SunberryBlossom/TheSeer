@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "SystemTypeId": 1,
+    "Name": "The Wanderer",
+    "Description": "The Wanderer is a lonely spread. A single card, to answer a single, yet perhaps not simple question. She may help you with a conundrum; a specific, yet not closed question.",
+    "ImageOverlay": ""
+  },
+  {
+    "Id": 2,
+    "SystemTypeId": 1,
+    "Name": "The Nuns",
+    "Description": "The sisterly nuns may show you duality. A chance to differ what one ought to do, and what one ought to avoid. Their holy guidance will stop you from devilish actions, whilst leading you to more pious lands.",
+    "ImageOverlay": ""
+  },
+  {
+    "Id": 3,
+    "SystemTypeId": 1,
+    "Name": "The Spies",
+    "Description": "The Spies consist of three agents infiltrating the timeline of your existence. Each spy reports back from a different front: one watches the shadows of your Past, one observes the hidden movements of your Present, and the third gazes into the fog of your Future.",
+    "ImageOverlay": ""
+  },
+  {
+    "Id": 4,
+    "SystemTypeId": 1,
+    "Name": "The Lords",
+    "Description": "The Lords represent four powerful camps of the self. Each Lord governs a specific domain of your life: the physical strength of the Body, the sharp logic of the Mind, the ethereal reaches of Spirit, and the mysterious depths of the Subconscious.",
+    "ImageOverlay": ""
+  }
+]
