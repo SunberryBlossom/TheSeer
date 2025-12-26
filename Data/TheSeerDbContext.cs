@@ -84,6 +84,30 @@ namespace TheSeer.Data
                         AssetFolder = " ",
                         CardBackImage = " ",
                         DateOfPublish = new DateOnly(2022, 08, 28)
+                    },
+                    new Deck
+                    {
+                        Id = 3,
+                        Name = "The oracles of the dunes",
+                        SystemTypeId = 3,
+                        Creator = "Elvira Mariesdotter",
+                        IsLocked = false,
+                        Description = "Oracle cards represented by the spirits of the dunes in the land of the Seer. Includes 44 cards meant to guide you when doubt is clouding your vision.",
+                        AssetFolder = " ",
+                        CardBackImage = " ",
+                        DateOfPublish = new DateOnly(2025, 12, 26)
+                    },
+                    new Deck
+                    {
+                        Id = 4,
+                        Name = "Elder futhark runes",
+                        SystemTypeId = 2,
+                        Creator = "Elvira Mariesdotter",
+                        IsLocked = false,
+                        Description = "A set of 24 old futhark runes. Standard rune set for fortune telling used by the ancient norse.",
+                        AssetFolder = " ",
+                        CardBackImage = " ",
+                        DateOfPublish = new DateOnly(2025, 12, 26)
                     }
                 );
 
