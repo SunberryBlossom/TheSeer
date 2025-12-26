@@ -1,0 +1,65 @@
+[
+  {
+    "Id": 23,
+    "SpreadId": 8,
+    "SequenceNumber": 1,
+    "Label": "The Oracle's Word",
+    "Description": "The core essence of your question or the energy to focus on today."
+  },
+  {
+    "Id": 24,
+    "SpreadId": 9,
+    "SequenceNumber": 1,
+    "Label": "Urd (The Past)",
+    "Description": "What has already been woven; the origins and past influences of your situation."
+  },
+  {
+    "Id": 25,
+    "SpreadId": 9,
+    "SequenceNumber": 2,
+    "Label": "Verdandi (The Present)",
+    "Description": "What is currently becoming; the energy and choices active right now."
+  },
+  {
+    "Id": 26,
+    "SpreadId": 9,
+    "SequenceNumber": 3,
+    "Label": "Skuld (The Future)",
+    "Description": "What shall be; the likely outcome if the current path remains unchanged."
+  },
+  {
+    "Id": 27,
+    "SpreadId": 10,
+    "SequenceNumber": 1,
+    "Label": "The Past",
+    "Description": "The foundation and previous events that led you to this moment."
+  },
+  {
+    "Id": 28,
+    "SpreadId": 10,
+    "SequenceNumber": 2,
+    "Label": "The Present",
+    "Description": "The current situation and the central energy surrounding your query."
+  },
+  {
+    "Id": 29,
+    "SpreadId": 10,
+    "SequenceNumber": 3,
+    "Label": "The Challenge",
+    "Description": "The obstacles or hidden friction you are currently facing."
+  },
+  {
+    "Id": 30,
+    "SpreadId": 10,
+    "SequenceNumber": 4,
+    "Label": "The Potential",
+    "Description": "The help, hidden strengths, or opportunities that can be utilized."
+  },
+  {
+    "Id": 31,
+    "SpreadId": 10,
+    "SequenceNumber": 5,
+    "Label": "The Outcome",
+    "Description": "The final result or the resolution of the situation based on the other four runes."
+  }
+]

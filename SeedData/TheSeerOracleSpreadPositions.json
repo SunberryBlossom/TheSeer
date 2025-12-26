@@ -1,0 +1,86 @@
+[
+  {
+    "Id": 11,
+    "SpreadId": 5,
+    "SequenceNumber": 1,
+    "Label": "The Sand Behind",
+    "Description": "What you are leaving behind; the dust that has already settled from your past actions."
+  },
+  {
+    "Id": 12,
+    "SpreadId": 5,
+    "SequenceNumber": 2,
+    "Label": "The Dune Ahead",
+    "Description": "The immediate challenge or obstacle rising before you on the horizon."
+  },
+  {
+    "Id": 13,
+    "SpreadId": 5,
+    "SequenceNumber": 3,
+    "Label": "The Oasis",
+    "Description": "The source of replenishment and the eventual resolution of your current journey."
+  },
+  {
+    "Id": 14,
+    "SpreadId": 6,
+    "SequenceNumber": 1,
+    "Label": "The Surface",
+    "Description": "What you project to the world; the visible and obvious landscape of the situation."
+  },
+  {
+    "Id": 15,
+    "SpreadId": 6,
+    "SequenceNumber": 2,
+    "Label": "The Bedrock",
+    "Description": "The true foundation of the matter; the unshakeable reality beneath the shifting sands."
+  },
+  {
+    "Id": 16,
+    "SpreadId": 6,
+    "SequenceNumber": 3,
+    "Label": "The Thumper",
+    "Description": "The calling or vibration you must pay attention to; your inner summons for action."
+  },
+  {
+    "Id": 17,
+    "SpreadId": 7,
+    "SequenceNumber": 4,
+    "Label": "The Ancient Echo",
+    "Description": "Ancestral wisdom, karmic debt, or past influences affecting the current outcome."
+  },
+  {
+    "Id": 18,
+    "SpreadId": 7,
+    "SequenceNumber": 1,
+    "Label": "The Wind's Origin",
+    "Description": "The source of the current conflict or the primary catalyst for change."
+  },
+  {
+    "Id": 19,
+    "SpreadId": 7,
+    "SequenceNumber": 2,
+    "Label": "The Shield",
+    "Description": "What must be protected, kept secret, or held in reserve for safety."
+  },
+  {
+    "Id": 20,
+    "SpreadId": 7,
+    "SequenceNumber": 3,
+    "Label": "The Sword",
+    "Description": "Where you should take decisive action or exert your authority and will."
+  },
+  {
+    "Id": 21,
+    "SpreadId": 7,
+    "SequenceNumber": 4,
+    "Label": "The Shifting Sand",
+    "Description": "Elements out of your control that must be navigated with patience and timing."
+  },
+  {
+    "Id": 22,
+    "SpreadId": 7,
+    "SequenceNumber": 5,
+    "Label": "The New Banner",
+    "Description": "The ultimate result of your sovereignty and the final resolution of the storm."
+  }
+]

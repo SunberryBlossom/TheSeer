@@ -1,0 +1,1586 @@
+[
+  {
+    "Id": 1001,
+    "CardId": 79,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "A dormant connection is beginning to stir. Like the desert after rain, new feelings are surfacing from deep within.",
+    "KeyWords": "Awakening, Potential",
+    "IsReversed": false
+  },
+  {
+    "Id": 1002,
+    "CardId": 79,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "A long-awaited project is showing signs of life. Ground yourself before taking the next big step.",
+    "KeyWords": "Foundation, Early Success",
+    "IsReversed": false
+  },
+  {
+    "Id": 1003,
+    "CardId": 79,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Your spirit is syncing with the rhythms of the earth. Listen to the vibrations of your intuition.",
+    "KeyWords": "Connection, Oneness",
+    "IsReversed": false
+  },
+  {
+    "Id": 1004,
+    "CardId": 79,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "The soil is fertile for new investments. Plant your seeds wisely and wait for the natural cycle.",
+    "KeyWords": "Fertility, Growth",
+    "IsReversed": false
+  },
+  {
+    "Id": 1005,
+    "CardId": 80,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Relationships require shared resources. Ensure you are giving as much as you take to maintain balance.",
+    "KeyWords": "Reciprocity, Commitment",
+    "IsReversed": false
+  },
+  {
+    "Id": 1006,
+    "CardId": 80,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "A professional alliance requires a formal agreement. Respect those who helped you reach this position.",
+    "KeyWords": "Loyalty, Networking",
+    "IsReversed": false
+  },
+  {
+    "Id": 1007,
+    "CardId": 80,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Life is a flow. Acknowledge what you owe to your ancestors and the masters who walked before you.",
+    "KeyWords": "Gratitude, Lineage",
+    "IsReversed": false
+  },
+  {
+    "Id": 1008,
+    "CardId": 80,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Be mindful of your debts. Settle what is owed before the season of drought arrives.",
+    "KeyWords": "Responsibility, Debt",
+    "IsReversed": false
+  },
+  {
+    "Id": 1009,
+    "CardId": 81,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Intense passion may be overwhelming. Ensure your light doesn't burn the ones you love.",
+    "KeyWords": "Intensity, Heat",
+    "IsReversed": false
+  },
+  {
+    "Id": 1010,
+    "CardId": 81,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "A moment of absolute clarity. Use this direct energy to pierce through bureaucracy and delays.",
+    "KeyWords": "Focus, Breakthrough",
+    "IsReversed": false
+  },
+  {
+    "Id": 1011,
+    "CardId": 81,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Divine truth is blinding. Some secrets are coming into the light, whether you are ready or not.",
+    "KeyWords": "Illumination, Truth",
+    "IsReversed": false
+  },
+  {
+    "Id": 1012,
+    "CardId": 81,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "High risk, high reward. The sun is at its zenith; act now but beware of total exposure.",
+    "KeyWords": "Visibility, Action",
+    "IsReversed": false
+  },
+  {
+    "Id": 1013,
+    "CardId": 82,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "The ground beneath the relationship is changing. Adaptability is your greatest strength right now.",
+    "KeyWords": "Change, Flexibility",
+    "IsReversed": false
+  },
+  {
+    "Id": 1014,
+    "CardId": 82,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Don't get too comfortable. Market forces are shifting your position; be ready to pivot.",
+    "KeyWords": "Instability, Pivot",
+    "IsReversed": false
+  },
+  {
+    "Id": 1015,
+    "CardId": 82,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "What was once certain is now fluid. Embrace the impermanence of the physical world.",
+    "KeyWords": "Transience, Evolution",
+    "IsReversed": false
+  },
+  {
+    "Id": 1016,
+    "CardId": 82,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Avoid long-term locked investments. Keep your assets liquid as the landscape settles.",
+    "KeyWords": "Liquidity, Caution",
+    "IsReversed": false
+  },
+  {
+    "Id": 1017,
+    "CardId": 83,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Protect your heart from harsh words. Learn to filter out the noise and keep the essential truth.",
+    "KeyWords": "Protection, Discernment",
+    "IsReversed": false
+  },
+  {
+    "Id": 1018,
+    "CardId": 83,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "The environment is difficult. Focus on basic survival and maintain your integrity despite the grit.",
+    "KeyWords": "Resilience, Endurance",
+    "IsReversed": false
+  },
+  {
+    "Id": 1019,
+    "CardId": 83,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Purification is necessary. Separate your true self from the debris of societal expectations.",
+    "KeyWords": "Purity, Essence",
+    "IsReversed": false
+  },
+  {
+    "Id": 1020,
+    "CardId": 83,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Small, hidden costs are accumulating. Sieve through your expenses to find where resources are leaking.",
+    "KeyWords": "Detail, Efficiency",
+    "IsReversed": false
+  },
+  {
+    "Id": 1021,
+    "CardId": 84,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Bitterness may linger from past wounds. Use this salt to preserve what is good, not to sting the skin.",
+    "KeyWords": "Preservation, Wisdom",
+    "IsReversed": false
+  },
+  {
+    "Id": 1022,
+    "CardId": 84,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Hard work in a tough climate. The rewards are solid and long-lasting, though they required sweat.",
+    "KeyWords": "Achievement, Labour",
+    "IsReversed": false
+  },
+  {
+    "Id": 1023,
+    "CardId": 84,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "The essence remains after the water evaporates. Look for the crystalline truth in your experiences.",
+    "KeyWords": "Essential, Finality",
+    "IsReversed": false
+  },
+  {
+    "Id": 1024,
+    "CardId": 84,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Stable, unmoving assets. This is not a time for growth, but for securing what you have already gained.",
+    "KeyWords": "Security, Reserves",
+    "IsReversed": false
+  },
+  {
+    "Id": 1025,
+    "CardId": 85,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Longing for a love that isn't truly there. Beware of chasing a memory or an idealized version of a partner.",
+    "KeyWords": "Illusion, Longing",
+    "IsReversed": false
+  },
+  {
+    "Id": 1026,
+    "CardId": 85,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "A promise of success that seems too good to be true. Verify all claims before committing your energy.",
+    "KeyWords": "Mirage, Caution",
+    "IsReversed": false
+  },
+  {
+    "Id": 1027,
+    "CardId": 85,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Visions and dreams may mislead. Distinguish between a true spiritual calling and an ego-driven fantasy.",
+    "KeyWords": "Discernment, Mystery",
+    "IsReversed": false
+  },
+  {
+    "Id": 1028,
+    "CardId": 85,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Unrealized gains or speculative assets. Do not spend what is still just a shimmer on the horizon.",
+    "KeyWords": "Speculation, Unreality",
+    "IsReversed": false
+  },
+  {
+    "Id": 1029,
+    "CardId": 86,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "A beauty born from harsh conditions. Your relationship is resilient and uniquely formed by its struggles.",
+    "KeyWords": "Resilience, Beauty",
+    "IsReversed": false
+  },
+  {
+    "Id": 1030,
+    "CardId": 86,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "A rare opportunity emerges from a stagnant situation. Its value lies in its unique formation.",
+    "KeyWords": "Uniqueness, Rarity",
+    "IsReversed": false
+  },
+  {
+    "Id": 1031,
+    "CardId": 86,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Soul-growth through crystallization. Your identity is hardening into a beautiful, permanent shape.",
+    "KeyWords": "Solidification, Self",
+    "IsReversed": false
+  },
+  {
+    "Id": 1032,
+    "CardId": 86,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Slow-growing but solid investments. This asset is more valuable for its history than its immediate use.",
+    "KeyWords": "Collectibles, Worth",
+    "IsReversed": false
+  },
+  {
+    "Id": 1033,
+    "CardId": 87,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Sudden friction leads to sparks. An argument may clear the air, but it carries the risk of a wildfire.",
+    "KeyWords": "Tension, Suddenness",
+    "IsReversed": false
+  },
+  {
+    "Id": 1034,
+    "CardId": 87,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "A sudden realization or unexpected news. Energy is high, but the 'storm' lacks the 'rain' to sustain growth.",
+    "KeyWords": "Warning, Charge",
+    "IsReversed": false
+  },
+  {
+    "Id": 1035,
+    "CardId": 87,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "A flash of inspiration that strikes from a clear sky. A sudden awakening that demands immediate attention.",
+    "KeyWords": "Inspiration, Shock",
+    "IsReversed": false
+  },
+  {
+    "Id": 1036,
+    "CardId": 87,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "A volatile market event. It brings energy but no immediate substance; watch for the aftermath.",
+    "KeyWords": "Volatility, Surge",
+    "IsReversed": false
+  },
+  {
+    "Id": 1037,
+    "CardId": 88,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Time and persistence are shaping your heart. Let the small, daily interactions refine the bond.",
+    "KeyWords": "Persistence, Shape",
+    "IsReversed": false
+  },
+  {
+    "Id": 1038,
+    "CardId": 88,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Steady pressure is more effective than brute force. Work consistently to erode obstacles over time.",
+    "KeyWords": "Patience, Influence",
+    "IsReversed": false
+  },
+  {
+    "Id": 1039,
+    "CardId": 88,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "The unseen forces are sculpting your path. Trust that even the invisible challenges have a purpose.",
+    "KeyWords": "Unseen, Grace",
+    "IsReversed": false
+  },
+  {
+    "Id": 1040,
+    "CardId": 88,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Gradual changes in your financial status. Small, consistent actions will eventually change the whole landscape.",
+    "KeyWords": "Erosion, Change",
+    "IsReversed": false
+  },
+  {
+    "Id": 1041,
+    "CardId": 89,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Love is a journey without a fixed destination. Enjoy the shared travel rather than rushing to arrive.",
+    "KeyWords": "Journey, Freedom",
+    "IsReversed": false
+  },
+  {
+    "Id": 1042,
+    "CardId": 89,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Be ready to move. This is a time for freelancing, travel, or keeping your professional options open.",
+    "KeyWords": "Mobility, Options",
+    "IsReversed": false
+  },
+  {
+    "Id": 1043,
+    "CardId": 89,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "The truth is found in the wandering. Release the need for a fixed temple and find the divine everywhere.",
+    "KeyWords": "Search, Fluidity",
+    "IsReversed": false
+  },
+  {
+    "Id": 1044,
+    "CardId": 89,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Diversify and stay mobile. Don't tie all your gold to a single spot; spread your risks across the map.",
+    "KeyWords": "Diversification, Movement",
+    "IsReversed": false
+  },
+  {
+    "Id": 1045,
+    "CardId": 90,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "A position of power in a relationship that feels fragile. Authority without vulnerability will eventually shatter.",
+    "KeyWords": "Fragility, Status",
+    "IsReversed": false
+  },
+  {
+    "Id": 1046,
+    "CardId": 90,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "You have reached the top, but your position is transparent and easily attacked. Lead with caution.",
+    "KeyWords": "Leadership, Exposure",
+    "IsReversed": false
+  },
+  {
+    "Id": 1047,
+    "CardId": 90,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "The ego's desire for dominion is a brittle thing. True sovereignty comes from inner clarity, not outer titles.",
+    "KeyWords": "Ego, Clarity",
+    "IsReversed": false
+  },
+  {
+    "Id": 1048,
+    "CardId": 90,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Wealth that looks impressive but lacks a solid foundation. Beware of 'paper' gains that can vanish instantly.",
+    "KeyWords": "Illusion, Risk",
+    "IsReversed": false
+  },
+  {
+    "Id": 1049,
+    "CardId": 91,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "A formal step forward. This is a time for contracts, marriage, or deep, explicit commitments.",
+    "KeyWords": "Alliance, Vows",
+    "IsReversed": false
+  },
+  {
+    "Id": 1050,
+    "CardId": 91,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Successful negotiations. A merger or a new contract will provide a stable framework for future growth.",
+    "KeyWords": "Agreement, Contract",
+    "IsReversed": false
+  },
+  {
+    "Id": 1051,
+    "CardId": 91,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Making peace with your shadow. A sacred contract between your will and your higher purpose.",
+    "KeyWords": "Harmony, Peace",
+    "IsReversed": false
+  },
+  {
+    "Id": 1052,
+    "CardId": 91,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Favorable terms in a deal. Joint ventures and shared investments are highlighted now.",
+    "KeyWords": "Partnership, Terms",
+    "IsReversed": false
+  },
+  {
+    "Id": 1053,
+    "CardId": 92,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Something is being offered with strings attached. Pure affection should not feel like a debt.",
+    "KeyWords": "Manipulation, Strings",
+    "IsReversed": false
+  },
+  {
+    "Id": 1054,
+    "CardId": 92,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "A promotion or perk that comes with hidden costs or impossible expectations. Look beneath the surface.",
+    "KeyWords": "Deception, Cost",
+    "IsReversed": false
+  },
+  {
+    "Id": 1055,
+    "CardId": 92,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Beware of spiritual teachers who demand your total autonomy in exchange for 'enlightenment'.",
+    "KeyWords": "Discernment, Trap",
+    "IsReversed": false
+  },
+  {
+    "Id": 1056,
+    "CardId": 92,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "An investment that looks profitable but carries a heavy liability. Read the fine print carefully.",
+    "KeyWords": "Liability, Hidden",
+    "IsReversed": false
+  },
+  {
+    "Id": 1057,
+    "CardId": 93,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Preparing for the future of the family. A time to discuss legacy, children, or long-term roots.",
+    "KeyWords": "Legacy, Preparation",
+    "IsReversed": false
+  },
+  {
+    "Id": 1058,
+    "CardId": 93,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "You are being groomed for a higher role. Act as if you already hold the position you desire.",
+    "KeyWords": "Succession, Potential",
+    "IsReversed": false
+  },
+  {
+    "Id": 1059,
+    "CardId": 93,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "You are the result of a thousand ancestors. Claim your spiritual inheritance and step into your power.",
+    "KeyWords": "Inheritance, Power",
+    "IsReversed": false
+  },
+  {
+    "Id": 1060,
+    "CardId": 93,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Expectations of future wealth. A good time for estate planning or investing in the next generation.",
+    "KeyWords": "Trusts, Future",
+    "IsReversed": false
+  },
+  {
+    "Id": 1061,
+    "CardId": 94,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Rumors or secrets may be circulating. Trust but verify; don't let outside voices dictate your heart.",
+    "KeyWords": "Secrets, Gossip",
+    "IsReversed": false
+  },
+  {
+    "Id": 1062,
+    "CardId": 94,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Information is your most valuable currency. Listen more than you speak and gather intelligence.",
+    "KeyWords": "Intel, Discretion",
+    "IsReversed": false
+  },
+  {
+    "Id": 1063,
+    "CardId": 94,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Pay attention to the messages in the periphery. The universe is whispering through synchronicities.",
+    "KeyWords": "Intuition, Signs",
+    "IsReversed": false
+  },
+  {
+    "Id": 1064,
+    "CardId": 94,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Inside information or market tips. Ensure your sources are reliable before making a move.",
+    "KeyWords": "Knowledge, Strategy",
+    "IsReversed": false
+  },
+  {
+    "Id": 1065,
+    "CardId": 95,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Deep familial bonds influence your current relationship. Honor the traditions that shaped you.",
+    "KeyWords": "Roots, Tradition",
+    "IsReversed": false
+  },
+  {
+    "Id": 1066,
+    "CardId": 95,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Family business or working with people who feel like kin. Loyalty is the primary driver of success.",
+    "KeyWords": "Loyalty, Business",
+    "IsReversed": false
+  },
+  {
+    "Id": 1067,
+    "CardId": 95,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Cellular memory. Your body carries the wisdom of those who came before. Connect with your DNA.",
+    "KeyWords": "Ancestry, Memory",
+    "IsReversed": false
+  },
+  {
+    "Id": 1068,
+    "CardId": 95,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Inherited assets or family-managed funds. Stability comes from long-held resources.",
+    "KeyWords": "Estate, Heritage",
+    "IsReversed": false
+  },
+  {
+    "Id": 1069,
+    "CardId": 96,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "A conflict is escalating. Don't let the momentum of an argument destroy what you've built.",
+    "KeyWords": "Aggression, Momentum",
+    "IsReversed": false
+  },
+  {
+    "Id": 1070,
+    "CardId": 96,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Aggressive expansion or intense competition. Use your resources with surgical precision.",
+    "KeyWords": "Drive, Conquest",
+    "IsReversed": false
+  },
+  {
+    "Id": 1071,
+    "CardId": 96,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "The internal battle between will and desire. Use your discipline as a weapon against stagnation.",
+    "KeyWords": "Discipline, Will",
+    "IsReversed": false
+  },
+  {
+    "Id": 1072,
+    "CardId": 96,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Hard-hitting financial strategies. A time for offensive moves, but watch for collateral damage.",
+    "KeyWords": "Aggression, Risk",
+    "IsReversed": false
+  },
+  {
+    "Id": 1073,
+    "CardId": 97,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Feeling alone even when in a relationship. Sometimes physical distance is better than emotional absence.",
+    "KeyWords": "Isolation, Solitude",
+    "IsReversed": false
+  },
+  {
+    "Id": 1074,
+    "CardId": 97,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "A 'golden parachute' or a sideways move. You are being pushed out, but with enough resources to start over.",
+    "KeyWords": "Exit, Resourceful",
+    "IsReversed": false
+  },
+  {
+    "Id": 1075,
+    "CardId": 97,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "The hermit's path. Voluntarily leaving the 'tribe' to find a deeper truth in the wasteland.",
+    "KeyWords": "Withdrawal, Truth",
+    "IsReversed": false
+  },
+  {
+    "Id": 1076,
+    "CardId": 97,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Assets that are safe but inaccessible. Protecting your wealth by removing it from the main market.",
+    "KeyWords": "Hiding, Safety",
+    "IsReversed": false
+  },
+  {
+    "Id": 1077,
+    "CardId": 98,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Give and take. A healthy relationship is a constant exchange of support, time, and affection.",
+    "KeyWords": "Exchange, Balance",
+    "IsReversed": false
+  },
+  {
+    "Id": 1078,
+    "CardId": 98,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Expanding your network. Success depends on the quality of your connections and your reputation.",
+    "KeyWords": "Networking, Commerce",
+    "IsReversed": false
+  },
+  {
+    "Id": 1079,
+    "CardId": 98,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "The exchange of ideas. Learning from different cultures and paths to enrich your own soul.",
+    "KeyWords": "Learning, Syncretism",
+    "IsReversed": false
+  },
+  {
+    "Id": 1080,
+    "CardId": 98,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Flow of capital. A good time for trading, selling, and moving assets to where they are needed.",
+    "KeyWords": "Flow, Profit",
+    "IsReversed": false
+  },
+  {
+    "Id": 1081,
+    "CardId": 99,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Quietly supporting a partner without needing the spotlight. Power held in reserve is often the strongest.",
+    "KeyWords": "Support, Grace",
+    "IsReversed": false
+  },
+  {
+    "Id": 1082,
+    "CardId": 99,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Managing a project from behind the scenes. You have the control, even if your name isn't on the door.",
+    "KeyWords": "Shadow-work, Control",
+    "IsReversed": false
+  },
+  {
+    "Id": 1083,
+    "CardId": 99,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Mastery of the self. Holding your power without the need for external validation or noise.",
+    "KeyWords": "Stillness, Sovereignty",
+    "IsReversed": false
+  },
+  {
+    "Id": 1084,
+    "CardId": 99,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Conservative management. Protecting the 'throne' by taking no unnecessary risks. Stewardship.",
+    "KeyWords": "Stewardship, Care",
+    "IsReversed": false
+  },
+  {
+    "Id": 1085,
+    "CardId": 100,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "A loss of identity in a relationship. Re-evaluate what you stand for and if the 'flag' is worth mending.",
+    "KeyWords": "Defeat, Identity",
+    "IsReversed": false
+  },
+  {
+    "Id": 1086,
+    "CardId": 100,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "A failed project or a hit to your reputation. Acknowledge the loss, learn the lesson, and find a new cause.",
+    "KeyWords": "Failure, Renewal",
+    "IsReversed": false
+  },
+  {
+    "Id": 1087,
+    "CardId": 100,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "The collapse of an old belief system. It is painful, but necessary to clear the way for a new vision.",
+    "KeyWords": "Deconstruction, End",
+    "IsReversed": false
+  },
+  {
+    "Id": 1088,
+    "CardId": 100,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "A significant loss or a bad investment. Don't throw good money after bad; admit the banner is broken.",
+    "KeyWords": "Loss, Reality",
+    "IsReversed": false
+  },
+  {
+    "Id": 1089,
+    "CardId": 101,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "One partner is taking too much control. Ensure that leadership in the home doesn't turn into tyranny.",
+    "KeyWords": "Authority, Balance",
+    "IsReversed": false
+  },
+  {
+    "Id": 1090,
+    "CardId": 101,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Your words have weight. Direct others with clarity and confidence. People are waiting to be led.",
+    "KeyWords": "Leadership, Clarity",
+    "IsReversed": false
+  },
+  {
+    "Id": 1091,
+    "CardId": 101,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "The Power of the Word. Your affirmations and spoken intentions have an immediate effect on your reality.",
+    "KeyWords": "Manifestation, Sound",
+    "IsReversed": false
+  },
+  {
+    "Id": 1092,
+    "CardId": 101,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Taking decisive action. A time to make a major purchase or investment that you have deliberated on.",
+    "KeyWords": "Decision, Impact",
+    "IsReversed": false
+  },
+  {
+    "Id": 1093,
+    "CardId": 102,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "You can see where this is going before it happens. Trust your gut about a partner's long-term intentions.",
+    "KeyWords": "Foresight, Intuition",
+    "IsReversed": false
+  },
+  {
+    "Id": 1094,
+    "CardId": 102,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Anticipate market shifts before they occur. A strategic vision now will save you from a crisis later.",
+    "KeyWords": "Strategy, Vision",
+    "IsReversed": false
+  },
+  {
+    "Id": 1095,
+    "CardId": 102,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "The gift of prophecy. Your dreams are not just reflections; they are blueprints of what is to come.",
+    "KeyWords": "Clairvoyance, Insight",
+    "IsReversed": false
+  },
+  {
+    "Id": 1096,
+    "CardId": 102,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Spotting a trend before it peaks. Look at the long-term charts, not just the daily fluctuations.",
+    "KeyWords": "Trends, Prediction",
+    "IsReversed": false
+  },
+  {
+    "Id": 1097,
+    "CardId": 103,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "An addictive, intoxicating attraction. Ensure your passion is based on reality and not a chemical high.",
+    "KeyWords": "Addiction, Obsession",
+    "IsReversed": false
+  },
+  {
+    "Id": 1098,
+    "CardId": 103,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Total immersion in a task. You are 'in the zone', but don't forget to eat, sleep, and maintain balance.",
+    "KeyWords": "Hyperfocus, Intensity",
+    "IsReversed": false
+  },
+  {
+    "Id": 1099,
+    "CardId": 103,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "A state of trance and expanded consciousness. The 'spice' of life is opening doors you cannot close.",
+    "KeyWords": "Trance, Altered State",
+    "IsReversed": false
+  },
+  {
+    "Id": 1100,
+    "CardId": 103,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Obsessive pursuit of wealth. Make sure the 'fever' for profit doesn't cloud your ethical judgment.",
+    "KeyWords": "Greed, Drive",
+    "IsReversed": false
+  },
+  {
+    "Id": 1101,
+    "CardId": 104,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Distance is an illusion. A soul-connection that transcends physical location or long periods of absence.",
+    "KeyWords": "Connection, Transcendence",
+    "IsReversed": false
+  },
+  {
+    "Id": 1102,
+    "CardId": 104,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Finding a shortcut to success. Efficiency that allows you to bypass years of traditional grinding.",
+    "KeyWords": "Efficiency, Shortcut",
+    "IsReversed": false
+  },
+  {
+    "Id": 1103,
+    "CardId": 104,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Omnipresence. Realizing that the divine is here, there, and everywhere simultaneously.",
+    "KeyWords": "Quantum, Unity",
+    "IsReversed": false
+  },
+  {
+    "Id": 1104,
+    "CardId": 104,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "International trade or moving assets across borders instantly. The world is smaller than it seems.",
+    "KeyWords": "Global, Speed",
+    "IsReversed": false
+  },
+  {
+    "Id": 1105,
+    "CardId": 105,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Total honesty is required. A moment where masks fall off and you see your partner for who they truly are.",
+    "KeyWords": "Honesty, Revelation",
+    "IsReversed": false
+  },
+  {
+    "Id": 1106,
+    "CardId": 105,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Cutting through the corporate lies. Your ability to detect BS is your greatest asset in negotiations.",
+    "KeyWords": "Discernment, Integrity",
+    "IsReversed": false
+  },
+  {
+    "Id": 1107,
+    "CardId": 105,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Radical self-honesty. You cannot progress until you stop lying to yourself about your shadow side.",
+    "KeyWords": "Truth, Shadow",
+    "IsReversed": false
+  },
+  {
+    "Id": 1108,
+    "CardId": 105,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Due diligence. Uncovering the real numbers behind an investment. Transparency is key.",
+    "KeyWords": "Audit, Reality",
+    "IsReversed": false
+  },
+  {
+    "Id": 1109,
+    "CardId": 106,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "A relationship that feels like 'destiny' or a past-life connection. You have met this soul before.",
+    "KeyWords": "Karma, Destiny",
+    "IsReversed": false
+  },
+  {
+    "Id": 1110,
+    "CardId": 106,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Drawing on the wisdom of mentors or previous generations in your field. Don't reinvent the wheel.",
+    "KeyWords": "Mentorship, Wisdom",
+    "IsReversed": false
+  },
+  {
+    "Id": 1111,
+    "CardId": 106,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Accessing the Akasha. The memories of all who came before are available to you if you listen.",
+    "KeyWords": "Akashic, Memory",
+    "IsReversed": false
+  },
+  {
+    "Id": 1112,
+    "CardId": 106,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Generational wealth or family trusts. Decisions made decades ago are affecting your wallet today.",
+    "KeyWords": "Legacy, Continuity",
+    "IsReversed": false
+  },
+  {
+    "Id": 1113,
+    "CardId": 107,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Connecting with a partner through the astral plane or shared dreams. The subconscious bond is strong.",
+    "KeyWords": "Subconscious, Astral",
+    "IsReversed": false
+  },
+  {
+    "Id": 1114,
+    "CardId": 107,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "A creative breakthrough that comes during sleep or relaxation. Trust your 'night-brain' for solutions.",
+    "KeyWords": "Creativity, Intuition",
+    "IsReversed": false
+  },
+  {
+    "Id": 1115,
+    "CardId": 107,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Lucid dreaming. Taking control of your inner world to effect change in the outer world.",
+    "KeyWords": "Lucidity, Mastery",
+    "IsReversed": false
+  },
+  {
+    "Id": 1116,
+    "CardId": 107,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Manifesting wealth through visualization. Focus on the feeling of abundance to attract the reality.",
+    "KeyWords": "Manifestation, Mindset",
+    "IsReversed": false
+  },
+  {
+    "Id": 1117,
+    "CardId": 108,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "A secret romance or hidden agendas within a relationship. Ensure you aren't being used for a hidden purpose.",
+    "KeyWords": "Hidden, Agenda",
+    "IsReversed": false
+  },
+  {
+    "Id": 1118,
+    "CardId": 108,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Working on a sensitive or classified project. Discretion is more important than credit right now.",
+    "KeyWords": "Discretion, Stealth",
+    "IsReversed": false
+  },
+  {
+    "Id": 1119,
+    "CardId": 108,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "The work that no one sees. Your private spiritual practices are more important than your public persona.",
+    "KeyWords": "Solitude, Depth",
+    "IsReversed": false
+  },
+  {
+    "Id": 1120,
+    "CardId": 108,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Off-book investments or 'black' projects. Be careful—secrecy can lead to complications with the law.",
+    "KeyWords": "Secrecy, Risk",
+    "IsReversed": false
+  },
+  {
+    "Id": 1121,
+    "CardId": 109,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Deep biological compatibility. A drive for family or a connection that feels written in your very cells.",
+    "KeyWords": "Biology, Primal",
+    "IsReversed": false
+  },
+  {
+    "Id": 1122,
+    "CardId": 109,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "You were born for this role. Your natural talents are finally aligning with your professional duties.",
+    "KeyWords": "Talent, Nature",
+    "IsReversed": false
+  },
+  {
+    "Id": 1123,
+    "CardId": 109,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Cleaning the lineage. Healing the traumas that were passed down through your bloodline.",
+    "KeyWords": "Healing, DNA",
+    "IsReversed": false
+  },
+  {
+    "Id": 1124,
+    "CardId": 109,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Long-term biological assets or health-related investments. Wealth is nothing without the vitality to enjoy it.",
+    "KeyWords": "Vitality, Longevity",
+    "IsReversed": false
+  },
+  {
+    "Id": 1125,
+    "CardId": 110,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Emotional unavailability. A partner is shielding their mind, making it impossible to connect deeply.",
+    "KeyWords": "Barriers, Distance",
+    "IsReversed": false
+  },
+  {
+    "Id": 1126,
+    "CardId": 110,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Blocking out distractions to finish a critical task. Use your mental discipline to ignore the noise.",
+    "KeyWords": "Focus, Shield",
+    "IsReversed": false
+  },
+  {
+    "Id": 1127,
+    "CardId": 110,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Psychic protection. Setting boundaries against negative energies or people who drain your spirit.",
+    "KeyWords": "Boundaries, Protection",
+    "IsReversed": false
+  },
+  {
+    "Id": 1128,
+    "CardId": 110,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "A stalemate. Neither gains nor losses are happening. Stay protected and wait for the wall to come down.",
+    "KeyWords": "Stagnation, Safety",
+    "IsReversed": false
+  },
+  {
+    "Id": 1129,
+    "CardId": 111,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "The relationship is entering a new phase. Look ahead together; don't stay stuck in the past.",
+    "KeyWords": "Direction, Hope",
+    "IsReversed": false
+  },
+  {
+    "Id": 1130,
+    "CardId": 111,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "A clear career trajectory is appearing. Follow the path that offers the most long-term growth.",
+    "KeyWords": "Trajectory, Growth",
+    "IsReversed": false
+  },
+  {
+    "Id": 1131,
+    "CardId": 111,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Evolution of consciousness. You are moving toward a higher version of yourself. Keep walking.",
+    "KeyWords": "Evolution, Destiny",
+    "IsReversed": false
+  },
+  {
+    "Id": 1132,
+    "CardId": 111,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Strategic planning for retirement or long-term security. Your future self will thank you for today's restraint.",
+    "KeyWords": "Planning, Security",
+    "IsReversed": false
+  },
+  {
+    "Id": 1133,
+    "CardId": 112,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "An all-consuming passion. Make sure you don't lose your 'self' in the hunger for the other.",
+    "KeyWords": "Consumption, Passion",
+    "IsReversed": false
+  },
+  {
+    "Id": 1134,
+    "CardId": 112,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "A major market force or a massive competitor is approaching. Adapt or be absorbed.",
+    "KeyWords": "Magnitude, Force",
+    "IsReversed": false
+  },
+  {
+    "Id": 1135,
+    "CardId": 112,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "The cycle of destruction and rebirth. Let the universe consume what no longer serves you.",
+    "KeyWords": "Rebirth, Void",
+    "IsReversed": false
+  },
+  {
+    "Id": 1136,
+    "CardId": 112,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "A time of high inflation or predatory lending. Protect your assets from being swallowed whole.",
+    "KeyWords": "Predation, Risk",
+    "IsReversed": false
+  },
+  {
+    "Id": 1137,
+    "CardId": 113,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "A relationship that feels as old as time. There is a primal, raw power here that cannot be ignored or tamed.",
+    "KeyWords": "Primal, Longevity",
+    "IsReversed": false
+  },
+  {
+    "Id": 1138,
+    "CardId": 113,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "You are dealing with a foundational force in your industry. Respect the 'old ways' even as you seek to innovate.",
+    "KeyWords": "Foundation, Authority",
+    "IsReversed": false
+  },
+  {
+    "Id": 1139,
+    "CardId": 113,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Connecting with the Great Mystery. The earth itself has a message for you; listen to the deep vibrations.",
+    "KeyWords": "Mystery, Earth",
+    "IsReversed": false
+  },
+  {
+    "Id": 1140,
+    "CardId": 113,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Immense, slow-moving wealth. This represents infrastructure or land—something that lasts for generations.",
+    "KeyWords": "Legacy, Land",
+    "IsReversed": false
+  },
+  {
+    "Id": 1141,
+    "CardId": 114,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Calling for a partner. Your intentions are acting like a rhythmic pulse, drawing exactly what you focus on toward you.",
+    "KeyWords": "Attraction, Rhythm",
+    "IsReversed": false
+  },
+  {
+    "Id": 1142,
+    "CardId": 114,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Signal your presence. It is time to make some noise and let the industry know you are ready for action.",
+    "KeyWords": "Signal, Presence",
+    "IsReversed": false
+  },
+  {
+    "Id": 1143,
+    "CardId": 114,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "The drumbeat of the soul. Align your daily actions with your inner rhythm to summon your true power.",
+    "KeyWords": "Alignment, Call",
+    "IsReversed": false
+  },
+  {
+    "Id": 1144,
+    "CardId": 114,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "A steady, rhythmic investment plan. Consistency is what will bring the 'giant' results you seek.",
+    "KeyWords": "Consistency, Method",
+    "IsReversed": false
+  },
+  {
+    "Id": 1145,
+    "CardId": 115,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Honor the sacredness of your union. Create a space where your love is protected from the outside world.",
+    "KeyWords": "Sanctuary, Vows",
+    "IsReversed": false
+  },
+  {
+    "Id": 1146,
+    "CardId": 115,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Institutional knowledge. You may find success by looking at the core values of your organization.",
+    "KeyWords": "Institution, Values",
+    "IsReversed": false
+  },
+  {
+    "Id": 1147,
+    "CardId": 115,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "The body is the temple. Treat your physical vessel with the reverence it deserves as it carries your spirit.",
+    "KeyWords": "Reverence, Temple",
+    "IsReversed": false
+  },
+  {
+    "Id": 1148,
+    "CardId": 115,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Stable, 'brick and mortar' assets. Look for security in established systems and traditional wealth.",
+    "KeyWords": "Tradition, Solid",
+    "IsReversed": false
+  },
+  {
+    "Id": 1149,
+    "CardId": 116,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "A healing balm for a wounded heart. Forgiveness and tenderness are the keys to moving forward.",
+    "KeyWords": "Healing, Anointing",
+    "IsReversed": false
+  },
+  {
+    "Id": 1150,
+    "CardId": 116,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Greasing the wheels. A situation needs more diplomacy and less friction. Soften your approach.",
+    "KeyWords": "Diplomacy, Ease",
+    "IsReversed": false
+  },
+  {
+    "Id": 1151,
+    "CardId": 116,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Consecration. Dedicate your efforts to a higher cause. Your work is being blessed by the divine.",
+    "KeyWords": "Blessing, Intent",
+    "IsReversed": false
+  },
+  {
+    "Id": 1152,
+    "CardId": 116,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Valuable commodities. Resources that 'lubricate' the market. High liquidity and steady demand.",
+    "KeyWords": "Commodity, Liquid",
+    "IsReversed": false
+  },
+  {
+    "Id": 1153,
+    "CardId": 117,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "A love that never fades. You can rely on this person; they are your rock in the shifting sands.",
+    "KeyWords": "Permanence, Trust",
+    "IsReversed": false
+  },
+  {
+    "Id": 1154,
+    "CardId": 117,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Unyielding integrity. Do not compromise your principles for a short-term gain. Stand your ground.",
+    "KeyWords": "Integrity, Stance",
+    "IsReversed": false
+  },
+  {
+    "Id": 1155,
+    "CardId": 117,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Timeless wisdom. Connect with the things that do not change, regardless of how the world evolves.",
+    "KeyWords": "Eternity, Truth",
+    "IsReversed": false
+  },
+  {
+    "Id": 1156,
+    "CardId": 117,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "The ultimate safe haven. Gold, land, or assets that have held value for centuries.",
+    "KeyWords": "Safety, Durability",
+    "IsReversed": false
+  },
+  {
+    "Id": 1157,
+    "CardId": 118,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Letting go of a past relationship once and for all. Do not exhume what has been rightfully buried.",
+    "KeyWords": "Closure, Release",
+    "IsReversed": false
+  },
+  {
+    "Id": 1158,
+    "CardId": 118,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "An old project or way of working is dead. Acknowledge its service and move on to the new.",
+    "KeyWords": "Ending, Respect",
+    "IsReversed": false
+  },
+  {
+    "Id": 1159,
+    "CardId": 118,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Ego-death. Letting the old version of yourself die so the new, more enlightened version can be born.",
+    "KeyWords": "Death, Renewal",
+    "IsReversed": false
+  },
+  {
+    "Id": 1160,
+    "CardId": 118,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Sunk costs. Stop putting money into a failing venture. Bury it and protect what remains.",
+    "KeyWords": "Sunk Cost, Exit",
+    "IsReversed": false
+  },
+  {
+    "Id": 1161,
+    "CardId": 119,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "A guiding light in the dark. A relationship that provides warmth and direction when all else is lost.",
+    "KeyWords": "Guidance, Warmth",
+    "IsReversed": false
+  },
+  {
+    "Id": 1162,
+    "CardId": 119,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Leadership through inspiration. Your passion is a beacon that others are compelled to follow.",
+    "KeyWords": "Inspiration, Light",
+    "IsReversed": false
+  },
+  {
+    "Id": 1163,
+    "CardId": 119,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Divine presence. You are being led by a force greater than yourself. Follow the heat in your heart.",
+    "KeyWords": "Presence, Fire",
+    "IsReversed": false
+  },
+  {
+    "Id": 1164,
+    "CardId": 119,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "A clarifying event. A sudden surge that lights up the path and shows you exactly where to go.",
+    "KeyWords": "Clarity, Energy",
+    "IsReversed": false
+  },
+  {
+    "Id": 1165,
+    "CardId": 120,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "A pure, bleaching truth. All secrets are exposed under this light. It is harsh, but it is honest.",
+    "KeyWords": "Purity, Exposure",
+    "IsReversed": false
+  },
+  {
+    "Id": 1166,
+    "CardId": 120,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Total transparency. Be completely open about your methods and results. The truth will be your shield.",
+    "KeyWords": "Openness, Merit",
+    "IsReversed": false
+  },
+  {
+    "Id": 1167,
+    "CardId": 120,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Enlightenment that strips away the ego. Being 'reborn' in the desert sun, pure and empty.",
+    "KeyWords": "Satori, Emptiness",
+    "IsReversed": false
+  },
+  {
+    "Id": 1168,
+    "CardId": 120,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Absolute market clarity. No more speculation—the real value of your assets is now fully visible.",
+    "KeyWords": "Fact, Realization",
+    "IsReversed": false
+  },
+  {
+    "Id": 1169,
+    "CardId": 121,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "Navigating by a light only you can see. A deep, perhaps unconventional bond that guides you through the night.",
+    "KeyWords": "Secret, Guidance",
+    "IsReversed": false
+  },
+  {
+    "Id": 1170,
+    "CardId": 121,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "A hidden influencer. Someone in the shadows is guiding the outcome. Pay attention to what isn't visible.",
+    "KeyWords": "Influence, Shadow",
+    "IsReversed": false
+  },
+  {
+    "Id": 1171,
+    "CardId": 121,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "The Void. Finding the light within the darkness. Trust the path even when you cannot see your feet.",
+    "KeyWords": "Faith, Unknown",
+    "IsReversed": false
+  },
+  {
+    "Id": 1172,
+    "CardId": 121,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "A black swan event. Something unexpected that changes the rules. Be ready for the darkness to reveal a gap.",
+    "KeyWords": "Mystery, Pivot",
+    "IsReversed": false
+  },
+  {
+    "Id": 1173,
+    "CardId": 122,
+    "DeckId": 3,
+    "Category": "Love",
+    "Content": "The end of one journey and the beginning of another. Your relationship has reached its ultimate peak.",
+    "KeyWords": "Culmination, Destiny",
+    "IsReversed": false
+  },
+  {
+    "Id": 1174,
+    "CardId": 122,
+    "DeckId": 3,
+    "Category": "Career",
+    "Content": "Retirement or reaching your ultimate career goal. You have seen it all; it is time to look at the new horizon.",
+    "KeyWords": "Achievement, Finality",
+    "IsReversed": false
+  },
+  {
+    "Id": 1175,
+    "CardId": 122,
+    "DeckId": 3,
+    "Category": "Spiritualism",
+    "Content": "Crossing over. Integration of all lessons. You have become the desert, and the desert has become you.",
+    "KeyWords": "Integration, Peace",
+    "IsReversed": false
+  },
+  {
+    "Id": 1176,
+    "CardId": 122,
+    "DeckId": 3,
+    "Category": "Finance",
+    "Content": "Long-term maturity. Your investments have reached their full potential. Harvest the fruits of your life's work.",
+    "KeyWords": "Harvest, Maturity",
+    "IsReversed": false
+  }
+]
