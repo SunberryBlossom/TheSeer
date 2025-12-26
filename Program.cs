@@ -1,8 +1,9 @@
-﻿using System;
-using TheSeer.Controllers;
-using TheSeer.Managers;
-using TheSeer.Services;
-using TheSeer.Utilities.Helpers;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using System;
+using TheSeer.Data;
 
 namespace TheSeer
 {
@@ -10,34 +11,12 @@ namespace TheSeer
     {
         static void Main(string[] args)
         {
-            // Initialize all services with dependency injection
-            var dataService = new JsonDataService();
-            var cryptoService = new CryptographyService();
-            var validationService = new ValidationService();
-            var narrator = new Narrator();
-            var tarotService = new TarotService();
-            var spreadService = new SpreadService();
+            HostApplicationBuilder builder = Host.CreateApplicationBuilder(args);
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-            // Initialize managers
-            var userManager = new UserManager(dataService, cryptoService, validationService);
-            var readingManager = new ReadingManager(tarotService, spreadService, dataService );
+            builder.Services.AddDbContext<TheSeerDbContext>(options => options.UseSqlServer(connectionString));
 
-            // Create and run the application controller
-            var app = new Controllers.TheSeer(userManager, readingManager, narrator);
-            
-            try
-            {
-                app.Run();
-            }
-            catch (Exception ex)
-            {
-                Console.Clear();
-                ConsoleHelper.WriteError("An unexpected error occurred:");
-                Console.WriteLine(ex.Message);
-                Console.WriteLine();
-                Console.WriteLine("Press any key to exit...");
-                Console.ReadKey();
-            }
+            using IHost host = builder.Build();
         }
     }
 }

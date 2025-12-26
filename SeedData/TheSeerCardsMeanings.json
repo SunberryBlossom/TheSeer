@@ -1,0 +1,5691 @@
+[
+  {
+    "Id": 1,
+    "CardId": 1,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A new romantic adventure begins. Trust the journey and stay open.",
+    "KeyWords": "New Love, Spontaneity",
+    "IsReversed": false
+  },
+  {
+    "Id": 2,
+    "CardId": 1,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Recklessness in love. Ignoring red flags due to naivety.",
+    "KeyWords": "Risky, Folly",
+    "IsReversed": true
+  },
+  {
+    "Id": 3,
+    "CardId": 1,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A new professional path. High potential if you dare to take the leap.",
+    "KeyWords": "Entrepreneurship, Risk",
+    "IsReversed": false
+  },
+  {
+    "Id": 4,
+    "CardId": 1,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Stagnation due to fear of the unknown. Reluctance to start over.",
+    "KeyWords": "Indecision, Fear",
+    "IsReversed": true
+  },
+  {
+    "Id": 5,
+    "CardId": 1,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Unexpected financial opportunities. Trust your gut with new investments.",
+    "KeyWords": "Windfall, Optimism",
+    "IsReversed": false
+  },
+  {
+    "Id": 6,
+    "CardId": 1,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Careless spending. Gambling with resources you cannot afford to lose.",
+    "KeyWords": "Irresponsibility, Loss",
+    "IsReversed": true
+  },
+  {
+    "Id": 7,
+    "CardId": 1,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "The start of a soul journey. A leap of faith leads to awakening.",
+    "KeyWords": "Faith, Awakening",
+    "IsReversed": false
+  },
+  {
+    "Id": 8,
+    "CardId": 1,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Disconnection from your path. Fear blocks spiritual progress.",
+    "KeyWords": "Doubt, Blockage",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 9,
+    "CardId": 2,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Magnetism and initiative. You have the power to manifest a deep connection.",
+    "KeyWords": "Manifestation, Charm",
+    "IsReversed": false
+  },
+  {
+    "Id": 10,
+    "CardId": 2,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Manipulation or trickery. Using charm to hide true intentions.",
+    "KeyWords": "Deceit, Illusion",
+    "IsReversed": true
+  },
+  {
+    "Id": 11,
+    "CardId": 2,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Mastery of skills. High productivity and successful implementation of ideas.",
+    "KeyWords": "Skill, Resourcefulness",
+    "IsReversed": false
+  },
+  {
+    "Id": 12,
+    "CardId": 2,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Wasted talent or poor execution. Lack of focus on the task at hand.",
+    "KeyWords": "Inefficiency, Latent power",
+    "IsReversed": true
+  },
+  {
+    "Id": 13,
+    "CardId": 2,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial goals are within reach. Act decisively to secure resources.",
+    "KeyWords": "Willpower, Success",
+    "IsReversed": false
+  },
+  {
+    "Id": 14,
+    "CardId": 2,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial confusion. Being misled by 'get-rich-quick' schemes.",
+    "KeyWords": "Scams, Misdirection",
+    "IsReversed": true
+  },
+  {
+    "Id": 15,
+    "CardId": 2,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Realizing your divine potential. Connecting thought with action.",
+    "KeyWords": "Alchemy, Agency",
+    "IsReversed": false
+  },
+  {
+    "Id": 16,
+    "CardId": 2,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Ego-driven spiritual practice. Misusing knowledge for personal gain.",
+    "KeyWords": "Ego, Manipulation",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 17,
+    "CardId": 3,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Intuitive connection. Secrets may be revealed through dreams.",
+    "KeyWords": "Intuition, Mystery",
+    "IsReversed": false
+  },
+  {
+    "Id": 18,
+    "CardId": 3,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Hidden issues surfacing. Ignoring your inner voice about a partner.",
+    "KeyWords": "Repression, Secrets",
+    "IsReversed": true
+  },
+  {
+    "Id": 19,
+    "CardId": 3,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Success through patience and intuition rather than aggressive action.",
+    "KeyWords": "Passivity, Knowledge",
+    "IsReversed": false
+  },
+  {
+    "Id": 20,
+    "CardId": 3,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A lack of professional clarity. Information is being withheld from you.",
+    "KeyWords": "Confusion, Hidden agendas",
+    "IsReversed": true
+  },
+  {
+    "Id": 21,
+    "CardId": 3,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Keep your financial plans private. Trust your instincts on a deal.",
+    "KeyWords": "Discretion, Prudence",
+    "IsReversed": false
+  },
+  {
+    "Id": 22,
+    "CardId": 3,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Hidden costs or fine print. Financial intuition is being clouded.",
+    "KeyWords": "Oversight, Deception",
+    "IsReversed": true
+  },
+  {
+    "Id": 23,
+    "CardId": 3,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Deep connection to the subconscious. Divine feminine energy flows.",
+    "KeyWords": "Subconscious, Wisdom",
+    "IsReversed": false
+  },
+  {
+    "Id": 24,
+    "CardId": 3,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual withdrawal. Refusal to look inward or face the shadow.",
+    "KeyWords": "Surface-level, Blocked intuition",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 25,
+    "CardId": 4,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Nurturing and abundant love. Sensuality and fertility in relationships.",
+    "KeyWords": "Abundance, Care",
+    "IsReversed": false
+  },
+  {
+    "Id": 26,
+    "CardId": 4,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Suffocating affection or neglecting self-care for a partner.",
+    "KeyWords": "Codependency, Smothering",
+    "IsReversed": true
+  },
+  {
+    "Id": 27,
+    "CardId": 4,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A period of creativity and growth. Projects are coming to fruition.",
+    "KeyWords": "Creativity, Harvest",
+    "IsReversed": false
+  },
+  {
+    "Id": 28,
+    "CardId": 4,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Creative blockages. Feeling uninspired or stifled in your work.",
+    "KeyWords": "Barrenness, Frustration",
+    "IsReversed": true
+  },
+  {
+    "Id": 29,
+    "CardId": 4,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial security and luxury. A good time for steady investments.",
+    "KeyWords": "Prosperity, Comfort",
+    "IsReversed": false
+  },
+  {
+    "Id": 30,
+    "CardId": 4,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial overindulgence. Relying too much on material comfort.",
+    "KeyWords": "Extravagance, Waste",
+    "IsReversed": true
+  },
+  {
+    "Id": 31,
+    "CardId": 4,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Connecting with Mother Earth. Spirituality through the senses.",
+    "KeyWords": "Nature, Connection",
+    "IsReversed": false
+  },
+  {
+    "Id": 32,
+    "CardId": 4,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Neglecting the physical body. Disconnect from the natural world.",
+    "KeyWords": "Imbalance, Disconnect",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 33,
+    "CardId": 5,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Stability and protection. A relationship built on solid foundations.",
+    "KeyWords": "Structure, Loyalty",
+    "IsReversed": false
+  },
+  {
+    "Id": 34,
+    "CardId": 5,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Controlling behavior. Lack of emotional warmth or excessive rules.",
+    "KeyWords": "Tyranny, Coldness",
+    "IsReversed": true
+  },
+  {
+    "Id": 35,
+    "CardId": 5,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Leadership and authority. Taking control and establishing order.",
+    "KeyWords": "Authority, Strategy",
+    "IsReversed": false
+  },
+  {
+    "Id": 36,
+    "CardId": 5,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Abuse of power. Ineffective leadership due to rigidity.",
+    "KeyWords": "Rigidity, Power-struggle",
+    "IsReversed": true
+  },
+  {
+    "Id": 37,
+    "CardId": 5,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Disciplined financial management. Long-term planning pays off.",
+    "KeyWords": "Control, Discipline",
+    "IsReversed": false
+  },
+  {
+    "Id": 38,
+    "CardId": 5,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial chaos due to lack of discipline. Poor management.",
+    "KeyWords": "Chaos, Poor structure",
+    "IsReversed": true
+  },
+  {
+    "Id": 39,
+    "CardId": 5,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Finding divinity in structure and logic. Establishing a daily practice.",
+    "KeyWords": "Paternal, Logic",
+    "IsReversed": false
+  },
+  {
+    "Id": 40,
+    "CardId": 5,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Dogmatic beliefs. Spiritual growth is stunted by intolerance.",
+    "KeyWords": "Dogma, Inflexibility",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 41,
+    "CardId": 6,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Tradition and commitment. A mentor figure may guide your heart.",
+    "KeyWords": "Tradition, Marriage",
+    "IsReversed": false
+  },
+  {
+    "Id": 42,
+    "CardId": 6,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Rebellion against social norms. Disagreement over values in love.",
+    "KeyWords": "Rebellion, Unconventional",
+    "IsReversed": true
+  },
+  {
+    "Id": 43,
+    "CardId": 6,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Success through teamwork and following established protocols.",
+    "KeyWords": "Mentorship, Education",
+    "IsReversed": false
+  },
+  {
+    "Id": 44,
+    "CardId": 6,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Feeling trapped by bureaucracy. The need to innovate outside the box.",
+    "KeyWords": "Restriction, Conformity",
+    "IsReversed": true
+  },
+  {
+    "Id": 45,
+    "CardId": 6,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Conventional investment strategies. Seek professional financial advice.",
+    "KeyWords": "Safety, Advice",
+    "IsReversed": false
+  },
+  {
+    "Id": 46,
+    "CardId": 6,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial advice that is outdated. Breaking away from traditional banks.",
+    "KeyWords": "Risk, Novelty",
+    "IsReversed": true
+  },
+  {
+    "Id": 47,
+    "CardId": 6,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Following a spiritual tradition or lineage. Sacred rituals.",
+    "KeyWords": "Ritual, Institution",
+    "IsReversed": false
+  },
+  {
+    "Id": 48,
+    "CardId": 6,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Developing your own personal belief system. Rejection of organized religion.",
+    "KeyWords": "Freedom, Self-belief",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 49,
+    "CardId": 7,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Harmonious union. A choice between two paths that defines your future.",
+    "KeyWords": "Union, Alignment",
+    "IsReversed": false
+  },
+  {
+    "Id": 50,
+    "CardId": 7,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Disharmony and imbalance. A difficult choice leads to temporary separation.",
+    "KeyWords": "Imbalance, Conflict",
+    "IsReversed": true
+  },
+  {
+    "Id": 51,
+    "CardId": 7,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Strong partnerships at work. Aligning values with your professional goals.",
+    "KeyWords": "Partnership, Values",
+    "IsReversed": false
+  },
+  {
+    "Id": 52,
+    "CardId": 7,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Conflict of interest. Poor communication with colleagues.",
+    "KeyWords": "Misalignment, Friction",
+    "IsReversed": true
+  },
+  {
+    "Id": 53,
+    "CardId": 7,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Joint ventures are favored. Mutual financial goals bring stability.",
+    "KeyWords": "Collaboration, Shared",
+    "IsReversed": false
+  },
+  {
+    "Id": 54,
+    "CardId": 7,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial disagreement in a partnership. Irresponsible joint spending.",
+    "KeyWords": "Disparity, Debt",
+    "IsReversed": true
+  },
+  {
+    "Id": 55,
+    "CardId": 7,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Integrating the dualities of the self. Choice based on soul values.",
+    "KeyWords": "Harmony, Duality",
+    "IsReversed": false
+  },
+  {
+    "Id": 56,
+    "CardId": 7,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Inner conflict. Being at odds with your own higher purpose.",
+    "KeyWords": "Fragmentation, Soul-searching",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 57,
+    "CardId": 8,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Taking command of your emotions. Moving forward with confidence.",
+    "KeyWords": "Victory, Momentum",
+    "IsReversed": false
+  },
+  {
+    "Id": 58,
+    "CardId": 8,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Aggression or lack of direction. A relationship moving too fast.",
+    "KeyWords": "Force, Deviation",
+    "IsReversed": true
+  },
+  {
+    "Id": 59,
+    "CardId": 8,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Ambition and focus. Overcoming obstacles through sheer willpower.",
+    "KeyWords": "Drive, Conquest",
+    "IsReversed": false
+  },
+  {
+    "Id": 60,
+    "CardId": 8,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Losing control of a project. Lack of discipline leads to failure.",
+    "KeyWords": "Defeat, Impotence",
+    "IsReversed": true
+  },
+  {
+    "Id": 61,
+    "CardId": 8,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Rapid financial growth through hard work. Success in competitive markets.",
+    "KeyWords": "Ambition, Wealth",
+    "IsReversed": false
+  },
+  {
+    "Id": 62,
+    "CardId": 8,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial setbacks due to ego. Pushing a deal too hard.",
+    "KeyWords": "Reversal, Failure",
+    "IsReversed": true
+  },
+  {
+    "Id": 63,
+    "CardId": 8,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Disciplining the spirit. Mastering the path toward higher truth.",
+    "KeyWords": "Focus, Mastery",
+    "IsReversed": false
+  },
+  {
+    "Id": 64,
+    "CardId": 8,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual arrogance. Forgetting the heart while seeking power.",
+    "KeyWords": "Ego, Misalignment",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 65,
+    "CardId": 9,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Compassion and inner strength. Influencing a partner with gentleness.",
+    "KeyWords": "Courage, Patience",
+    "IsReversed": false
+  },
+  {
+    "Id": 66,
+    "CardId": 9,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Insecurity and raw emotion. Letting fear or anger control the bond.",
+    "KeyWords": "Weakness, Fear",
+    "IsReversed": true
+  },
+  {
+    "Id": 67,
+    "CardId": 9,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Resilience in the face of stress. Leading through empathy and calm.",
+    "KeyWords": "Fortitude, Empathy",
+    "IsReversed": false
+  },
+  {
+    "Id": 68,
+    "CardId": 9,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Burnout or lack of confidence. Yielding to workplace pressure.",
+    "KeyWords": "Exhaustion, Insecurity",
+    "IsReversed": true
+  },
+  {
+    "Id": 69,
+    "CardId": 9,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Prudent management. Resisting the urge for impulsive purchases.",
+    "KeyWords": "Moderation, Prudence",
+    "IsReversed": false
+  },
+  {
+    "Id": 70,
+    "CardId": 9,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial panic. Making rash decisions based on temporary fear.",
+    "KeyWords": "Impulse, Panic",
+    "IsReversed": true
+  },
+  {
+    "Id": 71,
+    "CardId": 9,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Taming the beast within. Finding power in stillness and love.",
+    "KeyWords": "Inner-beast, Calm",
+    "IsReversed": false
+  },
+  {
+    "Id": 72,
+    "CardId": 9,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual weakness. Succumbing to base instincts or despair.",
+    "KeyWords": "Self-doubt, Low vibration",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 73,
+    "CardId": 10,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Self-reflection in solitude. Taking a break to understand your heart.",
+    "KeyWords": "Solitude, Insight",
+    "IsReversed": false
+  },
+  {
+    "Id": 74,
+    "CardId": 10,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Isolation or loneliness. Refusing to connect with others.",
+    "KeyWords": "Withdrawal, Rejection",
+    "IsReversed": true
+  },
+  {
+    "Id": 75,
+    "CardId": 10,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Seeking wisdom or a mentor. A time for deep research and focus.",
+    "KeyWords": "Guidance, Mastery",
+    "IsReversed": false
+  },
+  {
+    "Id": 76,
+    "CardId": 10,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Over-analysis leading to paralysis. Ignoring practical advice.",
+    "KeyWords": "Staleness, Detachment",
+    "IsReversed": true
+  },
+  {
+    "Id": 77,
+    "CardId": 10,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Careful financial scrutiny. Avoiding the noise of the market.",
+    "KeyWords": "Caution, Analysis",
+    "IsReversed": false
+  },
+  {
+    "Id": 78,
+    "CardId": 10,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial ignorance. Ignoring your bank statements or reality.",
+    "KeyWords": "Neglect, Avoidance",
+    "IsReversed": true
+  },
+  {
+    "Id": 79,
+    "CardId": 10,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Finding the light within. A solitary path toward enlightenment.",
+    "KeyWords": "Enlightenment, Soul",
+    "IsReversed": false
+  },
+  {
+    "Id": 80,
+    "CardId": 10,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual disconnection. Being lost in the dark without a guide.",
+    "KeyWords": "Alienation, Lost",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 81,
+    "CardId": 11,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A fated meeting. Luck brings a new cycle to your love life.",
+    "KeyWords": "Fate, Change",
+    "IsReversed": false
+  },
+  {
+    "Id": 82,
+    "CardId": 11,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Bad timing in romance. Cycles of old mistakes repeating.",
+    "KeyWords": "Misfortune, Patterns",
+    "IsReversed": true
+  },
+  {
+    "Id": 83,
+    "CardId": 11,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A sudden promotion or opportunity. Going with the flow of change.",
+    "KeyWords": "Luck, Transition",
+    "IsReversed": false
+  },
+  {
+    "Id": 84,
+    "CardId": 11,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Resistance to necessary change. External forces disrupting plans.",
+    "KeyWords": "Obstacles, Setback",
+    "IsReversed": true
+  },
+  {
+    "Id": 85,
+    "CardId": 11,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Fluctuating wealth. The tide is turning in your favor.",
+    "KeyWords": "Flow, Fortune",
+    "IsReversed": false
+  },
+  {
+    "Id": 86,
+    "CardId": 11,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Unexpected financial loss. A reminder that nothing is permanent.",
+    "KeyWords": "Decline, Lessons",
+    "IsReversed": true
+  },
+  {
+    "Id": 87,
+    "CardId": 11,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Understanding karma. Recognizing the synchronicities of the universe.",
+    "KeyWords": "Karma, Cycles",
+    "IsReversed": false
+  },
+  {
+    "Id": 88,
+    "CardId": 11,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Resisting the laws of nature. Feeling like a victim of fate.",
+    "KeyWords": "Resistance, Victimhood",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 89,
+    "CardId": 12,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Honesty and fairness in relationships. Legalizing a union.",
+    "KeyWords": "Truth, Balance",
+    "IsReversed": false
+  },
+  {
+    "Id": 90,
+    "CardId": 12,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Injustice or unfair treatment. Blaming others for your own flaws.",
+    "KeyWords": "Unfairness, Denial",
+    "IsReversed": true
+  },
+  {
+    "Id": 91,
+    "CardId": 12,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Ethical behavior rewarded. Legal matters or contracts settled fairly.",
+    "KeyWords": "Law, Integrity",
+    "IsReversed": false
+  },
+  {
+    "Id": 92,
+    "CardId": 12,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Dishonesty at work. Legal complications or unfair criticism.",
+    "KeyWords": "Corruption, Bias",
+    "IsReversed": true
+  },
+  {
+    "Id": 93,
+    "CardId": 12,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial balance. You get exactly what you have earned.",
+    "KeyWords": "Fairness, Dues",
+    "IsReversed": false
+  },
+  {
+    "Id": 94,
+    "CardId": 12,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Unbalanced books. Legal fines or being cheated in a deal.",
+    "KeyWords": "Inequity, Debt",
+    "IsReversed": true
+  },
+  {
+    "Id": 95,
+    "CardId": 12,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual accountability. Cause and effect are clearly seen.",
+    "KeyWords": "Consequence, Truth",
+    "IsReversed": false
+  },
+  {
+    "Id": 96,
+    "CardId": 12,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Ignoring the truth. Karmic imbalance due to lack of self-honesty.",
+    "KeyWords": "Disharmony, Evasion",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 97,
+    "CardId": 13,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Waiting for the right moment. Sacrifice for a deeper bond.",
+    "KeyWords": "Pause, Devotion",
+    "IsReversed": false
+  },
+  {
+    "Id": 98,
+    "CardId": 13,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Martyrdom in love. Waiting in vain for a change that won't come.",
+    "KeyWords": "Sacrifice, Stalling",
+    "IsReversed": true
+  },
+  {
+    "Id": 99,
+    "CardId": 13,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Looking at work from a new perspective. A necessary delay.",
+    "KeyWords": "New Vision, Wait",
+    "IsReversed": false
+  },
+  {
+    "Id": 100,
+    "CardId": 13,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Useless delay. Refusing to see the truth of a failing project.",
+    "KeyWords": "Resistance, Blindness",
+    "IsReversed": true
+  },
+  {
+    "Id": 101,
+    "CardId": 13,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial sacrifice now for a future gain. A shift in priorities.",
+    "KeyWords": "Delayed wealth, Shift",
+    "IsReversed": false
+  },
+  {
+    "Id": 102,
+    "CardId": 13,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Wasted resources. Being stuck in an old financial pattern.",
+    "KeyWords": "Waste, Stagnation",
+    "IsReversed": true
+  },
+  {
+    "Id": 103,
+    "CardId": 13,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Letting go of the ego. Surrender to the divine flow.",
+    "KeyWords": "Surrender, Release",
+    "IsReversed": false
+  },
+  {
+    "Id": 104,
+    "CardId": 13,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual egoism. Refusing to let go of material control.",
+    "KeyWords": "Rigidity, Egotism",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 105,
+    "CardId": 14,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A relationship ending to make room for something better.",
+    "KeyWords": "Ending, Transition",
+    "IsReversed": false
+  },
+  {
+    "Id": 106,
+    "CardId": 14,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Clinging to a dead relationship. Fear of moving on.",
+    "KeyWords": "Resistance, Decay",
+    "IsReversed": true
+  },
+  {
+    "Id": 107,
+    "CardId": 14,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A major professional transformation. Out with the old.",
+    "KeyWords": "Change, Renewal",
+    "IsReversed": false
+  },
+  {
+    "Id": 108,
+    "CardId": 14,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Stagnation. Inability to accept that a job has run its course.",
+    "KeyWords": "Inertia, Fear",
+    "IsReversed": true
+  },
+  {
+    "Id": 109,
+    "CardId": 14,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Radical financial change. Cutting out bad habits completely.",
+    "KeyWords": "Purge, Rebirth",
+    "IsReversed": false
+  },
+  {
+    "Id": 110,
+    "CardId": 14,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Slow financial decline. Refusal to adapt to new realities.",
+    "KeyWords": "Bleeding, Obsolescence",
+    "IsReversed": true
+  },
+  {
+    "Id": 111,
+    "CardId": 14,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Death of the old self. Rebirth into a higher state.",
+    "KeyWords": "Metamorphosis, Rebirth",
+    "IsReversed": false
+  },
+  {
+    "Id": 112,
+    "CardId": 14,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual rot. Holding on to toxic beliefs that kill growth.",
+    "KeyWords": "Decay, Stagnation",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 113,
+    "CardId": 15,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Balance and moderation. Two souls blending in perfect harmony.",
+    "KeyWords": "Patience, Flow",
+    "IsReversed": false
+  },
+  {
+    "Id": 114,
+    "CardId": 15,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Imbalance in love. Extreme emotions or lack of compromise.",
+    "KeyWords": "Chaos, Friction",
+    "IsReversed": true
+  },
+  {
+    "Id": 115,
+    "CardId": 15,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Steady progress through diplomacy and careful planning.",
+    "KeyWords": "Alchemy, Diplomacy",
+    "IsReversed": false
+  },
+  {
+    "Id": 116,
+    "CardId": 15,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Haste and volatility. Conflicts between colleagues or goals.",
+    "KeyWords": "Impatience, Clashes",
+    "IsReversed": true
+  },
+  {
+    "Id": 117,
+    "CardId": 15,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Moderate growth. Balancing income and expenses effectively.",
+    "KeyWords": "Frugality, Balance",
+    "IsReversed": false
+  },
+  {
+    "Id": 118,
+    "CardId": 15,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Unstable finances. Overspending followed by extreme saving.",
+    "KeyWords": "Instability, Extremes",
+    "IsReversed": true
+  },
+  {
+    "Id": 119,
+    "CardId": 15,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Soul alchemy. Finding a middle path to enlightenment.",
+    "KeyWords": "Middle-path, Soul",
+    "IsReversed": false
+  },
+  {
+    "Id": 120,
+    "CardId": 15,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual confusion. Seeking too many paths at once.",
+    "KeyWords": "Scatter, Disharmony",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 121,
+    "CardId": 16,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Obsession and toxic bonds. Physical attraction masking pain.",
+    "KeyWords": "Bondage, Lust",
+    "IsReversed": false
+  },
+  {
+    "Id": 122,
+    "CardId": 16,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Breaking free from a toxic partner. Ending an unhealthy cycle.",
+    "KeyWords": "Freedom, Recovery",
+    "IsReversed": true
+  },
+  {
+    "Id": 123,
+    "CardId": 16,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Feeling trapped in a job. Workaholism or cutthroat politics.",
+    "KeyWords": "Trap, Ambition",
+    "IsReversed": false
+  },
+  {
+    "Id": 124,
+    "CardId": 16,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Leaving a high-stress role. Reclaiming your personal time.",
+    "KeyWords": "Liberation, Balance",
+    "IsReversed": true
+  },
+  {
+    "Id": 125,
+    "CardId": 16,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Debt and material greed. Being a slave to money or status.",
+    "KeyWords": "Debt, Materialism",
+    "IsReversed": false
+  },
+  {
+    "Id": 126,
+    "CardId": 16,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Paying off debt. Release from financial obligations.",
+    "KeyWords": "Release, Solvency",
+    "IsReversed": true
+  },
+  {
+    "Id": 127,
+    "CardId": 16,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Facing your shadow self. Recognition of inner darkness.",
+    "KeyWords": "Shadow-work, Truth",
+    "IsReversed": false
+  },
+  {
+    "Id": 128,
+    "CardId": 16,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual breakthrough. Overcoming addictions or dogma.",
+    "KeyWords": "Ascension, Clarity",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 129,
+    "CardId": 17,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A sudden shock or breakup. The truth destroys a weak bond.",
+    "KeyWords": "Upheaval, Chaos",
+    "IsReversed": false
+  },
+  {
+    "Id": 130,
+    "CardId": 17,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Avoiding a necessary crisis. Delaying the inevitable end.",
+    "KeyWords": "Dread, Denial",
+    "IsReversed": true
+  },
+  {
+    "Id": 131,
+    "CardId": 17,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Total workplace upheaval. Losing a job or a failed project.",
+    "KeyWords": "Disaster, Change",
+    "IsReversed": false
+  },
+  {
+    "Id": 132,
+    "CardId": 17,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Rebuilding after a crash. Learning from professional failure.",
+    "KeyWords": "Recovery, Lessons",
+    "IsReversed": true
+  },
+  {
+    "Id": 133,
+    "CardId": 17,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial collapse. A warning of sudden loss or bankruptcy.",
+    "KeyWords": "Ruin, Shock",
+    "IsReversed": false
+  },
+  {
+    "Id": 134,
+    "CardId": 17,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Escaping a total loss. Narrowly avoiding financial disaster.",
+    "KeyWords": "Escape, Warning",
+    "IsReversed": true
+  },
+  {
+    "Id": 135,
+    "CardId": 17,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Ego death. Sudden revelation that changes your worldview.",
+    "KeyWords": "Revelation, Awakening",
+    "IsReversed": false
+  },
+  {
+    "Id": 136,
+    "CardId": 17,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Refusal to wake up. Holding on to a crumbling spiritual belief.",
+    "KeyWords": "Fear, Stagnation",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 137,
+    "CardId": 18,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Hope and healing in love. A soulmate connection or deep peace.",
+    "KeyWords": "Hope, Serenity",
+    "IsReversed": false
+  },
+  {
+    "Id": 138,
+    "CardId": 18,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Lack of faith in love. Feeling unlovable or pessimistic.",
+    "KeyWords": "Despair, Sadness",
+    "IsReversed": true
+  },
+  {
+    "Id": 139,
+    "CardId": 18,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Inspiration and success. Recognition for your unique talents.",
+    "KeyWords": "Fame, Purpose",
+    "IsReversed": false
+  },
+  {
+    "Id": 140,
+    "CardId": 18,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Uninspired work. Feeling like your potential is being wasted.",
+    "KeyWords": "Dullness, Boredom",
+    "IsReversed": true
+  },
+  {
+    "Id": 141,
+    "CardId": 18,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Abundance through positive mindset. Financial wishes fulfilled.",
+    "KeyWords": "Good-luck, Flow",
+    "IsReversed": false
+  },
+  {
+    "Id": 142,
+    "CardId": 18,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial insecurity. Fear of the future blocking wealth.",
+    "KeyWords": "Poverty-mindset, Fear",
+    "IsReversed": true
+  },
+  {
+    "Id": 143,
+    "CardId": 18,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Divine guidance. A deep sense of peace and cosmic connection.",
+    "KeyWords": "Zen, Cosmos",
+    "IsReversed": false
+  },
+  {
+    "Id": 144,
+    "CardId": 18,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual emptiness. Feeling abandoned by the universe.",
+    "KeyWords": "Dark-night, Void",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 145,
+    "CardId": 19,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Illusions and hidden fears. Uncertainty about a partner.",
+    "KeyWords": "Confusion, Fear",
+    "IsReversed": false
+  },
+  {
+    "Id": 146,
+    "CardId": 19,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Secrets coming to light. Clarity replacing confusion.",
+    "KeyWords": "Truth, Relief",
+    "IsReversed": true
+  },
+  {
+    "Id": 147,
+    "CardId": 19,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Misunderstandings at work. Not seeing the full picture.",
+    "KeyWords": "Hidden-agendas, Fog",
+    "IsReversed": false
+  },
+  {
+    "Id": 148,
+    "CardId": 19,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Finding your way out of a confusing situation. New clarity.",
+    "KeyWords": "Resolution, Path",
+    "IsReversed": true
+  },
+  {
+    "Id": 149,
+    "CardId": 19,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial deception. Be careful of deals that seem too good.",
+    "KeyWords": "Risks, Shadows",
+    "IsReversed": false
+  },
+  {
+    "Id": 150,
+    "CardId": 19,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Uncovering a scam or error. Financial fog lifting.",
+    "KeyWords": "Vigilance, Reality",
+    "IsReversed": true
+  },
+  {
+    "Id": 151,
+    "CardId": 19,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Vivid dreams and intuition. The subconscious is speaking.",
+    "KeyWords": "Dreams, Shadow",
+    "IsReversed": false
+  },
+  {
+    "Id": 152,
+    "CardId": 19,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual paranoia. Misinterpreting intuitive signs.",
+    "KeyWords": "Anxiety, Distortion",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 153,
+    "CardId": 20,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Joy, vitality, and success in romance. A public celebration.",
+    "KeyWords": "Happiness, Success",
+    "IsReversed": false
+  },
+  {
+    "Id": 154,
+    "CardId": 20,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Temporary cloudiness. Jealousy or burnout in a bond.",
+    "KeyWords": "Boredom, Ego",
+    "IsReversed": true
+  },
+  {
+    "Id": 155,
+    "CardId": 20,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Brilliant success and recognition. Creative energy is high.",
+    "KeyWords": "Victory, Fame",
+    "IsReversed": false
+  },
+  {
+    "Id": 156,
+    "CardId": 20,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Delayed success. Arrogance causing issues with coworkers.",
+    "KeyWords": "Arrogance, Delay",
+    "IsReversed": true
+  },
+  {
+    "Id": 157,
+    "CardId": 20,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial prosperity and abundance. Success in all ventures.",
+    "KeyWords": "Wealth, Growth",
+    "IsReversed": false
+  },
+  {
+    "Id": 158,
+    "CardId": 20,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Short-lived success. Unrealistic expectations about money.",
+    "KeyWords": "Hype, Vanity",
+    "IsReversed": true
+  },
+  {
+    "Id": 159,
+    "CardId": 20,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Radiant spiritual truth. Full alignment with your purpose.",
+    "KeyWords": "Light, Presence",
+    "IsReversed": false
+  },
+  {
+    "Id": 160,
+    "CardId": 20,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Over-optimism. Ignoring the shadow for a false 'high'.",
+    "KeyWords": "Superficiality, Ego",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 161,
+    "CardId": 21,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A soul's awakening. Forgiving a partner and starting fresh.",
+    "KeyWords": "Reckoning, Forgiveness",
+    "IsReversed": false
+  },
+  {
+    "Id": 162,
+    "CardId": 21,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Self-doubt in love. Refusing to hear the call for change.",
+    "KeyWords": "Regret, Stalling",
+    "IsReversed": true
+  },
+  {
+    "Id": 163,
+    "CardId": 21,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Answering your true professional calling. A major decision.",
+    "KeyWords": "Vocation, Clarity",
+    "IsReversed": false
+  },
+  {
+    "Id": 164,
+    "CardId": 21,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Career crossroads. Ignoring your conscience about a job.",
+    "KeyWords": "Guilt, Indecision",
+    "IsReversed": true
+  },
+  {
+    "Id": 165,
+    "CardId": 21,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial legalities settled. A karmic reward for honesty.",
+    "KeyWords": "Accountability, Settlement",
+    "IsReversed": false
+  },
+  {
+    "Id": 166,
+    "CardId": 21,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Avoiding financial truth. Failing to learn from past errors.",
+    "KeyWords": "Denial, Debt",
+    "IsReversed": true
+  },
+  {
+    "Id": 167,
+    "CardId": 21,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Divine call to higher consciousness. Total transformation.",
+    "KeyWords": "Absolution, Call",
+    "IsReversed": false
+  },
+  {
+    "Id": 168,
+    "CardId": 21,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual stagnation. Refusing to change despite inner signs.",
+    "KeyWords": "Doubt, Blockage",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 169,
+    "CardId": 22,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Completion of a cycle. Total fulfillment and shared success.",
+    "KeyWords": "Unity, Fulfillment",
+    "IsReversed": false
+  },
+  {
+    "Id": 170,
+    "CardId": 22,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Incomplete closure. Feeling unfulfilled despite milestones.",
+    "KeyWords": "Lack, Burden",
+    "IsReversed": true
+  },
+  {
+    "Id": 171,
+    "CardId": 22,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Worldly success and travel. Reaching the peak of your field.",
+    "KeyWords": "Peak, Mastery",
+    "IsReversed": false
+  },
+  {
+    "Id": 172,
+    "CardId": 22,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A project nearly finished but stalled. Lack of final vision.",
+    "KeyWords": "Shortfall, Delay",
+    "IsReversed": true
+  },
+  {
+    "Id": 173,
+    "CardId": 22,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Ultimate financial security. Wealth on a global or vast scale.",
+    "KeyWords": "Completion, Fortune",
+    "IsReversed": false
+  },
+  {
+    "Id": 174,
+    "CardId": 22,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial goals not quite met. Missing the final piece.",
+    "KeyWords": "Gap, Deficiency",
+    "IsReversed": true
+  },
+  {
+    "Id": 175,
+    "CardId": 22,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Cosmic consciousness. Understanding your place in the universe.",
+    "KeyWords": "Wholeness, One",
+    "IsReversed": false
+  },
+  {
+    "Id": 176,
+    "CardId": 22,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual stagnation. Failing to integrate lessons learned.",
+    "KeyWords": "Fragmented, Incomplete",
+    "IsReversed": true
+  },
+  {
+    "Id": 177,
+    "CardId": 23,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A seed of passion is planted. A relationship with deep potential for growth.",
+    "KeyWords": "Passion, Potential",
+    "IsReversed": false
+  },
+  {
+    "Id": 178,
+    "CardId": 23,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Waning interest. A romantic idea that fails to take root.",
+    "KeyWords": "Fading, No-roots",
+    "IsReversed": true
+  },
+  {
+    "Id": 179,
+    "CardId": 23,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "The birth of a legacy project. Long-term professional stability begins here.",
+    "KeyWords": "Foundation, Vision",
+    "IsReversed": false
+  },
+  {
+    "Id": 180,
+    "CardId": 23,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Lack of professional direction. A 'false start' in a new business venture.",
+    "KeyWords": "False-start, Delays",
+    "IsReversed": true
+  },
+  {
+    "Id": 181,
+    "CardId": 23,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Investing in 'soil'. Putting money into assets that grow over decades.",
+    "KeyWords": "Steady-growth, Asset",
+    "IsReversed": false
+  },
+  {
+    "Id": 182,
+    "CardId": 23,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial resources being wasted on temporary thrills. No long-term plan.",
+    "KeyWords": "Waste, Short-sighted",
+    "IsReversed": true
+  },
+  {
+    "Id": 183,
+    "CardId": 23,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Connecting with your ancestral roots. Finding energy in the natural world.",
+    "KeyWords": "Ancestry, Grounding",
+    "IsReversed": false
+  },
+  {
+    "Id": 184,
+    "CardId": 23,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Feeling spiritually uprooted. Disconnection from your origin or purpose.",
+    "KeyWords": "Uprooted, Lost",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 185,
+    "CardId": 24,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Planning a future together. Deciding where to plant your shared lives.",
+    "KeyWords": "Planning, Foresight",
+    "IsReversed": false
+  },
+  {
+    "Id": 186,
+    "CardId": 24,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Disagreement on future goals. One wants to stay, the other wants to go.",
+    "KeyWords": "Conflict, Doubt",
+    "IsReversed": true
+  },
+  {
+    "Id": 187,
+    "CardId": 24,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Expanding your territory. Looking at the horizon for the next big move.",
+    "KeyWords": "Expansion, Strategy",
+    "IsReversed": false
+  },
+  {
+    "Id": 188,
+    "CardId": 24,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Playing it too safe. Fear of the unknown prevents professional growth.",
+    "KeyWords": "Fear, Limitation",
+    "IsReversed": true
+  },
+  {
+    "Id": 189,
+    "CardId": 24,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Waiting for investments to mature. Watching your 'forest' grow from afar.",
+    "KeyWords": "Patience, Prospect",
+    "IsReversed": false
+  },
+  {
+    "Id": 190,
+    "CardId": 24,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Poor financial timing. Missing the window for a lucrative expansion.",
+    "KeyWords": "Bad-timing, Loss",
+    "IsReversed": true
+  },
+  {
+    "Id": 191,
+    "CardId": 24,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "A soul's overview. Realizing that you are the architect of your own growth.",
+    "KeyWords": "Architect, Self-will",
+    "IsReversed": false
+  },
+  {
+    "Id": 192,
+    "CardId": 24,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual impatience. Trying to force a tree to grow faster than it can.",
+    "KeyWords": "Force, Impatience",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 193,
+    "CardId": 25,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Ships coming in. Love from a distance or a relationship reaching a new stage.",
+    "KeyWords": "Arrival, Voyage",
+    "IsReversed": false
+  },
+  {
+    "Id": 194,
+    "CardId": 25,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Expectations not being met. Disappointment in a partner's progress.",
+    "KeyWords": "Delay, Letdown",
+    "IsReversed": true
+  },
+  {
+    "Id": 195,
+    "CardId": 25,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Successful collaboration. Your branches are reaching out to new markets.",
+    "KeyWords": "Commerce, Reach",
+    "IsReversed": false
+  },
+  {
+    "Id": 196,
+    "CardId": 25,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Professional isolation. Refusing to network or branch out to others.",
+    "KeyWords": "Isolation, Pride",
+    "IsReversed": true
+  },
+  {
+    "Id": 197,
+    "CardId": 25,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Rewards from past efforts. Seeing the fruits of long-term labor.",
+    "KeyWords": "Fruition, Profit",
+    "IsReversed": false
+  },
+  {
+    "Id": 198,
+    "CardId": 25,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Unreliable income streams. Depending on 'trees' that haven't matured yet.",
+    "KeyWords": "Uncertainty, Risk",
+    "IsReversed": true
+  },
+  {
+    "Id": 199,
+    "CardId": 25,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Gaining a higher perspective. Understanding the interconnectedness of all life.",
+    "KeyWords": "Unity, Perspective",
+    "IsReversed": false
+  },
+  {
+    "Id": 200,
+    "CardId": 25,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Being lost in the canopy. Too much focus on the big picture, ignoring the roots.",
+    "KeyWords": "Confusion, Overwhelm",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 201,
+    "CardId": 26,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Celebration of a home. A wedding, a new house, or a deep sense of belonging.",
+    "KeyWords": "Home, Celebration",
+    "IsReversed": false
+  },
+  {
+    "Id": 202,
+    "CardId": 26,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Tension at home. Feeling like a guest in your own relationship.",
+    "KeyWords": "Unrest, Insecurity",
+    "IsReversed": true
+  },
+  {
+    "Id": 203,
+    "CardId": 26,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A successful milestone. Completing a phase of a project with great results.",
+    "KeyWords": "Milestone, Success",
+    "IsReversed": false
+  },
+  {
+    "Id": 204,
+    "CardId": 26,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Lack of support from colleagues. A hollow victory that feels unearned.",
+    "KeyWords": "Instability, Doubt",
+    "IsReversed": true
+  },
+  {
+    "Id": 205,
+    "CardId": 26,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Investing in property or sanctuary. Financial stability through your home.",
+    "KeyWords": "Real-estate, Peace",
+    "IsReversed": false
+  },
+  {
+    "Id": 206,
+    "CardId": 26,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Hidden costs in a property. Financial 'cracks' in your foundation.",
+    "KeyWords": "Repair, Hidden-cost",
+    "IsReversed": true
+  },
+  {
+    "Id": 207,
+    "CardId": 26,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Finding your sacred space. Inner peace that radiates outward.",
+    "KeyWords": "Sanctuary, Peace",
+    "IsReversed": false
+  },
+  {
+    "Id": 208,
+    "CardId": 26,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "A period of spiritual homelessness. Feeling like your rituals lack soul.",
+    "KeyWords": "Void, Routine",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 209,
+    "CardId": 27,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Petty competition in a relationship. Trying to 'outgrow' your partner.",
+    "KeyWords": "Conflict, Rivalry",
+    "IsReversed": false
+  },
+  {
+    "Id": 210,
+    "CardId": 27,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Resolving a long-standing argument. Dropping the need to be right.",
+    "KeyWords": "Peace, Truce",
+    "IsReversed": true
+  },
+  {
+    "Id": 211,
+    "CardId": 27,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Healthy competition. Pushing yourself to be the tallest tree in the forest.",
+    "KeyWords": "Ambition, Drive",
+    "IsReversed": false
+  },
+  {
+    "Id": 212,
+    "CardId": 27,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Toxic workplace drama. Too many opinions, not enough action.",
+    "KeyWords": "Chaos, Friction",
+    "IsReversed": true
+  },
+  {
+    "Id": 213,
+    "CardId": 27,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Aggressive financial moves. Fighting for your share of the market.",
+    "KeyWords": "Aggression, Gain",
+    "IsReversed": false
+  },
+  {
+    "Id": 214,
+    "CardId": 27,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial disputes with others. Legal battles over small amounts.",
+    "KeyWords": "Dispute, Legal",
+    "IsReversed": true
+  },
+  {
+    "Id": 215,
+    "CardId": 27,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Testing your beliefs. Spiritual growth through debate and challenge.",
+    "KeyWords": "Test, Growth",
+    "IsReversed": false
+  },
+  {
+    "Id": 216,
+    "CardId": 27,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual exhaustion. Tired of fighting for your truth in a loud world.",
+    "KeyWords": "Burnout, Noise",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 217,
+    "CardId": 28,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Being admired by many. Success in a relationship that others notice.",
+    "KeyWords": "Victory, Pride",
+    "IsReversed": false
+  },
+  {
+    "Id": 218,
+    "CardId": 28,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Public embarrassment in love. Feeling like a failure in the eyes of others.",
+    "KeyWords": "Shame, Fall",
+    "IsReversed": true
+  },
+  {
+    "Id": 219,
+    "CardId": 28,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Recognition for your achievements. Promotion or a successful launch.",
+    "KeyWords": "Promotion, Honor",
+    "IsReversed": false
+  },
+  {
+    "Id": 220,
+    "CardId": 28,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A hollow victory. Getting the title but not the respect you wanted.",
+    "KeyWords": "Arrogance, Ego",
+    "IsReversed": true
+  },
+  {
+    "Id": 221,
+    "CardId": 28,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial visibility and success. Your wealth becomes evident.",
+    "KeyWords": "Affluence, Status",
+    "IsReversed": false
+  },
+  {
+    "Id": 222,
+    "CardId": 28,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Loss of status. Financial decisions that hurt your reputation.",
+    "KeyWords": "Disgrace, Debt",
+    "IsReversed": true
+  },
+  {
+    "Id": 223,
+    "CardId": 28,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Leading others toward the light. A time of spiritual confidence.",
+    "KeyWords": "Leadership, Spirit",
+    "IsReversed": false
+  },
+  {
+    "Id": 224,
+    "CardId": 28,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "False prophet energy. Caring more about being 'seen' than being 'holy'.",
+    "KeyWords": "Vanity, Falsehood",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 225,
+    "CardId": 29,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Standing your ground in a relationship. Protecting your heart's territory.",
+    "KeyWords": "Defense, Boundary",
+    "IsReversed": false
+  },
+  {
+    "Id": 226,
+    "CardId": 29,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Giving in to pressure. Losing yourself to a partner's demands.",
+    "KeyWords": "Surrender, Weakness",
+    "IsReversed": true
+  },
+  {
+    "Id": 227,
+    "CardId": 29,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Defending your position or project against critics. You have the upper hand.",
+    "KeyWords": "Resilience, Stand",
+    "IsReversed": false
+  },
+  {
+    "Id": 228,
+    "CardId": 29,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Being overwhelmed by the workload. Losing a professional battle.",
+    "KeyWords": "Defeat, Overwhelmed",
+    "IsReversed": true
+  },
+  {
+    "Id": 229,
+    "CardId": 29,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Protecting your savings. Resisting high-risk temptations.",
+    "KeyWords": "Guard, Frugality",
+    "IsReversed": false
+  },
+  {
+    "Id": 230,
+    "CardId": 29,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial vulnerability. Your 'fence' has a hole in it.",
+    "KeyWords": "Risk, Exposure",
+    "IsReversed": true
+  },
+  {
+    "Id": 231,
+    "CardId": 29,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Defending your spiritual integrity. Not compromising your soul.",
+    "KeyWords": "Integrity, Truth",
+    "IsReversed": false
+  },
+  {
+    "Id": 232,
+    "CardId": 29,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual cowardice. Staying silent when you should speak your truth.",
+    "KeyWords": "Silence, Fear",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 233,
+    "CardId": 30,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A sudden burst of communication. Love moves forward at lightning speed.",
+    "KeyWords": "Speed, News",
+    "IsReversed": false
+  },
+  {
+    "Id": 234,
+    "CardId": 30,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Communication breakdown. News that brings a relationship to a halt.",
+    "KeyWords": "Delay, Ghosting",
+    "IsReversed": true
+  },
+  {
+    "Id": 235,
+    "CardId": 30,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Fast-paced growth. A project moves into the fast lane.",
+    "KeyWords": "Momentum, Action",
+    "IsReversed": false
+  },
+  {
+    "Id": 236,
+    "CardId": 30,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Frustrating delays. Red tape stops your momentum.",
+    "KeyWords": "Inertia, Red-tape",
+    "IsReversed": true
+  },
+  {
+    "Id": 237,
+    "CardId": 30,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Quick financial gains. Money flows in faster than expected.",
+    "KeyWords": "Velocity, Profit",
+    "IsReversed": false
+  },
+  {
+    "Id": 238,
+    "CardId": 30,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Money flowing out rapidly. Expenses you didn't see coming.",
+    "KeyWords": "Panic, Drain",
+    "IsReversed": true
+  },
+  {
+    "Id": 239,
+    "CardId": 30,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual downloads. Sudden clarity and alignment with the universe.",
+    "KeyWords": "Clarity, Message",
+    "IsReversed": false
+  },
+  {
+    "Id": 240,
+    "CardId": 30,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual noise. Too many messages, not enough silence to hear them.",
+    "KeyWords": "Confusion, Static",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 241,
+    "CardId": 31,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Resilience in love. You have been hurt, but your roots are strong.",
+    "KeyWords": "Strength, Survival",
+    "IsReversed": false
+  },
+  {
+    "Id": 242,
+    "CardId": 31,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Emotional walls. Refusing to let a partner in due to past pain.",
+    "KeyWords": "Defense, Trauma",
+    "IsReversed": true
+  },
+  {
+    "Id": 243,
+    "CardId": 31,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Persistence pays off. The final push before a major accomplishment.",
+    "KeyWords": "Endurance, Grit",
+    "IsReversed": false
+  },
+  {
+    "Id": 244,
+    "CardId": 31,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Giving up right before the finish line. Professional fatigue.",
+    "KeyWords": "Fatigue, Quit",
+    "IsReversed": true
+  },
+  {
+    "Id": 245,
+    "CardId": 31,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Protecting the last of your resources. A period of survival.",
+    "KeyWords": "Frugality, Buffer",
+    "IsReversed": false
+  },
+  {
+    "Id": 246,
+    "CardId": 31,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial burnout. Tired of fighting for every cent.",
+    "KeyWords": "Burnout, Loss",
+    "IsReversed": true
+  },
+  {
+    "Id": 247,
+    "CardId": 31,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "The battle-worn soul. Gaining wisdom from every scar.",
+    "KeyWords": "Wisdom, Scar",
+    "IsReversed": false
+  },
+  {
+    "Id": 248,
+    "CardId": 31,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual defensiveness. Using your path as a shield, not a bridge.",
+    "KeyWords": "Ego-shield, Fear",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 249,
+    "CardId": 32,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "The weight of a relationship. Feeling responsible for your partner's happiness.",
+    "KeyWords": "Burden, Duty",
+    "IsReversed": false
+  },
+  {
+    "Id": 250,
+    "CardId": 32,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Dropping the burden. Realizing you can't carry a relationship alone.",
+    "KeyWords": "Release, Freedom",
+    "IsReversed": true
+  },
+  {
+    "Id": 251,
+    "CardId": 32,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Taking on too much. The 'oldest tree' carrying all the weight of the forest.",
+    "KeyWords": "Overwork, Stress",
+    "IsReversed": false
+  },
+  {
+    "Id": 252,
+    "CardId": 32,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Delegating tasks. Refusing to be the only one who works.",
+    "KeyWords": "Relief, Share",
+    "IsReversed": true
+  },
+  {
+    "Id": 253,
+    "CardId": 32,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "High maintenance costs. Your lifestyle is becoming a heavy load.",
+    "KeyWords": "Debt, Load",
+    "IsReversed": false
+  },
+  {
+    "Id": 254,
+    "CardId": 32,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Downsizing. Cutting away dead branches to save the tree.",
+    "KeyWords": "Scale-back, Cut",
+    "IsReversed": true
+  },
+  {
+    "Id": 255,
+    "CardId": 32,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual responsibility. Carrying the light for others in the dark.",
+    "KeyWords": "Dharma, Weight",
+    "IsReversed": false
+  },
+  {
+    "Id": 256,
+    "CardId": 32,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Soul fatigue. Forgetting that spirituality should feel like flight, not a hike.",
+    "KeyWords": "Exhaustion, Duty",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 257,
+    "CardId": 33,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A young, curious lover. A message of love that feels fresh and new.",
+    "KeyWords": "Message, Spark",
+    "IsReversed": false
+  },
+  {
+    "Id": 258,
+    "CardId": 33,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Immature romantic gestures. A message that causes confusion or hurt.",
+    "KeyWords": "Gossip, Childish",
+    "IsReversed": true
+  },
+  {
+    "Id": 259,
+    "CardId": 33,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A fresh apprentice or a new idea. Learning a new trade from the ground up.",
+    "KeyWords": "Learning, Entry",
+    "IsReversed": false
+  },
+  {
+    "Id": 260,
+    "CardId": 33,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Professional immaturity. Failing to take a new role seriously.",
+    "KeyWords": "Lazy, Unfocused",
+    "IsReversed": true
+  },
+  {
+    "Id": 261,
+    "CardId": 33,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "News about a small but promising investment. A time for curiosity.",
+    "KeyWords": "Inquiry, Tiny-gain",
+    "IsReversed": false
+  },
+  {
+    "Id": 262,
+    "CardId": 33,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Bad news about a small investment. Financial naivety costing you.",
+    "KeyWords": "Mistake, Error",
+    "IsReversed": true
+  },
+  {
+    "Id": 263,
+    "CardId": 33,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual curiosity. Exploring the basics of nature-based wisdom.",
+    "KeyWords": "Novice, Nature",
+    "IsReversed": false
+  },
+  {
+    "Id": 264,
+    "CardId": 33,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual inconsistency. Jumping from one path to another too quickly.",
+    "KeyWords": "Fickle, Surface",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 265,
+    "CardId": 34,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Chivalrous and daring love. A partner who sweeps you off your feet.",
+    "KeyWords": "Adventurer, Dash",
+    "IsReversed": false
+  },
+  {
+    "Id": 266,
+    "CardId": 34,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A 'hit and run' lover. Passion without commitment or stability.",
+    "KeyWords": "Flighty, Inconstant",
+    "IsReversed": true
+  },
+  {
+    "Id": 267,
+    "CardId": 34,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Rapid professional action. Charging toward a goal with great energy.",
+    "KeyWords": "Brave, Action",
+    "IsReversed": false
+  },
+  {
+    "Id": 268,
+    "CardId": 34,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Hasty professional mistakes. Charging into a project without a plan.",
+    "KeyWords": "Rash, Blunder",
+    "IsReversed": true
+  },
+  {
+    "Id": 269,
+    "CardId": 34,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Bold financial moves. High risk for high reward.",
+    "KeyWords": "Daring, Speculation",
+    "IsReversed": false
+  },
+  {
+    "Id": 270,
+    "CardId": 34,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial gambling. Losing money through impulsiveness.",
+    "KeyWords": "Gambler, Loss",
+    "IsReversed": true
+  },
+  {
+    "Id": 271,
+    "CardId": 34,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "The spiritual quest. Moving toward enlightenment with courage.",
+    "KeyWords": "Quest, Courage",
+    "IsReversed": false
+  },
+  {
+    "Id": 272,
+    "CardId": 34,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual pride. Believing you are 'more advanced' than others.",
+    "KeyWords": "Pride, Ego",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 273,
+    "CardId": 35,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Warm, confident, and magnetic love. A partner who is life-affirming.",
+    "KeyWords": "Warmth, Magnetism",
+    "IsReversed": false
+  },
+  {
+    "Id": 274,
+    "CardId": 35,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Jealousy or moodiness. Someone who demands to be the center of attention.",
+    "KeyWords": "Selfish, Fickle",
+    "IsReversed": true
+  },
+  {
+    "Id": 275,
+    "CardId": 35,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A female leader or a creative powerhouse. Mastering your craft with joy.",
+    "KeyWords": "Mastery, Radiance",
+    "IsReversed": false
+  },
+  {
+    "Id": 276,
+    "CardId": 35,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Professional manipulation. Using charm to get others to do your work.",
+    "KeyWords": "Laziness, Deceit",
+    "IsReversed": true
+  },
+  {
+    "Id": 277,
+    "CardId": 35,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Prosperity through confidence. Knowing your worth and asking for it.",
+    "KeyWords": "Self-worth, Gain",
+    "IsReversed": false
+  },
+  {
+    "Id": 278,
+    "CardId": 35,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Overspending on image. Caring more about looking rich than being rich.",
+    "KeyWords": "Vanity, Debt",
+    "IsReversed": true
+  },
+  {
+    "Id": 279,
+    "CardId": 35,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual radiance. Your soul is in full bloom and attracts others.",
+    "KeyWords": "Bloom, Soul",
+    "IsReversed": false
+  },
+  {
+    "Id": 280,
+    "CardId": 35,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual burnout. Trying to keep the 'fire' going when the wood is gone.",
+    "KeyWords": "Burnout, Hollow",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 281,
+    "CardId": 36,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Strong, loyal, and visionary love. A relationship that builds a kingdom.",
+    "KeyWords": "Loyalty, Vision",
+    "IsReversed": false
+  },
+  {
+    "Id": 282,
+    "CardId": 36,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A domineering or aggressive partner. Love used as a tool for control.",
+    "KeyWords": "Tyrant, Harsh",
+    "IsReversed": true
+  },
+  {
+    "Id": 283,
+    "CardId": 36,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "The CEO of the forest. Visionary leadership that lasts generations.",
+    "KeyWords": "Leadership, Legacy",
+    "IsReversed": false
+  },
+  {
+    "Id": 284,
+    "CardId": 36,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A boss who is out of touch. Rigidity that stops innovation.",
+    "KeyWords": "Out-of-touch, Rigid",
+    "IsReversed": true
+  },
+  {
+    "Id": 285,
+    "CardId": 36,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Wealth and power. Managing large-scale resources successfully.",
+    "KeyWords": "Power, Affluence",
+    "IsReversed": false
+  },
+  {
+    "Id": 286,
+    "CardId": 36,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial cruelty. Using your resources to hurt others or control them.",
+    "KeyWords": "Cruelty, Greed",
+    "IsReversed": true
+  },
+  {
+    "Id": 287,
+    "CardId": 36,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "The spiritual master. One who has integrated action with wisdom.",
+    "KeyWords": "Master, Wisdom",
+    "IsReversed": false
+  },
+  {
+    "Id": 288,
+    "CardId": 36,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual tyranny. Believing your path is the only valid path for others.",
+    "KeyWords": "Dogma, Arrogance",
+    "IsReversed": true
+  },
+  {
+    "Id": 289,
+    "CardId": 37,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A new chapter in romance. Deep emotional discovery and poetic connection.",
+    "KeyWords": "Intimacy, Discovery",
+    "IsReversed": false
+  },
+  {
+    "Id": 290,
+    "CardId": 37,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Misread emotions. A romantic story that lacks a true foundation.",
+    "KeyWords": "Confusion, Illusion",
+    "IsReversed": true
+  },
+  {
+    "Id": 291,
+    "CardId": 37,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A creative epiphany. Beginning a project that requires deep research and soul.",
+    "KeyWords": "Insight, Creative",
+    "IsReversed": false
+  },
+  {
+    "Id": 292,
+    "CardId": 37,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Creative block. An idea that sounds good on paper but lacks practical heart.",
+    "KeyWords": "Stagnation, Dryness",
+    "IsReversed": true
+  },
+  {
+    "Id": 293,
+    "CardId": 37,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Investing in education or intellectual property. Value found in information.",
+    "KeyWords": "Knowledge, Worth",
+    "IsReversed": false
+  },
+  {
+    "Id": 294,
+    "CardId": 37,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial naivety. Not reading the contract or ignoring the fine print.",
+    "KeyWords": "Ignorance, Oversight",
+    "IsReversed": true
+  },
+  {
+    "Id": 295,
+    "CardId": 37,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "The first step into ancient wisdom. Your soul begins a new study.",
+    "KeyWords": "Initiation, Wisdom",
+    "IsReversed": false
+  },
+  {
+    "Id": 296,
+    "CardId": 37,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual overwhelm. Trying to learn everything at once without feeling it.",
+    "KeyWords": "Academic, Cold",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 297,
+    "CardId": 38,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Shared values and mutual understanding. Two stories becoming one.",
+    "KeyWords": "Partnership, Synergy",
+    "IsReversed": false
+  },
+  {
+    "Id": 298,
+    "CardId": 38,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A plot twist in love. Misunderstanding your partner’s core values.",
+    "KeyWords": "Discord, Friction",
+    "IsReversed": true
+  },
+  {
+    "Id": 299,
+    "CardId": 38,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A successful contract or partnership. Synergistic intellectual collaboration.",
+    "KeyWords": "Agreement, Team",
+    "IsReversed": false
+  },
+  {
+    "Id": 300,
+    "CardId": 38,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A broken professional promise. Falling out with a business partner.",
+    "KeyWords": "Dispute, Breach",
+    "IsReversed": true
+  },
+  {
+    "Id": 301,
+    "CardId": 38,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "A fair trade. Balancing the books and finding a harmonious financial deal.",
+    "KeyWords": "Balance, Exchange",
+    "IsReversed": false
+  },
+  {
+    "Id": 302,
+    "CardId": 38,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Hidden inequality in a deal. One person benefits more than the other.",
+    "KeyWords": "Unfair, Debt",
+    "IsReversed": true
+  },
+  {
+    "Id": 303,
+    "CardId": 38,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Finding your spiritual mirror. Learning through the reflection of others.",
+    "KeyWords": "Mirror, Union",
+    "IsReversed": false
+  },
+  {
+    "Id": 304,
+    "CardId": 38,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Projecting your own dross onto others. Spiritual imbalance in relationships.",
+    "KeyWords": "Projection, Shadow",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 305,
+    "CardId": 39,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A celebratory chapter. Friendship that turns into deep, shared love.",
+    "KeyWords": "Community, Joy",
+    "IsReversed": false
+  },
+  {
+    "Id": 306,
+    "CardId": 39,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Third-party interference. Too many opinions in a private relationship.",
+    "KeyWords": "Gossip, Crowd",
+    "IsReversed": true
+  },
+  {
+    "Id": 307,
+    "CardId": 39,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Success through networking. A group project that hits all its targets.",
+    "KeyWords": "Network, Success",
+    "IsReversed": false
+  },
+  {
+    "Id": 308,
+    "CardId": 39,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Over-socializing and under-working. Losing focus on the professional story.",
+    "KeyWords": "Distraction, Play",
+    "IsReversed": true
+  },
+  {
+    "Id": 309,
+    "CardId": 39,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Shared financial rewards. A time to celebrate abundance with friends.",
+    "KeyWords": "Sharing, Profit",
+    "IsReversed": false
+  },
+  {
+    "Id": 310,
+    "CardId": 39,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Excessive spending on social status. Wasting resources to impress others.",
+    "KeyWords": "Extravagance, Debt",
+    "IsReversed": true
+  },
+  {
+    "Id": 311,
+    "CardId": 39,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual community. Finding your tribe and learning through group ritual.",
+    "KeyWords": "Tribe, Ritual",
+    "IsReversed": false
+  },
+  {
+    "Id": 312,
+    "CardId": 39,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Losing your individual path in a group. Spiritual groupthink.",
+    "KeyWords": "Conformity, Noise",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 313,
+    "CardId": 40,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Boredom or apathy. Not seeing the romantic offer right in front of you.",
+    "KeyWords": "Stagnation, Sulking",
+    "IsReversed": false
+  },
+  {
+    "Id": 314,
+    "CardId": 40,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Waking up to love. Realizing what you’ve been ignoring in your heart.",
+    "KeyWords": "Awareness, Shift",
+    "IsReversed": true
+  },
+  {
+    "Id": 315,
+    "CardId": 40,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Professional fatigue. Dissatisfaction with your current role or project.",
+    "KeyWords": "Ennui, Boredom",
+    "IsReversed": false
+  },
+  {
+    "Id": 316,
+    "CardId": 40,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A new interest sparks. Finally finding a reason to care about your work.",
+    "KeyWords": "Spark, Energy",
+    "IsReversed": true
+  },
+  {
+    "Id": 317,
+    "CardId": 40,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Ignoring financial opportunities due to a negative mindset.",
+    "KeyWords": "Missed-chance, Apathy",
+    "IsReversed": false
+  },
+  {
+    "Id": 318,
+    "CardId": 40,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Breaking out of a financial rut. Taking action after a long pause.",
+    "KeyWords": "Action, Recovery",
+    "IsReversed": true
+  },
+  {
+    "Id": 319,
+    "CardId": 40,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual withdrawal. Looking inward but feeling only emptiness.",
+    "KeyWords": "Introversion, Void",
+    "IsReversed": false
+  },
+  {
+    "Id": 320,
+    "CardId": 40,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual re-engagement. Finding meaning in the mundane again.",
+    "KeyWords": "Renewal, Connection",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 321,
+    "CardId": 41,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Grief over a lost chapter. Focusing on the 'empty pages' of the heart.",
+    "KeyWords": "Loss, Regret",
+    "IsReversed": false
+  },
+  {
+    "Id": 322,
+    "CardId": 41,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Acceptance. Turning the page and seeing the love that still remains.",
+    "KeyWords": "Moving-on, Hope",
+    "IsReversed": true
+  },
+  {
+    "Id": 323,
+    "CardId": 41,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Professional setback. Regretting a choice that led to a failed project.",
+    "KeyWords": "Disappointment, Error",
+    "IsReversed": false
+  },
+  {
+    "Id": 324,
+    "CardId": 41,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Rebuilding from failure. Taking the lessons from the 'spilled ink'.",
+    "KeyWords": "Resilience, Growth",
+    "IsReversed": true
+  },
+  {
+    "Id": 325,
+    "CardId": 41,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial loss that stings. Crying over spilled money instead of earning more.",
+    "KeyWords": "Mourning, Loss",
+    "IsReversed": false
+  },
+  {
+    "Id": 326,
+    "CardId": 41,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial recovery begins. Realizing you still have assets to work with.",
+    "KeyWords": "Recovery, Assets",
+    "IsReversed": true
+  },
+  {
+    "Id": 327,
+    "CardId": 41,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "The dark night of the soul. Understanding that grief is a teacher.",
+    "KeyWords": "Shadow, Grief",
+    "IsReversed": false
+  },
+  {
+    "Id": 328,
+    "CardId": 41,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Healing from emotional trauma. The soul begins to write a new story.",
+    "KeyWords": "Healing, Rebirth",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 329,
+    "CardId": 42,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Nostalgia. A past lover returns or you find joy in childhood memories.",
+    "KeyWords": "Past, Innocence",
+    "IsReversed": false
+  },
+  {
+    "Id": 330,
+    "CardId": 42,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Stuck in the past. Living in a story that no longer exists.",
+    "KeyWords": "Fantasy, Clinging",
+    "IsReversed": true
+  },
+  {
+    "Id": 331,
+    "CardId": 42,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Returning to an old skill or company. Finding value in your history.",
+    "KeyWords": "Legacy, Return",
+    "IsReversed": false
+  },
+  {
+    "Id": 332,
+    "CardId": 42,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Outdated methods. Refusing to learn 'new books' in your field.",
+    "KeyWords": "Stale, Obsolete",
+    "IsReversed": true
+  },
+  {
+    "Id": 333,
+    "CardId": 42,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "An inheritance or money from a past source. Financial comfort from family.",
+    "KeyWords": "Heritage, Gift",
+    "IsReversed": false
+  },
+  {
+    "Id": 334,
+    "CardId": 42,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial childishness. Not taking responsibility for your modern debts.",
+    "KeyWords": "Immature, Debt",
+    "IsReversed": true
+  },
+  {
+    "Id": 335,
+    "CardId": 42,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Inner child work. Connecting with the pure soul you were at birth.",
+    "KeyWords": "Child, Purity",
+    "IsReversed": false
+  },
+  {
+    "Id": 336,
+    "CardId": 42,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Childish spiritual views. Refusing to face the adult complexities of faith.",
+    "KeyWords": "Naivety, Denial",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 337,
+    "CardId": 43,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Daydreaming about a future. Too many romantic options, too little action.",
+    "KeyWords": "Choices, Fantasy",
+    "IsReversed": false
+  },
+  {
+    "Id": 338,
+    "CardId": 43,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Clarity in love. Finally choosing one path and closing the other 'books'.",
+    "KeyWords": "Decision, Focus",
+    "IsReversed": true
+  },
+  {
+    "Id": 339,
+    "CardId": 43,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Multiple projects or ideas. Be careful of being a 'jack of all trades'.",
+    "KeyWords": "Options, Scatter",
+    "IsReversed": false
+  },
+  {
+    "Id": 340,
+    "CardId": 43,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Focusing on one goal. Moving from theory into practical reality.",
+    "KeyWords": "Action, Realism",
+    "IsReversed": true
+  },
+  {
+    "Id": 341,
+    "CardId": 43,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Wishful thinking about wealth. Dreaming of money instead of earning it.",
+    "KeyWords": "Illusion, Hopes",
+    "IsReversed": false
+  },
+  {
+    "Id": 342,
+    "CardId": 43,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Setting realistic financial goals. Seeing through a 'get rich' scheme.",
+    "KeyWords": "Clarity, Truth",
+    "IsReversed": true
+  },
+  {
+    "Id": 343,
+    "CardId": 43,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Exploring different philosophies. A time of spiritual imagination.",
+    "KeyWords": "Seeking, Astral",
+    "IsReversed": false
+  },
+  {
+    "Id": 344,
+    "CardId": 43,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Grounded spirituality. Escaping the trap of 'spiritual escapism'.",
+    "KeyWords": "Grounded, Presence",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 345,
+    "CardId": 44,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Leaving a familiar story. Walking away from a bond that no longer grows.",
+    "KeyWords": "Departure, Search",
+    "IsReversed": false
+  },
+  {
+    "Id": 346,
+    "CardId": 44,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Fear of abandonment. Staying in a relationship because you're afraid to leave.",
+    "KeyWords": "Stagnation, Fear",
+    "IsReversed": true
+  },
+  {
+    "Id": 347,
+    "CardId": 44,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Leaving a stable job for a higher calling. Seeking a deeper truth.",
+    "KeyWords": "Vocation, Change",
+    "IsReversed": false
+  },
+  {
+    "Id": 348,
+    "CardId": 44,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Coming back to a project after failing to find something better.",
+    "KeyWords": "Return, Defeat",
+    "IsReversed": true
+  },
+  {
+    "Id": 349,
+    "CardId": 44,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Walking away from a bad investment. Knowing when to cut your losses.",
+    "KeyWords": "Release, Wisdom",
+    "IsReversed": false
+  },
+  {
+    "Id": 350,
+    "CardId": 44,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Clinging to financial ruin. Refusing to walk away from a sinking ship.",
+    "KeyWords": "Denial, Loss",
+    "IsReversed": true
+  },
+  {
+    "Id": 351,
+    "CardId": 44,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "The spiritual seeker. Leaving the material world to find the soul.",
+    "KeyWords": "Quest, Ascetic",
+    "IsReversed": false
+  },
+  {
+    "Id": 352,
+    "CardId": 44,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual confusion. Abandoning your path too soon.",
+    "KeyWords": "Lost, Fickle",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 353,
+    "CardId": 45,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Emotional wishes coming true. Satisfaction and comfort in your bond.",
+    "KeyWords": "Contentment, Joy",
+    "IsReversed": false
+  },
+  {
+    "Id": 354,
+    "CardId": 45,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Smugness or emotional greed. Taking a partner for granted.",
+    "KeyWords": "Arrogance, Lack",
+    "IsReversed": true
+  },
+  {
+    "Id": 355,
+    "CardId": 45,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A position of comfort and pride. Having everything you thought you wanted.",
+    "KeyWords": "Pride, Success",
+    "IsReversed": false
+  },
+  {
+    "Id": 356,
+    "CardId": 45,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Underachieving due to comfort. Losing your professional edge.",
+    "KeyWords": "Lazy, Stagnant",
+    "IsReversed": true
+  },
+  {
+    "Id": 357,
+    "CardId": 45,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial abundance. A 'rich' life where all needs are met.",
+    "KeyWords": "Plenty, Safety",
+    "IsReversed": false
+  },
+  {
+    "Id": 358,
+    "CardId": 45,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Materialistic greed. Having everything but feeling empty.",
+    "KeyWords": "Void, Greed",
+    "IsReversed": true
+  },
+  {
+    "Id": 359,
+    "CardId": 45,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Soul satisfaction. Feeling at one with your current spiritual state.",
+    "KeyWords": "Grace, Peace",
+    "IsReversed": false
+  },
+  {
+    "Id": 360,
+    "CardId": 45,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual vanity. Thinking you've reached the end of the book.",
+    "KeyWords": "Ego, Static",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 361,
+    "CardId": 46,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Domestic bliss. A family story reaching its happiest peak.",
+    "KeyWords": "Family, Home",
+    "IsReversed": false
+  },
+  {
+    "Id": 362,
+    "CardId": 46,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Dysfunction in the home. A happy exterior masking a sad story.",
+    "KeyWords": "Broken, False",
+    "IsReversed": true
+  },
+  {
+    "Id": 363,
+    "CardId": 46,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Perfect professional alignment. Work that feels like home.",
+    "KeyWords": "Alignment, Bliss",
+    "IsReversed": false
+  },
+  {
+    "Id": 364,
+    "CardId": 46,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Losing the 'work-family' balance. Conflict between duty and home.",
+    "KeyWords": "Imbalance, Stress",
+    "IsReversed": true
+  },
+  {
+    "Id": 365,
+    "CardId": 46,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Generational wealth. Financial security for the whole family.",
+    "KeyWords": "Legacy, Wealth",
+    "IsReversed": false
+  },
+  {
+    "Id": 366,
+    "CardId": 46,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Family disputes over money. Fighting over the 'inheritance'.",
+    "KeyWords": "Greed, Conflict",
+    "IsReversed": true
+  },
+  {
+    "Id": 367,
+    "CardId": 46,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual wholeness. Feeling connected to the entire universe.",
+    "KeyWords": "Unity, Divine",
+    "IsReversed": false
+  },
+  {
+    "Id": 368,
+    "CardId": 46,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Disconnected from the source. Feeling like an outsider in the universe.",
+    "KeyWords": "Isolation, Void",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 369,
+    "CardId": 47,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A romantic message or a poetic admirer. A new emotional study.",
+    "KeyWords": "Message, Muse",
+    "IsReversed": false
+  },
+  {
+    "Id": 370,
+    "CardId": 47,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Emotional manipulation through words. A 'player' or a false poet.",
+    "KeyWords": "Deceit, Flattery",
+    "IsReversed": true
+  },
+  {
+    "Id": 371,
+    "CardId": 47,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A creative apprentice. Starting to write your own professional book.",
+    "KeyWords": "Scholar, Ideas",
+    "IsReversed": false
+  },
+  {
+    "Id": 372,
+    "CardId": 47,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Creative immaturity. All ideas, no execution.",
+    "KeyWords": "Draft, Lazy",
+    "IsReversed": true
+  },
+  {
+    "Id": 373,
+    "CardId": 47,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Small gains from a creative source. A financial 'intro' or lead.",
+    "KeyWords": "Small-win, Lead",
+    "IsReversed": false
+  },
+  {
+    "Id": 374,
+    "CardId": 47,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial daydreaming. Buying things based on an emotional whim.",
+    "KeyWords": "Impulse, Waste",
+    "IsReversed": true
+  },
+  {
+    "Id": 375,
+    "CardId": 47,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Intuitive study. Learning to read the 'unwritten' signs of the soul.",
+    "KeyWords": "Psychic, Study",
+    "IsReversed": false
+  },
+  {
+    "Id": 376,
+    "CardId": 47,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual fantasy. Being lost in 'pretty' rituals without depth.",
+    "KeyWords": "Shadow, Vague",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 377,
+    "CardId": 48,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A romantic proposal or a journey for love. Following your heart.",
+    "KeyWords": "Proposal, Quest",
+    "IsReversed": false
+  },
+  {
+    "Id": 378,
+    "CardId": 48,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Emotional inconstancy. Someone who loves the 'idea' of love but flees.",
+    "KeyWords": "Fickle, Flight",
+    "IsReversed": true
+  },
+  {
+    "Id": 379,
+    "CardId": 48,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Diplomatic professional moves. An artist or a visionary leader.",
+    "KeyWords": "Diplomat, Artist",
+    "IsReversed": false
+  },
+  {
+    "Id": 380,
+    "CardId": 48,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Passive-aggressive workplace behavior. Being too 'soft' to lead.",
+    "KeyWords": "Weak, Avoidant",
+    "IsReversed": true
+  },
+  {
+    "Id": 381,
+    "CardId": 48,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Following a financial vision. Money used to fund art or travel.",
+    "KeyWords": "Venture, Travel",
+    "IsReversed": false
+  },
+  {
+    "Id": 382,
+    "CardId": 48,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial escapism. Spending money to hide from emotional truth.",
+    "KeyWords": "Waste, Avoidance",
+    "IsReversed": true
+  },
+  {
+    "Id": 383,
+    "CardId": 48,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Searching for the Holy Grail. A quest for the ultimate soul truth.",
+    "KeyWords": "Grail, Purpose",
+    "IsReversed": false
+  },
+  {
+    "Id": 384,
+    "CardId": 48,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual vanity. Caring more about the 'robe' than the 'prayer'.",
+    "KeyWords": "Vanity, Show",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 385,
+    "CardId": 49,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Deep empathy and nurturing love. A partner who reads your soul.",
+    "KeyWords": "Healer, Muse",
+    "IsReversed": false
+  },
+  {
+    "Id": 386,
+    "CardId": 49,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Emotional martyrdom. Smothering a partner with 'care' they didn't ask for.",
+    "KeyWords": "Smother, Martyr",
+    "IsReversed": true
+  },
+  {
+    "Id": 387,
+    "CardId": 49,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A compassionate leader. Success in healing, teaching, or art.",
+    "KeyWords": "Mentor, Insight",
+    "IsReversed": false
+  },
+  {
+    "Id": 388,
+    "CardId": 49,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Professional insecurity. Being too emotional to make a hard choice.",
+    "KeyWords": "Soft, Fear",
+    "IsReversed": true
+  },
+  {
+    "Id": 389,
+    "CardId": 49,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial intuition. Trusting your gut about where to put your money.",
+    "KeyWords": "Instinct, Grace",
+    "IsReversed": false
+  },
+  {
+    "Id": 390,
+    "CardId": 49,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial dependence. Using emotions to get others to pay your way.",
+    "KeyWords": "Dependent, Drain",
+    "IsReversed": true
+  },
+  {
+    "Id": 391,
+    "CardId": 49,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Divine feminine wisdom. Full integration of emotion and spirit.",
+    "KeyWords": "Goddess, Soul",
+    "IsReversed": false
+  },
+  {
+    "Id": 392,
+    "CardId": 49,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Psychic overload. Not having boundaries for other people's energy.",
+    "KeyWords": "Absorb, Drain",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 393,
+    "CardId": 50,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Emotional mastery. A love that is both deep and stable.",
+    "KeyWords": "Stable, Mature",
+    "IsReversed": false
+  },
+  {
+    "Id": 394,
+    "CardId": 50,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Emotional coldness. A partner who uses logic to suppress feelings.",
+    "KeyWords": "Cold, Rigid",
+    "IsReversed": true
+  },
+  {
+    "Id": 395,
+    "CardId": 50,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "The wise counselor. Leading with a balance of heart and mind.",
+    "KeyWords": "Counsel, Leader",
+    "IsReversed": false
+  },
+  {
+    "Id": 396,
+    "CardId": 50,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A boss who is emotionally manipulative or secretive.",
+    "KeyWords": "Scheme, Control",
+    "IsReversed": true
+  },
+  {
+    "Id": 397,
+    "CardId": 50,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Calm financial leadership. Making money through wisdom and time.",
+    "KeyWords": "Prudence, Wealth",
+    "IsReversed": false
+  },
+  {
+    "Id": 398,
+    "CardId": 50,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Hidden financial corruption. A 'quiet' loss that you didn't see coming.",
+    "KeyWords": "Leak, Deceit",
+    "IsReversed": true
+  },
+  {
+    "Id": 399,
+    "CardId": 50,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual mastery. Being the 'author' of your own soul's philosophy.",
+    "KeyWords": "Master, Author",
+    "IsReversed": false
+  },
+  {
+    "Id": 400,
+    "CardId": 50,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual detachment. Knowing the 'words' but having lost the 'feeling'.",
+    "KeyWords": "Academic, Hollow",
+    "IsReversed": true
+  },
+  {
+    "Id": 401,
+    "CardId": 51,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A breakthrough in understanding. Cutting through confusion to see your partner clearly.",
+    "KeyWords": "Truth, Clarity",
+    "IsReversed": false
+  },
+  {
+    "Id": 402,
+    "CardId": 51,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Sharp words that wound. Using honesty as a weapon instead of a bridge.",
+    "KeyWords": "Hostility, Malice",
+    "IsReversed": true
+  },
+  {
+    "Id": 403,
+    "CardId": 51,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A brilliant new strategy. Intellectual force solves a long-standing problem.",
+    "KeyWords": "Logic, Focus",
+    "IsReversed": false
+  },
+  {
+    "Id": 404,
+    "CardId": 51,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Mental fog. A plan that lacks the necessary edge to succeed.",
+    "KeyWords": "Confusion, Failure",
+    "IsReversed": true
+  },
+  {
+    "Id": 405,
+    "CardId": 51,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Decisive action. Cutting out unnecessary expenses with surgical precision.",
+    "KeyWords": "Pruning, Precision",
+    "IsReversed": false
+  },
+  {
+    "Id": 406,
+    "CardId": 51,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Hidden legal issues. A contract with 'teeth' that could bite you later.",
+    "KeyWords": "Risk, Oversight",
+    "IsReversed": true
+  },
+  {
+    "Id": 407,
+    "CardId": 51,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Mental liberation. Using the sword of truth to slice through personal ego.",
+    "KeyWords": "Insight, Awakening",
+    "IsReversed": false
+  },
+  {
+    "Id": 408,
+    "CardId": 51,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Intellectual pride. Believing logic is the only path to the divine.",
+    "KeyWords": "Cynicism, Ego",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 409,
+    "CardId": 52,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A romantic stalemate. Keeping emotions guarded to avoid conflict.",
+    "KeyWords": "Truce, Block",
+    "IsReversed": false
+  },
+  {
+    "Id": 410,
+    "CardId": 52,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "The pressure breaks. A sudden release of long-suppressed emotions.",
+    "KeyWords": "Release, Outburst",
+    "IsReversed": true
+  },
+  {
+    "Id": 411,
+    "CardId": 52,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Avoiding a difficult choice. Closing your eyes to workplace politics.",
+    "KeyWords": "Avoidance, Pause",
+    "IsReversed": false
+  },
+  {
+    "Id": 412,
+    "CardId": 52,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Forced clarity. Being pushed to make a decision you've been avoiding.",
+    "KeyWords": "Action, Choice",
+    "IsReversed": true
+  },
+  {
+    "Id": 413,
+    "CardId": 52,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial balance through caution. Not making any moves until certain.",
+    "KeyWords": "Wait, Stability",
+    "IsReversed": false
+  },
+  {
+    "Id": 414,
+    "CardId": 52,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial paralysis. Fear of the market preventing necessary steps.",
+    "KeyWords": "Fear, Stagnation",
+    "IsReversed": true
+  },
+  {
+    "Id": 415,
+    "CardId": 52,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Inner stillness. Withdrawing from external noise to hear your own truth.",
+    "KeyWords": "Peace, Isolation",
+    "IsReversed": false
+  },
+  {
+    "Id": 416,
+    "CardId": 52,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Mental turmoil. Your own thoughts are blocking your spiritual path.",
+    "KeyWords": "Conflict, Noise",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 417,
+    "CardId": 53,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Heartbreak or a painful realization. The truth hurts but allows for healing.",
+    "KeyWords": "Sorrow, Truth",
+    "IsReversed": false
+  },
+  {
+    "Id": 418,
+    "CardId": 53,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Healing from a past wound. Releasing the pain to love again.",
+    "KeyWords": "Recovery, Release",
+    "IsReversed": true
+  },
+  {
+    "Id": 419,
+    "CardId": 53,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A difficult professional separation. Losing a contract or a partner.",
+    "KeyWords": "Loss, Conflict",
+    "IsReversed": false
+  },
+  {
+    "Id": 420,
+    "CardId": 53,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Resolving a deep conflict. Moving past a workplace betrayal.",
+    "KeyWords": "Truce, Healing",
+    "IsReversed": true
+  },
+  {
+    "Id": 421,
+    "CardId": 53,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial loss due to a bad decision. A sharp sting to the wallet.",
+    "KeyWords": "Drain, Lesson",
+    "IsReversed": false
+  },
+  {
+    "Id": 422,
+    "CardId": 53,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Minimizing a loss. Finding the 'silver lining' in a financial error.",
+    "KeyWords": "Salvage, Repair",
+    "IsReversed": true
+  },
+  {
+    "Id": 423,
+    "CardId": 53,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Growth through pain. The soul expands by facing its deepest sorrows.",
+    "KeyWords": "Shadow, Growth",
+    "IsReversed": false
+  },
+  {
+    "Id": 424,
+    "CardId": 53,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Refusing to grieve. Suppressing pain which then poisons the spirit.",
+    "KeyWords": "Denial, Poison",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 425,
+    "CardId": 54,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Taking a break to think. A necessary period of rest in a relationship.",
+    "KeyWords": "Rest, Solitude",
+    "IsReversed": false
+  },
+  {
+    "Id": 426,
+    "CardId": 54,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Awakening from emotional isolation. Rejoining the world of love.",
+    "KeyWords": "Re-entry, Life",
+    "IsReversed": true
+  },
+  {
+    "Id": 427,
+    "CardId": 54,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Professional burnout requires a pause. Stepping back to regain focus.",
+    "KeyWords": "Retreat, Recovery",
+    "IsReversed": false
+  },
+  {
+    "Id": 428,
+    "CardId": 54,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Forced return to work before you are ready. Premature action.",
+    "KeyWords": "Haste, Fatigue",
+    "IsReversed": true
+  },
+  {
+    "Id": 429,
+    "CardId": 54,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial hibernation. Watching your money but not spending it.",
+    "KeyWords": "Prudence, Wait",
+    "IsReversed": false
+  },
+  {
+    "Id": 430,
+    "CardId": 54,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Sudden financial activity after a dry spell. Spending on recovery.",
+    "KeyWords": "Activity, Outflow",
+    "IsReversed": true
+  },
+  {
+    "Id": 431,
+    "CardId": 54,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Meditation and sanctuary. Finding the sacred in silence.",
+    "KeyWords": "Zen, Sanctuary",
+    "IsReversed": false
+  },
+  {
+    "Id": 432,
+    "CardId": 54,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual stagnation. Being so 'still' that you have stopped growing.",
+    "KeyWords": "Lethargy, Void",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 433,
+    "CardId": 55,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A hollow victory in an argument. Winning the fight but hurting the bond.",
+    "KeyWords": "Conflict, Pride",
+    "IsReversed": false
+  },
+  {
+    "Id": 434,
+    "CardId": 55,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Making amends. Realizing that being right isn't worth being alone.",
+    "KeyWords": "Regret, Peace",
+    "IsReversed": true
+  },
+  {
+    "Id": 435,
+    "CardId": 55,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Workplace hostility. A situation where everyone is out for themselves.",
+    "KeyWords": "Betrayal, Selfish",
+    "IsReversed": false
+  },
+  {
+    "Id": 436,
+    "CardId": 55,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Exposing a toxic colleague. Moving toward a more ethical environment.",
+    "KeyWords": "Expose, Truth",
+    "IsReversed": true
+  },
+  {
+    "Id": 437,
+    "CardId": 55,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial ruthlessness. Gaining at someone else's expense.",
+    "KeyWords": "Greed, Exploitation",
+    "IsReversed": false
+  },
+  {
+    "Id": 438,
+    "CardId": 55,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Paying the price for past greed. Karma hitting the bank account.",
+    "KeyWords": "Loss, Reversal",
+    "IsReversed": true
+  },
+  {
+    "Id": 439,
+    "CardId": 55,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Facing your inner 'bully'. Acknowledging your own capacity for malice.",
+    "KeyWords": "Shadow, Ego",
+    "IsReversed": false
+  },
+  {
+    "Id": 440,
+    "CardId": 55,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual humiliation. A necessary ego-crushing moment for growth.",
+    "KeyWords": "Humility, Lesson",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 441,
+    "CardId": 56,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Moving toward calmer waters. Leaving a turbulent relationship behind.",
+    "KeyWords": "Transition, Peace",
+    "IsReversed": false
+  },
+  {
+    "Id": 442,
+    "CardId": 56,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Emotional baggage. Trying to move forward but the past keeps pulling.",
+    "KeyWords": "Stuck, Burden",
+    "IsReversed": true
+  },
+  {
+    "Id": 443,
+    "CardId": 56,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Changing careers or roles. A necessary move to preserve your sanity.",
+    "KeyWords": "Travel, Shift",
+    "IsReversed": false
+  },
+  {
+    "Id": 444,
+    "CardId": 56,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Professional stagnation. A planned move that gets delayed or cancelled.",
+    "KeyWords": "Delay, Trap",
+    "IsReversed": true
+  },
+  {
+    "Id": 445,
+    "CardId": 56,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial transition. Moving money to a safer place for the future.",
+    "KeyWords": "Transfer, Safety",
+    "IsReversed": false
+  },
+  {
+    "Id": 446,
+    "CardId": 56,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial drift. Losing money slowly because you haven't taken control.",
+    "KeyWords": "Leak, Drift",
+    "IsReversed": true
+  },
+  {
+    "Id": 447,
+    "CardId": 56,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "A journey of the mind. Finding clarity through a change of environment.",
+    "KeyWords": "Quest, Clarity",
+    "IsReversed": false
+  },
+  {
+    "Id": 448,
+    "CardId": 56,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual avoidance. Running away from your problems instead of solving them.",
+    "KeyWords": "Evasion, Fear",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 449,
+    "CardId": 57,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Keeping secrets or avoiding the truth to protect yourself in love.",
+    "KeyWords": "Secrets, Tactics",
+    "IsReversed": false
+  },
+  {
+    "Id": 450,
+    "CardId": 57,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Confessing a secret. Coming clean to your partner about a hidden issue.",
+    "KeyWords": "Honesty, Relief",
+    "IsReversed": true
+  },
+  {
+    "Id": 451,
+    "CardId": 57,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Strategic professional moves. Working alone to gain an advantage.",
+    "KeyWords": "Strategy, Solo",
+    "IsReversed": false
+  },
+  {
+    "Id": 452,
+    "CardId": 57,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Being 'caught'. A shortcut or unprofessional tactic is revealed.",
+    "KeyWords": "Exposed, Shame",
+    "IsReversed": true
+  },
+  {
+    "Id": 453,
+    "CardId": 57,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Hidden financial risks. Trying to 'game' the system for quick gain.",
+    "KeyWords": "Gambling, Scheme",
+    "IsReversed": false
+  },
+  {
+    "Id": 454,
+    "CardId": 57,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "A scam is uncovered. Losing money through someone else's deceit.",
+    "KeyWords": "Fraud, Loss",
+    "IsReversed": true
+  },
+  {
+    "Id": 455,
+    "CardId": 57,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "The clever soul. Learning through unconventional or hidden means.",
+    "KeyWords": "Cunning, Insight",
+    "IsReversed": false
+  },
+  {
+    "Id": 456,
+    "CardId": 57,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual hypocrisy. Pretending to be on a path you don't actually walk.",
+    "KeyWords": "Falsehood, Ego",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 457,
+    "CardId": 58,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Feeling trapped by your own thoughts or a partner's expectations.",
+    "KeyWords": "Restraint, Fear",
+    "IsReversed": false
+  },
+  {
+    "Id": 458,
+    "CardId": 58,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "The blindfold comes off. Realizing the cage door was never locked.",
+    "KeyWords": "Freedom, Sight",
+    "IsReversed": true
+  },
+  {
+    "Id": 459,
+    "CardId": 58,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Professional paralysis. Feeling like there are no good moves left to make.",
+    "KeyWords": "Trap, Doubt",
+    "IsReversed": false
+  },
+  {
+    "Id": 460,
+    "CardId": 58,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Finding a way out of a dead-end job. New professional perspective.",
+    "KeyWords": "Exit, Clarity",
+    "IsReversed": true
+  },
+  {
+    "Id": 461,
+    "CardId": 58,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial restriction. Feeling helpless against debt or obligations.",
+    "KeyWords": "Debt, Burden",
+    "IsReversed": false
+  },
+  {
+    "Id": 462,
+    "CardId": 58,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Escaping a financial trap. Paying off the debt that held you back.",
+    "KeyWords": "Solvency, Relief",
+    "IsReversed": true
+  },
+  {
+    "Id": 463,
+    "CardId": 58,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "A victim mindset. The spirit feels bound by external circumstances.",
+    "KeyWords": "Victimhood, Bound",
+    "IsReversed": false
+  },
+  {
+    "Id": 464,
+    "CardId": 58,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Taking power back. Realizing you are the creator of your own limits.",
+    "KeyWords": "Agency, Power",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 465,
+    "CardId": 59,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Anxiety and nightmares. Worrying about a relationship more than living it.",
+    "KeyWords": "Worry, Dread",
+    "IsReversed": false
+  },
+  {
+    "Id": 466,
+    "CardId": 59,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "The dawn after a dark night. Realizing your fears were exaggerated.",
+    "KeyWords": "Relief, Light",
+    "IsReversed": true
+  },
+  {
+    "Id": 467,
+    "CardId": 59,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Intense stress or 'imposter syndrome'. Sleepless nights over a deadline.",
+    "KeyWords": "Stress, Fear",
+    "IsReversed": false
+  },
+  {
+    "Id": 468,
+    "CardId": 59,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Finding perspective. Understanding that work is just one part of life.",
+    "KeyWords": "Perspective, Calm",
+    "IsReversed": true
+  },
+  {
+    "Id": 469,
+    "CardId": 59,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial panic. The 'teeth' of debt are keeping you awake at night.",
+    "KeyWords": "Panic, Loss",
+    "IsReversed": false
+  },
+  {
+    "Id": 470,
+    "CardId": 59,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Face your financial fears. They lose their power once you name them.",
+    "KeyWords": "Coping, Reality",
+    "IsReversed": true
+  },
+  {
+    "Id": 471,
+    "CardId": 59,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "The shadow of the mind. Facing the internal demons that cause suffering.",
+    "KeyWords": "Shadow, Trauma",
+    "IsReversed": false
+  },
+  {
+    "Id": 472,
+    "CardId": 59,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual breakthrough. Emerging from a period of deep mental pain.",
+    "KeyWords": "Survival, Wisdom",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 473,
+    "CardId": 60,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A final ending. The relationship has been 'bitten' to death. No way back.",
+    "KeyWords": "End, Ruin",
+    "IsReversed": false
+  },
+  {
+    "Id": 474,
+    "CardId": 60,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "The bottom of the pit. You cannot fall further; the only way is up.",
+    "KeyWords": "Hope, Rebirth",
+    "IsReversed": true
+  },
+  {
+    "Id": 475,
+    "CardId": 60,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A project is completely killed. Total failure that forces a new start.",
+    "KeyWords": "Defeat, Finish",
+    "IsReversed": false
+  },
+  {
+    "Id": 476,
+    "CardId": 60,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A narrow escape from professional ruin. Rebuilding from the ashes.",
+    "KeyWords": "Survival, New-path",
+    "IsReversed": true
+  },
+  {
+    "Id": 477,
+    "CardId": 60,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial rock bottom. Bankruptcy or a total loss of an asset.",
+    "KeyWords": "Bankruptcy, Loss",
+    "IsReversed": false
+  },
+  {
+    "Id": 478,
+    "CardId": 60,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Coming back from the edge. A slow and painful financial recovery.",
+    "KeyWords": "Recovery, Rise",
+    "IsReversed": true
+  },
+  {
+    "Id": 479,
+    "CardId": 60,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Ego death. The final release of a false identity that caused pain.",
+    "KeyWords": "Transcendence, End",
+    "IsReversed": false
+  },
+  {
+    "Id": 480,
+    "CardId": 60,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual resurrection. Finding life after everything was destroyed.",
+    "KeyWords": "Resurrection, Soul",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 481,
+    "CardId": 61,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "An intellectual spark. A young, witty lover or a clever message.",
+    "KeyWords": "Wit, Curiosity",
+    "IsReversed": false
+  },
+  {
+    "Id": 482,
+    "CardId": 61,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A sharp-tongued person who enjoys gossip or causing drama.",
+    "KeyWords": "Gossip, Spite",
+    "IsReversed": true
+  },
+  {
+    "Id": 483,
+    "CardId": 61,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A sharp mind entering the field. Intellectual apprenticeship and ideas.",
+    "KeyWords": "Ideas, Student",
+    "IsReversed": false
+  },
+  {
+    "Id": 484,
+    "CardId": 61,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Professional immaturity. All talk and no action; empty threats.",
+    "KeyWords": "Bluff, Laziness",
+    "IsReversed": true
+  },
+  {
+    "Id": 485,
+    "CardId": 61,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Analyzing the data. Finding a small but key insight in your accounts.",
+    "KeyWords": "Analysis, Insight",
+    "IsReversed": false
+  },
+  {
+    "Id": 486,
+    "CardId": 61,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial misinformation. Listening to the wrong 'expert' or news.",
+    "KeyWords": "Lies, Mistake",
+    "IsReversed": true
+  },
+  {
+    "Id": 487,
+    "CardId": 61,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual inquiry. Questioning everything to find the truth.",
+    "KeyWords": "Skepticism, Truth",
+    "IsReversed": false
+  },
+  {
+    "Id": 488,
+    "CardId": 61,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Mental rigidity. Your logic is becoming a cage for your spirit.",
+    "KeyWords": "Dogma, Dryness",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 489,
+    "CardId": 62,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Charging into love with intellectual passion. A swift romantic move.",
+    "KeyWords": "Haste, Action",
+    "IsReversed": false
+  },
+  {
+    "Id": 490,
+    "CardId": 62,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "An aggressive lover. Someone who doesn't respect your mental boundaries.",
+    "KeyWords": "Force, Tactless",
+    "IsReversed": true
+  },
+  {
+    "Id": 491,
+    "CardId": 62,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A bold professional strike. Rapid progress through sheer brainpower.",
+    "KeyWords": "Strike, Drive",
+    "IsReversed": false
+  },
+  {
+    "Id": 492,
+    "CardId": 62,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Disastrous haste. Running into a project without checking the facts.",
+    "KeyWords": "Rash, Blunder",
+    "IsReversed": true
+  },
+  {
+    "Id": 493,
+    "CardId": 62,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Aggressive financial tactics. Fast-paced trading or bidding.",
+    "KeyWords": "Bold, Speed",
+    "IsReversed": false
+  },
+  {
+    "Id": 494,
+    "CardId": 62,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial recklessness. Charging toward a 'deal' that is actually a trap.",
+    "KeyWords": "Impulse, Loss",
+    "IsReversed": true
+  },
+  {
+    "Id": 495,
+    "CardId": 62,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "The spiritual warrior. Fighting for your beliefs and your truth.",
+    "KeyWords": "War, Truth",
+    "IsReversed": false
+  },
+  {
+    "Id": 496,
+    "CardId": 62,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual fanaticism. Using your 'truth' to hurt or judge others.",
+    "KeyWords": "Fanatic, Anger",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 497,
+    "CardId": 63,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "An intelligent, independent, and honest partner. Direct communication.",
+    "KeyWords": "Honesty, Clarity",
+    "IsReversed": false
+  },
+  {
+    "Id": 498,
+    "CardId": 63,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "An emotionally cold partner. Using logic to dismiss your feelings.",
+    "KeyWords": "Coldness, Harsh",
+    "IsReversed": true
+  },
+  {
+    "Id": 499,
+    "CardId": 63,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A sharp professional mentor. Success through objectivity and truth.",
+    "KeyWords": "Objective, Truth",
+    "IsReversed": false
+  },
+  {
+    "Id": 500,
+    "CardId": 63,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A cruel or overly critical boss. Perfectionism that kills creativity.",
+    "KeyWords": "Critique, Bitter",
+    "IsReversed": true
+  },
+  {
+    "Id": 501,
+    "CardId": 63,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Smart financial planning. Seeing exactly where your money goes.",
+    "KeyWords": "Prudence, Audit",
+    "IsReversed": false
+  },
+  {
+    "Id": 502,
+    "CardId": 63,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Unfair financial judgment. Being cheated due to a biased contract.",
+    "KeyWords": "Bias, Deception",
+    "IsReversed": true
+  },
+  {
+    "Id": 503,
+    "CardId": 63,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual discernment. Knowing the difference between truth and ego.",
+    "KeyWords": "Grace, Wisdom",
+    "IsReversed": false
+  },
+  {
+    "Id": 504,
+    "CardId": 63,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual bitterness. Using your knowledge to look down on others.",
+    "KeyWords": "Arrogance, Ice",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 505,
+    "CardId": 64,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A bond based on truth and intellectual respect. Strong leadership.",
+    "KeyWords": "Logic, Duty",
+    "IsReversed": false
+  },
+  {
+    "Id": 506,
+    "CardId": 64,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A manipulative or tyrannical partner. Love as a mind game.",
+    "KeyWords": "Tyranny, Games",
+    "IsReversed": true
+  },
+  {
+    "Id": 507,
+    "CardId": 64,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Strategic professional leadership. Mastering your field through logic.",
+    "KeyWords": "Power, Strategy",
+    "IsReversed": false
+  },
+  {
+    "Id": 508,
+    "CardId": 64,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Professional abuse of power. Using your position to intimidate.",
+    "KeyWords": "Malice, Control",
+    "IsReversed": true
+  },
+  {
+    "Id": 509,
+    "CardId": 64,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial mastery. Understanding the deep laws of the market.",
+    "KeyWords": "Wealth, Law",
+    "IsReversed": false
+  },
+  {
+    "Id": 510,
+    "CardId": 64,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial corruption. Using the 'teeth' of the law to cheat others.",
+    "KeyWords": "Corruption, Greed",
+    "IsReversed": true
+  },
+  {
+    "Id": 511,
+    "CardId": 64,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Mastery of the mind. Reaching a state of total mental clarity.",
+    "KeyWords": "Master, Mind",
+    "IsReversed": false
+  },
+  {
+    "Id": 512,
+    "CardId": 64,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "The false teacher. Using spiritual jargon to control or confuse.",
+    "KeyWords": "Deceit, Power",
+    "IsReversed": true
+  },
+  {
+    "Id": 513,
+    "CardId": 65,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A solid foundation for a new relationship. A love that is tangible and secure.",
+    "KeyWords": "Solid, Grounded",
+    "IsReversed": false
+  },
+  {
+    "Id": 514,
+    "CardId": 65,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A missed romantic opportunity. A relationship that fails to manifest in reality.",
+    "KeyWords": "Missed, Ethereal",
+    "IsReversed": true
+  },
+  {
+    "Id": 515,
+    "CardId": 65,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A new source of income or a lucrative job offer. Finding 'gold' in your work.",
+    "KeyWords": "Prosperity, Seed",
+    "IsReversed": false
+  },
+  {
+    "Id": 516,
+    "CardId": 65,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Lack of professional planning. A project that starts without proper funding.",
+    "KeyWords": "Scarcity, Delay",
+    "IsReversed": true
+  },
+  {
+    "Id": 517,
+    "CardId": 65,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "A significant financial gift or investment. Physical wealth is appearing.",
+    "KeyWords": "Wealth, Asset",
+    "IsReversed": false
+  },
+  {
+    "Id": 518,
+    "CardId": 65,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial waste. Spending a rare resource on something worthless.",
+    "KeyWords": "Greed, Loss",
+    "IsReversed": true
+  },
+  {
+    "Id": 519,
+    "CardId": 65,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Grounded spirituality. Recognizing the divine in the material world.",
+    "KeyWords": "Nature, Presence",
+    "IsReversed": false
+  },
+  {
+    "Id": 520,
+    "CardId": 65,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Being too focused on physical gains. Forgetting the soul for the sake of gold.",
+    "KeyWords": "Materialism, Heavy",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 521,
+    "CardId": 66,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Balancing life’s demands with a partner. Adapting to changes in the home.",
+    "KeyWords": "Flow, Balance",
+    "IsReversed": false
+  },
+  {
+    "Id": 522,
+    "CardId": 66,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Failing to prioritize love. Juggling too many external tasks at once.",
+    "KeyWords": "Chaos, Neglect",
+    "IsReversed": true
+  },
+  {
+    "Id": 523,
+    "CardId": 66,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Multitasking and flexibility. Managing multiple projects with grace.",
+    "KeyWords": "Agility, Change",
+    "IsReversed": false
+  },
+  {
+    "Id": 524,
+    "CardId": 66,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Taking on too much. Disorganization leads to professional embarrassment.",
+    "KeyWords": "Mess, Overwhelm",
+    "IsReversed": true
+  },
+  {
+    "Id": 525,
+    "CardId": 66,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Fluid money management. Moving resources to stay ahead of the curve.",
+    "KeyWords": "Trade, Flux",
+    "IsReversed": false
+  },
+  {
+    "Id": 526,
+    "CardId": 66,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial instability. Living paycheck to paycheck with poor timing.",
+    "KeyWords": "Risk, Debt",
+    "IsReversed": true
+  },
+  {
+    "Id": 527,
+    "CardId": 66,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Finding rhythm in daily chores. Seeing work as a form of meditation.",
+    "KeyWords": "Rhythm, Zen",
+    "IsReversed": false
+  },
+  {
+    "Id": 528,
+    "CardId": 66,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual inconsistency. Trying to 'balance' too many conflicting paths.",
+    "KeyWords": "Surface, Scatter",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 529,
+    "CardId": 67,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Building a relationship with care. Showing love through teamwork and effort.",
+    "KeyWords": "Teamwork, Build",
+    "IsReversed": false
+  },
+  {
+    "Id": 530,
+    "CardId": 67,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A lack of cooperation. One person is doing all the emotional labor.",
+    "KeyWords": "Discord, Ego",
+    "IsReversed": true
+  },
+  {
+    "Id": 531,
+    "CardId": 67,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Mastery of a craft. Being recognized for your unique professional skills.",
+    "KeyWords": "Skill, Craft",
+    "IsReversed": false
+  },
+  {
+    "Id": 532,
+    "CardId": 67,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Poor quality work. Refusing to learn from mentors or follow the blueprint.",
+    "KeyWords": "Lazy, Sloppy",
+    "IsReversed": true
+  },
+  {
+    "Id": 533,
+    "CardId": 67,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Collaborative investments. Success through professional consultation.",
+    "KeyWords": "Advisory, Gain",
+    "IsReversed": false
+  },
+  {
+    "Id": 534,
+    "CardId": 67,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial disputes with partners. Misalignment on how to use resources.",
+    "KeyWords": "Dispute, Error",
+    "IsReversed": true
+  },
+  {
+    "Id": 535,
+    "CardId": 67,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Building your temple. Realizing that spiritual growth requires discipline.",
+    "KeyWords": "Discipline, Work",
+    "IsReversed": false
+  },
+  {
+    "Id": 536,
+    "CardId": 67,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual laziness. Expecting enlightenment without doing the inner work.",
+    "KeyWords": "Stagnation, Pride",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 537,
+    "CardId": 68,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Guarding your heart. A stable relationship that needs more openness.",
+    "KeyWords": "Stability, Guarded",
+    "IsReversed": false
+  },
+  {
+    "Id": 538,
+    "CardId": 68,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Possessiveness. Trying to control a partner like a piece of property.",
+    "KeyWords": "Control, Jealousy",
+    "IsReversed": true
+  },
+  {
+    "Id": 539,
+    "CardId": 68,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Job security. Holding onto your position and protecting your ideas.",
+    "KeyWords": "Security, Hold",
+    "IsReversed": false
+  },
+  {
+    "Id": 540,
+    "CardId": 68,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Stifling innovation. Refusing to share resources or cooperate with others.",
+    "KeyWords": "Stale, Greed",
+    "IsReversed": true
+  },
+  {
+    "Id": 541,
+    "CardId": 68,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Saving and conservatism. Accumulating wealth through frugality.",
+    "KeyWords": "Hoarding, Save",
+    "IsReversed": false
+  },
+  {
+    "Id": 542,
+    "CardId": 68,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Extreme greed. Being 'penny wise and pound foolish'.",
+    "KeyWords": "Greed, Loss",
+    "IsReversed": true
+  },
+  {
+    "Id": 543,
+    "CardId": 68,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Solid spiritual boundaries. Protecting your energy from external drain.",
+    "KeyWords": "Boundaries, Self",
+    "IsReversed": false
+  },
+  {
+    "Id": 544,
+    "CardId": 68,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual rigidity. Clinging to old beliefs out of fear of the unknown.",
+    "KeyWords": "Fear, Fixed",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 545,
+    "CardId": 69,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Facing hardship together. Finding warmth in a partner during cold times.",
+    "KeyWords": "Support, Struggle",
+    "IsReversed": false
+  },
+  {
+    "Id": 546,
+    "CardId": 69,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Feeling left out in the cold. A sense of loneliness within a relationship.",
+    "KeyWords": "Isolation, Void",
+    "IsReversed": true
+  },
+  {
+    "Id": 547,
+    "CardId": 69,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A period of unemployment or financial struggle at work. Lack of resources.",
+    "KeyWords": "Poverty, Lack",
+    "IsReversed": false
+  },
+  {
+    "Id": 548,
+    "CardId": 69,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Recovery from failure. Finding a new workplace after a long struggle.",
+    "KeyWords": "Rebirth, Hope",
+    "IsReversed": true
+  },
+  {
+    "Id": 549,
+    "CardId": 69,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial loss or large debts. Feeling the weight of the material world.",
+    "KeyWords": "Debt, Struggle",
+    "IsReversed": false
+  },
+  {
+    "Id": 550,
+    "CardId": 69,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Beginning to climb out of debt. Seeing the 'light in the window'.",
+    "KeyWords": "Recovery, Aid",
+    "IsReversed": true
+  },
+  {
+    "Id": 551,
+    "CardId": 69,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "The 'Dark Night' of the material soul. Learning that wealth isn't everything.",
+    "KeyWords": "Humility, Spirit",
+    "IsReversed": false
+  },
+  {
+    "Id": 552,
+    "CardId": 69,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual victimhood. Blaming the universe for your physical problems.",
+    "KeyWords": "Blame, Fear",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 553,
+    "CardId": 70,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Generosity of spirit. Giving your time and energy freely to a partner.",
+    "KeyWords": "Giving, Grace",
+    "IsReversed": false
+  },
+  {
+    "Id": 554,
+    "CardId": 70,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Strings attached to love. Giving only when you expect something back.",
+    "KeyWords": "Strings, Debt",
+    "IsReversed": true
+  },
+  {
+    "Id": 555,
+    "CardId": 70,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A mentor or investor aids you. Receiving the resources you need to grow.",
+    "KeyWords": "Mentorship, Aid",
+    "IsReversed": false
+  },
+  {
+    "Id": 556,
+    "CardId": 70,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Unfair distribution of work or credit. A boss who plays favorites.",
+    "KeyWords": "Bias, Inequity",
+    "IsReversed": true
+  },
+  {
+    "Id": 557,
+    "CardId": 70,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Charity and balance. Being in a position to help others financially.",
+    "KeyWords": "Charity, Flow",
+    "IsReversed": false
+  },
+  {
+    "Id": 558,
+    "CardId": 70,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Bad loans or predatory deals. Be careful who you borrow from.",
+    "KeyWords": "Trap, Predatory",
+    "IsReversed": true
+  },
+  {
+    "Id": 559,
+    "CardId": 70,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Understanding the law of circulation. What you give, you receive.",
+    "KeyWords": "Karma, Flow",
+    "IsReversed": false
+  },
+  {
+    "Id": 560,
+    "CardId": 70,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual superiority. Thinking you are holier because you help others.",
+    "KeyWords": "Pride, Ego",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 561,
+    "CardId": 71,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Patience in romance. Waiting for a long-term connection to mature.",
+    "KeyWords": "Patience, Growth",
+    "IsReversed": false
+  },
+  {
+    "Id": 562,
+    "CardId": 71,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Frustration with a partner’s slow progress. Feeling love is a 'chore'.",
+    "KeyWords": "Doubt, Fatigue",
+    "IsReversed": true
+  },
+  {
+    "Id": 563,
+    "CardId": 71,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Reviewing your progress. Taking a moment to see if the work is paying off.",
+    "KeyWords": "Review, Harvest",
+    "IsReversed": false
+  },
+  {
+    "Id": 564,
+    "CardId": 71,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Lack of reward for your effort. Feeling stuck in a low-yield project.",
+    "KeyWords": "Waste, Delay",
+    "IsReversed": true
+  },
+  {
+    "Id": 565,
+    "CardId": 71,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Long-term investments. Watching your 'ore' turn into 'gold' over years.",
+    "KeyWords": "Profit, Time",
+    "IsReversed": false
+  },
+  {
+    "Id": 566,
+    "CardId": 71,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Impatience with investments. Selling too early and losing the gain.",
+    "KeyWords": "Haste, Loss",
+    "IsReversed": true
+  },
+  {
+    "Id": 567,
+    "CardId": 71,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual persistence. Understanding that soul-work takes time.",
+    "KeyWords": "Endurance, Soul",
+    "IsReversed": false
+  },
+  {
+    "Id": 568,
+    "CardId": 71,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual exhaustion. Tired of waiting for a sign from the universe.",
+    "KeyWords": "Fatigue, Doubt",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 569,
+    "CardId": 72,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Dedication to a partner. Working hard to provide a good life together.",
+    "KeyWords": "Work, Care",
+    "IsReversed": false
+  },
+  {
+    "Id": 570,
+    "CardId": 72,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Boredom in a relationship. Too much focus on routine and not enough on heart.",
+    "KeyWords": "Routine, Dull",
+    "IsReversed": true
+  },
+  {
+    "Id": 571,
+    "CardId": 72,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Deep focus on a single craft. Refining your skills to a high level.",
+    "KeyWords": "Detail, Mastery",
+    "IsReversed": false
+  },
+  {
+    "Id": 572,
+    "CardId": 72,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Workaholism. Losing sight of the big picture by obsessing over details.",
+    "KeyWords": "Stress, Narrow",
+    "IsReversed": true
+  },
+  {
+    "Id": 573,
+    "CardId": 72,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Earning money through hard work. A time of steady, reliable income.",
+    "KeyWords": "Labor, Earn",
+    "IsReversed": false
+  },
+  {
+    "Id": 574,
+    "CardId": 72,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial penny-pinching. Obsessing over small costs while losing big ones.",
+    "KeyWords": "Miser, Narrow",
+    "IsReversed": true
+  },
+  {
+    "Id": 575,
+    "CardId": 72,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "The practice of ritual. Daily acts of devotion that build a soul.",
+    "KeyWords": "Ritual, Practice",
+    "IsReversed": false
+  },
+  {
+    "Id": 576,
+    "CardId": 72,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Empty rituals. Going through the motions without any inner fire.",
+    "KeyWords": "Hollow, Static",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 577,
+    "CardId": 73,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Enjoying your own company. A time of self-love and luxury.",
+    "KeyWords": "Independence, Joy",
+    "IsReversed": false
+  },
+  {
+    "Id": 578,
+    "CardId": 73,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Over-dependence on a partner’s money. Losing your identity in luxury.",
+    "KeyWords": "Greed, Shallow",
+    "IsReversed": true
+  },
+  {
+    "Id": 579,
+    "CardId": 73,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Financial independence. Reaching a level where you can choose your work.",
+    "KeyWords": "Autonomy, Success",
+    "IsReversed": false
+  },
+  {
+    "Id": 580,
+    "CardId": 73,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A 'golden cage'. Having a high-paying job but no personal freedom.",
+    "KeyWords": "Trap, Hollow",
+    "IsReversed": true
+  },
+  {
+    "Id": 581,
+    "CardId": 73,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Wealth and abundance. Enjoying the fruits of your labor in solitude.",
+    "KeyWords": "Abundance, Ease",
+    "IsReversed": false
+  },
+  {
+    "Id": 582,
+    "CardId": 73,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Reckless spending to maintain an image. The facade of wealth.",
+    "KeyWords": "Waste, Vanity",
+    "IsReversed": true
+  },
+  {
+    "Id": 583,
+    "CardId": 73,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual refinement. Reaching a high state of peace and self-worth.",
+    "KeyWords": "Grace, Worth",
+    "IsReversed": false
+  },
+  {
+    "Id": 584,
+    "CardId": 73,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Materialism disguised as spirituality. Caring about 'luxury' crystals only.",
+    "KeyWords": "Vanity, False",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 585,
+    "CardId": 74,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A legacy of love. Building a family or a long-term home together.",
+    "KeyWords": "Legacy, Family",
+    "IsReversed": false
+  },
+  {
+    "Id": 586,
+    "CardId": 74,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Family burdens. Feeling trapped by old traditions or heritage.",
+    "KeyWords": "Burden, Duty",
+    "IsReversed": true
+  },
+  {
+    "Id": 587,
+    "CardId": 74,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "A family business or a long-term institution. Lasting professional success.",
+    "KeyWords": "Tradition, Build",
+    "IsReversed": false
+  },
+  {
+    "Id": 588,
+    "CardId": 74,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Rigid professional structures. Stagnation due to 'how we've always done it'.",
+    "KeyWords": "Rigid, Stale",
+    "IsReversed": true
+  },
+  {
+    "Id": 589,
+    "CardId": 74,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Generational wealth. Inheritance or permanent financial security.",
+    "KeyWords": "Heritage, Wealth",
+    "IsReversed": false
+  },
+  {
+    "Id": 590,
+    "CardId": 74,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Family quarrels over money. Losing wealth through lack of planning.",
+    "KeyWords": "Conflict, Loss",
+    "IsReversed": true
+  },
+  {
+    "Id": 591,
+    "CardId": 74,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Honoring the ancestors. Finding deep wisdom in your heritage.",
+    "KeyWords": "Ancestry, Roots",
+    "IsReversed": false
+  },
+  {
+    "Id": 592,
+    "CardId": 74,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Feeling disconnected from your roots. A sense of being 'soulless'.",
+    "KeyWords": "Lost, Empty",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 593,
+    "CardId": 75,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A practical romantic message. Someone offering a stable and real future.",
+    "KeyWords": "Offer, Solid",
+    "IsReversed": false
+  },
+  {
+    "Id": 594,
+    "CardId": 75,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A message about money that hurts love. Someone being too practical.",
+    "KeyWords": "Dry, Cold",
+    "IsReversed": true
+  },
+  {
+    "Id": 595,
+    "CardId": 75,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "An apprentice in business. Learning the value of a dollar and a hard day.",
+    "KeyWords": "Student, Value",
+    "IsReversed": false
+  },
+  {
+    "Id": 596,
+    "CardId": 75,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Professional laziness. Someone who doesn't want to get their hands dirty.",
+    "KeyWords": "Lazy, Soft",
+    "IsReversed": true
+  },
+  {
+    "Id": 597,
+    "CardId": 75,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Small but steady gains. Starting a savings account or a small investment.",
+    "KeyWords": "Savings, Seed",
+    "IsReversed": false
+  },
+  {
+    "Id": 598,
+    "CardId": 75,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial immaturity. Wasting your seed money on things that rot.",
+    "KeyWords": "Waste, Foolish",
+    "IsReversed": true
+  },
+  {
+    "Id": 599,
+    "CardId": 75,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Studying the laws of nature. Finding the divine in the dirt and stone.",
+    "KeyWords": "Nature, Study",
+    "IsReversed": false
+  },
+  {
+    "Id": 600,
+    "CardId": 75,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Ignoring the material world. Forgetting that your body is also a temple.",
+    "KeyWords": "Neglect, Vague",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 601,
+    "CardId": 76,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A reliable and loyal partner. Slow to love but love that lasts a lifetime.",
+    "KeyWords": "Loyalty, Trust",
+    "IsReversed": false
+  },
+  {
+    "Id": 602,
+    "CardId": 76,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A boring or stubborn partner. Resistance to any change in the relationship.",
+    "KeyWords": "Stubborn, Dull",
+    "IsReversed": true
+  },
+  {
+    "Id": 603,
+    "CardId": 76,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Hard work and reliability. The backbone of any project or company.",
+    "KeyWords": "Reliable, Labor",
+    "IsReversed": false
+  },
+  {
+    "Id": 604,
+    "CardId": 76,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Stagnation. Doing the same thing over and over with no innovation.",
+    "KeyWords": "Boredom, Static",
+    "IsReversed": true
+  },
+  {
+    "Id": 605,
+    "CardId": 76,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Steady financial progress. Conservative moves that pay off slowly.",
+    "KeyWords": "Steady, Safe",
+    "IsReversed": false
+  },
+  {
+    "Id": 606,
+    "CardId": 76,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial inertia. Refusing to move your money even when it’s losing value.",
+    "KeyWords": "Stuck, Inertia",
+    "IsReversed": true
+  },
+  {
+    "Id": 607,
+    "CardId": 76,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual discipline. The long walk toward a goal with no shortcuts.",
+    "KeyWords": "Path, Grunt",
+    "IsReversed": false
+  },
+  {
+    "Id": 608,
+    "CardId": 76,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual stubbornness. Refusing to see any other way but your own.",
+    "KeyWords": "Closed, Fixed",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 609,
+    "CardId": 77,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A nurturing and practical love. A partner who creates a warm home.",
+    "KeyWords": "Home, Nurture",
+    "IsReversed": false
+  },
+  {
+    "Id": 610,
+    "CardId": 77,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "Smothering or overprotective love. Putting material needs before soul needs.",
+    "KeyWords": "Smother, Cold",
+    "IsReversed": true
+  },
+  {
+    "Id": 611,
+    "CardId": 77,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Success in management or hospitality. Creating a fertile environment.",
+    "KeyWords": "Fertile, Boss",
+    "IsReversed": false
+  },
+  {
+    "Id": 612,
+    "CardId": 77,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Disorganized workspace or life. Failing to manage your resources.",
+    "KeyWords": "Chaos, Mess",
+    "IsReversed": true
+  },
+  {
+    "Id": 613,
+    "CardId": 77,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial security and generosity. Using wealth to care for others.",
+    "KeyWords": "Safety, Grace",
+    "IsReversed": false
+  },
+  {
+    "Id": 614,
+    "CardId": 77,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Financial insecurity disguised as wealth. Living beyond your means.",
+    "KeyWords": "Facade, Debt",
+    "IsReversed": true
+  },
+  {
+    "Id": 615,
+    "CardId": 77,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Divine Mother energy. Connecting with the earth as a living being.",
+    "KeyWords": "Gaea, Soul",
+    "IsReversed": false
+  },
+  {
+    "Id": 616,
+    "CardId": 77,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual imbalance. Neglecting your physical body for 'high' thoughts.",
+    "KeyWords": "Neglect, Void",
+    "IsReversed": true
+  },
+
+  {
+    "Id": 617,
+    "CardId": 78,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A love that is protective, providing, and deeply successful.",
+    "KeyWords": "Security, Duty",
+    "IsReversed": false
+  },
+  {
+    "Id": 618,
+    "CardId": 78,
+    "DeckId": 1,
+    "Category": "Love",
+    "Content": "A controlling partner who uses money to keep the relationship together.",
+    "KeyWords": "Greed, Control",
+    "IsReversed": true
+  },
+  {
+    "Id": 619,
+    "CardId": 78,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "The King of Industry. Reaching the peak of your professional mountain.",
+    "KeyWords": "Power, Mastery",
+    "IsReversed": false
+  },
+  {
+    "Id": 620,
+    "CardId": 78,
+    "DeckId": 1,
+    "Category": "Career",
+    "Content": "Professional tyranny. A boss who values 'ores' more than 'people'.",
+    "KeyWords": "Tyrant, Harsh",
+    "IsReversed": true
+  },
+  {
+    "Id": 621,
+    "CardId": 78,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Absolute financial mastery. Owning the mountain and the mine.",
+    "KeyWords": "Wealth, Status",
+    "IsReversed": false
+  },
+  {
+    "Id": 622,
+    "CardId": 78,
+    "DeckId": 1,
+    "Category": "Finances",
+    "Content": "Hoarding wealth at the cost of your health. A life of cold gold.",
+    "KeyWords": "Miser, Loss",
+    "IsReversed": true
+  },
+  {
+    "Id": 623,
+    "CardId": 78,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Manifesting the highest soul in the heaviest matter. Spiritual King.",
+    "KeyWords": "Master, Body",
+    "IsReversed": false
+  },
+  {
+    "Id": 624,
+    "CardId": 78,
+    "DeckId": 1,
+    "Category": "Spiritual",
+    "Content": "Spiritual pride through material power. Thinking gold is a sign of grace.",
+    "KeyWords": "Ego, False",
+    "IsReversed": true
+  }
+]
