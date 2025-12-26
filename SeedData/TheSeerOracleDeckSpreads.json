@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 4,
+    "SystemTypeId": 3,
+    "Name": "The Nomad's Path",
+    "Description": "A three-card spread for the wanderer seeking guidance through current transitions. It explores what is being left behind, the rising challenges, and the eventual oasis of rest.",
+    "ImageOverlay": ""
+  },
+  {
+    "Id": 5,
+    "SystemTypeId": 3,
+    "Name": "The Voice of the Deep",
+    "Description": "A deep-dive four-card spread designed to unearth hidden truths and the subconscious forces moving beneath the surface of your reality.",
+    "ImageOverlay": ""
+  },
+  {
+    "Id": 6,
+    "SystemTypeId": 3,
+    "Name": "The Storm of Sovereignty",
+    "Description": "An advanced five-card spread for navigating power dynamics, career paths, or major life decisions where personal will and destiny collide.",
+    "ImageOverlay": ""
+  }
+]
