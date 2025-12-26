@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore.Internal;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.Json;
 using System.Xml.Linq;
 using TheSeer.Domain.Models;
 
@@ -58,7 +59,7 @@ namespace TheSeer.Data
                     }
                 );
 
-            modelBuilder.Entity<SystemType>().HasData
+            modelBuilder.Entity<Deck>().HasData
                 (
                     new Deck
                     {
@@ -80,11 +81,45 @@ namespace TheSeer.Data
                         Creator = "Casey Gilly",
                         IsLocked = false,
                         Description = "A Lord of the Rings inspired tarot deck, replacing the pentacle suit with rings instead. All Major arcana and clothed cards are named after characters from the Realm of J.R.R. Tolkien. Illustrations by Tomas Hijo.",
-                        AssetFolder = " ", 
-                        CardBackImage = " ", 
+                        AssetFolder = " ",
+                        CardBackImage = " ",
                         DateOfPublish = new DateOnly(2022, 08, 28)
                     }
                 );
+
+            var path = Path.Combine(Directory.GetCurrentDirectory(), "SeedData", "TheSeerCards.json");
+
+            if (File.Exists(path))
+            {
+                var json = File.ReadAllText(path);
+                var cards = JsonSerializer.Deserialize<List<Card>>(json);
+
+                if (cards != null)
+                {
+                    modelBuilder.Entity<Card>().HasData(cards);
+                }
+            }
+
+            string fileName = "TheSeerCardsMeanings.json";
+            string folderName = "SeedData";
+            path = Path.Combine(AppContext.BaseDirectory, folderName, fileName);
+
+            if (!File.Exists(path))
+            {
+                path = Path.Combine(Directory.GetCurrentDirectory(), folderName, fileName);
+            }
+
+            if (File.Exists(path))
+            {
+                var json = File.ReadAllText(path);
+                var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+                var meanings = JsonSerializer.Deserialize<List<Meaning>>(json, options);
+
+                if (meanings != null && meanings.Any())
+                {
+                    modelBuilder.Entity<Meaning>().HasData(meanings);
+                }
+            }
         }
     }
 }
