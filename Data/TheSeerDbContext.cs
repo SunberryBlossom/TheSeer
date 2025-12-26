@@ -120,6 +120,48 @@ namespace TheSeer.Data
                     modelBuilder.Entity<Meaning>().HasData(meanings);
                 }
             }
+
+            fileName = "TheSeerOriginalDeckSpreads.json";
+
+            path = Path.Combine(AppContext.BaseDirectory, folderName, fileName);
+
+            if (!File.Exists(path))
+            {
+                path = Path.Combine(Directory.GetCurrentDirectory(), folderName, fileName);
+            }
+
+            if (File.Exists(path))
+            {
+                var json = File.ReadAllText(path);
+                var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+                var meanings = JsonSerializer.Deserialize<List<Spread>>(json, options);
+
+                if (meanings != null && meanings.Any())
+                {
+                    modelBuilder.Entity<Spread>().HasData(meanings);
+                }
+            }
+
+            fileName = "TheSeerOriginalSpreadPositions.json";
+
+            path = Path.Combine(AppContext.BaseDirectory, folderName, fileName);
+
+            if (!File.Exists(path))
+            {
+                path = Path.Combine(Directory.GetCurrentDirectory(), folderName, fileName);
+            }
+
+            if (File.Exists(path))
+            {
+                var json = File.ReadAllText(path);
+                var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+                var positions = JsonSerializer.Deserialize<List<SpreadPosition>>(json, options);
+
+                if (positions != null && positions.Any())
+                {
+                    modelBuilder.Entity<SpreadPosition>().HasData(positions);
+                }
+            }
         }
     }
 }
