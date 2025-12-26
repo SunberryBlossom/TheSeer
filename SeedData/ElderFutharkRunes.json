@@ -1,0 +1,194 @@
+[
+  {
+    "Id": 124,
+    "DeckId": 4,
+    "Name": "Fehu",
+    "Value": 1,
+    "SuitOrGroup": "Frey's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 125,
+    "DeckId": 4,
+    "Name": "Uruz",
+    "Value": 2,
+    "SuitOrGroup": "Frey's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 126,
+    "DeckId": 4,
+    "Name": "Thurisaz",
+    "Value": 3,
+    "SuitOrGroup": "Frey's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 127,
+    "DeckId": 4,
+    "Name": "Ansuz",
+    "Value": 4,
+    "SuitOrGroup": "Frey's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 128,
+    "DeckId": 4,
+    "Name": "Raidho",
+    "Value": 5,
+    "SuitOrGroup": "Frey's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 129,
+    "DeckId": 4,
+    "Name": "Kenaz",
+    "Value": 6,
+    "SuitOrGroup": "Frey's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 130,
+    "DeckId": 4,
+    "Name": "Gebo",
+    "Value": 7,
+    "SuitOrGroup": "Frey's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 131,
+    "DeckId": 4,
+    "Name": "Wunjo",
+    "Value": 8,
+    "SuitOrGroup": "Frey's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 132,
+    "DeckId": 4,
+    "Name": "Hagalaz",
+    "Value": 9,
+    "SuitOrGroup": "Hagal's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 133,
+    "DeckId": 4,
+    "Name": "Nauthiz",
+    "Value": 10,
+    "SuitOrGroup": "Hagal's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 134,
+    "DeckId": 4,
+    "Name": "Isa",
+    "Value": 11,
+    "SuitOrGroup": "Hagal's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 135,
+    "DeckId": 4,
+    "Name": "Jera",
+    "Value": 12,
+    "SuitOrGroup": "Hagal's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 136,
+    "DeckId": 4,
+    "Name": "Eihwaz",
+    "Value": 13,
+    "SuitOrGroup": "Hagal's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 137,
+    "DeckId": 4,
+    "Name": "Perthro",
+    "Value": 14,
+    "SuitOrGroup": "Hagal's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 138,
+    "DeckId": 4,
+    "Name": "Algiz",
+    "Value": 15,
+    "SuitOrGroup": "Hagal's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 139,
+    "DeckId": 4,
+    "Name": "Sowilo",
+    "Value": 16,
+    "SuitOrGroup": "Hagal's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 140,
+    "DeckId": 4,
+    "Name": "Tiwaz",
+    "Value": 17,
+    "SuitOrGroup": "Tyr's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 141,
+    "DeckId": 4,
+    "Name": "Berkano",
+    "Value": 18,
+    "SuitOrGroup": "Tyr's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 142,
+    "DeckId": 4,
+    "Name": "Ehwaz",
+    "Value": 19,
+    "SuitOrGroup": "Tyr's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 143,
+    "DeckId": 4,
+    "Name": "Mannaz",
+    "Value": 20,
+    "SuitOrGroup": "Tyr's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 144,
+    "DeckId": 4,
+    "Name": "Laguz",
+    "Value": 21,
+    "SuitOrGroup": "Tyr's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 145,
+    "DeckId": 4,
+    "Name": "Ingwaz",
+    "Value": 22,
+    "SuitOrGroup": "Tyr's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 146,
+    "DeckId": 4,
+    "Name": "Dagaz",
+    "Value": 23,
+    "SuitOrGroup": "Tyr's Aett",
+    "ImageKey": ""
+  },
+  {
+    "Id": 147,
+    "DeckId": 4,
+    "Name": "Othala",
+    "Value": 24,
+    "SuitOrGroup": "Tyr's Aett",
+    "ImageKey": ""
+  }
+]

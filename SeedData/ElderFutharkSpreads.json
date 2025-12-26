@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 7,
+    "SystemTypeId": 2,
+    "Name": "The Single Rune (Odin's Sight)",
+    "Description": "A single rune for simple questions, daily guidance, or a focused motto to carry through the day.",
+    "ImageOverlay": ""
+  },
+  {
+    "Id": 8,
+    "SystemTypeId": 2,
+    "Name": "The Three Norns (Urd, Verdandi, Skuld)",
+    "Description": "The most classic rune spread. It consults the three weavers of fate to show the past, the present, and the path being woven for the future.",
+    "ImageOverlay": ""
+  },
+  {
+    "Id": 9,
+    "SystemTypeId": 2,
+    "Name": "The Five Rune Cross",
+    "Description": "A comprehensive layout that provides a deeper look into the challenges, influences, and potential outcomes of a complex situation.",
+    "ImageOverlay": ""
+  }
+]
