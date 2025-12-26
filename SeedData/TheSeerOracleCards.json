@@ -4,7 +4,7 @@
     "DeckId": 3,
     "Name": "The Awakened Earth",
     "Value": 1,
-    "SuitOrGroup": 1,
+    "SuitOrGroup": "Wild Elements",
     "ImageKey": ""
   },
   {
@@ -12,7 +12,7 @@
     "DeckId": 3,
     "Name": "The Water Debt",
     "Value": 2,
-    "SuitOrGroup": 1,
+    "SuitOrGroup": "Wild Elements",
     "ImageKey": ""
   },
   {
@@ -20,7 +20,7 @@
     "DeckId": 3,
     "Name": "The Sun Spear",
     "Value": 3,
-    "SuitOrGroup": 1,
+    "SuitOrGroup": "Wild Elements",
     "ImageKey": ""
   },
   {
@@ -28,7 +28,7 @@
     "DeckId": 3,
     "Name": "The Shifting Ridge",
     "Value": 4,
-    "SuitOrGroup": 1,
+    "SuitOrGroup": "Wild Elements",
     "ImageKey": ""
   },
   {
@@ -36,7 +36,7 @@
     "DeckId": 3,
     "Name": "The Dust Filter",
     "Value": 5,
-    "SuitOrGroup": 1,
+    "SuitOrGroup": "Wild Elements",
     "ImageKey": ""
   },
   {
@@ -44,7 +44,7 @@
     "DeckId": 3,
     "Name": "The Salt Harvest",
     "Value": 6,
-    "SuitOrGroup": 1,
+    "SuitOrGroup": "Wild Elements",
     "ImageKey": ""
   },
   {
@@ -52,7 +52,7 @@
     "DeckId": 3,
     "Name": "The Oasis Ghost",
     "Value": 7,
-    "SuitOrGroup": 1,
+    "SuitOrGroup": "Wild Elements",
     "ImageKey": ""
   },
   {
@@ -60,7 +60,7 @@
     "DeckId": 3,
     "Name": "The Sand Rose",
     "Value": 8,
-    "SuitOrGroup": 1,
+    "SuitOrGroup": "Wild Elements",
     "ImageKey": ""
   },
   {
@@ -68,7 +68,7 @@
     "DeckId": 3,
     "Name": "The Dry Lightning",
     "Value": 9,
-    "SuitOrGroup": 1,
+    "SuitOrGroup": "Wild Elements",
     "ImageKey": ""
   },
   {
@@ -76,7 +76,7 @@
     "DeckId": 3,
     "Name": "The Wind Carver",
     "Value": 10,
-    "SuitOrGroup": 1,
+    "SuitOrGroup": "Wild Elements",
     "ImageKey": ""
   },
   {
@@ -84,7 +84,7 @@
     "DeckId": 3,
     "Name": "The Nomad's Path",
     "Value": 11,
-    "SuitOrGroup": 1,
+    "SuitOrGroup": "Wild Elements",
     "ImageKey": ""
   },
   {
@@ -92,7 +92,7 @@
     "DeckId": 3,
     "Name": "The Throne of Glass",
     "Value": 1,
-    "SuitOrGroup": 2,
+    "SuitOrGroup": "Imperial Houses",
     "ImageKey": ""
   },
   {
@@ -100,7 +100,7 @@
     "DeckId": 3,
     "Name": "The Great Accord",
     "Value": 2,
-    "SuitOrGroup": 2,
+    "SuitOrGroup": "Imperial Houses",
     "ImageKey": ""
   },
   {
@@ -108,7 +108,7 @@
     "DeckId": 3,
     "Name": "The Poisoned Gift",
     "Value": 3,
-    "SuitOrGroup": 2,
+    "SuitOrGroup": "Imperial Houses",
     "ImageKey": ""
   },
   {
@@ -116,7 +116,7 @@
     "DeckId": 3,
     "Name": "The Heir Apparent",
     "Value": 4,
-    "SuitOrGroup": 2,
+    "SuitOrGroup": "Imperial Houses",
     "ImageKey": ""
   },
   {
@@ -124,7 +124,7 @@
     "DeckId": 3,
     "Name": "The Spy’s Whisper",
     "Value": 5,
-    "SuitOrGroup": 2,
+    "SuitOrGroup": "Imperial Houses",
     "ImageKey": ""
   },
   {
@@ -132,7 +132,7 @@
     "DeckId": 3,
     "Name": "The Blood Lineage",
     "Value": 6,
-    "SuitOrGroup": 2,
+    "SuitOrGroup": "Imperial Houses",
     "ImageKey": ""
   },
   {
@@ -140,7 +140,7 @@
     "DeckId": 3,
     "Name": "The War Engine",
     "Value": 7,
-    "SuitOrGroup": 2,
+    "SuitOrGroup": "Imperial Houses",
     "ImageKey": ""
   },
   {
@@ -148,7 +148,7 @@
     "DeckId": 3,
     "Name": "The Golden Exile",
     "Value": 8,
-    "SuitOrGroup": 2,
+    "SuitOrGroup": "Imperial Houses",
     "ImageKey": ""
   },
   {
@@ -156,7 +156,7 @@
     "DeckId": 3,
     "Name": "The Trade Route",
     "Value": 9,
-    "SuitOrGroup": 2,
+    "SuitOrGroup": "Imperial Houses",
     "ImageKey": ""
   },
   {
@@ -164,7 +164,7 @@
     "DeckId": 3,
     "Name": "The Silent Regent",
     "Value": 10,
-    "SuitOrGroup": 2,
+    "SuitOrGroup": "Imperial Houses",
     "ImageKey": ""
   },
   {
@@ -172,7 +172,7 @@
     "DeckId": 3,
     "Name": "The Broken Banner",
     "Value": 11,
-    "SuitOrGroup": 2,
+    "SuitOrGroup": "Imperial Houses",
     "ImageKey": ""
   },
   {
@@ -180,7 +180,7 @@
     "DeckId": 3,
     "Name": "The Voice of Command",
     "Value": 1,
-    "SuitOrGroup": 3,
+    "SuitOrGroup": "Mystic Orders",
     "ImageKey": ""
   },
   {
@@ -188,7 +188,7 @@
     "DeckId": 3,
     "Name": "The Prescient Eye",
     "Value": 2,
-    "SuitOrGroup": 3,
+    "SuitOrGroup": "Mystic Orders",
     "ImageKey": ""
   },
   {
@@ -196,7 +196,7 @@
     "DeckId": 3,
     "Name": "The Blue Fever",
     "Value": 3,
-    "SuitOrGroup": 3,
+    "SuitOrGroup": "Mystic Orders",
     "ImageKey": ""
   },
   {
@@ -204,7 +204,7 @@
     "DeckId": 3,
     "Name": "The Folding Space",
     "Value": 4,
-    "SuitOrGroup": 3,
+    "SuitOrGroup": "Mystic Orders",
     "ImageKey": ""
   },
   {
@@ -212,7 +212,7 @@
     "DeckId": 3,
     "Name": "The Truth Sayer",
     "Value": 5,
-    "SuitOrGroup": 3,
+    "SuitOrGroup": "Mystic Orders",
     "ImageKey": ""
   },
   {
@@ -220,7 +220,7 @@
     "DeckId": 3,
     "Name": "The Ancestral Link",
     "Value": 6,
-    "SuitOrGroup": 3,
+    "SuitOrGroup": "Mystic Orders",
     "ImageKey": ""
   },
   {
@@ -228,7 +228,7 @@
     "DeckId": 3,
     "Name": "The Dream Walker",
     "Value": 7,
-    "SuitOrGroup": 3,
+    "SuitOrGroup": "Mystic Orders",
     "ImageKey": ""
   },
   {
@@ -236,7 +236,7 @@
     "DeckId": 3,
     "Name": "The Shadow Mission",
     "Value": 8,
-    "SuitOrGroup": 3,
+    "SuitOrGroup": "Mystic Orders",
     "ImageKey": ""
   },
   {
@@ -244,7 +244,7 @@
     "DeckId": 3,
     "Name": "The Genetic Thread",
     "Value": 9,
-    "SuitOrGroup": 3,
+    "SuitOrGroup": "Mystic Orders",
     "ImageKey": ""
   },
   {
@@ -252,7 +252,7 @@
     "DeckId": 3,
     "Name": "The Mental Wall",
     "Value": 10,
-    "SuitOrGroup": 3,
+    "SuitOrGroup": "Mystic Orders",
     "ImageKey": ""
   },
   {
@@ -260,7 +260,7 @@
     "DeckId": 3,
     "Name": "The Future Path",
     "Value": 11,
-    "SuitOrGroup": 3,
+    "SuitOrGroup": "Mystic Orders",
     "ImageKey": ""
   },
   {
@@ -268,7 +268,7 @@
     "DeckId": 3,
     "Name": "The Great Devourer",
     "Value": 1,
-    "SuitOrGroup": 4,
+    "SuitOrGroup": "Ancient Prophecies",
     "ImageKey": ""
   },
   {
@@ -276,7 +276,7 @@
     "DeckId": 3,
     "Name": "The Old Maker",
     "Value": 2,
-    "SuitOrGroup": 4,
+    "SuitOrGroup": "Ancient Prophecies",
     "ImageKey": ""
   },
   {
@@ -284,7 +284,7 @@
     "DeckId": 3,
     "Name": "The Deep Thumper",
     "Value": 3,
-    "SuitOrGroup": 4,
+    "SuitOrGroup": "Ancient Prophecies",
     "ImageKey": ""
   },
   {
@@ -292,7 +292,7 @@
     "DeckId": 3,
     "Name": "The Sand Temple",
     "Value": 4,
-    "SuitOrGroup": 4,
+    "SuitOrGroup": "Ancient Prophecies",
     "ImageKey": ""
   },
   {
@@ -300,7 +300,7 @@
     "DeckId": 3,
     "Name": "The Sacred Oil",
     "Value": 5,
-    "SuitOrGroup": 4,
+    "SuitOrGroup": "Ancient Prophecies",
     "ImageKey": ""
   },
   {
@@ -308,7 +308,7 @@
     "DeckId": 3,
     "Name": "The Eternal Stone",
     "Value": 6,
-    "SuitOrGroup": 4,
+    "SuitOrGroup": "Ancient Prophecies",
     "ImageKey": ""
   },
   {
@@ -316,7 +316,7 @@
     "DeckId": 3,
     "Name": "The Forgotten Grave",
     "Value": 7,
-    "SuitOrGroup": 4,
+    "SuitOrGroup": "Ancient Prophecies",
     "ImageKey": ""
   },
   {
@@ -324,7 +324,7 @@
     "DeckId": 3,
     "Name": "The Pillar of Fire",
     "Value": 8,
-    "SuitOrGroup": 4,
+    "SuitOrGroup": "Ancient Prophecies",
     "ImageKey": ""
   },
   {
@@ -332,7 +332,7 @@
     "DeckId": 3,
     "Name": "The White Sun",
     "Value": 9,
-    "SuitOrGroup": 4,
+    "SuitOrGroup": "Ancient Prophecies",
     "ImageKey": ""
   },
   {
@@ -340,7 +340,7 @@
     "DeckId": 3,
     "Name": "The Dark Star",
     "Value": 10,
-    "SuitOrGroup": 4,
+    "SuitOrGroup": "Ancient Prophecies",
     "ImageKey": ""
   },
   {
@@ -348,7 +348,7 @@
     "DeckId": 3,
     "Name": "The Final Horizon",
     "Value": 11,
-    "SuitOrGroup": 4,
+    "SuitOrGroup": "Ancient Prophecies",
     "ImageKey": ""
   }
 ]

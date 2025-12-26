@@ -1582,41 +1582,5 @@
     "Content": "Long-term maturity. Your investments have reached their full potential. Harvest the fruits of your life's work.",
     "KeyWords": "Harvest, Maturity",
     "IsReversed": false
-  },
-  {
-    "Id": 1177,
-    "CardId": 123,
-    "DeckId": 3,
-    "Category": "Love",
-    "Content": "The essence of the bond remains, even if the form changes. A love that is as fluid and eternal as the sand.",
-    "KeyWords": "Essence, Eternal",
-    "IsReversed": false
-  },
-  {
-    "Id": 1178,
-    "CardId": 123,
-    "DeckId": 3,
-    "Category": "Career",
-    "Content": "True mastery. You no longer work for the industry; you are the spirit of the industry itself.",
-    "KeyWords": "Mastery, Spirit",
-    "IsReversed": false
-  },
-  {
-    "Id": 1179,
-    "CardId": 123,
-    "DeckId": 3,
-    "Category": "Spiritualism",
-    "Content": "Total liberation. You are free from the cycles of the past. You move with the wind, untouchable and free.",
-    "KeyWords": "Freedom, Spirit",
-    "IsReversed": false
-  },
-  {
-    "Id": 1180,
-    "CardId": 123,
-    "DeckId": 3,
-    "Category": "Finance",
-    "Content": "Absolute freedom. You have enough to never worry again. Your wealth is now a spirit of its own.",
-    "KeyWords": "Liberation, Abundance",
-    "IsReversed": false
   }
 ]
