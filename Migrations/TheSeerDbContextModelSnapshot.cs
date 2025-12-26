@@ -1464,7 +1464,7 @@ namespace TheSeer.Migrations
                             CardBackImage = " ",
                             Creator = "Elvira Mariesdotter",
                             DateOfPublish = new DateOnly(2025, 12, 26),
-                            Description = "A set of 24 old futhark runes. Standard rune set for fortune telling used by the ancient norse.",
+                            Description = "A set of 24 old futhark runes. Standard rune set for fortune telling used by the ancient Norse.",
                             IsLocked = false,
                             Name = "Elder futhark runes",
                             SystemTypeId = 2
@@ -11707,7 +11707,7 @@ namespace TheSeer.Migrations
                             Id = 1,
                             CanBeReversed = true,
                             DefaultCardCount = 78,
-                            Description = "The classical system for introspection, guidance and spirital development. Usually has 78 cards, always divided into the major and minor arcana.",
+                            Description = "The classical system for introspection, guidance and spiritual development. Usually has 78 cards, always divided into the major and minor arcana.",
                             Name = "Tarot"
                         },
                         new
@@ -11715,7 +11715,7 @@ namespace TheSeer.Migrations
                             Id = 2,
                             CanBeReversed = true,
                             DefaultCardCount = 24,
-                            Description = "An old norse system built upon the old futhark of 24 runes. Each rune symbolize natural powers and gods or godesses. Used to interpret hidden energies and bigger happenings in life.",
+                            Description = "An old Norse system built upon the old futhark of 24 runes. Each rune symbolizes natural powers and gods or goddesses. Used to interpret hidden energies and bigger happenings in life.",
                             Name = "Runes"
                         },
                         new
@@ -11723,7 +11723,7 @@ namespace TheSeer.Migrations
                             Id = 3,
                             CanBeReversed = false,
                             DefaultCardCount = 44,
-                            Description = "A free and intuitive system for guidance. Not as strict as the Tarot system. Usually have unique themes, and can be flexible regarding card count.",
+                            Description = "A free and intuitive system for guidance. Not as strict as the Tarot system. Usually has unique themes, and can be flexible regarding card count.",
                             Name = "Oracle"
                         });
                 });
