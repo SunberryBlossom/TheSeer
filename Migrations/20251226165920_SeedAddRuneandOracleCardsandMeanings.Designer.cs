@@ -12,8 +12,8 @@ using TheSeer.Data;
 namespace TheSeer.Migrations
 {
     [DbContext(typeof(TheSeerDbContext))]
-    [Migration("20251226151927_SeedAddFutharkAndOracleDecks")]
-    partial class SeedAddFutharkAndOracleDecks
+    [Migration("20251226165920_SeedAddRuneandOracleCardsandMeanings")]
+    partial class SeedAddRuneandOracleCardsandMeanings
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -762,6 +762,222 @@ namespace TheSeer.Migrations
                             Name = "King of Ores",
                             SuitOrGroup = "Ores",
                             Value = 14
+                        },
+                        new
+                        {
+                            Id = 124,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Fehu",
+                            SuitOrGroup = "Frey's Aett",
+                            Value = 1
+                        },
+                        new
+                        {
+                            Id = 125,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Uruz",
+                            SuitOrGroup = "Frey's Aett",
+                            Value = 2
+                        },
+                        new
+                        {
+                            Id = 126,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Thurisaz",
+                            SuitOrGroup = "Frey's Aett",
+                            Value = 3
+                        },
+                        new
+                        {
+                            Id = 127,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Ansuz",
+                            SuitOrGroup = "Frey's Aett",
+                            Value = 4
+                        },
+                        new
+                        {
+                            Id = 128,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Raidho",
+                            SuitOrGroup = "Frey's Aett",
+                            Value = 5
+                        },
+                        new
+                        {
+                            Id = 129,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Kenaz",
+                            SuitOrGroup = "Frey's Aett",
+                            Value = 6
+                        },
+                        new
+                        {
+                            Id = 130,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Gebo",
+                            SuitOrGroup = "Frey's Aett",
+                            Value = 7
+                        },
+                        new
+                        {
+                            Id = 131,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Wunjo",
+                            SuitOrGroup = "Frey's Aett",
+                            Value = 8
+                        },
+                        new
+                        {
+                            Id = 132,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Hagalaz",
+                            SuitOrGroup = "Hagal's Aett",
+                            Value = 9
+                        },
+                        new
+                        {
+                            Id = 133,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Nauthiz",
+                            SuitOrGroup = "Hagal's Aett",
+                            Value = 10
+                        },
+                        new
+                        {
+                            Id = 134,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Isa",
+                            SuitOrGroup = "Hagal's Aett",
+                            Value = 11
+                        },
+                        new
+                        {
+                            Id = 135,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Jera",
+                            SuitOrGroup = "Hagal's Aett",
+                            Value = 12
+                        },
+                        new
+                        {
+                            Id = 136,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Eihwaz",
+                            SuitOrGroup = "Hagal's Aett",
+                            Value = 13
+                        },
+                        new
+                        {
+                            Id = 137,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Perthro",
+                            SuitOrGroup = "Hagal's Aett",
+                            Value = 14
+                        },
+                        new
+                        {
+                            Id = 138,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Algiz",
+                            SuitOrGroup = "Hagal's Aett",
+                            Value = 15
+                        },
+                        new
+                        {
+                            Id = 139,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Sowilo",
+                            SuitOrGroup = "Hagal's Aett",
+                            Value = 16
+                        },
+                        new
+                        {
+                            Id = 140,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Tiwaz",
+                            SuitOrGroup = "Tyr's Aett",
+                            Value = 17
+                        },
+                        new
+                        {
+                            Id = 141,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Berkano",
+                            SuitOrGroup = "Tyr's Aett",
+                            Value = 18
+                        },
+                        new
+                        {
+                            Id = 142,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Ehwaz",
+                            SuitOrGroup = "Tyr's Aett",
+                            Value = 19
+                        },
+                        new
+                        {
+                            Id = 143,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Mannaz",
+                            SuitOrGroup = "Tyr's Aett",
+                            Value = 20
+                        },
+                        new
+                        {
+                            Id = 144,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Laguz",
+                            SuitOrGroup = "Tyr's Aett",
+                            Value = 21
+                        },
+                        new
+                        {
+                            Id = 145,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Ingwaz",
+                            SuitOrGroup = "Tyr's Aett",
+                            Value = 22
+                        },
+                        new
+                        {
+                            Id = 146,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Dagaz",
+                            SuitOrGroup = "Tyr's Aett",
+                            Value = 23
+                        },
+                        new
+                        {
+                            Id = 147,
+                            DeckId = 4,
+                            ImageKey = "",
+                            Name = "Othala",
+                            SuitOrGroup = "Tyr's Aett",
+                            Value = 24
                         });
                 });
 
@@ -7228,6 +7444,1546 @@ namespace TheSeer.Migrations
                             DeckId = 1,
                             IsReversed = true,
                             KeyWords = "Ego, False"
+                        },
+                        new
+                        {
+                            Id = 2001,
+                            CardId = 124,
+                            Category = "Love",
+                            Content = "A relationship is blossoming with abundance. Share your emotional wealth to attract more affection.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Abundance, Fertility"
+                        },
+                        new
+                        {
+                            Id = 2002,
+                            CardId = 124,
+                            Category = "Love",
+                            Content = "Financial stress or greed is poisoning the romantic air. Be careful not to value possessions over your partner.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Loss, Greed"
+                        },
+                        new
+                        {
+                            Id = 2003,
+                            CardId = 124,
+                            Category = "Career",
+                            Content = "Success is at hand. Hard work is finally paying off in tangible rewards and new opportunities.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Gain, Success"
+                        },
+                        new
+                        {
+                            Id = 2004,
+                            CardId = 124,
+                            Category = "Career",
+                            Content = "Missed opportunities or professional stagnation. You are working hard but seeing little profit.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Stagnation, Setback"
+                        },
+                        new
+                        {
+                            Id = 2005,
+                            CardId = 124,
+                            Category = "Spiritualism",
+                            Content = "Use your inner energy to manifest your desires. The power of creation flows through you.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Creation, Flow"
+                        },
+                        new
+                        {
+                            Id = 2006,
+                            CardId = 124,
+                            Category = "Spiritualism",
+                            Content = "A block in your creative flow. You are focusing too much on the material, neglecting the spirit's fire.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Blocked Energy, Materialism"
+                        },
+                        new
+                        {
+                            Id = 2007,
+                            CardId = 124,
+                            Category = "Finance",
+                            Content = "Steady growth and new income streams. A perfect time for calculated investments.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Wealth, Prosperity"
+                        },
+                        new
+                        {
+                            Id = 2008,
+                            CardId = 124,
+                            Category = "Finance",
+                            Content = "Unexpected expenses or loss of assets. Re-evaluate your spending habits immediately.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Loss, Expenditure"
+                        },
+                        new
+                        {
+                            Id = 2009,
+                            CardId = 125,
+                            Category = "Love",
+                            Content = "Physical attraction and raw passion are strong. A bold move will bring results.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Passion, Vitality"
+                        },
+                        new
+                        {
+                            Id = 2010,
+                            CardId = 125,
+                            Category = "Love",
+                            Content = "Low energy or a lack of will. You may be letting fear or previous wounds dictate your romantic choices.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Weakness, Inhibitions"
+                        },
+                        new
+                        {
+                            Id = 2011,
+                            CardId = 125,
+                            Category = "Career",
+                            Content = "A surge of productivity. You have the strength to tackle any project, no matter how daunting.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Strength, Power"
+                        },
+                        new
+                        {
+                            Id = 2012,
+                            CardId = 125,
+                            Category = "Career",
+                            Content = "You are pushing against a brick wall. A lack of focus or brute force is causing more harm than good.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Misapplied Force, Fatigue"
+                        },
+                        new
+                        {
+                            Id = 2013,
+                            CardId = 125,
+                            Category = "Spiritualism",
+                            Content = "Sudden changes are forcing you to grow. Embrace your wild, untamed nature to find the path.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Transition, Growth"
+                        },
+                        new
+                        {
+                            Id = 2014,
+                            CardId = 125,
+                            Category = "Spiritualism",
+                            Content = "A crisis of confidence. You are disconnected from your primal strength and intuition.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Disconnection, Self-Doubt"
+                        },
+                        new
+                        {
+                            Id = 2015,
+                            CardId = 125,
+                            Category = "Finance",
+                            Content = "Your financial health is improving. Strength lies in taking decisive action now.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Health, Resolve"
+                        },
+                        new
+                        {
+                            Id = 2016,
+                            CardId = 125,
+                            Category = "Finance",
+                            Content = "Financial drain due to lack of oversight. You are losing power over your own resources.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Drain, Instability"
+                        },
+                        new
+                        {
+                            Id = 2017,
+                            CardId = 126,
+                            Category = "Love",
+                            Content = "Protect your boundaries within a relationship, but don't become a wall.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Protection, Boundaries"
+                        },
+                        new
+                        {
+                            Id = 2018,
+                            CardId = 126,
+                            Category = "Love",
+                            Content = "Vulnerability to outside influence. A 'thorn' in the side of the relationship is causing pain.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Betrayal, Defenseless"
+                        },
+                        new
+                        {
+                            Id = 2019,
+                            CardId = 126,
+                            Category = "Career",
+                            Content = "A gateway is appearing. Be patient and wait for the right moment to strike.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Gateway, Patience"
+                        },
+                        new
+                        {
+                            Id = 2020,
+                            CardId = 126,
+                            Category = "Career",
+                            Content = "Impulsive decisions will lead to disaster. You are trying to force a door that is currently locked.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Impulsiveness, Conflict"
+                        },
+                        new
+                        {
+                            Id = 2021,
+                            CardId = 126,
+                            Category = "Spiritualism",
+                            Content = "The thorn protects the rose. Your challenges are teaching you valuable lessons in defense.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Wisdom, Shield"
+                        },
+                        new
+                        {
+                            Id = 2022,
+                            CardId = 126,
+                            Category = "Spiritualism",
+                            Content = "Spiritual arrogance or over-defensiveness. You are creating enemies where none exist.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Ego, Aggression"
+                        },
+                        new
+                        {
+                            Id = 2023,
+                            CardId = 126,
+                            Category = "Finance",
+                            Content = "Be wary of quick deals. A 'giant' risk may be hidden behind an attractive offer.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Caution, Risk"
+                        },
+                        new
+                        {
+                            Id = 2024,
+                            CardId = 126,
+                            Category = "Finance",
+                            Content = "A financial attack or a hidden trap. Your defenses have been breached by negligence.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Trap, Vulnerability"
+                        },
+                        new
+                        {
+                            Id = 2025,
+                            CardId = 127,
+                            Category = "Love",
+                            Content = "Communicate your feelings clearly. A wise conversation will heal a long-standing rift.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Communication, Wisdom"
+                        },
+                        new
+                        {
+                            Id = 2026,
+                            CardId = 127,
+                            Category = "Love",
+                            Content = "Misunderstandings and deceit. Someone is not telling the whole truth in this partnership.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Deceit, Silence"
+                        },
+                        new
+                        {
+                            Id = 2027,
+                            CardId = 127,
+                            Category = "Career",
+                            Content = "Listen to your mentors. An interview or speech will go exceptionally well.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Mentorship, Speech"
+                        },
+                        new
+                        {
+                            Id = 2028,
+                            CardId = 127,
+                            Category = "Career",
+                            Content = "Bad advice or a failure to communicate at work. Watch out for 'word-tricks' from colleagues.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Manipulation, Bad Advice"
+                        },
+                        new
+                        {
+                            Id = 2029,
+                            CardId = 127,
+                            Category = "Spiritualism",
+                            Content = "The voice of the divine. Pay attention to signs and messages from the elders.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Inspiration, Signs"
+                        },
+                        new
+                        {
+                            Id = 2030,
+                            CardId = 127,
+                            Category = "Spiritualism",
+                            Content = "Spiritual confusion. You are ignoring the signs or being misled by a false teacher.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Confusion, Falsehood"
+                        },
+                        new
+                        {
+                            Id = 2031,
+                            CardId = 127,
+                            Category = "Finance",
+                            Content = "A wise investment based on solid information. Ask for professional advice.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Advice, Insight"
+                        },
+                        new
+                        {
+                            Id = 2032,
+                            CardId = 127,
+                            Category = "Finance",
+                            Content = "A financial contract with hidden clauses. Do not sign anything until you've verified the source.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Hidden Terms, Fraud"
+                        },
+                        new
+                        {
+                            Id = 2033,
+                            CardId = 128,
+                            Category = "Love",
+                            Content = "A shared journey or vacation will strengthen your bond and bring new rhythm.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Journey, Progress"
+                        },
+                        new
+                        {
+                            Id = 2034,
+                            CardId = 128,
+                            Category = "Love",
+                            Content = "You and your partner are moving in opposite directions. The path together is blocked.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Incompatibility, Blocked Path"
+                        },
+                        new
+                        {
+                            Id = 2035,
+                            CardId = 128,
+                            Category = "Career",
+                            Content = "Keep your rhythm. Steady progress toward a goal is better than a chaotic sprint.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Rhythm, Strategy"
+                        },
+                        new
+                        {
+                            Id = 2036,
+                            CardId = 128,
+                            Category = "Career",
+                            Content = "Travel delays or a project going off the rails. Your plans lack the necessary timing.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Delays, Chaos"
+                        },
+                        new
+                        {
+                            Id = 2037,
+                            CardId = 128,
+                            Category = "Spiritualism",
+                            Content = "Trust the process. Your soul is on a journey that requires faith in the road ahead.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Faith, Path"
+                        },
+                        new
+                        {
+                            Id = 2038,
+                            CardId = 128,
+                            Category = "Spiritualism",
+                            Content = "A feeling of being lost. You have wandered away from your inner compass.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Lost, Disorientation"
+                        },
+                        new
+                        {
+                            Id = 2039,
+                            CardId = 128,
+                            Category = "Finance",
+                            Content = "Money is in motion. Expect transactions to clear or assets to shift favorably.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Transaction, Motion"
+                        },
+                        new
+                        {
+                            Id = 2040,
+                            CardId = 128,
+                            Category = "Finance",
+                            Content = "A financial deal has stalled. Moving money now will result in losses or high fees.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Stalemate, Bad Timing"
+                        },
+                        new
+                        {
+                            Id = 2041,
+                            CardId = 129,
+                            Category = "Love",
+                            Content = "A new light is being shed on your feelings. Passion is warming the heart.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Clarity, Attraction"
+                        },
+                        new
+                        {
+                            Id = 2042,
+                            CardId = 129,
+                            Category = "Love",
+                            Content = "A flame is dying out. The spark has gone, leaving the relationship cold and dark.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Fading, Coldness"
+                        },
+                        new
+                        {
+                            Id = 2043,
+                            CardId = 129,
+                            Category = "Career",
+                            Content = "Technical mastery. Your skills are sharp and you have the vision to create.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Skill, Vision"
+                        },
+                        new
+                        {
+                            Id = 2044,
+                            CardId = 129,
+                            Category = "Career",
+                            Content = "Creative burnout. You are working in the dark without the right tools or inspiration.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Burnout, Darkness"
+                        },
+                        new
+                        {
+                            Id = 2045,
+                            CardId = 129,
+                            Category = "Spiritualism",
+                            Content = "Enlightenment. A moment of clarity where spiritual concepts make sense.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Knowledge, Light"
+                        },
+                        new
+                        {
+                            Id = 2046,
+                            CardId = 129,
+                            Category = "Spiritualism",
+                            Content = "Intellectual pride. You are blinded by your own 'light' and cannot see the truth.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Blight, Blindness"
+                        },
+                        new
+                        {
+                            Id = 2047,
+                            CardId = 129,
+                            Category = "Finance",
+                            Content = "A bright idea for business. Follow the light of your intuition for profit.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Innovation, Idea"
+                        },
+                        new
+                        {
+                            Id = 2048,
+                            CardId = 129,
+                            Category = "Finance",
+                            Content = "A business concept that lacks substance. Your 'bright idea' will burn out quickly.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Illusion, Failure"
+                        },
+                        new
+                        {
+                            Id = 2049,
+                            CardId = 130,
+                            Category = "Love",
+                            Content = "A true partnership based on equality. Giving and receiving are in perfect harmony.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Partnership, Equality"
+                        },
+                        new
+                        {
+                            Id = 2050,
+                            CardId = 130,
+                            Category = "Career",
+                            Content = "Successful collaborations and contracts. A business relationship will bring mutual profit.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Contract, Alliance"
+                        },
+                        new
+                        {
+                            Id = 2051,
+                            CardId = 130,
+                            Category = "Spiritualism",
+                            Content = "The gift of life. Recognize the sacred exchange between you and the universe.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Sacred, Gift"
+                        },
+                        new
+                        {
+                            Id = 2052,
+                            CardId = 130,
+                            Category = "Finance",
+                            Content = "An unexpected gift or financial support. Balance your books and show gratitude.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Gratitude, Support"
+                        },
+                        new
+                        {
+                            Id = 2053,
+                            CardId = 131,
+                            Category = "Love",
+                            Content = "Happiness and bliss. Your domestic life is harmonious and filled with laughter.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Joy, Bliss"
+                        },
+                        new
+                        {
+                            Id = 2054,
+                            CardId = 131,
+                            Category = "Love",
+                            Content = "Alienation and sorrow. A period of loneliness or a rift with a loved one.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Sorrow, Alienation"
+                        },
+                        new
+                        {
+                            Id = 2055,
+                            CardId = 131,
+                            Category = "Career",
+                            Content = "Success and recognition. Your team is working well together with a positive atmosphere.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Harmony, Success"
+                        },
+                        new
+                        {
+                            Id = 2056,
+                            CardId = 131,
+                            Category = "Career",
+                            Content = "Workplace friction. A project that brought joy has now become a source of anxiety.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Friction, Dissatisfaction"
+                        },
+                        new
+                        {
+                            Id = 2057,
+                            CardId = 131,
+                            Category = "Spiritualism",
+                            Content = "Release of old burdens. You are entering a period of peace and spiritual satisfaction.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Peace, Contentment"
+                        },
+                        new
+                        {
+                            Id = 2058,
+                            CardId = 131,
+                            Category = "Spiritualism",
+                            Content = "A dark night of the soul. You are struggling to find meaning in your current joyless path.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Despair, Darkness"
+                        },
+                        new
+                        {
+                            Id = 2059,
+                            CardId = 131,
+                            Category = "Finance",
+                            Content = "Financial goals are being met. Enjoy the fruits of your labor.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Prosperity, Reward"
+                        },
+                        new
+                        {
+                            Id = 2060,
+                            CardId = 131,
+                            Category = "Finance",
+                            Content = "Short-lived success. You may have the money, but it brings you no real security or happiness.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Empty Gains, Risk"
+                        },
+                        new
+                        {
+                            Id = 2061,
+                            CardId = 132,
+                            Category = "Love",
+                            Content = "Sudden disruptions shake your foundation. A crisis that tests the strength of your bond.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Disruption, Crisis"
+                        },
+                        new
+                        {
+                            Id = 2062,
+                            CardId = 132,
+                            Category = "Career",
+                            Content = "A career 'hailstorm'. Unexpected changes or loss of control that forces a new direction.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Change, Challenge"
+                        },
+                        new
+                        {
+                            Id = 2063,
+                            CardId = 132,
+                            Category = "Spiritualism",
+                            Content = "The destructive force that clears the way for growth. Embrace the chaos as a necessary teacher.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Awakening, Nature"
+                        },
+                        new
+                        {
+                            Id = 2064,
+                            CardId = 132,
+                            Category = "Finance",
+                            Content = "Financial instability due to external forces. Protect your assets from unpredictable shifts.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Instability, Protection"
+                        },
+                        new
+                        {
+                            Id = 2065,
+                            CardId = 133,
+                            Category = "Love",
+                            Content = "A time of emotional need and friction. Patience and endurance are required to weather this period.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Necessity, Endurance"
+                        },
+                        new
+                        {
+                            Id = 2066,
+                            CardId = 133,
+                            Category = "Love",
+                            Content = "Toxic dependency or extreme emotional hunger. You are looking for a partner to save you from yourself.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Dependency, Despair"
+                        },
+                        new
+                        {
+                            Id = 2067,
+                            CardId = 133,
+                            Category = "Career",
+                            Content = "Hard work with little immediate reward. Focus on basic duties and stay disciplined despite the lack of progress.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Discipline, Restriction"
+                        },
+                        new
+                        {
+                            Id = 2068,
+                            CardId = 133,
+                            Category = "Career",
+                            Content = "Avoiding necessary work or succumbing to stress. You are ignoring the lessons that hardship is trying to teach.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Avoidance, Failure"
+                        },
+                        new
+                        {
+                            Id = 2069,
+                            CardId = 133,
+                            Category = "Spiritualism",
+                            Content = "The 'fire of necessity'. Use your struggles as fuel for spiritual transformation and inner strength.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Inner Fire, Growth"
+                        },
+                        new
+                        {
+                            Id = 2070,
+                            CardId = 133,
+                            Category = "Spiritualism",
+                            Content = "Spiritual poverty. You are resisting your fate and causing yourself unnecessary suffering.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Resistance, Suffering"
+                        },
+                        new
+                        {
+                            Id = 2071,
+                            CardId = 133,
+                            Category = "Finance",
+                            Content = "Tighten your belt. Manage 'needs' over 'wants' and survive through careful budgeting.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Frugality, Survival"
+                        },
+                        new
+                        {
+                            Id = 2072,
+                            CardId = 133,
+                            Category = "Finance",
+                            Content = "A spiral of debt or desperate financial moves. You are acting out of panic rather than planning.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Debt, Panic"
+                        },
+                        new
+                        {
+                            Id = 2073,
+                            CardId = 134,
+                            Category = "Love",
+                            Content = "Emotional cooling. The relationship is 'on ice'. Do not force heat; wait for the natural thaw.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Stillness, Delay"
+                        },
+                        new
+                        {
+                            Id = 2074,
+                            CardId = 134,
+                            Category = "Career",
+                            Content = "Projects are stalled. Use this stagnation for internal planning rather than trying to force external action.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Stagnation, Reflection"
+                        },
+                        new
+                        {
+                            Id = 2075,
+                            CardId = 134,
+                            Category = "Spiritualism",
+                            Content = "Deep meditation and absolute stillness. Go inward to find the unchanging core of your spirit.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Isolation, Clarity"
+                        },
+                        new
+                        {
+                            Id = 2076,
+                            CardId = 134,
+                            Category = "Finance",
+                            Content = "A freeze on assets. Do not make any major financial moves until the economic climate changes.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Freeze, Wait"
+                        },
+                        new
+                        {
+                            Id = 2077,
+                            CardId = 135,
+                            Category = "Love",
+                            Content = "The natural cycle of love is yielding results. A time of harmony, fertility, and long-term fruition.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Harvest, Rewards"
+                        },
+                        new
+                        {
+                            Id = 2078,
+                            CardId = 135,
+                            Category = "Career",
+                            Content = "Past hard work pays off. Expect the 'harvest' of your professional efforts to manifest in success.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Success, Cycles"
+                        },
+                        new
+                        {
+                            Id = 2079,
+                            CardId = 135,
+                            Category = "Spiritualism",
+                            Content = "Understanding the laws of the universe. You are in tune with the natural rhythms of life and death.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Natural Law, Justice"
+                        },
+                        new
+                        {
+                            Id = 2080,
+                            CardId = 135,
+                            Category = "Finance",
+                            Content = "Steady, seasonal growth. A perfect time for long-term investments that pay out over time.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Profit, Prosperity"
+                        },
+                        new
+                        {
+                            Id = 2081,
+                            CardId = 136,
+                            Category = "Love",
+                            Content = "A bond that endures through any weather. Soul-level connection that provides deep stability.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Endurance, Bond"
+                        },
+                        new
+                        {
+                            Id = 2082,
+                            CardId = 136,
+                            Category = "Career",
+                            Content = "A challenge that requires both strength and flexibility. You are protected while navigating obstacles.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Flexibility, Defense"
+                        },
+                        new
+                        {
+                            Id = 2083,
+                            CardId = 136,
+                            Category = "Spiritualism",
+                            Content = "Connection between worlds. The World Tree guides your transformation through life and death.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Transformation, Bridge"
+                        },
+                        new
+                        {
+                            Id = 2084,
+                            CardId = 136,
+                            Category = "Finance",
+                            Content = "Resilience in your assets. You have built a foundation that can withstand market fluctuations.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Resilience, Security"
+                        },
+                        new
+                        {
+                            Id = 2085,
+                            CardId = 137,
+                            Category = "Love",
+                            Content = "A mystery is unfolding. Enjoy the playfulness and the 'gamble' of a new romantic interest.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Fate, Mystery"
+                        },
+                        new
+                        {
+                            Id = 2086,
+                            CardId = 137,
+                            Category = "Love",
+                            Content = "Disappointment or a secret that harms the bond. The dice have rolled against your heart.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Bad Luck, Secrets"
+                        },
+                        new
+                        {
+                            Id = 2087,
+                            CardId = 137,
+                            Category = "Career",
+                            Content = "Hidden talents coming to light. A chance to take a calculated risk that leads to a windfall.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Potential, Chance"
+                        },
+                        new
+                        {
+                            Id = 2088,
+                            CardId = 137,
+                            Category = "Career",
+                            Content = "Stagnant potential. You are waiting for luck rather than creating your own opportunities.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Stagnation, Risk"
+                        },
+                        new
+                        {
+                            Id = 2089,
+                            CardId = 137,
+                            Category = "Spiritualism",
+                            Content = "The well of Wyrd. Divine laws are at work in ways you cannot yet fully see.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Destiny, Revelation"
+                        },
+                        new
+                        {
+                            Id = 2090,
+                            CardId = 137,
+                            Category = "Spiritualism",
+                            Content = "Disconnected from fate. You are trying to force a path that is not meant for you.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Lost Path, Denial"
+                        },
+                        new
+                        {
+                            Id = 2091,
+                            CardId = 137,
+                            Category = "Finance",
+                            Content = "Unexpected gains from a source you hadn't considered. A good time for a small gamble.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Windfall, Luck"
+                        },
+                        new
+                        {
+                            Id = 2092,
+                            CardId = 137,
+                            Category = "Finance",
+                            Content = "Financial gambling leads to loss. Hidden information is working against your investments.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Loss, Deception"
+                        },
+                        new
+                        {
+                            Id = 2093,
+                            CardId = 138,
+                            Category = "Love",
+                            Content = "Protection and high-minded love. You and your partner are guarding each other's peace.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Protection, Higher Love"
+                        },
+                        new
+                        {
+                            Id = 2094,
+                            CardId = 138,
+                            Category = "Love",
+                            Content = "Emotional vulnerability. You are being drained by a partner or failing to set healthy boundaries.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Warning, Drain"
+                        },
+                        new
+                        {
+                            Id = 2095,
+                            CardId = 138,
+                            Category = "Career",
+                            Content = "Professional sanctuary. Your current position is safe, and your reputation is well-protected.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Safety, Reputation"
+                        },
+                        new
+                        {
+                            Id = 2096,
+                            CardId = 138,
+                            Category = "Career",
+                            Content = "Professional exposure. You are vulnerable to criticism or being used as a scapegoat.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Vulnerability, Warning"
+                        },
+                        new
+                        {
+                            Id = 2097,
+                            CardId = 138,
+                            Category = "Spiritualism",
+                            Content = "Direct connection to the divine. Your intuition serves as a powerful shield against negativity.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Intuition, Shield"
+                        },
+                        new
+                        {
+                            Id = 2098,
+                            CardId = 138,
+                            Category = "Spiritualism",
+                            Content = "Spiritual vulnerability. You have let down your guard and are absorbing negative energies.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Openness, Negativity"
+                        },
+                        new
+                        {
+                            Id = 2099,
+                            CardId = 138,
+                            Category = "Finance",
+                            Content = "Safe investments. Your resources are well-guarded and should be kept in stable assets.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Security, Guarded"
+                        },
+                        new
+                        {
+                            Id = 2100,
+                            CardId = 138,
+                            Category = "Finance",
+                            Content = "A breach of financial security. Watch out for scams or risky ventures that leave you exposed.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Scam, Exposure"
+                        },
+                        new
+                        {
+                            Id = 2101,
+                            CardId = 139,
+                            Category = "Love",
+                            Content = "Total success and warmth. A relationship filled with life-giving energy and mutual admiration.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Vitality, Success"
+                        },
+                        new
+                        {
+                            Id = 2102,
+                            CardId = 139,
+                            Category = "Career",
+                            Content = "Victory is yours. You have the clarity to lead others and achieve your highest goals.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Victory, Power"
+                        },
+                        new
+                        {
+                            Id = 2103,
+                            CardId = 139,
+                            Category = "Spiritualism",
+                            Content = "The light of the sun within. Your higher self is fully integrated and radiant.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Wholeness, Light"
+                        },
+                        new
+                        {
+                            Id = 2104,
+                            CardId = 139,
+                            Category = "Finance",
+                            Content = "A period of great prosperity. Your path to wealth is clear and highly energized.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Wealth, Energy"
+                        },
+                        new
+                        {
+                            Id = 2105,
+                            CardId = 140,
+                            Category = "Love",
+                            Content = "A relationship built on loyalty and mutual respect. You are willing to fight for this bond.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Loyalty, Honor"
+                        },
+                        new
+                        {
+                            Id = 2106,
+                            CardId = 140,
+                            Category = "Love",
+                            Content = "A lack of commitment or a 'lost battle' in romance. Communication is aggressive rather than constructive.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Conflict, Infidelity"
+                        },
+                        new
+                        {
+                            Id = 2107,
+                            CardId = 140,
+                            Category = "Career",
+                            Content = "Justice and leadership. Your competitive spirit is high, and you will prevail through integrity.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Leadership, Victory"
+                        },
+                        new
+                        {
+                            Id = 2108,
+                            CardId = 140,
+                            Category = "Career",
+                            Content = "Giving up too soon. You lack the stamina or the moral conviction to finish what you started.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Defeat, Over-analysis"
+                        },
+                        new
+                        {
+                            Id = 2109,
+                            CardId = 140,
+                            Category = "Spiritualism",
+                            Content = "The spiritual warrior. Sacrifice for the greater good brings ultimate wisdom.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Sacrifice, Faith"
+                        },
+                        new
+                        {
+                            Id = 2110,
+                            CardId = 140,
+                            Category = "Spiritualism",
+                            Content = "Misdirected willpower. You are fighting for the wrong cause or using spiritual power for ego.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Ego, Imbalance"
+                        },
+                        new
+                        {
+                            Id = 2111,
+                            CardId = 140,
+                            Category = "Finance",
+                            Content = "Financial victory through legal means. A fair outcome in a dispute or contract.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Justice, Fairness"
+                        },
+                        new
+                        {
+                            Id = 2112,
+                            CardId = 140,
+                            Category = "Finance",
+                            Content = "Legal setbacks or unfair deals. You are losing a financial struggle due to a lack of strategy.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Injustice, Loss"
+                        },
+                        new
+                        {
+                            Id = 2113,
+                            CardId = 141,
+                            Category = "Love",
+                            Content = "New beginnings, birth, or the nurturing growth of a partnership. A deeply fertile time.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Growth, Nurturing"
+                        },
+                        new
+                        {
+                            Id = 2114,
+                            CardId = 141,
+                            Category = "Love",
+                            Content = "Stifled growth or family issues. A relationship is being choked by past habits or possessiveness.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Stagnation, Friction"
+                        },
+                        new
+                        {
+                            Id = 2115,
+                            CardId = 141,
+                            Category = "Career",
+                            Content = "A creative project is taking root. Your ideas are starting to manifest into something tangible.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Creativity, Manifestation"
+                        },
+                        new
+                        {
+                            Id = 2116,
+                            CardId = 141,
+                            Category = "Career",
+                            Content = "Failure to launch. A project lacks the proper nurturing or foundation to grow successfully.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Decline, Blight"
+                        },
+                        new
+                        {
+                            Id = 2117,
+                            CardId = 141,
+                            Category = "Spiritualism",
+                            Content = "Rebirth and healing. You are entering a phase of profound personal and spiritual renewal.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Rebirth, Healing"
+                        },
+                        new
+                        {
+                            Id = 2118,
+                            CardId = 141,
+                            Category = "Spiritualism",
+                            Content = "Emotional blockage. You are resisting the natural process of growth and healing.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Resistance, Decay"
+                        },
+                        new
+                        {
+                            Id = 2119,
+                            CardId = 141,
+                            Category = "Finance",
+                            Content = "Prosperity through new ventures. Small investments now will grow into great wealth later.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Fertility, Profit"
+                        },
+                        new
+                        {
+                            Id = 2120,
+                            CardId = 141,
+                            Category = "Finance",
+                            Content = "Poor financial timing. What you 'planted' is not growing; re-examine the foundation.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Lack of Growth, Loss"
+                        },
+                        new
+                        {
+                            Id = 2121,
+                            CardId = 142,
+                            Category = "Love",
+                            Content = "Mutual trust and partnership. You and your partner are moving forward in perfect harmony.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Trust, Cooperation"
+                        },
+                        new
+                        {
+                            Id = 2122,
+                            CardId = 142,
+                            Category = "Love",
+                            Content = "Betrayal or a breakdown in trust. The 'horse' and 'rider' are no longer in sync.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Distrust, Disharmony"
+                        },
+                        new
+                        {
+                            Id = 2123,
+                            CardId = 142,
+                            Category = "Career",
+                            Content = "A period of rapid progress through teamwork. Collaboration is the key to your success.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Movement, Collaboration"
+                        },
+                        new
+                        {
+                            Id = 2124,
+                            CardId = 142,
+                            Category = "Career",
+                            Content = "Stalled progress or bad business partners. You are moving in circles instead of forward.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Restlessness, Blockage"
+                        },
+                        new
+                        {
+                            Id = 2125,
+                            CardId = 142,
+                            Category = "Spiritualism",
+                            Content = "Shamanic journeying or soul-travel. You are learning to move between different states of consciousness.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Journey, Soul"
+                        },
+                        new
+                        {
+                            Id = 2126,
+                            CardId = 142,
+                            Category = "Finance",
+                            Content = "Steady movement of wealth. A good time for shifting assets to more productive locations.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Transition, Progress"
+                        },
+                        new
+                        {
+                            Id = 2127,
+                            CardId = 143,
+                            Category = "Love",
+                            Content = "Deep human connection and shared values. A relationship that feels intellectually and soulfully fulfilling.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Humanity, Connection"
+                        },
+                        new
+                        {
+                            Id = 2128,
+                            CardId = 143,
+                            Category = "Love",
+                            Content = "Isolation within a relationship. You feel like a stranger to your partner, or they to you.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Isolation, Self-delusion"
+                        },
+                        new
+                        {
+                            Id = 2129,
+                            CardId = 143,
+                            Category = "Career",
+                            Content = "Professional networking and social responsibility. Success comes through understanding others.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Networking, Community"
+                        },
+                        new
+                        {
+                            Id = 2130,
+                            CardId = 143,
+                            Category = "Career",
+                            Content = "Interference from others or social alienation at work. You are struggling to find your place in the group.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Alienation, Sabotage"
+                        },
+                        new
+                        {
+                            Id = 2131,
+                            CardId = 143,
+                            Category = "Spiritualism",
+                            Content = "The individual within the cosmos. Knowing yourself is the first step to knowing the gods.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Self-knowledge, Spirit"
+                        },
+                        new
+                        {
+                            Id = 2132,
+                            CardId = 143,
+                            Category = "Finance",
+                            Content = "Wealth gained through community projects or social enterprises. People are your greatest asset.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Cooperation, Social Wealth"
+                        },
+                        new
+                        {
+                            Id = 2133,
+                            CardId = 144,
+                            Category = "Love",
+                            Content = "Strong intuition and flowing emotions. Let your feelings guide you toward the right person.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Intuition, Flow"
+                        },
+                        new
+                        {
+                            Id = 2134,
+                            CardId = 144,
+                            Category = "Love",
+                            Content = "Emotional overwhelm or drowning in a toxic relationship. You are ignoring your red flags.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Fear, Illusion"
+                        },
+                        new
+                        {
+                            Id = 2135,
+                            CardId = 144,
+                            Category = "Career",
+                            Content = "A creative surge. Trust your 'gut feeling' about a project or a potential business partner.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Creativity, Instinct"
+                        },
+                        new
+                        {
+                            Id = 2136,
+                            CardId = 144,
+                            Category = "Career",
+                            Content = "Confusion and poor judgment. You are being swept away by a situation you don't understand.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Error, Confusion"
+                        },
+                        new
+                        {
+                            Id = 2137,
+                            CardId = 144,
+                            Category = "Spiritualism",
+                            Content = "Deep immersion in the subconscious. You are receiving powerful messages through dreams and water.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Dreams, Subconscious"
+                        },
+                        new
+                        {
+                            Id = 2138,
+                            CardId = 144,
+                            Category = "Finance",
+                            Content = "Fluidity in finances. Money flows easily, but you must keep an eye on the current.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Liquidity, Flow"
+                        },
+                        new
+                        {
+                            Id = 2139,
+                            CardId = 145,
+                            Category = "Love",
+                            Content = "A period of rest leading to a new level of commitment. Deep internal growth within the bond.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Potential, Maturation"
+                        },
+                        new
+                        {
+                            Id = 2140,
+                            CardId = 145,
+                            Category = "Career",
+                            Content = "A breakthrough is coming. You have done the internal work, and the results are about to burst forth.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Completion, Seed"
+                        },
+                        new
+                        {
+                            Id = 2141,
+                            CardId = 145,
+                            Category = "Spiritualism",
+                            Content = "Sacred space. You are cocooned in a period of gestation, preparing for a spiritual rebirth.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Gestation, Internal Growth"
+                        },
+                        new
+                        {
+                            Id = 2142,
+                            CardId = 145,
+                            Category = "Finance",
+                            Content = "Stored wealth. Your investments are maturing and will soon be ready for harvest.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Saving, Maturity"
+                        },
+                        new
+                        {
+                            Id = 2143,
+                            CardId = 146,
+                            Category = "Love",
+                            Content = "A sudden realization or a major breakthrough in your love life. Darkness turns to light.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Awakening, Clarity"
+                        },
+                        new
+                        {
+                            Id = 2144,
+                            CardId = 146,
+                            Category = "Career",
+                            Content = "A complete transformation. A new day is dawning for your professional path with total clarity.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Breakthrough, Transformation"
+                        },
+                        new
+                        {
+                            Id = 2145,
+                            CardId = 146,
+                            Category = "Spiritualism",
+                            Content = "Enlightenment and the balance of opposites. You are seeing the world with new eyes.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Light, Balance"
+                        },
+                        new
+                        {
+                            Id = 2146,
+                            CardId = 146,
+                            Category = "Finance",
+                            Content = "A major shift in financial status. Success is guaranteed if you act with honesty and vision.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Prosperity, Daybreak"
+                        },
+                        new
+                        {
+                            Id = 2147,
+                            CardId = 147,
+                            Category = "Love",
+                            Content = "Finding your 'home' in a partner. Shared heritage and building a lasting legacy together.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Home, Inheritance"
+                        },
+                        new
+                        {
+                            Id = 2148,
+                            CardId = 147,
+                            Category = "Love",
+                            Content = "Family interference or a feeling of being 'homeless' in your heart. Past baggage is heavy.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Baggage, Alienation"
+                        },
+                        new
+                        {
+                            Id = 2149,
+                            CardId = 147,
+                            Category = "Career",
+                            Content = "Working in a family business or an established institution. Respecting the legacy of your field.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Legacy, Foundation"
+                        },
+                        new
+                        {
+                            Id = 2150,
+                            CardId = 147,
+                            Category = "Career",
+                            Content = "Outdated methods are holding you back. You are bound by a tradition that no longer serves you.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Obsolescence, Restriction"
+                        },
+                        new
+                        {
+                            Id = 2151,
+                            CardId = 147,
+                            Category = "Spiritualism",
+                            Content = "Connecting with your ancestors. Their wisdom is your birthright and your greatest guide.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Ancestry, Heritage"
+                        },
+                        new
+                        {
+                            Id = 2152,
+                            CardId = 147,
+                            Category = "Spiritualism",
+                            Content = "Karmic debt. You are being held back by the ghosts of the past or family traumas.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Karma, Shadow"
+                        },
+                        new
+                        {
+                            Id = 2153,
+                            CardId = 147,
+                            Category = "Finance",
+                            Content = "Inheritance or real estate gains. Wealth that comes through family or long-term ownership.",
+                            DeckId = 4,
+                            IsReversed = false,
+                            KeyWords = "Property, Legacy"
+                        },
+                        new
+                        {
+                            Id = 2154,
+                            CardId = 147,
+                            Category = "Finance",
+                            Content = "Legal battles over property or loss of inheritance. Financial ties to the past are causing pain.",
+                            DeckId = 4,
+                            IsReversed = true,
+                            KeyWords = "Loss, Legal Issues"
                         });
                 });
 
@@ -7331,6 +9087,30 @@ namespace TheSeer.Migrations
                             ImageOverlay = "",
                             Name = "The Lords",
                             SystemTypeId = 1
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Description = "A single rune for simple questions, daily guidance, or a focused motto to carry through the day.",
+                            ImageOverlay = "",
+                            Name = "The Single Rune (Odin's Sight)",
+                            SystemTypeId = 2
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Description = "The most classic rune spread. It consults the three weavers of fate to show the past, the present, and the path being woven for the future.",
+                            ImageOverlay = "",
+                            Name = "The Three Norns (Urd, Verdandi, Skuld)",
+                            SystemTypeId = 2
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Description = "A comprehensive layout that provides a deeper look into the challenges, influences, and potential outcomes of a complex situation.",
+                            ImageOverlay = "",
+                            Name = "The Five Rune Cross",
+                            SystemTypeId = 2
                         });
                 });
 
@@ -7480,6 +9260,105 @@ namespace TheSeer.Migrations
                             RotationDegrees = 0,
                             SequenceNumber = 4,
                             SpreadId = 4,
+                            XPos = 0,
+                            YPos = 0
+                        },
+                        new
+                        {
+                            Id = 22,
+                            Description = "The core essence of your question or the energy to focus on today.",
+                            Label = "The Oracle's Word",
+                            RotationDegrees = 0,
+                            SequenceNumber = 1,
+                            SpreadId = 7,
+                            XPos = 0,
+                            YPos = 0
+                        },
+                        new
+                        {
+                            Id = 23,
+                            Description = "What has already been woven; the origins and past influences of your situation.",
+                            Label = "Urd (The Past)",
+                            RotationDegrees = 0,
+                            SequenceNumber = 1,
+                            SpreadId = 8,
+                            XPos = 0,
+                            YPos = 0
+                        },
+                        new
+                        {
+                            Id = 24,
+                            Description = "What is currently becoming; the energy and choices active right now.",
+                            Label = "Verdandi (The Present)",
+                            RotationDegrees = 0,
+                            SequenceNumber = 2,
+                            SpreadId = 8,
+                            XPos = 0,
+                            YPos = 0
+                        },
+                        new
+                        {
+                            Id = 25,
+                            Description = "What shall be; the likely outcome if the current path remains unchanged.",
+                            Label = "Skuld (The Future)",
+                            RotationDegrees = 0,
+                            SequenceNumber = 3,
+                            SpreadId = 8,
+                            XPos = 0,
+                            YPos = 0
+                        },
+                        new
+                        {
+                            Id = 26,
+                            Description = "The foundation and previous events that led you to this moment.",
+                            Label = "The Past",
+                            RotationDegrees = 0,
+                            SequenceNumber = 1,
+                            SpreadId = 9,
+                            XPos = 0,
+                            YPos = 0
+                        },
+                        new
+                        {
+                            Id = 27,
+                            Description = "The current situation and the central energy surrounding your query.",
+                            Label = "The Present",
+                            RotationDegrees = 0,
+                            SequenceNumber = 2,
+                            SpreadId = 9,
+                            XPos = 0,
+                            YPos = 0
+                        },
+                        new
+                        {
+                            Id = 28,
+                            Description = "The obstacles or hidden friction you are currently facing.",
+                            Label = "The Challenge",
+                            RotationDegrees = 0,
+                            SequenceNumber = 3,
+                            SpreadId = 9,
+                            XPos = 0,
+                            YPos = 0
+                        },
+                        new
+                        {
+                            Id = 29,
+                            Description = "The help, hidden strengths, or opportunities that can be utilized.",
+                            Label = "The Potential",
+                            RotationDegrees = 0,
+                            SequenceNumber = 4,
+                            SpreadId = 9,
+                            XPos = 0,
+                            YPos = 0
+                        },
+                        new
+                        {
+                            Id = 30,
+                            Description = "The final result or the resolution of the situation based on the other four runes.",
+                            Label = "The Outcome",
+                            RotationDegrees = 0,
+                            SequenceNumber = 5,
+                            SpreadId = 9,
                             XPos = 0,
                             YPos = 0
                         });
