@@ -12,8 +12,8 @@ using TheSeer.Data;
 namespace TheSeer.Migrations
 {
     [DbContext(typeof(TheSeerDbContext))]
-    [Migration("20251225113556_AddSystemTypesBases")]
-    partial class AddSystemTypesBases
+    [Migration("20251226103145_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -106,6 +106,32 @@ namespace TheSeer.Migrations
                     b.HasIndex("SystemTypeId");
 
                     b.ToTable("Decks");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AssetFolder = " ",
+                            CardBackImage = " ",
+                            Creator = "Elvira Mariesdotter",
+                            DateOfPublish = new DateOnly(2025, 12, 25),
+                            Description = "The deck the seer herself carved out of the sandstone in her lands. Carries specific suits and meanings. Can create somewhat harsh readings, but always true and with good intent.",
+                            IsLocked = false,
+                            Name = "The Seer's deck",
+                            SystemTypeId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AssetFolder = " ",
+                            CardBackImage = " ",
+                            Creator = "Casey Gilly",
+                            DateOfPublish = new DateOnly(2022, 8, 28),
+                            Description = "A Lord of the Rings inspired tarot deck, replacing the pentacle suit with rings instead. All Major arcana and clothed cards are named after characters from the Realm of J.R.R. Tolkien. Illustrations by Tomas Hijo.",
+                            IsLocked = false,
+                            Name = "Lord of the Rings Tarot",
+                            SystemTypeId = 1
+                        });
                 });
 
             modelBuilder.Entity("TheSeer.Domain.Models.DrawnCard", b =>

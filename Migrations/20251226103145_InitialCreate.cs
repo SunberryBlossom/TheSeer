@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace TheSeer.Migrations
 {
     /// <inheritdoc />
@@ -293,6 +295,25 @@ namespace TheSeer.Migrations
                         principalTable: "SpreadPositions",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "SystemTypes",
+                columns: new[] { "Id", "CanBeReversed", "DefaultCardCount", "Description", "Name" },
+                values: new object[,]
+                {
+                    { 1, true, 78, "The classical system for introspection, guidance and spirital development. Usually has 78 cards, always divided into the major and minor arcana.", "Tarot" },
+                    { 2, true, 24, "An old norse system built upon the old futhark of 24 runes. Each rune symbolize natural powers and gods or godesses. Used to interpret hidden energies and bigger happenings in life.", "Runes" },
+                    { 3, false, 44, "A free and intuitive system for guidance. Not as strict as the Tarot system. Usually have unique themes, and can be flexible regarding card count.", "Oracle" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Decks",
+                columns: new[] { "Id", "AssetFolder", "CardBackImage", "Creator", "DateOfPublish", "Description", "IsLocked", "Name", "SystemTypeId" },
+                values: new object[,]
+                {
+                    { 1, " ", " ", "Elvira Mariesdotter", new DateOnly(2025, 12, 25), "The deck the seer herself carved out of the sandstone in her lands. Carries specific suits and meanings. Can create somewhat harsh readings, but always true and with good intent.", false, "The Seer's deck", 1 },
+                    { 2, " ", " ", "Casey Gilly", new DateOnly(2022, 8, 28), "A Lord of the Rings inspired tarot deck, replacing the pentacle suit with rings instead. All Major arcana and clothed cards are named after characters from the Realm of J.R.R. Tolkien. Illustrations by Tomas Hijo.", false, "Lord of the Rings Tarot", 1 }
                 });
 
             migrationBuilder.CreateIndex(

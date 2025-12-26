@@ -1,0 +1,630 @@
+[
+  {
+    "Id": 1,
+    "DeckId": 1,
+    "Name": "The Fool",
+    "Value": 0,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 2,
+    "DeckId": 1,
+    "Name": "The Magician",
+    "Value": 1,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 3,
+    "DeckId": 1,
+    "Name": "The High Priestess",
+    "Value": 2,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 4,
+    "DeckId": 1,
+    "Name": "The Empress",
+    "Value": 3,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 5,
+    "DeckId": 1,
+    "Name": "The Emperor",
+    "Value": 4,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 6,
+    "DeckId": 1,
+    "Name": "The Hierophant",
+    "Value": 5,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 7,
+    "DeckId": 1,
+    "Name": "The Lovers",
+    "Value": 6,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 8,
+    "DeckId": 1,
+    "Name": "The Chariot",
+    "Value": 7,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 9,
+    "DeckId": 1,
+    "Name": "Strength",
+    "Value": 8,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 10,
+    "DeckId": 1,
+    "Name": "The Hermit",
+    "Value": 9,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 11,
+    "DeckId": 1,
+    "Name": "Wheel of Fortune",
+    "Value": 10,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 12,
+    "DeckId": 1,
+    "Name": "Justice",
+    "Value": 11,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 13,
+    "DeckId": 1,
+    "Name": "The Hanged Man",
+    "Value": 12,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 14,
+    "DeckId": 1,
+    "Name": "Death",
+    "Value": 13,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 15,
+    "DeckId": 1,
+    "Name": "Temperance",
+    "Value": 14,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 16,
+    "DeckId": 1,
+    "Name": "The Devil",
+    "Value": 15,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 17,
+    "DeckId": 1,
+    "Name": "The Tower",
+    "Value": 16,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 18,
+    "DeckId": 1,
+    "Name": "The Star",
+    "Value": 17,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 19,
+    "DeckId": 1,
+    "Name": "The Moon",
+    "Value": 18,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 20,
+    "DeckId": 1,
+    "Name": "The Sun",
+    "Value": 19,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 21,
+    "DeckId": 1,
+    "Name": "Judgement",
+    "Value": 20,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+  {
+    "Id": 22,
+    "DeckId": 1,
+    "Name": "The World",
+    "Value": 21,
+    "SuitOrGroup": "Major Arcana",
+    "ImageKey": ""
+  },
+
+  {
+    "Id": 23,
+    "DeckId": 1,
+    "Name": "Ace of Trees",
+    "Value": 1,
+    "SuitOrGroup": "Trees",
+    "ImageKey": ""
+  },
+  {
+    "Id": 24,
+    "DeckId": 1,
+    "Name": "Two of Trees",
+    "Value": 2,
+    "SuitOrGroup": "Trees",
+    "ImageKey": ""
+  },
+  {
+    "Id": 25,
+    "DeckId": 1,
+    "Name": "Three of Trees",
+    "Value": 3,
+    "SuitOrGroup": "Trees",
+    "ImageKey": ""
+  },
+  {
+    "Id": 26,
+    "DeckId": 1,
+    "Name": "Four of Trees",
+    "Value": 4,
+    "SuitOrGroup": "Trees",
+    "ImageKey": ""
+  },
+  {
+    "Id": 27,
+    "DeckId": 1,
+    "Name": "Five of Trees",
+    "Value": 5,
+    "SuitOrGroup": "Trees",
+    "ImageKey": ""
+  },
+  {
+    "Id": 28,
+    "DeckId": 1,
+    "Name": "Six of Trees",
+    "Value": 6,
+    "SuitOrGroup": "Trees",
+    "ImageKey": ""
+  },
+  {
+    "Id": 29,
+    "DeckId": 1,
+    "Name": "Seven of Trees",
+    "Value": 7,
+    "SuitOrGroup": "Trees",
+    "ImageKey": ""
+  },
+  {
+    "Id": 30,
+    "DeckId": 1,
+    "Name": "Eight of Trees",
+    "Value": 8,
+    "SuitOrGroup": "Trees",
+    "ImageKey": ""
+  },
+  {
+    "Id": 31,
+    "DeckId": 1,
+    "Name": "Nine of Trees",
+    "Value": 9,
+    "SuitOrGroup": "Trees",
+    "ImageKey": ""
+  },
+  {
+    "Id": 32,
+    "DeckId": 1,
+    "Name": "Ten of Trees",
+    "Value": 10,
+    "SuitOrGroup": "Trees",
+    "ImageKey": ""
+  },
+  {
+    "Id": 33,
+    "DeckId": 1,
+    "Name": "Page of Trees",
+    "Value": 11,
+    "SuitOrGroup": "Trees",
+    "ImageKey": ""
+  },
+  {
+    "Id": 34,
+    "DeckId": 1,
+    "Name": "Knight of Trees",
+    "Value": 12,
+    "SuitOrGroup": "Trees",
+    "ImageKey": ""
+  },
+  {
+    "Id": 35,
+    "DeckId": 1,
+    "Name": "Queen of Trees",
+    "Value": 13,
+    "SuitOrGroup": "Trees",
+    "ImageKey": ""
+  },
+  {
+    "Id": 36,
+    "DeckId": 1,
+    "Name": "King of Trees",
+    "Value": 14,
+    "SuitOrGroup": "Trees",
+    "ImageKey": ""
+  },
+
+  {
+    "Id": 37,
+    "DeckId": 1,
+    "Name": "Ace of Books",
+    "Value": 1,
+    "SuitOrGroup": "Books",
+    "ImageKey": ""
+  },
+  {
+    "Id": 38,
+    "DeckId": 1,
+    "Name": "Two of Books",
+    "Value": 2,
+    "SuitOrGroup": "Books",
+    "ImageKey": ""
+  },
+  {
+    "Id": 39,
+    "DeckId": 1,
+    "Name": "Three of Books",
+    "Value": 3,
+    "SuitOrGroup": "Books",
+    "ImageKey": ""
+  },
+  {
+    "Id": 40,
+    "DeckId": 1,
+    "Name": "Four of Books",
+    "Value": 4,
+    "SuitOrGroup": "Books",
+    "ImageKey": ""
+  },
+  {
+    "Id": 41,
+    "DeckId": 1,
+    "Name": "Five of Books",
+    "Value": 5,
+    "SuitOrGroup": "Books",
+    "ImageKey": ""
+  },
+  {
+    "Id": 42,
+    "DeckId": 1,
+    "Name": "Six of Books",
+    "Value": 6,
+    "SuitOrGroup": "Books",
+    "ImageKey": ""
+  },
+  {
+    "Id": 43,
+    "DeckId": 1,
+    "Name": "Seven of Books",
+    "Value": 7,
+    "SuitOrGroup": "Books",
+    "ImageKey": ""
+  },
+  {
+    "Id": 44,
+    "DeckId": 1,
+    "Name": "Eight of Books",
+    "Value": 8,
+    "SuitOrGroup": "Books",
+    "ImageKey": ""
+  },
+  {
+    "Id": 45,
+    "DeckId": 1,
+    "Name": "Nine of Books",
+    "Value": 9,
+    "SuitOrGroup": "Books",
+    "ImageKey": ""
+  },
+  {
+    "Id": 46,
+    "DeckId": 1,
+    "Name": "Ten of Books",
+    "Value": 10,
+    "SuitOrGroup": "Books",
+    "ImageKey": ""
+  },
+  {
+    "Id": 47,
+    "DeckId": 1,
+    "Name": "Page of Books",
+    "Value": 11,
+    "SuitOrGroup": "Books",
+    "ImageKey": ""
+  },
+  {
+    "Id": 48,
+    "DeckId": 1,
+    "Name": "Knight of Books",
+    "Value": 12,
+    "SuitOrGroup": "Books",
+    "ImageKey": ""
+  },
+  {
+    "Id": 49,
+    "DeckId": 1,
+    "Name": "Queen of Books",
+    "Value": 13,
+    "SuitOrGroup": "Books",
+    "ImageKey": ""
+  },
+  {
+    "Id": 50,
+    "DeckId": 1,
+    "Name": "King of Books",
+    "Value": 14,
+    "SuitOrGroup": "Books",
+    "ImageKey": ""
+  },
+
+  {
+    "Id": 51,
+    "DeckId": 1,
+    "Name": "Ace of Teeth",
+    "Value": 1,
+    "SuitOrGroup": "Teeth",
+    "ImageKey": ""
+  },
+  {
+    "Id": 52,
+    "DeckId": 1,
+    "Name": "Two of Teeth",
+    "Value": 2,
+    "SuitOrGroup": "Teeth",
+    "ImageKey": ""
+  },
+  {
+    "Id": 53,
+    "DeckId": 1,
+    "Name": "Three of Teeth",
+    "Value": 3,
+    "SuitOrGroup": "Teeth",
+    "ImageKey": ""
+  },
+  {
+    "Id": 54,
+    "DeckId": 1,
+    "Name": "Four of Teeth",
+    "Value": 4,
+    "SuitOrGroup": "Teeth",
+    "ImageKey": ""
+  },
+  {
+    "Id": 55,
+    "DeckId": 1,
+    "Name": "Five of Teeth",
+    "Value": 5,
+    "SuitOrGroup": "Teeth",
+    "ImageKey": ""
+  },
+  {
+    "Id": 56,
+    "DeckId": 1,
+    "Name": "Six of Teeth",
+    "Value": 6,
+    "SuitOrGroup": "Teeth",
+    "ImageKey": ""
+  },
+  {
+    "Id": 57,
+    "DeckId": 1,
+    "Name": "Seven of Teeth",
+    "Value": 7,
+    "SuitOrGroup": "Teeth",
+    "ImageKey": ""
+  },
+  {
+    "Id": 58,
+    "DeckId": 1,
+    "Name": "Eight of Teeth",
+    "Value": 8,
+    "SuitOrGroup": "Teeth",
+    "ImageKey": ""
+  },
+  {
+    "Id": 59,
+    "DeckId": 1,
+    "Name": "Nine of Teeth",
+    "Value": 9,
+    "SuitOrGroup": "Teeth",
+    "ImageKey": ""
+  },
+  {
+    "Id": 60,
+    "DeckId": 1,
+    "Name": "Ten of Teeth",
+    "Value": 10,
+    "SuitOrGroup": "Teeth",
+    "ImageKey": ""
+  },
+  {
+    "Id": 61,
+    "DeckId": 1,
+    "Name": "Page of Teeth",
+    "Value": 11,
+    "SuitOrGroup": "Teeth",
+    "ImageKey": ""
+  },
+  {
+    "Id": 62,
+    "DeckId": 1,
+    "Name": "Knight of Teeth",
+    "Value": 12,
+    "SuitOrGroup": "Teeth",
+    "ImageKey": ""
+  },
+  {
+    "Id": 63,
+    "DeckId": 1,
+    "Name": "Queen of Teeth",
+    "Value": 13,
+    "SuitOrGroup": "Teeth",
+    "ImageKey": ""
+  },
+  {
+    "Id": 64,
+    "DeckId": 1,
+    "Name": "King of Teeth",
+    "Value": 14,
+    "SuitOrGroup": "Teeth",
+    "ImageKey": ""
+  },
+
+  {
+    "Id": 65,
+    "DeckId": 1,
+    "Name": "Ace of Ores",
+    "Value": 1,
+    "SuitOrGroup": "Ores",
+    "ImageKey": ""
+  },
+  {
+    "Id": 66,
+    "DeckId": 1,
+    "Name": "Two of Ores",
+    "Value": 2,
+    "SuitOrGroup": "Ores",
+    "ImageKey": ""
+  },
+  {
+    "Id": 67,
+    "DeckId": 1,
+    "Name": "Three of Ores",
+    "Value": 3,
+    "SuitOrGroup": "Ores",
+    "ImageKey": ""
+  },
+  {
+    "Id": 68,
+    "DeckId": 1,
+    "Name": "Four of Ores",
+    "Value": 4,
+    "SuitOrGroup": "Ores",
+    "ImageKey": ""
+  },
+  {
+    "Id": 69,
+    "DeckId": 1,
+    "Name": "Five of Ores",
+    "Value": 5,
+    "SuitOrGroup": "Ores",
+    "ImageKey": ""
+  },
+  {
+    "Id": 70,
+    "DeckId": 1,
+    "Name": "Six of Ores",
+    "Value": 6,
+    "SuitOrGroup": "Ores",
+    "ImageKey": ""
+  },
+  {
+    "Id": 71,
+    "DeckId": 1,
+    "Name": "Seven of Ores",
+    "Value": 7,
+    "SuitOrGroup": "Ores",
+    "ImageKey": ""
+  },
+  {
+    "Id": 72,
+    "DeckId": 1,
+    "Name": "Eight of Ores",
+    "Value": 8,
+    "SuitOrGroup": "Ores",
+    "ImageKey": ""
+  },
+  {
+    "Id": 73,
+    "DeckId": 1,
+    "Name": "Nine of Ores",
+    "Value": 9,
+    "SuitOrGroup": "Ores",
+    "ImageKey": ""
+  },
+  {
+    "Id": 74,
+    "DeckId": 1,
+    "Name": "Ten of Ores",
+    "Value": 10,
+    "SuitOrGroup": "Ores",
+    "ImageKey": ""
+  },
+  {
+    "Id": 75,
+    "DeckId": 1,
+    "Name": "Page of Ores",
+    "Value": 11,
+    "SuitOrGroup": "Ores",
+    "ImageKey": ""
+  },
+  {
+    "Id": 76,
+    "DeckId": 1,
+    "Name": "Knight of Ores",
+    "Value": 12,
+    "SuitOrGroup": "Ores",
+    "ImageKey": ""
+  },
+  {
+    "Id": 77,
+    "DeckId": 1,
+    "Name": "Queen of Ores",
+    "Value": 13,
+    "SuitOrGroup": "Ores",
+    "ImageKey": ""
+  },
+  {
+    "Id": 78,
+    "DeckId": 1,
+    "Name": "King of Ores",
+    "Value": 14,
+    "SuitOrGroup": "Ores",
+    "ImageKey": ""
+  }
+]
