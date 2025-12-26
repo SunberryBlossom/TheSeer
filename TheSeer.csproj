@@ -90,4 +90,8 @@
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Assets\Images\Decks\Tarot\TheSeerOriginal\" />
+  </ItemGroup>
+
 </Project>
