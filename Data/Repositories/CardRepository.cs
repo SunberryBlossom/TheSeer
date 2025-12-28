@@ -17,5 +17,7 @@ namespace TheSeer.Data.Repositories
 
         public Card GetById(int id) => _dbSet.Find(id);
         public IQueryable<Card> GetAllWithMeanings() => _dbSet.Include(c => c.Meanings);
+        public IQueryable<Card> GetCardsByDeck(int deckId) => _dbSet.Where(c => c.DeckId == deckId);
+        public Card GetCardWithMeanings(int cardId) => _dbSet.Include(c => c.Meanings).FirstOrDefault(c => c.Id == cardId);
     }
 }

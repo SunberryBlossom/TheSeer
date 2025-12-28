@@ -16,7 +16,10 @@ namespace TheSeer.Data.Repositories
         public Deck GetById(int id) => _dbSet.Find(id);
         public Deck GetDeckWithCards(int id) =>  _dbSet.Include(d => d.Cards).FirstOrDefault(d => d.Id == id);  
         public IQueryable<Deck> GetDecksByType(int systemTypeId) =>  _dbSet.Where(d => d.SystemTypeId == systemTypeId);
-        
+        public IQueryable<Deck> GetFavoritesByUserId(Guid userId)
+        {
+            return _dbSet.Where(d => d.FavoriteDecks.Any(f => f.UserId == userId));
+        }
 
     }
 }

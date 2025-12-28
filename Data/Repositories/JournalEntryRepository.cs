@@ -16,5 +16,7 @@ namespace TheSeer.Data.Repositories
         public JournalEntry GetById(Guid id) => _dbSet.Find(id);
         public IQueryable<JournalEntry> GetUserJournal(Guid userId) => _dbSet.Where(j => j.UserId == userId).OrderByDescending(j => j.DateWritten);
         public JournalEntry GetEntryByReading(Guid readingId) =>_dbSet.FirstOrDefault(j => j.ReadingId == readingId);
+        public IQueryable<JournalEntry> GetAllByUserId(Guid userId) => _dbSet.Where(je => je.UserId == userId);
+        public JournalEntry GetByReadingId(Guid readingId) => _dbSet.FirstOrDefault(je => je.ReadingId == readingId);
     }
 }

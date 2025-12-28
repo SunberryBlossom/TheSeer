@@ -7,7 +7,7 @@ using TheSeer.Data.Repositories;
 
 namespace TheSeer.Data
 {
-    internal class UnitOfWork : IUnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly TheSeerDbContext _context;
         private IDbContextTransaction _transaction;
