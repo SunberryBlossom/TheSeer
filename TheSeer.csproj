@@ -146,8 +146,10 @@
 
   <ItemGroup>
     <Folder Include="Assets\Images\Decks\Tarot\TheSeerOriginal\" />
-    <Folder Include="Business\" />
-    <Folder Include="Presentation\" />
+    <Folder Include="Presentation\Interfaces\" />
+    <Folder Include="Presentation\Menus\" />
+    <Folder Include="Presentation\Helpers\" />
+    <Folder Include="Presentation\Views\" />
   </ItemGroup>
 
 </Project>
