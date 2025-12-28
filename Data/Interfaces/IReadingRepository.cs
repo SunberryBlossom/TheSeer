@@ -5,7 +5,7 @@ using TheSeer.Domain.Models;
 
 namespace TheSeer.Data.Interfaces
 {
-    internal interface IReadingRepository : IGenericRepository<Reading>
+    public interface IReadingRepository : IGenericRepository<Reading>
     {
         Reading GetById(Guid id);
         Reading GetFullReadingDetails(Guid id);

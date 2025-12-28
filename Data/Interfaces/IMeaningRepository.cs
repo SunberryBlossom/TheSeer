@@ -5,7 +5,7 @@ using TheSeer.Domain.Models;
 
 namespace TheSeer.Data.Interfaces
 {
-    internal interface IMeaningRepository : IGenericRepository<Meaning>
+    public interface IMeaningRepository : IGenericRepository<Meaning>
     {
         Meaning GetById(int id);
         IQueryable<Meaning> GetMeaningsByCard(int cardId);

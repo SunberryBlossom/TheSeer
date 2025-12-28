@@ -5,10 +5,12 @@ using TheSeer.Domain.Models;
 
 namespace TheSeer.Data.Interfaces
 {
-    internal interface IJournalEntryRepository : IGenericRepository<JournalEntry>
+    public interface IJournalEntryRepository : IGenericRepository<JournalEntry>
     {
         JournalEntry GetById(Guid id);
         IQueryable<JournalEntry> GetUserJournal(Guid userId);
         JournalEntry GetEntryByReading(Guid readingId);
+        JournalEntry GetByReadingId(Guid readingId);
+        IQueryable<JournalEntry> GetAllByUserId(Guid userId);
     }
 }

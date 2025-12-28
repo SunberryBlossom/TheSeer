@@ -5,7 +5,7 @@ using TheSeer.Domain.Models;
 
 namespace TheSeer.Data.Interfaces
 {
-    internal interface ISystemTypeRepository : IGenericRepository<SystemType>
+    public interface ISystemTypeRepository : IGenericRepository<SystemType>
     {
         SystemType GetById(int id);
         SystemType GetSystemWithDecks(int id);

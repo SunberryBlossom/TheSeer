@@ -10,5 +10,7 @@ namespace TheSeer.Data.Interfaces
         Card GetById(int id);
 
         IQueryable<Card> GetAllWithMeanings();
+        IQueryable<Card> GetCardsByDeck(int deckId);
+        Card GetCardWithMeanings(int cardId);
     }
 }

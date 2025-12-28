@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TheSeer.Data.Interfaces
 {
-    internal interface IUnitOfWork : IDisposable
+    public interface IUnitOfWork : IDisposable
     {
         ICardRepository Cards { get; }
         IDeckRepository Decks { get; }
