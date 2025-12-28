@@ -2,21 +2,55 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
+using TheSeer.Business.Interfaces;
+using TheSeer.Business.Services;
 using TheSeer.Data;
+using TheSeer.Data.Interfaces;
+using TheSeer.Data.Repositories;
 
-namespace TheSeer
+namespace TheSeer.ConsoleApp
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            HostApplicationBuilder builder = Host.CreateApplicationBuilder(args);
-            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+            var host = CreateHostBuilder(args).Build();
 
-            builder.Services.AddDbContext<TheSeerDbContext>(options => options.UseSqlServer(connectionString));
-
-            using IHost host = builder.Build();
+            using (var scope = host.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                var app = services.GetRequiredService<App>();
+                app.Run();
+            }
         }
+
+        static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureAppConfiguration((hostingContext, config) =>
+                {
+                    if (hostingContext.HostingEnvironment.IsDevelopment())
+                    {
+                        config.AddUserSecrets<Program>();
+                    }
+                })
+                .ConfigureServices((hostContext, services) =>
+                {
+                    var connectionString = hostContext.Configuration.GetConnectionString("DefaultConnection");
+
+                    services.AddDbContext<TheSeerDbContext>(options =>
+                        options.UseSqlServer(connectionString));
+
+                    services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+                    services.AddScoped<IEncryptionService, EncryptionService>();
+                    services.AddScoped<IUserService, UserService>();
+                    services.AddScoped<ICatalogService, CatalogService>();
+                    services.AddScoped<ISpreadService, SpreadService>();
+                    services.AddScoped<IReadingService, ReadingService>();
+                    services.AddScoped<IJournalService, JournalService>();
+                    services.AddScoped<IFavoriteDeckService, FavoriteDeckService>();
+
+                    services.AddTransient<App>();
+                });
     }
 }
