@@ -5,7 +5,7 @@ using TheSeer.Domain.Models;
 
 namespace TheSeer.Data.Interfaces
 {
-    internal interface ISpreadPositionRepository : IGenericRepository<Spread>
+    public interface ISpreadPositionRepository : IGenericRepository<SpreadPosition>
     {
         SpreadPosition GetById(int id);
         IQueryable<SpreadPosition> GetPositionsBySpread(int spreadId);
