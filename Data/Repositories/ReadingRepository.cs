@@ -21,6 +21,7 @@ namespace TheSeer.Data.Repositories
                 .Include(r => r.Spread)
                 .Include(r => r.DrawnCards)
                 .ThenInclude(dc => dc.Card)
+                .ThenInclude(c => c.Meanings)
                 .Include(r => r.DrawnCards)
                 .ThenInclude(dc => dc.SpreadPosition)
                 .FirstOrDefault(r => r.Id == id);
