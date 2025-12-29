@@ -7,7 +7,6 @@ using TheSeer.Business.Interfaces;
 using TheSeer.Business.Services;
 using TheSeer.Data;
 using TheSeer.Data.Interfaces;
-using TheSeer.Data.Repositories;
 using TheSeer.Presentation.Menus;
 
 namespace TheSeer.ConsoleApp
@@ -31,7 +30,8 @@ namespace TheSeer.ConsoleApp
             Host.CreateDefaultBuilder(args)
                 .ConfigureAppConfiguration((hostingContext, config) =>
                 {
-                    config.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+                    config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+                    config.AddUserSecrets<Program>();
                 })
                 .ConfigureLogging((hostingContext, logging) =>
                 {
@@ -39,8 +39,7 @@ namespace TheSeer.ConsoleApp
                 })
                 .ConfigureServices((hostContext, services) =>
                 {
-                    var connectionString = "Data Source=ELVIRAS_LAPTOP;Database=TheSeerDb;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;";
-
+                    var connectionString = hostContext.Configuration.GetConnectionString("DefaultConnection");
                     services.AddDbContext<TheSeerDbContext>(options =>
                         options.UseSqlServer(connectionString));
 
