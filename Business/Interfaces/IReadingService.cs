@@ -5,8 +5,8 @@ namespace TheSeer.Business.Interfaces
 {
     public interface IReadingService
     {
-        ReadingResultDto PerformReading(Guid userId, int deckId, int spreadId);
-        ReadingResultDto GetReadingDetails(Guid readingId);
+        ReadingResultDto GetReadingDetails(Guid readingId, bool canBeReversed);
         IEnumerable<ReadingHistoryDto> GetUserHistory(Guid userId);
+        public ReadingResultDto PerformReading(Guid userId, int deckId, int spreadId, string question);
     }
 }

@@ -10,4 +10,5 @@ public interface IJournalService
     IEnumerable<JournalEntryDto> GetUserJournal(Guid userId);
     bool RemoveNote(Guid journalEntryId);
     JournalEntryDto UpdateNote(JournalUpdateDto update);
+    IEnumerable<ReadingHistoryDto> GetUserReadings(Guid userId);
 }
