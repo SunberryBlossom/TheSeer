@@ -11,5 +11,6 @@ namespace TheSeer.Data.Interfaces
         Deck GetDeckWithCards(int id);
         IQueryable<Deck> GetDecksByType(int systemTypeId);
         IQueryable<Deck> GetFavoritesByUserId(Guid userId);
+        public IEnumerable<Deck> GetAllWithCards();
     }
 }
