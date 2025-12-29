@@ -26,7 +26,6 @@ namespace TheSeer.ConsoleApp
 
         public void Run()
         {
-
             StartupView.Initialize();
 
             bool running = true;
@@ -36,7 +35,10 @@ namespace TheSeer.ConsoleApp
                 {
                     _currentUser = _userMenu.ShowStartMenu();
 
-                    if (_currentUser == null && !running) break;
+                    if (_currentUser == null)
+                    {
+                        running = false;
+                    }
                 }
                 else
                 {
