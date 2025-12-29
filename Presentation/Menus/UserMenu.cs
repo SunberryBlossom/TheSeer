@@ -45,6 +45,7 @@ namespace TheSeer.Presentation.Menus
                         break;
                     case "Q":
                         ConsoleHelper.Type("Good-bye, Seeker. Time waits for no one.", ConsoleColor.Green, 40);
+                        Thread.Sleep(3000);
                         return null;
                     default:
                         ConsoleHelper.Alert("Invalid command. My sensors do not recognize that input.", true);

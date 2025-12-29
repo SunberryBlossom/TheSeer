@@ -60,6 +60,7 @@ namespace TheSeer.Presentation.Menus
             foreach (var type in systemTypes)
             {
                 ConsoleHelper.WriteLine($"{type.Name}: {type.Description}", ConsoleColor.Green);
+                Console.WriteLine();
             }
 
 
@@ -96,6 +97,7 @@ namespace TheSeer.Presentation.Menus
 
             ConsoleHelper.MenuOption("Q", "Back to System Selection");
 
+            Console.WriteLine();
             var choice = ConsoleHelper.Input("SELECT ID").ToUpper();
             if (choice == "Q") return null;
 
@@ -128,11 +130,13 @@ namespace TheSeer.Presentation.Menus
             foreach (var spread in spreads)
             {
                 ConsoleHelper.WriteLine($"[{spread.Name}] {spread.Description}", ConsoleColor.Green);
+                Console.WriteLine();
             }
             Console.WriteLine();
 
             ConsoleHelper.MenuOption("B", "Back to Deck Selection");
 
+            Console.WriteLine();
             var choice = ConsoleHelper.Input("SELECT ID").ToUpper();
             if (choice == "B") return null;
 
@@ -145,7 +149,7 @@ namespace TheSeer.Presentation.Menus
             LogoView.Display();
             ConsoleHelper.Header("ENGAGING THE SEER PROJECT...");
 
-            ConsoleHelper.WriteLine("ENTER YOUR QUESTION THAT YOU WISH ANSWERED", ConsoleColor.Cyan);
+            ConsoleHelper.WriteLine("ENTER YOUR QUESTION THAT YOU WISH ANSWERED", ConsoleColor.Green);
             string userQuestion = ConsoleHelper.Input("YOUR QUESTION");
 
             if (string.IsNullOrWhiteSpace(userQuestion))
@@ -157,7 +161,7 @@ namespace TheSeer.Presentation.Menus
             Console.Clear();
             LogoView.Display();
             ConsoleHelper.Header("ENGAGING THE SEER PROJECT...");
-            ConsoleHelper.WriteLine($"QUESTION: {userQuestion}", ConsoleColor.Magenta);
+            ConsoleHelper.WriteLine($"QUESTION: {userQuestion}", ConsoleColor.Green);
             Console.WriteLine();
 
             if (deck.SystemName.Equals("Runes", StringComparison.OrdinalIgnoreCase))
