@@ -17,12 +17,18 @@ namespace TheSeer.Business.Services
             _uow = uow;
         }
 
-        public ReadingResultDto PerformReading(Guid userId, int deckId, int spreadId)
+        public ReadingResultDto PerformReading(Guid userId, int deckId, int spreadId, string question)
         {
             _uow.BeginTransaction();
 
             try
             {
+                var deck = _uow.Decks.GetById(deckId);
+                if (deck == null)
+                    throw new Exception("Deck not found.");
+
+                var canBeReversed = deck.SystemType?.CanBeReversed ?? false;
+
                 var deckCards = _uow.Cards.GetCardsByDeck(deckId).ToList();
                 var positions = _uow.SpreadPositions.GetPositionsBySpread(spreadId).ToList();
 
@@ -30,14 +36,12 @@ namespace TheSeer.Business.Services
                     throw new Exception("Deck or Spread positions not found.");
 
                 Random rng = new Random();
-                int n = deckCards.Count;
-                while (n > 1)
+                for (int n = deckCards.Count - 1; n > 0; n--)
                 {
-                    n--;
                     int k = rng.Next(n + 1);
-                    var value = deckCards[k];
+                    var temp = deckCards[k];
                     deckCards[k] = deckCards[n];
-                    deckCards[n] = value;
+                    deckCards[n] = temp;
                 }
 
                 var reading = new Reading
@@ -47,17 +51,36 @@ namespace TheSeer.Business.Services
                     DeckId = deckId,
                     SpreadId = spreadId,
                     PerformedAt = DateTime.Now,
-                    DrawnCards = new List<DrawnCard>()
+                    DrawnCards = new List<DrawnCard>(),
+                    Summary = $"Reading performed with {Math.Min(positions.Count, deckCards.Count)} cards drawn for spread '{_uow.Spreads.GetById(spreadId)?.Name ?? "Unknown"}'.",
+                    Question = question
                 };
 
                 for (int i = 0; i < positions.Count; i++)
                 {
+                    if (i >= deckCards.Count) break;
+
+                    var card = deckCards[i];
+                    bool isReversed = false;
+
+                    if (deck.SystemType?.Name?.Equals("Runes", StringComparison.OrdinalIgnoreCase) == true)
+                    {
+                        // Check if this rune/card has any reversed meanings
+                        bool runeHasReversedMeaning = card.Meanings?.Any(m => m.IsReversed) == true;
+                        isReversed = runeHasReversedMeaning ? (rng.Next(0, 2) == 1) : false;
+                    }
+                    else if (canBeReversed)
+                    {
+                        isReversed = rng.Next(0, 2) == 1;
+                    }
+
                     var drawnCard = new DrawnCard
                     {
                         ReadingId = reading.Id,
                         SpreadPositionId = positions[i].Id,
-                        CardId = deckCards[i].Id,
-                        IsReversed = rng.Next(0, 2) == 1
+                        CardId = card.Id,
+                        IsReversed = isReversed,
+                        DrawOrder = i + 1
                     };
 
                     reading.DrawnCards.Add(drawnCard);
@@ -67,16 +90,16 @@ namespace TheSeer.Business.Services
                 _uow.Save();
                 _uow.Commit();
 
-                return GetReadingDetails(reading.Id);
+                return GetReadingDetails(reading.Id, canBeReversed);
             }
             catch (Exception ex)
             {
                 _uow.Rollback();
-                throw new Exception("Something went wrong whilst creating the reading", ex);
+                throw new Exception($"Something went wrong whilst creating the reading: {ex.Message}", ex);
             }
         }
 
-        public ReadingResultDto GetReadingDetails(Guid readingId)
+        public ReadingResultDto GetReadingDetails(Guid readingId, bool canBeReversed)
         {
             var r = _uow.Readings.GetFullReadingDetails(readingId);
             if (r == null) return null;
@@ -88,18 +111,20 @@ namespace TheSeer.Business.Services
                 SpreadName = r.Spread.Name,
                 DrawnCards = r.DrawnCards.Select(dc =>
                 {
-                    var specificMeaning = dc.Card.Meanings
-                        .FirstOrDefault(m => m.DeckId == r.DeckId && m.IsReversed == dc.IsReversed);
-
                     return new DrawnCardDto
                     {
-                        CardName = dc.Card.Name,
-                        PositionName = dc.SpreadPosition.Label,
-                        PositionDescription = dc.SpreadPosition.Description,
+                        Card = dc.Card.Name,
+                        SpreadPositionId = dc.SpreadPositionId,
+                        SpreadPosition = dc.SpreadPosition.Label,
+                        SpreadPositionDescription = dc.SpreadPosition.Description,
+                        DrawOrder = dc.DrawOrder,
                         IsReversed = dc.IsReversed,
-                        MeaningText = specificMeaning?.Content ?? "No specific meaning found for this card in this deck."
+                        MeaningText = canBeReversed
+                            ? dc.Card.Meanings.Where(m => m.IsReversed == dc.IsReversed).ToList()
+                            : dc.Card.Meanings.Where(m => !m.IsReversed).ToList()
                     };
-                }).ToList()
+                }).ToList(),
+                Question = r.Question
             };
         }
 
