@@ -60,6 +60,7 @@ namespace TheSeer.Presentation.Menus
                         break;
                     case "Q":
                         ConsoleHelper.Type("Safely ejecting consciousness...", ConsoleColor.Yellow, 40);
+                        Thread.Sleep(2000);
                         inSession = false;
                         break;
                     default:
