@@ -1,6 +1,7 @@
 ﻿using System;
-using TheSeer.Business.Interfaces;
 using TheSeer.Business.DTOs;
+using TheSeer.Business.Interfaces;
+using TheSeer.Data;
 using TheSeer.Data.Interfaces;
 using TheSeer.Domain.Models;
 
@@ -17,12 +18,20 @@ namespace TheSeer.Business.Services
             _encryption = encryption;
         }
 
-        public UserSessionDto Register(UserRegisterDto registerDto)
+        public bool Register(UserRegisterDto registerDto)
         {
             var existingUser = _uow.Users.GetByEmail(registerDto.Email);
             if (existingUser != null)
             {
                 throw new InvalidOperationException("This Email address is already registered");
+            }
+
+            var existingUsername = _uow.Users.GetAll()
+        .FirstOrDefault(u => u.Username == registerDto.Username);
+
+            if (existingUsername != null)
+            {
+                return false;
             }
 
             string passwordHash = _encryption.HashPassword(registerDto.Password);
@@ -33,23 +42,19 @@ namespace TheSeer.Business.Services
                 Username = registerDto.Username,
                 Email = registerDto.Email,
                 HashedPassword = passwordHash,
-                CreatedAt = DateTime.Now
+                CreatedAt = DateTime.Now,
+                Role = "User"
             };
 
             _uow.Users.Add(newUser);
             _uow.Save();
 
-            return new UserSessionDto
-            {
-                Id = newUser.Id,
-                Username = newUser.Username,
-                Email = newUser.Email
-            };
+            return true;
         }
 
         public UserSessionDto Login(UserLoginDto loginDto)
         {
-            var user = _uow.Users.GetByEmail(loginDto.Email);
+            var user = _uow.Users.GetByUserName(loginDto.Username);
 
             if (user == null)
             {

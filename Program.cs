@@ -2,11 +2,12 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using TheSeer.Business.Interfaces;
 using TheSeer.Business.Services;
 using TheSeer.Data;
 using TheSeer.Data.Interfaces;
-using TheSeer.Data.Repositories;
+using TheSeer.Presentation.Menus;
 
 namespace TheSeer.ConsoleApp
 {
@@ -20,6 +21,7 @@ namespace TheSeer.ConsoleApp
             {
                 var services = scope.ServiceProvider;
                 var app = services.GetRequiredService<App>();
+
                 app.Run();
             }
         }
@@ -28,20 +30,20 @@ namespace TheSeer.ConsoleApp
             Host.CreateDefaultBuilder(args)
                 .ConfigureAppConfiguration((hostingContext, config) =>
                 {
-                    if (hostingContext.HostingEnvironment.IsDevelopment())
-                    {
-                        config.AddUserSecrets<Program>();
-                    }
+                    config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+                    config.AddUserSecrets<Program>();
+                })
+                .ConfigureLogging((hostingContext, logging) =>
+                {
+                    logging.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
                 })
                 .ConfigureServices((hostContext, services) =>
                 {
                     var connectionString = hostContext.Configuration.GetConnectionString("DefaultConnection");
-
                     services.AddDbContext<TheSeerDbContext>(options =>
                         options.UseSqlServer(connectionString));
 
                     services.AddScoped<IUnitOfWork, UnitOfWork>();
-
                     services.AddScoped<IEncryptionService, EncryptionService>();
                     services.AddScoped<IUserService, UserService>();
                     services.AddScoped<ICatalogService, CatalogService>();
@@ -49,6 +51,12 @@ namespace TheSeer.ConsoleApp
                     services.AddScoped<IReadingService, ReadingService>();
                     services.AddScoped<IJournalService, JournalService>();
                     services.AddScoped<IFavoriteDeckService, FavoriteDeckService>();
+
+                    services.AddScoped<UserMenu>();
+                    services.AddScoped<MainMenu>();
+                    services.AddScoped<CatalogMenu>();
+                    services.AddScoped<ReadingMenu>();
+                    services.AddScoped<JournalMenu>();
 
                     services.AddTransient<App>();
                 });

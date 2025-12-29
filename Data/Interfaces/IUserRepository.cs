@@ -10,5 +10,6 @@ namespace TheSeer.Data.Interfaces
         User GetById(Guid id);
         User GetByEmail(string email);
         User GetFullUserProfile(Guid id);
+        User GetByUserName(string username);
     }
 }

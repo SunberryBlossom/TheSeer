@@ -4,6 +4,7 @@ using System.Linq;
 using TheSeer.Business.Interfaces;
 using TheSeer.Business.DTOs;
 using TheSeer.Data.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace TheSeer.Business.Services
 {
@@ -18,14 +19,15 @@ namespace TheSeer.Business.Services
 
         public IEnumerable<SpreadDto> GetAllSpreads()
         {
-            var spreads = _uow.Spreads.GetAll();
+            var spreads = _uow.Spreads.GetAll().Include(s => s.SystemType);
 
             return spreads.Select(s => new SpreadDto
             {
                 Id = s.Id,
                 Name = s.Name,
                 Description = s.Description,
-                PositionCount = s.SpreadPositions.Count
+                PositionCount = s.SpreadPositions.Count,
+                SystemType = s.SystemType.Name
             });
         }
 

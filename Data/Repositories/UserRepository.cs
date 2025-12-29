@@ -18,6 +18,8 @@ namespace TheSeer.Data.Repositories
         {
             return _dbSet.FirstOrDefault(u => u.Email.ToLower() == email.ToLower());
         }
+
+        public User GetByUserName(string username) => _dbSet.FirstOrDefault(u => u.Username.ToLower() == username.ToLower());
         public User GetFullUserProfile(Guid id)
         {
             return _dbSet

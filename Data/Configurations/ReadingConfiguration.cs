@@ -14,6 +14,7 @@ namespace TheSeer.Data.Configurations
             builder.HasKey(r => r.Id);
 
             builder.Property(r => r.UserMood).HasMaxLength(100);
+            builder.Property(r => r.Question).HasMaxLength(150);
             builder.Property(r => r.Summary).IsRequired();
 
             builder.HasOne(r => r.User).WithMany(u => u.Readings).HasForeignKey(r => r.UserId).IsRequired();

@@ -10,5 +10,7 @@ namespace TheSeer.Business.Interfaces
         IEnumerable<DeckListItemDto> GetDecksBySystem(int systemTypeId, Guid userId);
         CardDetailDto GetCardDetails(int cardId);
         CardDetailDto GetDailyCard(int deckId);
+        IEnumerable<DeckListItemDto> GetAllDecks();
+        DeckListItemDto? GetDeckById(int id);
     }
 }

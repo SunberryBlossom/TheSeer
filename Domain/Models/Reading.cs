@@ -14,6 +14,7 @@ namespace TheSeer.Domain.Models
         public DateTime PerformedAt { get; set; }
         public string? UserMood { get; set; }
         public string Summary { get; set; } = null!;
+        public string Question { get; set; } = null!;
 
         public User User { get; set; } = null!;
         public Deck Deck { get; set; } = null!;

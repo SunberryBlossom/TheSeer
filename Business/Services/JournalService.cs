@@ -17,6 +17,18 @@ namespace TheSeer.Business.Services
             _uow = uow;
         }
 
+        public IEnumerable<ReadingHistoryDto> GetUserReadings(Guid userId)
+        {
+            return _uow.Readings.GetHistoryByUserId(userId)
+                .Select(r => new ReadingHistoryDto
+                {
+                    ReadingId = r.Id,
+                    PerformedAt = r.PerformedAt,
+                    SpreadName = r.Spread.Name,
+                    Summary = $"{r.DrawnCards.Count} cards drawn."
+                });
+        }
+
         public JournalEntryDto AddNote(Guid readingId, string content)
         {
             if (string.IsNullOrWhiteSpace(content))
