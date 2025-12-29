@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <UserSecretsId>229ec3c9-e8f8-41d0-8206-0c27b881c45a</UserSecretsId>
+    <UserSecretsId>bfb255df-03c4-40f5-9e8c-6253f50060dc</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -147,9 +147,12 @@
   <ItemGroup>
     <Folder Include="Assets\Images\Decks\Tarot\TheSeerOriginal\" />
     <Folder Include="Presentation\Interfaces\" />
-    <Folder Include="Presentation\Menus\" />
-    <Folder Include="Presentation\Helpers\" />
-    <Folder Include="Presentation\Views\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
