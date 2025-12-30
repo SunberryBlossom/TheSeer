@@ -5,6 +5,7 @@
     "Name": "The Awakened Earth",
     "Value": 1,
     "SuitOrGroup": "Wild Elements",
+    "Description": "The Awakened Earth signifies a fundamental shift in the environment. It represents dormant forces becoming active, demanding reconfiguration.",
     "ImageKey": ""
   },
   {
@@ -13,6 +14,7 @@
     "Name": "The Water Debt",
     "Value": 2,
     "SuitOrGroup": "Wild Elements",
+    "Description": "The Water Debt represents the price of existence in an arid system. It signifies the inevitable settling of biological accounts.",
     "ImageKey": ""
   },
   {
@@ -21,6 +23,7 @@
     "Name": "The Sun Spear",
     "Value": 3,
     "SuitOrGroup": "Wild Elements",
+    "Description": "A surge of hostile solar energy. It signifies a period of total exposure and the lethal clarity of an unblinking gaze.",
     "ImageKey": ""
   },
   {
@@ -29,6 +32,7 @@
     "Name": "The Shifting Ridge",
     "Value": 4,
     "SuitOrGroup": "Wild Elements",
+    "Description": "Environmental instability. It represents a state of transition where the path is constantly re-forming beneath the traveler.",
     "ImageKey": ""
   },
   {
@@ -37,6 +41,7 @@
     "Name": "The Dust Filter",
     "Value": 5,
     "SuitOrGroup": "Wild Elements",
+    "Description": "A necessity for protection. It signifies the filtering of noise to extract only the data essential for survival.",
     "ImageKey": ""
   },
   {
@@ -45,230 +50,133 @@
     "Name": "The Salt Harvest",
     "Value": 6,
     "SuitOrGroup": "Wild Elements",
+    "Description": "The extraction of value from a barren sector. It signifies the bitter reward found in the most hostile environments.",
     "ImageKey": ""
   },
   {
     "Id": 85,
     "DeckId": 3,
-    "Name": "The Oasis Ghost",
+    "Name": "The Storm Wall",
     "Value": 7,
     "SuitOrGroup": "Wild Elements",
+    "Description": "An approaching external crisis. It represents a force that cannot be diverted, only weathered through extreme preparation.",
     "ImageKey": ""
   },
   {
     "Id": 86,
     "DeckId": 3,
-    "Name": "The Sand Rose",
+    "Name": "The Spice Bloom",
     "Value": 8,
     "SuitOrGroup": "Wild Elements",
+    "Description": "A rare surge of profound systemic insight. It represents the eruption of vast potential from the deep desert.",
     "ImageKey": ""
   },
   {
     "Id": 87,
     "DeckId": 3,
-    "Name": "The Dry Lightning",
+    "Name": "The Void Echo",
     "Value": 9,
     "SuitOrGroup": "Wild Elements",
+    "Description": "A signal from the emptiness. It represents the feedback loop of a system left in isolation for an extended duration.",
     "ImageKey": ""
   },
   {
     "Id": 88,
     "DeckId": 3,
-    "Name": "The Wind Carver",
+    "Name": "The Heat Mirage",
     "Value": 10,
     "SuitOrGroup": "Wild Elements",
+    "Description": "A cognitive error. It signifies the projection of an objective that does not exist in objective, physical reality.",
     "ImageKey": ""
   },
   {
     "Id": 89,
     "DeckId": 3,
-    "Name": "The Nomad's Path",
-    "Value": 11,
-    "SuitOrGroup": "Wild Elements",
+    "Name": "The Navigator",
+    "Value": 1,
+    "SuitOrGroup": "Mystic Orders",
+    "Description": "Mastery over complex space-time calculations. He signifies the ability to guide the collective through the unmapped void.",
     "ImageKey": ""
   },
   {
     "Id": 90,
     "DeckId": 3,
-    "Name": "The Throne of Glass",
-    "Value": 1,
-    "SuitOrGroup": "Imperial Houses",
+    "Name": "The Reverend Mother",
+    "Value": 2,
+    "SuitOrGroup": "Mystic Orders",
+    "Description": "The storage of genetic and historical memory. She signifies the cold use of the past to manipulate the future.",
     "ImageKey": ""
   },
   {
     "Id": 91,
     "DeckId": 3,
-    "Name": "The Great Accord",
-    "Value": 2,
-    "SuitOrGroup": "Imperial Houses",
+    "Name": "The Mentat",
+    "Value": 3,
+    "SuitOrGroup": "Mystic Orders",
+    "Description": "The perfection of human analytical logic. He represents a state where calculation is the only valid response to data.",
     "ImageKey": ""
   },
   {
     "Id": 92,
     "DeckId": 3,
-    "Name": "The Poisoned Gift",
-    "Value": 3,
-    "SuitOrGroup": "Imperial Houses",
+    "Name": "The Swordmaster",
+    "Value": 4,
+    "SuitOrGroup": "Mystic Orders",
+    "Description": "The perfection of lethal physical discipline. He represents absolute tactical focus and mastery over the blade.",
     "ImageKey": ""
   },
   {
     "Id": 93,
     "DeckId": 3,
-    "Name": "The Heir Apparent",
-    "Value": 4,
-    "SuitOrGroup": "Imperial Houses",
+    "Name": "The Truthsayer",
+    "Value": 5,
+    "SuitOrGroup": "Mystic Orders",
+    "Description": "The detection of deception within a system. She signifies a sensory array tuned to the frequency of human dishonesty.",
     "ImageKey": ""
   },
   {
     "Id": 94,
     "DeckId": 3,
-    "Name": "The Spy’s Whisper",
-    "Value": 5,
-    "SuitOrGroup": "Imperial Houses",
+    "Name": "The Imperial Guard",
+    "Value": 6,
+    "SuitOrGroup": "Mystic Orders",
+    "Description": "The enforcement of the supreme will. It represents a force that exists only to protect the architecture of power.",
     "ImageKey": ""
   },
   {
     "Id": 95,
     "DeckId": 3,
-    "Name": "The Blood Lineage",
-    "Value": 6,
-    "SuitOrGroup": "Imperial Houses",
+    "Name": "The Desert Scout",
+    "Value": 7,
+    "SuitOrGroup": "Mystic Orders",
+    "Description": "The gathering of clandestine intelligence. He signifies the ability to observe a sector without alerting its inhabitants.",
     "ImageKey": ""
   },
   {
     "Id": 96,
     "DeckId": 3,
-    "Name": "The War Engine",
-    "Value": 7,
-    "SuitOrGroup": "Imperial Houses",
+    "Name": "The Water Seeker",
+    "Value": 8,
+    "SuitOrGroup": "Mystic Orders",
+    "Description": "The drive for survival in extreme conditions. He signifies the relentless pursuit of the rarest life-sustaining resources.",
     "ImageKey": ""
   },
   {
     "Id": 97,
     "DeckId": 3,
-    "Name": "The Golden Exile",
-    "Value": 8,
-    "SuitOrGroup": "Imperial Houses",
+    "Name": "The Sand Rider",
+    "Value": 9,
+    "SuitOrGroup": "Mystic Orders",
+    "Description": "The control of vast, ancient forces. He signifies the synchronization of the individual with a titanic entity.",
     "ImageKey": ""
   },
   {
     "Id": 98,
     "DeckId": 3,
-    "Name": "The Trade Route",
-    "Value": 9,
-    "SuitOrGroup": "Imperial Houses",
-    "ImageKey": ""
-  },
-  {
-    "Id": 99,
-    "DeckId": 3,
-    "Name": "The Silent Regent",
-    "Value": 10,
-    "SuitOrGroup": "Imperial Houses",
-    "ImageKey": ""
-  },
-  {
-    "Id": 100,
-    "DeckId": 3,
-    "Name": "The Broken Banner",
-    "Value": 11,
-    "SuitOrGroup": "Imperial Houses",
-    "ImageKey": ""
-  },
-  {
-    "Id": 101,
-    "DeckId": 3,
-    "Name": "The Voice of Command",
-    "Value": 1,
-    "SuitOrGroup": "Mystic Orders",
-    "ImageKey": ""
-  },
-  {
-    "Id": 102,
-    "DeckId": 3,
-    "Name": "The Prescient Eye",
-    "Value": 2,
-    "SuitOrGroup": "Mystic Orders",
-    "ImageKey": ""
-  },
-  {
-    "Id": 103,
-    "DeckId": 3,
-    "Name": "The Blue Fever",
-    "Value": 3,
-    "SuitOrGroup": "Mystic Orders",
-    "ImageKey": ""
-  },
-  {
-    "Id": 104,
-    "DeckId": 3,
-    "Name": "The Folding Space",
-    "Value": 4,
-    "SuitOrGroup": "Mystic Orders",
-    "ImageKey": ""
-  },
-  {
-    "Id": 105,
-    "DeckId": 3,
-    "Name": "The Truth Sayer",
-    "Value": 5,
-    "SuitOrGroup": "Mystic Orders",
-    "ImageKey": ""
-  },
-  {
-    "Id": 106,
-    "DeckId": 3,
-    "Name": "The Ancestral Link",
-    "Value": 6,
-    "SuitOrGroup": "Mystic Orders",
-    "ImageKey": ""
-  },
-  {
-    "Id": 107,
-    "DeckId": 3,
-    "Name": "The Dream Walker",
-    "Value": 7,
-    "SuitOrGroup": "Mystic Orders",
-    "ImageKey": ""
-  },
-  {
-    "Id": 108,
-    "DeckId": 3,
-    "Name": "The Shadow Mission",
-    "Value": 8,
-    "SuitOrGroup": "Mystic Orders",
-    "ImageKey": ""
-  },
-  {
-    "Id": 109,
-    "DeckId": 3,
-    "Name": "The Genetic Thread",
-    "Value": 9,
-    "SuitOrGroup": "Mystic Orders",
-    "ImageKey": ""
-  },
-  {
-    "Id": 110,
-    "DeckId": 3,
-    "Name": "The Mental Wall",
+    "Name": "The Hidden Fremen",
     "Value": 10,
     "SuitOrGroup": "Mystic Orders",
-    "ImageKey": ""
-  },
-  {
-    "Id": 111,
-    "DeckId": 3,
-    "Name": "The Future Path",
-    "Value": 11,
-    "SuitOrGroup": "Mystic Orders",
-    "ImageKey": ""
-  },
-  {
-    "Id": 112,
-    "DeckId": 3,
-    "Name": "The Great Devourer",
-    "Value": 1,
-    "SuitOrGroup": "Ancient Prophecies",
+    "Description": "The power of an invisible collective. It represents a force perfectly integrated with its environment.",
     "ImageKey": ""
   },
   {
@@ -277,6 +185,7 @@
     "Name": "The Old Maker",
     "Value": 2,
     "SuitOrGroup": "Ancient Prophecies",
+    "Description": "The primary force of creation and destruction. It signifies the immense scale of the divine mechanics under the sand.",
     "ImageKey": ""
   },
   {
@@ -285,6 +194,7 @@
     "Name": "The Deep Thumper",
     "Value": 3,
     "SuitOrGroup": "Ancient Prophecies",
+    "Description": "A rhythmic call to the unknown. It represents the attraction of powerful variables through consistent action.",
     "ImageKey": ""
   },
   {
@@ -293,6 +203,7 @@
     "Name": "The Sand Temple",
     "Value": 4,
     "SuitOrGroup": "Ancient Prophecies",
+    "Description": "A forgotten node of ancient belief. It represents the intersection of historical tradition and physical isolation.",
     "ImageKey": ""
   },
   {
@@ -301,6 +212,7 @@
     "Name": "The Sacred Oil",
     "Value": 5,
     "SuitOrGroup": "Ancient Prophecies",
+    "Description": "A catalyst for mechanical and spiritual initiation. It represents the lubrication of the grand machine's gears.",
     "ImageKey": ""
   },
   {
@@ -309,6 +221,7 @@
     "Name": "The Eternal Stone",
     "Value": 6,
     "SuitOrGroup": "Ancient Prophecies",
+    "Description": "An unchanging reference point in a shifting world. It represents the absolute durability of a core conviction.",
     "ImageKey": ""
   },
   {
@@ -317,38 +230,7 @@
     "Name": "The Forgotten Grave",
     "Value": 7,
     "SuitOrGroup": "Ancient Prophecies",
-    "ImageKey": ""
-  },
-  {
-    "Id": 119,
-    "DeckId": 3,
-    "Name": "The Pillar of Fire",
-    "Value": 8,
-    "SuitOrGroup": "Ancient Prophecies",
-    "ImageKey": ""
-  },
-  {
-    "Id": 120,
-    "DeckId": 3,
-    "Name": "The White Sun",
-    "Value": 9,
-    "SuitOrGroup": "Ancient Prophecies",
-    "ImageKey": ""
-  },
-  {
-    "Id": 121,
-    "DeckId": 3,
-    "Name": "The Dark Star",
-    "Value": 10,
-    "SuitOrGroup": "Ancient Prophecies",
-    "ImageKey": ""
-  },
-  {
-    "Id": 122,
-    "DeckId": 3,
-    "Name": "The Final Horizon",
-    "Value": 11,
-    "SuitOrGroup": "Ancient Prophecies",
+    "Description": "A data point on the failure of previous agents. It represents the lessons learned from those the desert claimed.",
     "ImageKey": ""
   }
 ]

@@ -12,5 +12,6 @@ namespace TheSeer.Data.Interfaces
         JournalEntry GetEntryByReading(Guid readingId);
         JournalEntry GetByReadingId(Guid readingId);
         IQueryable<JournalEntry> GetAllByUserId(Guid userId);
+        JournalEntry GetByReadingIdAndUserId(Guid readingId, Guid userId);
     }
 }

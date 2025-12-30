@@ -12,6 +12,7 @@ namespace TheSeer.Domain.Models
         public int Value { get; set; }
         public string SuitOrGroup { get; set; } = null!;
         public string ImageKey { get; set; } = null!;
+        public string Description { get; set; } = null!;
 
         public Deck Deck { get; set; } = null!;
         public ICollection<DrawnCard> DrawnCards { get; set; } = new List<DrawnCard>();

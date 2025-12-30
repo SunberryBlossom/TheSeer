@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using TheSeer.Business.DTOs;
 using TheSeer.Business.Interfaces;
@@ -38,23 +39,42 @@ namespace TheSeer.Presentation.Menus
                     return;
                 }
 
-                for (int i = 0; i < decks.Count; i++)
+                var groupedDecks = decks
+                    .GroupBy(d => string.IsNullOrWhiteSpace(d.SystemName) ? "OTHER" : d.SystemName.ToUpper())
+                    .OrderBy(g => g.Key)
+                    .ToList();
+
+                int deckIndex = 1;
+                Dictionary<int, DeckListItemDto> deckMap = new();
+
+                foreach (var group in groupedDecks)
                 {
-                    ConsoleHelper.MenuOption((i + 1).ToString(), $"{decks[i].Name} - {decks[i].Description}");
+                    ConsoleHelper.WriteLine($"=== {group.Key} ===", ConsoleColor.Green);
+                    foreach (var deck in group)
+                    {
+                        ConsoleHelper.MenuOption(deckIndex.ToString(), $"{deck.Name}");
+                        deckMap[deckIndex] = deck;
+                        deckIndex++;
+                    }
+                    Console.WriteLine();
                 }
 
                 ConsoleHelper.MenuOption("Q", "RETURN TO MAIN TERMINAL");
                 ConsoleHelper.Divider();
 
-                var choice = ConsoleHelper.Input("SELECT DECK FOR DETAILED SCAN").ToUpper();
+                var choice = ConsoleHelper.Input("SELECT DECK FOR DETAILED SCAN", allowBack: true).ToUpper();
 
                 if (choice == "Q")
                 {
                     browsing = false;
                 }
-                else if (int.TryParse(choice, out int index) && index > 0 && index <= decks.Count)
+                else if (choice == "BACK")
                 {
-                    ShowDeckDetails(decks[index - 1].Id);
+                    return;
+                }
+                else if (int.TryParse(choice, out int index) && deckMap.ContainsKey(index))
+                {
+                    ShowDeckDetails(deckMap[index].Id);
                 }
                 else
                 {
@@ -73,7 +93,7 @@ namespace TheSeer.Presentation.Menus
             LogoView.Display();
             ConsoleHelper.Header($"Archive: {deck.Name}");
 
-            ConsoleHelper.Type("DESCRIPTION:", ConsoleColor.Cyan, 20);
+            ConsoleHelper.Type("DESCRIPTION:", ConsoleColor.Green, 20);
             ConsoleHelper.Type(deck.Description);
 
             Console.WriteLine();
@@ -104,30 +124,33 @@ namespace TheSeer.Presentation.Menus
                 return;
             }
 
-            // 1. Gruppera efter kategori
-            // 2. Sortera grupperna alfabetiskt (Key)
             var groupedCards = deck.Cards
                 .GroupBy(c => string.IsNullOrWhiteSpace(c.Suit) ? "GENERAL" : c.Suit.ToUpper())
                 .OrderBy(g => g.Key);
 
-            ConsoleHelper.Type($"ANALYZING {deck.Cards.Count} ENTITIES BY CATEGORY AND VALUE...", ConsoleColor.Cyan, 20);
+            ConsoleHelper.Type($"ANALYZING {deck.Cards.Count} ENTITIES BY CATEGORY AND VALUE...", ConsoleColor.Green, 20);
             Console.WriteLine();
+
+            var cardList = deck.Cards.OrderBy(c => c.Suit).ThenBy(c => c.Value).ToList();
+            int cardIndex = 1;
+            Dictionary<int, CardDetailDto> cardMap = new();
 
             foreach (var group in groupedCards)
             {
                 Console.WriteLine();
-                ConsoleHelper.WriteLine($"--- [ CATEGORY: {group.Key} ] ---", ConsoleColor.Magenta);
+                ConsoleHelper.WriteLine($"--- [ CATEGORY: {group.Key} ] ---", ConsoleColor.DarkRed);
 
-                // Här sker den interna sorteringen på VALUE
                 foreach (var card in group.OrderBy(c => c.Value))
                 {
                     Console.Write("  ");
                     Console.ForegroundColor = ConsoleColor.DarkGray;
-                    Console.Write($"[{card.Value:D2}] "); // Visar värdet, t.ex. [01], [02]
+                    Console.Write($"[{cardIndex:D2}] ");
 
                     Console.ForegroundColor = ConsoleColor.Gray;
-                    Console.WriteLine(card.Name.ToUpper());
+                    Console.WriteLine($"{card.Name.ToUpper()}");
 
+                    cardMap[cardIndex] = card;
+                    cardIndex++;
                     Thread.Sleep(5);
                 }
             }
@@ -135,7 +158,74 @@ namespace TheSeer.Presentation.Menus
             Console.ResetColor();
             Console.WriteLine();
             ConsoleHelper.Divider();
-            ConsoleHelper.Wait();
+
+            ConsoleHelper.MenuOption("Q", "Back to deck list");
+            var input = ConsoleHelper.Input("Enter card number for details or Q to return", allowBack: true).ToUpper();
+            if (input == "Q")
+                return;
+
+            if (int.TryParse(input, out int selected) && cardMap.ContainsKey(selected))
+            {
+                var cardDetail = _catalogService.GetCardDetails(cardMap[selected].Id);
+                if (cardDetail != null)
+                {
+                    ShowCardDetails(cardDetail);
+                }
+                else
+                {
+                    ConsoleHelper.Alert("Could not load card details.", true);
+                }
+            }
+            else
+            {
+                ConsoleHelper.Alert("Invalid selection.", true);
+            }
+        }
+
+        private void ShowCardDetails(CardDetailDto card)
+        {
+            Console.Clear();
+            LogoView.Display();
+            ConsoleHelper.Header($"Card Detail: {card.Name}");
+
+            ConsoleHelper.Type($"VALUE: {card.Value}", ConsoleColor.Green, 20);
+            ConsoleHelper.Type($"SUIT: {card.Suit ?? "GENERAL"}", ConsoleColor.Green, 20);
+            Console.WriteLine();
+
+            ConsoleHelper.WriteLine(card.Description ?? "No description available.", ConsoleColor.Gray);
+            Console.WriteLine();
+
+            if (card.Meanings != null && card.Meanings.Count > 0)
+            {
+                var upright = card.Meanings.Where(m => !m.IsReversed).ToList();
+                var reversed = card.Meanings.Where(m => m.IsReversed).ToList();
+
+                if (upright.Count > 0)
+                {
+                    ConsoleHelper.WriteLine("UPRIGHT MEANINGS:", ConsoleColor.Yellow);
+                    foreach (var meaning in upright)
+                    {
+                        ConsoleHelper.WriteLine($"- {meaning.Content}", ConsoleColor.Gray);
+                    }
+                    Console.WriteLine();
+                }
+
+                if (reversed.Count > 0)
+                {
+                    ConsoleHelper.WriteLine("REVERSED MEANINGS:", ConsoleColor.Yellow);
+                    foreach (var meaning in reversed)
+                    {
+                        ConsoleHelper.WriteLine($"- {meaning.Content}", ConsoleColor.Gray);
+                    }
+                    Console.WriteLine();
+                }
+            }
+            else
+            {
+                ConsoleHelper.WriteLine("No meanings available.", ConsoleColor.DarkGray);
+            }
+
+            ConsoleHelper.Divider();
         }
     }
 }

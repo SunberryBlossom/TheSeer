@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TheSeer.Data;
 
@@ -11,9 +12,11 @@ using TheSeer.Data;
 namespace TheSeer.Migrations
 {
     [DbContext(typeof(TheSeerDbContext))]
-    partial class TheSeerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251230091610_AddingUpdateTimeStamp")]
+    partial class AddingUpdateTimeStamp
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -32,10 +35,6 @@ namespace TheSeer.Migrations
 
                     b.Property<int>("DeckId")
                         .HasColumnType("int");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageKey")
                         .IsRequired()
@@ -66,7 +65,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 1,
                             DeckId = 1,
-                            Description = "The Fool signifies a primary initiation sequence. It represents a state of total freedom from historical constraints and a leap into an uncalculated void.",
                             ImageKey = "",
                             Name = "The Fool",
                             SuitOrGroup = "Major Arcana",
@@ -76,7 +74,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 2,
                             DeckId = 1,
-                            Description = "The Magician represents the manifestation of will through resource synchronization. It is the interface between pure potential and physical reality.",
                             ImageKey = "",
                             Name = "The Magician",
                             SuitOrGroup = "Major Arcana",
@@ -86,7 +83,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 3,
                             DeckId = 1,
-                            Description = "The High Priestess embodies the silent archive of the subconscious. She represents intuition and data points existing between binary states.",
                             ImageKey = "",
                             Name = "The High Priestess",
                             SuitOrGroup = "Major Arcana",
@@ -96,7 +92,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 4,
                             DeckId = 1,
-                            Description = "The Empress signifies biological abundance and systemic growth. She is the nurturing force required for organic expansion within the void.",
                             ImageKey = "",
                             Name = "The Empress",
                             SuitOrGroup = "Major Arcana",
@@ -106,7 +101,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 5,
                             DeckId = 1,
-                            Description = "The Emperor represents the ultimate structure and enforcement of order. He is the authority that stabilizes the system through strategic dominance.",
                             ImageKey = "",
                             Name = "The Emperor",
                             SuitOrGroup = "Major Arcana",
@@ -116,7 +110,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 6,
                             DeckId = 1,
-                            Description = "The Hierophant signifies alignment with established protocols and tradition. He provides the formal framework for collective human belief systems.",
                             ImageKey = "",
                             Name = "The Hierophant",
                             SuitOrGroup = "Major Arcana",
@@ -126,7 +119,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 7,
                             DeckId = 1,
-                            Description = "The Lovers represent a critical convergence of paths. It signifies the harmony of dualities and the necessity of core-aligned choice.",
                             ImageKey = "",
                             Name = "The Lovers",
                             SuitOrGroup = "Major Arcana",
@@ -136,7 +128,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 8,
                             DeckId = 1,
-                            Description = "The Chariot signifies victory achieved through unwavering discipline. It represents the successful navigation of opposing forces under one will.",
                             ImageKey = "",
                             Name = "The Chariot",
                             SuitOrGroup = "Major Arcana",
@@ -146,7 +137,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 9,
                             DeckId = 1,
-                            Description = "Strength represents the integration of instinct with higher consciousness. It is the power of courage and the mastery of internal impulses.",
                             ImageKey = "",
                             Name = "Strength",
                             SuitOrGroup = "Major Arcana",
@@ -156,7 +146,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 10,
                             DeckId = 1,
-                            Description = "The Hermit signifies withdrawal for deep-level data analysis. It represents the quest for truth through introspection and isolated wisdom.",
                             ImageKey = "",
                             Name = "The Hermit",
                             SuitOrGroup = "Major Arcana",
@@ -166,7 +155,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 11,
                             DeckId = 1,
-                            Description = "The Wheel of Fortune represents inevitable systemic cycles. It signifies that change is the only constant parameter in the grand design.",
                             ImageKey = "",
                             Name = "Wheel of Fortune",
                             SuitOrGroup = "Major Arcana",
@@ -176,7 +164,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 12,
                             DeckId = 1,
-                            Description = "Justice represents the absolute law of cause and effect. It signifies impartial evaluation where truth is the only acceptable output.",
                             ImageKey = "",
                             Name = "Justice",
                             SuitOrGroup = "Major Arcana",
@@ -186,7 +173,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 13,
                             DeckId = 1,
-                            Description = "The Hanged Man signifies a period of deliberate suspension. It represents gaining a new perspective through sacrifice and non-action.",
                             ImageKey = "",
                             Name = "The Hanged Man",
                             SuitOrGroup = "Major Arcana",
@@ -196,7 +182,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 14,
                             DeckId = 1,
-                            Description = "Death represents the termination of an obsolete cycle. It is the transition that clears the path for a more efficient iteration.",
                             ImageKey = "",
                             Name = "Death",
                             SuitOrGroup = "Major Arcana",
@@ -206,7 +191,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 15,
                             DeckId = 1,
-                            Description = "Temperance signifies the alchemy of balance. It represents the synthesis of disparate elements into a stable, harmonious whole.",
                             ImageKey = "",
                             Name = "Temperance",
                             SuitOrGroup = "Major Arcana",
@@ -216,7 +200,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 16,
                             DeckId = 1,
-                            Description = "The Devil represents bondage to material data and primal impulses. It signifies the illusion of entrapment within a self-made system.",
                             ImageKey = "",
                             Name = "The Devil",
                             SuitOrGroup = "Major Arcana",
@@ -226,7 +209,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 17,
                             DeckId = 1,
-                            Description = "The Tower signifies the violent disruption of false structures. It represents the collapse of hubris and the liberation found in ruin.",
                             ImageKey = "",
                             Name = "The Tower",
                             SuitOrGroup = "Major Arcana",
@@ -236,7 +218,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 18,
                             DeckId = 1,
-                            Description = "The Star represents hope and the restoration of purpose. It is the beacon providing guidance and peace after a period of systemic chaos.",
                             ImageKey = "",
                             Name = "The Star",
                             SuitOrGroup = "Major Arcana",
@@ -246,7 +227,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 19,
                             DeckId = 1,
-                            Description = "The Moon signifies the realm of shadows and the unconscious. It represents uncertainty where logic is obscured by fluctuating data.",
                             ImageKey = "",
                             Name = "The Moon",
                             SuitOrGroup = "Major Arcana",
@@ -256,7 +236,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 20,
                             DeckId = 1,
-                            Description = "The Sun represents total clarity and vitality. It is the source of energy that illuminates all hidden variables in the path.",
                             ImageKey = "",
                             Name = "The Sun",
                             SuitOrGroup = "Major Arcana",
@@ -266,7 +245,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 21,
                             DeckId = 1,
-                            Description = "Judgement signifies the final evaluation of the journey. It is the call to awakening based on the summary of all previous actions.",
                             ImageKey = "",
                             Name = "Judgement",
                             SuitOrGroup = "Major Arcana",
@@ -276,7 +254,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 22,
                             DeckId = 1,
-                            Description = "The World represents the absolute completion of the cycle. It signifies total integration and harmony within the cosmic mainframe.",
                             ImageKey = "",
                             Name = "The World",
                             SuitOrGroup = "Major Arcana",
@@ -286,7 +263,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 23,
                             DeckId = 1,
-                            Description = "The initial surge of creative potential. It signifies the planting of a new objective within the fertile mind.",
                             ImageKey = "",
                             Name = "Ace of Trees",
                             SuitOrGroup = "Trees",
@@ -296,7 +272,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 24,
                             DeckId = 1,
-                            Description = "Synchronization of intent with global strategy. It represents the observation of the horizon before deployment.",
                             ImageKey = "",
                             Name = "Two of Trees",
                             SuitOrGroup = "Trees",
@@ -306,7 +281,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 25,
                             DeckId = 1,
-                            Description = "The expansion of Influence. It signifies the arrival of the first data points confirming successful growth.",
                             ImageKey = "",
                             Name = "Three of Trees",
                             SuitOrGroup = "Trees",
@@ -316,7 +290,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 26,
                             DeckId = 1,
-                            Description = "A milestone of stability. It represents a temporary equilibrium and the celebration of structural integrity.",
                             ImageKey = "",
                             Name = "Four of Trees",
                             SuitOrGroup = "Trees",
@@ -326,7 +299,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 27,
                             DeckId = 1,
-                            Description = "A conflict of priorities. It signifies the friction generated when multiple agents compete for the same sector.",
                             ImageKey = "",
                             Name = "Five of Trees",
                             SuitOrGroup = "Trees",
@@ -336,7 +308,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 28,
                             DeckId = 1,
-                            Description = "Public validation of victory. It signifies the recognition of one's status following a successful operation.",
                             ImageKey = "",
                             Name = "Six of Trees",
                             SuitOrGroup = "Trees",
@@ -346,7 +317,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 29,
                             DeckId = 1,
-                            Description = "A defensive stance against overwhelming odds. It represents the maintenance of high ground under pressure.",
                             ImageKey = "",
                             Name = "Seven of Trees",
                             SuitOrGroup = "Trees",
@@ -356,7 +326,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 30,
                             DeckId = 1,
-                            Description = "High-velocity transmission. It signifies the rapid resolution of events and the swift approach of a conclusion.",
                             ImageKey = "",
                             Name = "Eight of Trees",
                             SuitOrGroup = "Trees",
@@ -366,7 +335,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 31,
                             DeckId = 1,
-                            Description = "The final resilience protocol. It signifies persistence in the face of exhaustion before the mission ends.",
                             ImageKey = "",
                             Name = "Nine of Trees",
                             SuitOrGroup = "Trees",
@@ -376,7 +344,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 32,
                             DeckId = 1,
-                            Description = "Maximum capacity reached. It signifies the heavy burden of total responsibility and the cost of over-extension.",
                             ImageKey = "",
                             Name = "Ten of Trees",
                             SuitOrGroup = "Trees",
@@ -386,7 +353,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 33,
                             DeckId = 1,
-                            Description = "An influx of new inspirational data. It represents the youthful enthusiasm for a fresh technical endeavor.",
                             ImageKey = "",
                             Name = "Page of Trees",
                             SuitOrGroup = "Trees",
@@ -396,7 +362,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 34,
                             DeckId = 1,
-                            Description = "Aggressive pursuit of the objective. It signifies the rapid movement of an agent focused on sudden change.",
                             ImageKey = "",
                             Name = "Knight of Trees",
                             SuitOrGroup = "Trees",
@@ -406,7 +371,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 35,
                             DeckId = 1,
-                            Description = "Mastery of social radiance. She represents the command of focus and the efficient management of vibrant energy.",
                             ImageKey = "",
                             Name = "Queen of Trees",
                             SuitOrGroup = "Trees",
@@ -416,7 +380,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 36,
                             DeckId = 1,
-                            Description = "The ultimate visionary authority. He represents the strategic command of inspiration and long-term ambition.",
                             ImageKey = "",
                             Name = "King of Trees",
                             SuitOrGroup = "Trees",
@@ -426,7 +389,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 37,
                             DeckId = 1,
-                            Description = "The birth of a sharp, analytical truth. It signifies a breakthrough in logic that cuts through historical noise.",
                             ImageKey = "",
                             Name = "Ace of Books",
                             SuitOrGroup = "Books",
@@ -436,7 +398,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 38,
                             DeckId = 1,
-                            Description = "A stalemate in the decision-making process. It represents the suspension of action due to conflicting data.",
                             ImageKey = "",
                             Name = "Two of Books",
                             SuitOrGroup = "Books",
@@ -446,7 +407,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 39,
                             DeckId = 1,
-                            Description = "Systemic heartbreak. It signifies the pain caused by the cold realization of a harsh, objective reality.",
                             ImageKey = "",
                             Name = "Three of Books",
                             SuitOrGroup = "Books",
@@ -456,7 +416,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 40,
                             DeckId = 1,
-                            Description = "A tactical withdrawal into stasis. It represents the necessity of mental recovery and sensory deprivation.",
                             ImageKey = "",
                             Name = "Four of Books",
                             SuitOrGroup = "Books",
@@ -466,7 +425,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 41,
                             DeckId = 1,
-                            Description = "An inefficient victory. It signifies a conflict where the losses sustained negate the value of the outcome.",
                             ImageKey = "",
                             Name = "Five of Books",
                             SuitOrGroup = "Books",
@@ -476,7 +434,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 42,
                             DeckId = 1,
-                            Description = "Transition to a more stable sector. It represents the movement away from chaos toward logical clarity.",
                             ImageKey = "",
                             Name = "Six of Books",
                             SuitOrGroup = "Books",
@@ -486,7 +443,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 43,
                             DeckId = 1,
-                            Description = "Tactical deception. It signifies the attempt to achieve goals through stealth or the manipulation of data.",
                             ImageKey = "",
                             Name = "Seven of Books",
                             SuitOrGroup = "Books",
@@ -496,7 +452,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 44,
                             DeckId = 1,
-                            Description = "Cognitive entrapment. It represents the illusion of restricted movement within a self-imposed logical cage.",
                             ImageKey = "",
                             Name = "Eight of Books",
                             SuitOrGroup = "Books",
@@ -506,7 +461,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 45,
                             DeckId = 1,
-                            Description = "A loop of psychological distress. It signifies the overwhelming feedback of anxiety and projected failure.",
                             ImageKey = "",
                             Name = "Nine of Books",
                             SuitOrGroup = "Books",
@@ -516,7 +470,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 46,
                             DeckId = 1,
-                            Description = "Total systemic failure. It represents the absolute end of a struggle and the necessity of a hard reset.",
                             ImageKey = "",
                             Name = "Ten of Books",
                             SuitOrGroup = "Books",
@@ -526,7 +479,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 47,
                             DeckId = 1,
-                            Description = "The arrival of inquisitive new data. It signifies a mind prepared for rigorous analysis and learning.",
                             ImageKey = "",
                             Name = "Page of Books",
                             SuitOrGroup = "Books",
@@ -536,7 +488,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 48,
                             DeckId = 1,
-                            Description = "The rapid deployment of logic. He signifies the aggressive pursuit of truth without regard for emotional variables.",
                             ImageKey = "",
                             Name = "Knight of Books",
                             SuitOrGroup = "Books",
@@ -546,7 +497,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 49,
                             DeckId = 1,
-                            Description = "Mastery of perception. She represents the ability to cut through deception with the cold blade of clarity.",
                             ImageKey = "",
                             Name = "Queen of Books",
                             SuitOrGroup = "Books",
@@ -556,7 +506,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 50,
                             DeckId = 1,
-                            Description = "The pinnacle of intellectual authority. He represents the impartial judge who operates on pure data.",
                             ImageKey = "",
                             Name = "King of Books",
                             SuitOrGroup = "Books",
@@ -566,7 +515,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 51,
                             DeckId = 1,
-                            Description = "The emergence of a primary emotional surge. It signifies the birth of a deep, intuitive connection.",
                             ImageKey = "",
                             Name = "Ace of Teeth",
                             SuitOrGroup = "Teeth",
@@ -576,7 +524,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 52,
                             DeckId = 1,
-                            Description = "Synchronization of dual emotional streams. It represents the creation of a stable, resonant bond.",
                             ImageKey = "",
                             Name = "Two of Teeth",
                             SuitOrGroup = "Teeth",
@@ -586,7 +533,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 53,
                             DeckId = 1,
-                            Description = "Social integration and group harmony. It signifies the joy of shared experience within a collective.",
                             ImageKey = "",
                             Name = "Three of Teeth",
                             SuitOrGroup = "Teeth",
@@ -596,7 +542,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 54,
                             DeckId = 1,
-                            Description = "Emotional saturation. It signifies a state of apathy where new inputs are rejected due to over-exposure.",
                             ImageKey = "",
                             Name = "Four of Teeth",
                             SuitOrGroup = "Teeth",
@@ -606,7 +551,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 55,
                             DeckId = 1,
-                            Description = "A focus on depleted resources. It signifies mourning over lost connections while ignoring available data.",
                             ImageKey = "",
                             Name = "Five of Teeth",
                             SuitOrGroup = "Teeth",
@@ -616,7 +560,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 56,
                             DeckId = 1,
-                            Description = "The retrieval of historical comfort. It signifies a return to the safety of genetic or childhood memory.",
                             ImageKey = "",
                             Name = "Six of Teeth",
                             SuitOrGroup = "Teeth",
@@ -626,7 +569,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 57,
                             DeckId = 1,
-                            Description = "A conflict of projections. It represents the difficulty of choosing between multiple alluring illusions.",
                             ImageKey = "",
                             Name = "Seven of Teeth",
                             SuitOrGroup = "Teeth",
@@ -636,7 +578,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 58,
                             DeckId = 1,
-                            Description = "A voluntary departure from the current state. It signifies the search for a deeper meaning beyond the current horizon.",
                             ImageKey = "",
                             Name = "Eight of Teeth",
                             SuitOrGroup = "Teeth",
@@ -646,7 +587,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 59,
                             DeckId = 1,
-                            Description = "Total internal satisfaction. It represents the achievement of emotional self-reliance and independence.",
                             ImageKey = "",
                             Name = "Nine of Teeth",
                             SuitOrGroup = "Teeth",
@@ -656,7 +596,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 60,
                             DeckId = 1,
-                            Description = "Complete emotional integration. It represents the final alignment of the self with its social and environmental surroundings.",
                             ImageKey = "",
                             Name = "Ten of Teeth",
                             SuitOrGroup = "Teeth",
@@ -666,7 +605,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 61,
                             DeckId = 1,
-                            Description = "The arrival of intuitive signals. He represents the youthful explorer of the subconscious realm.",
                             ImageKey = "",
                             Name = "Page of Teeth",
                             SuitOrGroup = "Teeth",
@@ -676,7 +614,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 62,
                             DeckId = 1,
-                            Description = "The pursuit of an emotional ideal. He signifies the movement toward a romantic or intuitive objective.",
                             ImageKey = "",
                             Name = "Knight of Teeth",
                             SuitOrGroup = "Teeth",
@@ -686,7 +623,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 63,
                             DeckId = 1,
-                            Description = "The master of empathy. She signifies the ability to reflect the emotions of the system with perfect fidelity.",
                             ImageKey = "",
                             Name = "Queen of Teeth",
                             SuitOrGroup = "Teeth",
@@ -696,7 +632,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 64,
                             DeckId = 1,
-                            Description = "The authority of emotional calm. He represents the mature management of feelings and the power of poise.",
                             ImageKey = "",
                             Name = "King of Teeth",
                             SuitOrGroup = "Teeth",
@@ -706,7 +641,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 65,
                             DeckId = 1,
-                            Description = "The birth of a physical resource. It signifies the initial manifestation of a tangible material opportunity.",
                             ImageKey = "",
                             Name = "Ace of Ores",
                             SuitOrGroup = "Ores",
@@ -716,7 +650,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 66,
                             DeckId = 1,
-                            Description = "The balancing of material priorities. It represents the fluid management of changing physical variables.",
                             ImageKey = "",
                             Name = "Two of Ores",
                             SuitOrGroup = "Ores",
@@ -726,7 +659,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 67,
                             DeckId = 1,
-                            Description = "Collaborative production. It signifies the successful output of a team focused on technical mastery.",
                             ImageKey = "",
                             Name = "Three of Ores",
                             SuitOrGroup = "Ores",
@@ -736,7 +668,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 68,
                             DeckId = 1,
-                            Description = "Material stasis. It represents a rigid defense of resources born from a fear of systemic loss.",
                             ImageKey = "",
                             Name = "Four of Ores",
                             SuitOrGroup = "Ores",
@@ -746,7 +677,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 69,
                             DeckId = 1,
-                            Description = "A deficit of resources. It signifies a period of physical hardship and the exclusion from a secure sector.",
                             ImageKey = "",
                             Name = "Five of Ores",
                             SuitOrGroup = "Ores",
@@ -756,7 +686,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 70,
                             DeckId = 1,
-                            Description = "The redistribution of wealth. It represents the systemic flow of support and the act of charitable input.",
                             ImageKey = "",
                             Name = "Six of Ores",
                             SuitOrGroup = "Ores",
@@ -766,7 +695,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 71,
                             DeckId = 1,
-                            Description = "The evaluation of yield. It signifies a pause to assess the long-term viability of current material work.",
                             ImageKey = "",
                             Name = "Seven of Ores",
                             SuitOrGroup = "Ores",
@@ -776,7 +704,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 72,
                             DeckId = 1,
-                            Description = "The discipline of the craft. It represents the repetitive refinement of a technical skill until perfection.",
                             ImageKey = "",
                             Name = "Eight of Ores",
                             SuitOrGroup = "Ores",
@@ -786,7 +713,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 73,
                             DeckId = 1,
-                            Description = "Material independence. It signifies the achievement of luxury through the efficient management of the self.",
                             ImageKey = "",
                             Name = "Nine of Ores",
                             SuitOrGroup = "Ores",
@@ -796,7 +722,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 74,
                             DeckId = 1,
-                            Description = "Generational legacy. It signifies the accumulation of success that persists across historical timelines.",
                             ImageKey = "",
                             Name = "Ten of Ores",
                             SuitOrGroup = "Ores",
@@ -806,7 +731,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 75,
                             DeckId = 1,
-                            Description = "A student of the physical world. He represents the arrival of news concerning a practical, material venture.",
                             ImageKey = "",
                             Name = "Page of Ores",
                             SuitOrGroup = "Ores",
@@ -816,7 +740,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 76,
                             DeckId = 1,
-                            Description = "The steady advancement of work. He represents the dutiful, slow progress toward a physical goal.",
                             ImageKey = "",
                             Name = "Knight of Ores",
                             SuitOrGroup = "Ores",
@@ -826,7 +749,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 77,
                             DeckId = 1,
-                            Description = "The master of pragmatism. She signifies the nurturing of the home and the security of grounded resources.",
                             ImageKey = "",
                             Name = "Queen of Ores",
                             SuitOrGroup = "Ores",
@@ -836,7 +758,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 78,
                             DeckId = 1,
-                            Description = "The supreme manager of physics. He represents the highest form of material power and stable success.",
                             ImageKey = "",
                             Name = "King of Ores",
                             SuitOrGroup = "Ores",
@@ -846,7 +767,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 124,
                             DeckId = 4,
-                            Description = "The flow of mobile wealth and basic energy. It signifies resources required for expansion, if managed with precision.",
                             ImageKey = "",
                             Name = "Fehu",
                             SuitOrGroup = "Frey's Aett",
@@ -856,7 +776,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 125,
                             DeckId = 4,
-                            Description = "Raw, untamed strength. It represents the primordial energy that drives the machine of progress through the void.",
                             ImageKey = "",
                             Name = "Uruz",
                             SuitOrGroup = "Frey's Aett",
@@ -866,7 +785,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 126,
                             DeckId = 4,
-                            Description = "A reactive defensive threshold. It signifies the thorny protection that both guards the core and wounds the intruder.",
                             ImageKey = "",
                             Name = "Thurisaz",
                             SuitOrGroup = "Frey's Aett",
@@ -876,7 +794,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 127,
                             DeckId = 4,
-                            Description = "The transmission of divine intelligence. It represents signals from the origin and the power of creative speech.",
                             ImageKey = "",
                             Name = "Ansuz",
                             SuitOrGroup = "Frey's Aett",
@@ -886,7 +803,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 128,
                             DeckId = 4,
-                            Description = "The protocol of movement and rhythm. It signifies the alignment of the traveler's path with universal cycles.",
                             ImageKey = "",
                             Name = "Raidho",
                             SuitOrGroup = "Frey's Aett",
@@ -896,7 +812,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 129,
                             DeckId = 4,
-                            Description = "Controlled ignition. It represents the light of human knowledge and the intentional application of thermal force.",
                             ImageKey = "",
                             Name = "Kenaz",
                             SuitOrGroup = "Frey's Aett",
@@ -906,7 +821,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 130,
                             DeckId = 4,
-                            Description = "The exchange of data and resources. It signifies the balance required in a contract between two entities.",
                             ImageKey = "",
                             Name = "Gebo",
                             SuitOrGroup = "Frey's Aett",
@@ -916,7 +830,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 131,
                             DeckId = 4,
-                            Description = "Systemic harmony. It represents the successful integration of all parameters into a joyful, stable equilibrium.",
                             ImageKey = "",
                             Name = "Wunjo",
                             SuitOrGroup = "Frey's Aett",
@@ -926,7 +839,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 132,
                             DeckId = 4,
-                            Description = "Destructive disruption from the environment. It signifies the cold, structural failure that forces a total reset.",
                             ImageKey = "",
                             Name = "Hagalaz",
                             SuitOrGroup = "Hagal's Aett",
@@ -936,7 +848,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 133,
                             DeckId = 4,
-                            Description = "A state of acute resource deficiency. It represents the resistance that creates the necessity for innovation.",
                             ImageKey = "",
                             Name = "Nauthiz",
                             SuitOrGroup = "Hagal's Aett",
@@ -946,7 +857,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 134,
                             DeckId = 4,
-                            Description = "Absolute stasis. It represents the ice-like pause in all processing where external movement is suspended.",
                             ImageKey = "",
                             Name = "Isa",
                             SuitOrGroup = "Hagal's Aett",
@@ -956,7 +866,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 135,
                             DeckId = 4,
-                            Description = "The harvest cycle. It signifies the inevitable yield of a process and the rewards of consistent calculation.",
                             ImageKey = "",
                             Name = "Jera",
                             SuitOrGroup = "Hagal's Aett",
@@ -966,7 +875,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 136,
                             DeckId = 4,
-                            Description = "The vertical axis of the system. It represents the resilience and stability that bridges life and death.",
                             ImageKey = "",
                             Name = "Eihwaz",
                             SuitOrGroup = "Hagal's Aett",
@@ -976,7 +884,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 137,
                             DeckId = 4,
-                            Description = "The probability matrix and the roll of the dice. It signifies the hidden variables of fate governing the void.",
                             ImageKey = "",
                             Name = "Perthro",
                             SuitOrGroup = "Hagal's Aett",
@@ -986,7 +893,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 138,
                             DeckId = 4,
-                            Description = "The invocation of a protective field. It represents the connection to a higher shield and self-preservation.",
                             ImageKey = "",
                             Name = "Algiz",
                             SuitOrGroup = "Hagal's Aett",
@@ -996,7 +902,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 139,
                             DeckId = 4,
-                            Description = "A burst of radiant solar energy. It signifies the absolute success of the mission and the clarity of truth.",
                             ImageKey = "",
                             Name = "Sowilo",
                             SuitOrGroup = "Hagal's Aett",
@@ -1006,7 +911,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 140,
                             DeckId = 4,
-                            Description = "The warrior's code and strategic sacrifice. It represents the focus on justice and the power of the blade.",
                             ImageKey = "",
                             Name = "Tiwaz",
                             SuitOrGroup = "Tyr's Aett",
@@ -1016,7 +920,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 141,
                             DeckId = 4,
-                            Description = "The regenerative force of birth. It signifies the concealment and nurturing of new organic potential.",
                             ImageKey = "",
                             Name = "Berkano",
                             SuitOrGroup = "Tyr's Aett",
@@ -1026,7 +929,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 142,
                             DeckId = 4,
-                            Description = "Synchronization between rider and mount. It represents the efficient partnership required for transit.",
                             ImageKey = "",
                             Name = "Ehwaz",
                             SuitOrGroup = "Tyr's Aett",
@@ -1036,7 +938,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 143,
                             DeckId = 4,
-                            Description = "The collective human entity. It signifies shared awareness and the complex social structures of the species.",
                             ImageKey = "",
                             Name = "Mannaz",
                             SuitOrGroup = "Tyr's Aett",
@@ -1046,7 +947,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 144,
                             DeckId = 4,
-                            Description = "The fluid dynamics of the subconscious. It represents the tidal forces that drive intuition.",
                             ImageKey = "",
                             Name = "Laguz",
                             SuitOrGroup = "Tyr's Aett",
@@ -1056,7 +956,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 145,
                             DeckId = 4,
-                            Description = "The storage of potential energy. It signifies a state of gestation where power is accumulated for release.",
                             ImageKey = "",
                             Name = "Ingwaz",
                             SuitOrGroup = "Tyr's Aett",
@@ -1066,7 +965,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 146,
                             DeckId = 4,
-                            Description = "The moment of total illumination. It signifies the transition from darkness to light and a new mission.",
                             ImageKey = "",
                             Name = "Dagaz",
                             SuitOrGroup = "Tyr's Aett",
@@ -1076,7 +974,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 147,
                             DeckId = 4,
-                            Description = "The inheritance of ancestral space. It signifies the foundation of the home and the genetic line's legacy.",
                             ImageKey = "",
                             Name = "Othala",
                             SuitOrGroup = "Tyr's Aett",
@@ -1086,7 +983,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 79,
                             DeckId = 3,
-                            Description = "The Awakened Earth signifies a fundamental shift in the environment. It represents dormant forces becoming active, demanding reconfiguration.",
                             ImageKey = "",
                             Name = "The Awakened Earth",
                             SuitOrGroup = "Wild Elements",
@@ -1096,7 +992,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 80,
                             DeckId = 3,
-                            Description = "The Water Debt represents the price of existence in an arid system. It signifies the inevitable settling of biological accounts.",
                             ImageKey = "",
                             Name = "The Water Debt",
                             SuitOrGroup = "Wild Elements",
@@ -1106,7 +1001,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 81,
                             DeckId = 3,
-                            Description = "A surge of hostile solar energy. It signifies a period of total exposure and the lethal clarity of an unblinking gaze.",
                             ImageKey = "",
                             Name = "The Sun Spear",
                             SuitOrGroup = "Wild Elements",
@@ -1116,7 +1010,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 82,
                             DeckId = 3,
-                            Description = "Environmental instability. It represents a state of transition where the path is constantly re-forming beneath the traveler.",
                             ImageKey = "",
                             Name = "The Shifting Ridge",
                             SuitOrGroup = "Wild Elements",
@@ -1126,7 +1019,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 83,
                             DeckId = 3,
-                            Description = "A necessity for protection. It signifies the filtering of noise to extract only the data essential for survival.",
                             ImageKey = "",
                             Name = "The Dust Filter",
                             SuitOrGroup = "Wild Elements",
@@ -1136,7 +1028,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 84,
                             DeckId = 3,
-                            Description = "The extraction of value from a barren sector. It signifies the bitter reward found in the most hostile environments.",
                             ImageKey = "",
                             Name = "The Salt Harvest",
                             SuitOrGroup = "Wild Elements",
@@ -1146,9 +1037,8 @@ namespace TheSeer.Migrations
                         {
                             Id = 85,
                             DeckId = 3,
-                            Description = "An approaching external crisis. It represents a force that cannot be diverted, only weathered through extreme preparation.",
                             ImageKey = "",
-                            Name = "The Storm Wall",
+                            Name = "The Oasis Ghost",
                             SuitOrGroup = "Wild Elements",
                             Value = 7
                         },
@@ -1156,9 +1046,8 @@ namespace TheSeer.Migrations
                         {
                             Id = 86,
                             DeckId = 3,
-                            Description = "A rare surge of profound systemic insight. It represents the eruption of vast potential from the deep desert.",
                             ImageKey = "",
-                            Name = "The Spice Bloom",
+                            Name = "The Sand Rose",
                             SuitOrGroup = "Wild Elements",
                             Value = 8
                         },
@@ -1166,9 +1055,8 @@ namespace TheSeer.Migrations
                         {
                             Id = 87,
                             DeckId = 3,
-                            Description = "A signal from the emptiness. It represents the feedback loop of a system left in isolation for an extended duration.",
                             ImageKey = "",
-                            Name = "The Void Echo",
+                            Name = "The Dry Lightning",
                             SuitOrGroup = "Wild Elements",
                             Value = 9
                         },
@@ -1176,9 +1064,8 @@ namespace TheSeer.Migrations
                         {
                             Id = 88,
                             DeckId = 3,
-                            Description = "A cognitive error. It signifies the projection of an objective that does not exist in objective, physical reality.",
                             ImageKey = "",
-                            Name = "The Heat Mirage",
+                            Name = "The Wind Carver",
                             SuitOrGroup = "Wild Elements",
                             Value = 10
                         },
@@ -1186,107 +1073,222 @@ namespace TheSeer.Migrations
                         {
                             Id = 89,
                             DeckId = 3,
-                            Description = "Mastery over complex space-time calculations. He signifies the ability to guide the collective through the unmapped void.",
                             ImageKey = "",
-                            Name = "The Navigator",
-                            SuitOrGroup = "Mystic Orders",
-                            Value = 1
+                            Name = "The Nomad's Path",
+                            SuitOrGroup = "Wild Elements",
+                            Value = 11
                         },
                         new
                         {
                             Id = 90,
                             DeckId = 3,
-                            Description = "The storage of genetic and historical memory. She signifies the cold use of the past to manipulate the future.",
                             ImageKey = "",
-                            Name = "The Reverend Mother",
-                            SuitOrGroup = "Mystic Orders",
-                            Value = 2
+                            Name = "The Throne of Glass",
+                            SuitOrGroup = "Imperial Houses",
+                            Value = 1
                         },
                         new
                         {
                             Id = 91,
                             DeckId = 3,
-                            Description = "The perfection of human analytical logic. He represents a state where calculation is the only valid response to data.",
                             ImageKey = "",
-                            Name = "The Mentat",
-                            SuitOrGroup = "Mystic Orders",
-                            Value = 3
+                            Name = "The Great Accord",
+                            SuitOrGroup = "Imperial Houses",
+                            Value = 2
                         },
                         new
                         {
                             Id = 92,
                             DeckId = 3,
-                            Description = "The perfection of lethal physical discipline. He represents absolute tactical focus and mastery over the blade.",
                             ImageKey = "",
-                            Name = "The Swordmaster",
-                            SuitOrGroup = "Mystic Orders",
-                            Value = 4
+                            Name = "The Poisoned Gift",
+                            SuitOrGroup = "Imperial Houses",
+                            Value = 3
                         },
                         new
                         {
                             Id = 93,
                             DeckId = 3,
-                            Description = "The detection of deception within a system. She signifies a sensory array tuned to the frequency of human dishonesty.",
                             ImageKey = "",
-                            Name = "The Truthsayer",
-                            SuitOrGroup = "Mystic Orders",
-                            Value = 5
+                            Name = "The Heir Apparent",
+                            SuitOrGroup = "Imperial Houses",
+                            Value = 4
                         },
                         new
                         {
                             Id = 94,
                             DeckId = 3,
-                            Description = "The enforcement of the supreme will. It represents a force that exists only to protect the architecture of power.",
                             ImageKey = "",
-                            Name = "The Imperial Guard",
-                            SuitOrGroup = "Mystic Orders",
-                            Value = 6
+                            Name = "The Spy’s Whisper",
+                            SuitOrGroup = "Imperial Houses",
+                            Value = 5
                         },
                         new
                         {
                             Id = 95,
                             DeckId = 3,
-                            Description = "The gathering of clandestine intelligence. He signifies the ability to observe a sector without alerting its inhabitants.",
                             ImageKey = "",
-                            Name = "The Desert Scout",
-                            SuitOrGroup = "Mystic Orders",
-                            Value = 7
+                            Name = "The Blood Lineage",
+                            SuitOrGroup = "Imperial Houses",
+                            Value = 6
                         },
                         new
                         {
                             Id = 96,
                             DeckId = 3,
-                            Description = "The drive for survival in extreme conditions. He signifies the relentless pursuit of the rarest life-sustaining resources.",
                             ImageKey = "",
-                            Name = "The Water Seeker",
-                            SuitOrGroup = "Mystic Orders",
-                            Value = 8
+                            Name = "The War Engine",
+                            SuitOrGroup = "Imperial Houses",
+                            Value = 7
                         },
                         new
                         {
                             Id = 97,
                             DeckId = 3,
-                            Description = "The control of vast, ancient forces. He signifies the synchronization of the individual with a titanic entity.",
                             ImageKey = "",
-                            Name = "The Sand Rider",
-                            SuitOrGroup = "Mystic Orders",
-                            Value = 9
+                            Name = "The Golden Exile",
+                            SuitOrGroup = "Imperial Houses",
+                            Value = 8
                         },
                         new
                         {
                             Id = 98,
                             DeckId = 3,
-                            Description = "The power of an invisible collective. It represents a force perfectly integrated with its environment.",
                             ImageKey = "",
-                            Name = "The Hidden Fremen",
+                            Name = "The Trade Route",
+                            SuitOrGroup = "Imperial Houses",
+                            Value = 9
+                        },
+                        new
+                        {
+                            Id = 99,
+                            DeckId = 3,
+                            ImageKey = "",
+                            Name = "The Silent Regent",
+                            SuitOrGroup = "Imperial Houses",
+                            Value = 10
+                        },
+                        new
+                        {
+                            Id = 100,
+                            DeckId = 3,
+                            ImageKey = "",
+                            Name = "The Broken Banner",
+                            SuitOrGroup = "Imperial Houses",
+                            Value = 11
+                        },
+                        new
+                        {
+                            Id = 101,
+                            DeckId = 3,
+                            ImageKey = "",
+                            Name = "The Voice of Command",
+                            SuitOrGroup = "Mystic Orders",
+                            Value = 1
+                        },
+                        new
+                        {
+                            Id = 102,
+                            DeckId = 3,
+                            ImageKey = "",
+                            Name = "The Prescient Eye",
+                            SuitOrGroup = "Mystic Orders",
+                            Value = 2
+                        },
+                        new
+                        {
+                            Id = 103,
+                            DeckId = 3,
+                            ImageKey = "",
+                            Name = "The Blue Fever",
+                            SuitOrGroup = "Mystic Orders",
+                            Value = 3
+                        },
+                        new
+                        {
+                            Id = 104,
+                            DeckId = 3,
+                            ImageKey = "",
+                            Name = "The Folding Space",
+                            SuitOrGroup = "Mystic Orders",
+                            Value = 4
+                        },
+                        new
+                        {
+                            Id = 105,
+                            DeckId = 3,
+                            ImageKey = "",
+                            Name = "The Truth Sayer",
+                            SuitOrGroup = "Mystic Orders",
+                            Value = 5
+                        },
+                        new
+                        {
+                            Id = 106,
+                            DeckId = 3,
+                            ImageKey = "",
+                            Name = "The Ancestral Link",
+                            SuitOrGroup = "Mystic Orders",
+                            Value = 6
+                        },
+                        new
+                        {
+                            Id = 107,
+                            DeckId = 3,
+                            ImageKey = "",
+                            Name = "The Dream Walker",
+                            SuitOrGroup = "Mystic Orders",
+                            Value = 7
+                        },
+                        new
+                        {
+                            Id = 108,
+                            DeckId = 3,
+                            ImageKey = "",
+                            Name = "The Shadow Mission",
+                            SuitOrGroup = "Mystic Orders",
+                            Value = 8
+                        },
+                        new
+                        {
+                            Id = 109,
+                            DeckId = 3,
+                            ImageKey = "",
+                            Name = "The Genetic Thread",
+                            SuitOrGroup = "Mystic Orders",
+                            Value = 9
+                        },
+                        new
+                        {
+                            Id = 110,
+                            DeckId = 3,
+                            ImageKey = "",
+                            Name = "The Mental Wall",
                             SuitOrGroup = "Mystic Orders",
                             Value = 10
                         },
                         new
                         {
+                            Id = 111,
+                            DeckId = 3,
+                            ImageKey = "",
+                            Name = "The Future Path",
+                            SuitOrGroup = "Mystic Orders",
+                            Value = 11
+                        },
+                        new
+                        {
+                            Id = 112,
+                            DeckId = 3,
+                            ImageKey = "",
+                            Name = "The Great Devourer",
+                            SuitOrGroup = "Ancient Prophecies",
+                            Value = 1
+                        },
+                        new
+                        {
                             Id = 113,
                             DeckId = 3,
-                            Description = "The primary force of creation and destruction. It signifies the immense scale of the divine mechanics under the sand.",
                             ImageKey = "",
                             Name = "The Old Maker",
                             SuitOrGroup = "Ancient Prophecies",
@@ -1296,7 +1298,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 114,
                             DeckId = 3,
-                            Description = "A rhythmic call to the unknown. It represents the attraction of powerful variables through consistent action.",
                             ImageKey = "",
                             Name = "The Deep Thumper",
                             SuitOrGroup = "Ancient Prophecies",
@@ -1306,7 +1307,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 115,
                             DeckId = 3,
-                            Description = "A forgotten node of ancient belief. It represents the intersection of historical tradition and physical isolation.",
                             ImageKey = "",
                             Name = "The Sand Temple",
                             SuitOrGroup = "Ancient Prophecies",
@@ -1316,7 +1316,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 116,
                             DeckId = 3,
-                            Description = "A catalyst for mechanical and spiritual initiation. It represents the lubrication of the grand machine's gears.",
                             ImageKey = "",
                             Name = "The Sacred Oil",
                             SuitOrGroup = "Ancient Prophecies",
@@ -1326,7 +1325,6 @@ namespace TheSeer.Migrations
                         {
                             Id = 117,
                             DeckId = 3,
-                            Description = "An unchanging reference point in a shifting world. It represents the absolute durability of a core conviction.",
                             ImageKey = "",
                             Name = "The Eternal Stone",
                             SuitOrGroup = "Ancient Prophecies",
@@ -1336,11 +1334,46 @@ namespace TheSeer.Migrations
                         {
                             Id = 118,
                             DeckId = 3,
-                            Description = "A data point on the failure of previous agents. It represents the lessons learned from those the desert claimed.",
                             ImageKey = "",
                             Name = "The Forgotten Grave",
                             SuitOrGroup = "Ancient Prophecies",
                             Value = 7
+                        },
+                        new
+                        {
+                            Id = 119,
+                            DeckId = 3,
+                            ImageKey = "",
+                            Name = "The Pillar of Fire",
+                            SuitOrGroup = "Ancient Prophecies",
+                            Value = 8
+                        },
+                        new
+                        {
+                            Id = 120,
+                            DeckId = 3,
+                            ImageKey = "",
+                            Name = "The White Sun",
+                            SuitOrGroup = "Ancient Prophecies",
+                            Value = 9
+                        },
+                        new
+                        {
+                            Id = 121,
+                            DeckId = 3,
+                            ImageKey = "",
+                            Name = "The Dark Star",
+                            SuitOrGroup = "Ancient Prophecies",
+                            Value = 10
+                        },
+                        new
+                        {
+                            Id = 122,
+                            DeckId = 3,
+                            ImageKey = "",
+                            Name = "The Final Horizon",
+                            SuitOrGroup = "Ancient Prophecies",
+                            Value = 11
                         });
                 });
 

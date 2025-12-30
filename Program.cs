@@ -31,7 +31,6 @@ namespace TheSeer.ConsoleApp
                 .ConfigureAppConfiguration((hostingContext, config) =>
                 {
                     config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
-                    config.AddUserSecrets<Program>();
                 })
                 .ConfigureLogging((hostingContext, logging) =>
                 {

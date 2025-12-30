@@ -48,44 +48,31 @@ namespace TheSeer.Presentation.Menus
         {
             Console.Clear();
             LogoView.Display();
-            ConsoleHelper.Header("STEP 1: CHOOSE YOUR DIVINATION SYSTEM");
+            ConsoleHelper.Header("Step 1: Select System Type");
 
-            var systemTypes = _catalogService.GetSystemTypes().ToList();
+            ConsoleHelper.MenuOption("TAROT", "Tarot Reading");
+            //ConsoleHelper.MenuOption("LENORMAND", "Lenormand Reading");
+            ConsoleHelper.MenuOption("RUNES", "Rune Reading");
+            ConsoleHelper.MenuOption("ORACLE", "Oracle Reading");
+            ConsoleHelper.MenuOption("CANCEL", "Back to Main Menu");
 
-            ConsoleHelper.MenuOption("1", "Tarot");
-            ConsoleHelper.MenuOption("2", "Oracle");
-            ConsoleHelper.MenuOption("3", "Runes");
-            Console.WriteLine();
-
-            foreach (var type in systemTypes)
-            {
-                ConsoleHelper.WriteLine($"{type.Name}: {type.Description}", ConsoleColor.Green);
-                Console.WriteLine();
-            }
-
-
-
-            var choice = ConsoleHelper.Input("COMMAND").ToUpper();
-            return choice switch
-            {
-                "1" => "Tarot",
-                "2" => "Oracle",
-                "3" => "Runes",
-                _ => "CANCEL"
-            };
+            ConsoleHelper.Divider();
+            var choice = ConsoleHelper.Input("SYSTEM TYPE", allowBack: true).ToUpper();
+            if (choice == "CANCEL" || choice == "BACK") return "CANCEL";
+            return choice;
         }
 
         private DeckListItemDto? SelectDeck(string type)
         {
             Console.Clear();
             LogoView.Display();
-            ConsoleHelper.Header($"STEP 2: SELECT {type.ToUpper()} SOURCE");
+            ConsoleHelper.Header($"Step 2: Please select your {type.ToUpper()} source.");
 
             var decks = _catalogService.GetAllDecks().Where(d => d.SystemName.Equals(type, StringComparison.OrdinalIgnoreCase)).ToList();
 
             if (!decks.Any())
             {
-                ConsoleHelper.Alert($"No {type} sources found in the archives.", true);
+                ConsoleHelper.Alert($"No sources found. The archives are silent.", true);
                 ConsoleHelper.Wait();
                 return null;
             }
@@ -108,7 +95,7 @@ namespace TheSeer.Presentation.Menus
         {
             Console.Clear();
             LogoView.Display();
-            ConsoleHelper.Header($"STEP 3: SELECT {type.ToUpper()} SPREAD PATTERN");
+            ConsoleHelper.Header($"Step 3: Please select your {type.ToUpper()} spread pattern.");
 
             var spreads = _spreadService.GetAllSpreads()
                                         .Where(s => s.SystemType.Equals(type, StringComparison.OrdinalIgnoreCase))
@@ -116,7 +103,7 @@ namespace TheSeer.Presentation.Menus
 
             if (!spreads.Any())
             {
-                ConsoleHelper.Alert($"No specific spreads found for {type}. Using Universal patterns.", false);
+                ConsoleHelper.Alert($"No specific spreads found for {type}. Defaulting to universal patterns.", false);
                 spreads = _spreadService.GetAllSpreads().Where(s => s.SystemType == "Universal").ToList();
             }
 
@@ -137,8 +124,8 @@ namespace TheSeer.Presentation.Menus
             ConsoleHelper.MenuOption("B", "Back to Deck Selection");
 
             Console.WriteLine();
-            var choice = ConsoleHelper.Input("SELECT ID").ToUpper();
-            if (choice == "B") return null;
+            var choice = ConsoleHelper.Input("SELECT ID", allowBack: true).ToUpper();
+            if (choice == "B" || choice == "BACK") return null;
 
             return spreads.FirstOrDefault(s => s.Id.ToString() == choice);
         }
@@ -147,14 +134,14 @@ namespace TheSeer.Presentation.Menus
         {
             Console.Clear();
             LogoView.Display();
-            ConsoleHelper.Header("ENGAGING THE SEER PROJECT...");
+            ConsoleHelper.Header("Engaging the Seer protocol. Please stand by.");
 
-            ConsoleHelper.WriteLine("ENTER YOUR QUESTION THAT YOU WISH ANSWERED", ConsoleColor.Green);
+            ConsoleHelper.WriteLine("Please enter your question for analysis.", ConsoleColor.Green);
             string userQuestion = ConsoleHelper.Input("YOUR QUESTION");
 
             if (string.IsNullOrWhiteSpace(userQuestion))
             {
-                ConsoleHelper.Alert("Seeker, without a question we do not know what to ask the stars...", true);
+                ConsoleHelper.Alert("No question detected. Unable to proceed with the inquiry.", true);
                 userQuestion = ConsoleHelper.Input("COMMAND");
             }
 
@@ -166,13 +153,13 @@ namespace TheSeer.Presentation.Menus
 
             if (deck.SystemName.Equals("Runes", StringComparison.OrdinalIgnoreCase))
             {
-                ConsoleHelper.Type($"Reaching into the pouch of {deck.Name}...", ConsoleColor.Yellow, 40);
-                ConsoleHelper.Type("Casting the stones upon the white cloth...", ConsoleColor.Yellow, 60);
+                ConsoleHelper.Type($"Reaching into the {deck.Name}. Please wait.", ConsoleColor.Yellow, 40);
+                ConsoleHelper.Type("Casting the stones. Please remain calm.", ConsoleColor.Yellow, 60);
             }
             else
             {
-                ConsoleHelper.Type($"Shuffling the {deck.Name}...", ConsoleColor.Yellow, 40);
-                ConsoleHelper.Type($"Invoking the {spread.Name} pattern...", ConsoleColor.Yellow, 60);
+                ConsoleHelper.Type($"Shuffling the {deck.Name}. Please wait.", ConsoleColor.Yellow, 40);
+                ConsoleHelper.Type($"Invoking the {spread.Name} pattern. Stand by.", ConsoleColor.Yellow, 60);
             }
 
             Console.WriteLine();
@@ -181,7 +168,7 @@ namespace TheSeer.Presentation.Menus
 
             if (result == null || !result.DrawnCards.Any())
             {
-                ConsoleHelper.Alert("The vision is clouded. No cards were drawn.");
+                ConsoleHelper.Alert("The vision is unclear. No results available.");
                 return;
             }
 
@@ -205,7 +192,48 @@ namespace TheSeer.Presentation.Menus
             }
 
             ConsoleHelper.Divider();
-            ConsoleHelper.Type($"Reading saved under ID: {result.ReadingId.ToString().Substring(0, 8)}", ConsoleColor.DarkGray);
+            ConsoleHelper.Type($"Reading has been archived. Reference ID: {result.ReadingId.ToString().Substring(0, 8)}", ConsoleColor.DarkGray);
+            ConsoleHelper.Wait();
+        }
+        public void ReplayReading(Guid readingId)
+        {
+            var result = _readingService.GetReadingResult(readingId);
+
+            if (result == null)
+            {
+                ConsoleHelper.Alert("Unable to locate the requested reading. Please verify the ID.", true);
+                ConsoleHelper.Wait();
+                return;
+            }
+
+            Console.Clear();
+            LogoView.Display();
+            ConsoleHelper.Header("Replaying historical reading. Please observe.");
+
+            ConsoleHelper.WriteLine($"Original question: {result.Question}", ConsoleColor.Green);
+            Console.WriteLine();
+
+            foreach (var card in result.DrawnCards)
+            {
+                ConsoleHelper.Divider();
+
+                ConsoleHelper.WriteLine($"POSITION: {card.SpreadPosition.ToUpper()} -- {card.SpreadPositionDescription}", ConsoleColor.Yellow);
+
+                string displayName = card.IsReversed ? $"{card.Card} (REVERSED)" : card.Card;
+                ConsoleHelper.WriteLine($"CARD: {displayName.ToUpper()}", ConsoleColor.Yellow);
+
+                ConsoleHelper.Type("INTERPRETATION: ", ConsoleColor.DarkYellow);
+
+                foreach (var meaning in card.MeaningText)
+                {
+                    ConsoleHelper.WriteLine($"[{meaning.Category}]: {meaning.Content}", ConsoleColor.Yellow);
+                }
+
+                Console.WriteLine();
+            }
+
+            ConsoleHelper.Divider();
+            ConsoleHelper.Type($"Reference ID: {result.ReadingId.ToString().Substring(0, 8)}", ConsoleColor.DarkGray);
             ConsoleHelper.Wait();
         }
     }

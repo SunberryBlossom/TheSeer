@@ -5,6 +5,7 @@
     "Name": "Fehu",
     "Value": 1,
     "SuitOrGroup": "Frey's Aett",
+    "Description": "The flow of mobile wealth and basic energy. It signifies resources required for expansion, if managed with precision.",
     "ImageKey": ""
   },
   {
@@ -13,6 +14,7 @@
     "Name": "Uruz",
     "Value": 2,
     "SuitOrGroup": "Frey's Aett",
+    "Description": "Raw, untamed strength. It represents the primordial energy that drives the machine of progress through the void.",
     "ImageKey": ""
   },
   {
@@ -21,6 +23,7 @@
     "Name": "Thurisaz",
     "Value": 3,
     "SuitOrGroup": "Frey's Aett",
+    "Description": "A reactive defensive threshold. It signifies the thorny protection that both guards the core and wounds the intruder.",
     "ImageKey": ""
   },
   {
@@ -29,6 +32,7 @@
     "Name": "Ansuz",
     "Value": 4,
     "SuitOrGroup": "Frey's Aett",
+    "Description": "The transmission of divine intelligence. It represents signals from the origin and the power of creative speech.",
     "ImageKey": ""
   },
   {
@@ -37,6 +41,7 @@
     "Name": "Raidho",
     "Value": 5,
     "SuitOrGroup": "Frey's Aett",
+    "Description": "The protocol of movement and rhythm. It signifies the alignment of the traveler's path with universal cycles.",
     "ImageKey": ""
   },
   {
@@ -45,6 +50,7 @@
     "Name": "Kenaz",
     "Value": 6,
     "SuitOrGroup": "Frey's Aett",
+    "Description": "Controlled ignition. It represents the light of human knowledge and the intentional application of thermal force.",
     "ImageKey": ""
   },
   {
@@ -53,6 +59,7 @@
     "Name": "Gebo",
     "Value": 7,
     "SuitOrGroup": "Frey's Aett",
+    "Description": "The exchange of data and resources. It signifies the balance required in a contract between two entities.",
     "ImageKey": ""
   },
   {
@@ -61,6 +68,7 @@
     "Name": "Wunjo",
     "Value": 8,
     "SuitOrGroup": "Frey's Aett",
+    "Description": "Systemic harmony. It represents the successful integration of all parameters into a joyful, stable equilibrium.",
     "ImageKey": ""
   },
   {
@@ -69,6 +77,7 @@
     "Name": "Hagalaz",
     "Value": 9,
     "SuitOrGroup": "Hagal's Aett",
+    "Description": "Destructive disruption from the environment. It signifies the cold, structural failure that forces a total reset.",
     "ImageKey": ""
   },
   {
@@ -77,6 +86,7 @@
     "Name": "Nauthiz",
     "Value": 10,
     "SuitOrGroup": "Hagal's Aett",
+    "Description": "A state of acute resource deficiency. It represents the resistance that creates the necessity for innovation.",
     "ImageKey": ""
   },
   {
@@ -85,6 +95,7 @@
     "Name": "Isa",
     "Value": 11,
     "SuitOrGroup": "Hagal's Aett",
+    "Description": "Absolute stasis. It represents the ice-like pause in all processing where external movement is suspended.",
     "ImageKey": ""
   },
   {
@@ -93,6 +104,7 @@
     "Name": "Jera",
     "Value": 12,
     "SuitOrGroup": "Hagal's Aett",
+    "Description": "The harvest cycle. It signifies the inevitable yield of a process and the rewards of consistent calculation.",
     "ImageKey": ""
   },
   {
@@ -101,6 +113,7 @@
     "Name": "Eihwaz",
     "Value": 13,
     "SuitOrGroup": "Hagal's Aett",
+    "Description": "The vertical axis of the system. It represents the resilience and stability that bridges life and death.",
     "ImageKey": ""
   },
   {
@@ -109,6 +122,7 @@
     "Name": "Perthro",
     "Value": 14,
     "SuitOrGroup": "Hagal's Aett",
+    "Description": "The probability matrix and the roll of the dice. It signifies the hidden variables of fate governing the void.",
     "ImageKey": ""
   },
   {
@@ -117,6 +131,7 @@
     "Name": "Algiz",
     "Value": 15,
     "SuitOrGroup": "Hagal's Aett",
+    "Description": "The invocation of a protective field. It represents the connection to a higher shield and self-preservation.",
     "ImageKey": ""
   },
   {
@@ -125,6 +140,7 @@
     "Name": "Sowilo",
     "Value": 16,
     "SuitOrGroup": "Hagal's Aett",
+    "Description": "A burst of radiant solar energy. It signifies the absolute success of the mission and the clarity of truth.",
     "ImageKey": ""
   },
   {
@@ -133,6 +149,7 @@
     "Name": "Tiwaz",
     "Value": 17,
     "SuitOrGroup": "Tyr's Aett",
+    "Description": "The warrior's code and strategic sacrifice. It represents the focus on justice and the power of the blade.",
     "ImageKey": ""
   },
   {
@@ -141,6 +158,7 @@
     "Name": "Berkano",
     "Value": 18,
     "SuitOrGroup": "Tyr's Aett",
+    "Description": "The regenerative force of birth. It signifies the concealment and nurturing of new organic potential.",
     "ImageKey": ""
   },
   {
@@ -149,6 +167,7 @@
     "Name": "Ehwaz",
     "Value": 19,
     "SuitOrGroup": "Tyr's Aett",
+    "Description": "Synchronization between rider and mount. It represents the efficient partnership required for transit.",
     "ImageKey": ""
   },
   {
@@ -157,6 +176,7 @@
     "Name": "Mannaz",
     "Value": 20,
     "SuitOrGroup": "Tyr's Aett",
+    "Description": "The collective human entity. It signifies shared awareness and the complex social structures of the species.",
     "ImageKey": ""
   },
   {
@@ -165,6 +185,7 @@
     "Name": "Laguz",
     "Value": 21,
     "SuitOrGroup": "Tyr's Aett",
+    "Description": "The fluid dynamics of the subconscious. It represents the tidal forces that drive intuition.",
     "ImageKey": ""
   },
   {
@@ -173,6 +194,7 @@
     "Name": "Ingwaz",
     "Value": 22,
     "SuitOrGroup": "Tyr's Aett",
+    "Description": "The storage of potential energy. It signifies a state of gestation where power is accumulated for release.",
     "ImageKey": ""
   },
   {
@@ -181,6 +203,7 @@
     "Name": "Dagaz",
     "Value": 23,
     "SuitOrGroup": "Tyr's Aett",
+    "Description": "The moment of total illumination. It signifies the transition from darkness to light and a new mission.",
     "ImageKey": ""
   },
   {
@@ -189,6 +212,7 @@
     "Name": "Othala",
     "Value": 24,
     "SuitOrGroup": "Tyr's Aett",
+    "Description": "The inheritance of ancestral space. It signifies the foundation of the home and the genetic line's legacy.",
     "ImageKey": ""
   }
 ]

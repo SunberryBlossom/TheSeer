@@ -8,5 +8,6 @@ namespace TheSeer.Business.Interfaces
         ReadingResultDto GetReadingDetails(Guid readingId, bool canBeReversed);
         IEnumerable<ReadingHistoryDto> GetUserHistory(Guid userId);
         public ReadingResultDto PerformReading(Guid userId, int deckId, int spreadId, string question);
+        ReadingResultDto? GetReadingResult(Guid readingId);
     }
 }

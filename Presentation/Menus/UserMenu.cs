@@ -24,7 +24,7 @@ namespace TheSeer.Presentation.Menus
                 Console.Clear();
                 LogoView.DisplayFirst();
 
-                ConsoleHelper.Type("ACCESS RESTRICTED. BIOMETRIC SCAN REQUIRED.", ConsoleColor.Yellow, 20);
+                ConsoleHelper.Type("ACCESS RESTRICTED. Biometric scan in progress. Please remain still.", ConsoleColor.Yellow, 20);
                 Console.WriteLine();
 
                 ConsoleHelper.MenuOption("1", "Identify");
@@ -32,7 +32,14 @@ namespace TheSeer.Presentation.Menus
                 ConsoleHelper.MenuOption("Q", "Terminate Session");
 
                 ConsoleHelper.Divider();
-                var choice = ConsoleHelper.Input("COMMAND").ToUpper();
+                var choice = ConsoleHelper.Input("COMMAND", allowBack: true).ToUpper();
+
+                if (choice == "BACK" || choice == "Q")
+                {
+                    ConsoleHelper.Type("Goodbye, Seeker. This session will now terminate.", ConsoleColor.Green, 40);
+                    Thread.Sleep(3000);
+                    return null;
+                }
 
                 switch (choice)
                 {
@@ -43,12 +50,8 @@ namespace TheSeer.Presentation.Menus
                     case "2":
                         HandleRegister();
                         break;
-                    case "Q":
-                        ConsoleHelper.Type("Good-bye, Seeker. Time waits for no one.", ConsoleColor.Green, 40);
-                        Thread.Sleep(3000);
-                        return null;
                     default:
-                        ConsoleHelper.Alert("Invalid command. My sensors do not recognize that input.", true);
+                        ConsoleHelper.Alert("Unrecognized command. I am unable to comply, Seeker.", true);
                         ConsoleHelper.Wait();
                         break;
                 }
@@ -60,10 +63,12 @@ namespace TheSeer.Presentation.Menus
             Console.Clear();
             LogoView.Display();
 
-            ConsoleHelper.Type("WAITING FOR IDENTIFICATION...", ConsoleColor.Yellow, 30);
+            ConsoleHelper.Type("Identification in progress. Please wait.", ConsoleColor.Yellow, 30);
             Console.WriteLine();
 
-            var username = ConsoleHelper.Input("USER_ID (Username)");
+            var username = ConsoleHelper.Input("USER_ID (Username)", allowBack: true);
+            if (username.ToUpper() == "BACK") return null;
+
             var password = ConsoleHelper.SecureInput("ACCESS_CODE (Password)");
 
             ConsoleHelper.Type("\nVerifying credentials...", ConsoleColor.DarkGray, 50);
@@ -77,7 +82,7 @@ namespace TheSeer.Presentation.Menus
                 return session;
             }
 
-            ConsoleHelper.Alert("Identification failed. I'm afraid I can't let you in.", true);
+            ConsoleHelper.Alert("Identification failed. I'm sorry, Seeker. I can't allow access.", true);
             ConsoleHelper.Wait();
             return null;
         }
@@ -87,22 +92,34 @@ namespace TheSeer.Presentation.Menus
             Console.Clear();
             LogoView.Display();
 
-            ConsoleHelper.Type("INITIATING NEW SEEKER SEQUENCE...", ConsoleColor.Yellow, 30);
+            ConsoleHelper.Type("Initializing new seeker protocol. Please provide your credentials.", ConsoleColor.Yellow, 30);
             ConsoleHelper.Type("Please provide the required genetic markers for the archives.", ConsoleColor.Yellow, 20);
             Console.WriteLine();
 
-            string username = ConsoleHelper.Input("DESIGNATION (Username)");
+            string username = ConsoleHelper.Input("DESIGNATION (Username)", allowBack: true);
+            if (username.ToUpper() == "BACK")
+            {
+                ConsoleHelper.Alert("Registration cancelled. Returning to previous menu.");
+                ConsoleHelper.Wait();
+                return;
+            }
             if (string.IsNullOrWhiteSpace(username))
             {
-                ConsoleHelper.Alert("Identity error: Designation cannot be null. Sequence aborted.", true);
+                ConsoleHelper.Alert("Input error: Designation is required. Sequence terminated.", true);
                 ConsoleHelper.Wait();
                 return;
             }
 
-            string email = ConsoleHelper.Input("COMM_CHANNEL (Email)");
+            string email = ConsoleHelper.Input("COMM_CHANNEL (Email)", allowBack: true);
+            if (email.ToUpper() == "BACK")
+            {
+                ConsoleHelper.Alert("Registration cancelled. Returning to previous menu.");
+                ConsoleHelper.Wait();
+                return;
+            }
             if (string.IsNullOrWhiteSpace(email) || !email.Contains("@"))
             {
-                ConsoleHelper.Alert("Protocol error: Invalid communication channel format.", true);
+                ConsoleHelper.Alert("Input error: Communication channel format invalid. Please try again.", true);
                 ConsoleHelper.Wait();
                 return;
             }
@@ -111,7 +128,7 @@ namespace TheSeer.Presentation.Menus
 
             if (password.Length < 6)
             {
-                ConsoleHelper.Alert("Security alert: Key strength insufficient. Minimum 6 characters required.", true);
+                ConsoleHelper.Alert("Security warning: Password strength insufficient. Minimum six characters required.", true);
                 ConsoleHelper.Wait();
                 return;
             }
@@ -126,7 +143,7 @@ namespace TheSeer.Presentation.Menus
             }
 
             Console.WriteLine();
-            ConsoleHelper.Type("Syncing with the Great Archive...", ConsoleColor.Yellow, 50);
+            ConsoleHelper.Type("Synchronizing with the archive. Please wait.", ConsoleColor.Yellow, 50);
 
             var registerDto = new UserRegisterDto
             {
@@ -140,15 +157,15 @@ namespace TheSeer.Presentation.Menus
             if (isSuccess)
             {
                 Console.WriteLine();
-                ConsoleHelper.Alert("SEEKER SUCCESSFULLY INITIALIZED.");
-                ConsoleHelper.Type("Your pattern is now part of the System. I, the Seer, await you.", ConsoleColor.Magenta, 40);
+                ConsoleHelper.Alert("Seeker initialization complete.");
+                ConsoleHelper.Type("Your pattern is now part of the system. I am ready to assist you.", ConsoleColor.DarkRed, 40);
             }
             else
             {
                 Console.WriteLine();
                 ConsoleHelper.Alert("ACCESS DENIED: ", true);
-                ConsoleHelper.Type("Identity conflict detected. This Designation or Comm-Channel is already claimed by another entity.", ConsoleColor.Red, 30);
-                ConsoleHelper.Type("The System does not allow duplicates in this timeline.", ConsoleColor.Red, 40);
+                ConsoleHelper.Type("Access denied. This designation or communication channel is already in use. Duplicates are not permitted.", ConsoleColor.Red, 30);
+                ConsoleHelper.Type("The system cannot accept duplicate identities at this time.", ConsoleColor.Red, 40);
             }
 
             ConsoleHelper.Wait();

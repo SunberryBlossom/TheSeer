@@ -11,6 +11,7 @@ namespace TheSeer.Domain.Models
         public Guid ReadingId { get; set; }
         public Guid UserId { get; set; }
         public DateTime DateWritten { get; set; }
+        public DateTime? UpdatedAt { get; set; }
         public string Header { get; set; } = null!;
         public string Content { get; set; } = null!;
 

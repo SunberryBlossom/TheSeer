@@ -41,10 +41,24 @@ namespace TheSeer.Business.Services
                 Id = deck.Id,
                 Name = deck.Name,
                 Description = deck.Description,
+                CardCount = deck.Cards.Count,
+                SystemName = deck.SystemType?.Name,
                 Cards = deck.Cards.Select(c => new CardDetailDto
                 {
                     Id = c.Id,
-                    Name = c.Name
+                    Name = c.Name,
+                    Suit = c.SuitOrGroup,
+                    Value = c.Value,
+                    Description = c.Description,
+                    Meanings = c.Meanings != null
+                        ? c.Meanings.Select(m => new MeaningDto
+                            {
+                                Category = m.Category,
+                                Content = m.Content,
+                                KeyWords = m.KeyWords,
+                                IsReversed = m.IsReversed
+                            }).ToList()
+                        : new List<MeaningDto>()
                 }).ToList()
             };
         }
@@ -86,13 +100,17 @@ namespace TheSeer.Business.Services
                 Id = card.Id,
                 Name = card.Name,
                 Suit = card.SuitOrGroup,
-                Meanings = card.Meanings.Select(m => new MeaningDto
-                {
-                    Category = m.Category,
-                    Content = m.Content,
-                    KeyWords = m.KeyWords,
-                    IsReversed = m.IsReversed
-                }).ToList()
+                Value = card.Value,
+                Description = card.Description,
+                Meanings = card.Meanings != null
+                    ? card.Meanings.Select(m => new MeaningDto
+                        {
+                            Category = m.Category,
+                            Content = m.Content,
+                            KeyWords = m.KeyWords,
+                            IsReversed = m.IsReversed
+                        }).ToList()
+                    : new List<MeaningDto>()
             };
         }
 

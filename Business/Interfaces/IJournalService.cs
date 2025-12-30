@@ -6,7 +6,7 @@ using TheSeer.Domain.Models;
 
 public interface IJournalService
 {
-    JournalEntryDto AddNote(Guid readingId, string content);
+    JournalEntryDto? AddNote(Guid readingId, Guid userId, string header, string content);
     IEnumerable<JournalEntryDto> GetUserJournal(Guid userId);
     bool RemoveNote(Guid journalEntryId);
     JournalEntryDto UpdateNote(JournalUpdateDto update);

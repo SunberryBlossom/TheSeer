@@ -11,6 +11,6 @@ namespace TheSeer.Business.DTOs
         public string Suit { get; set; }
         public List<MeaningDto> Meanings { get; set; } = new();
         public int Value { get; set; }
-        public string Description { get; set; } = string.Empty;
+        public string Description { get; set; }
     }
 }

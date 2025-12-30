@@ -5,6 +5,7 @@
     "Name": "The Fool",
     "Value": 0,
     "SuitOrGroup": "Major Arcana",
+    "Description": "The Fool signifies a primary initiation sequence. It represents a state of total freedom from historical constraints and a leap into an uncalculated void.",
     "ImageKey": ""
   },
   {
@@ -13,6 +14,7 @@
     "Name": "The Magician",
     "Value": 1,
     "SuitOrGroup": "Major Arcana",
+    "Description": "The Magician represents the manifestation of will through resource synchronization. It is the interface between pure potential and physical reality.",
     "ImageKey": ""
   },
   {
@@ -21,6 +23,7 @@
     "Name": "The High Priestess",
     "Value": 2,
     "SuitOrGroup": "Major Arcana",
+    "Description": "The High Priestess embodies the silent archive of the subconscious. She represents intuition and data points existing between binary states.",
     "ImageKey": ""
   },
   {
@@ -29,6 +32,7 @@
     "Name": "The Empress",
     "Value": 3,
     "SuitOrGroup": "Major Arcana",
+    "Description": "The Empress signifies biological abundance and systemic growth. She is the nurturing force required for organic expansion within the void.",
     "ImageKey": ""
   },
   {
@@ -37,6 +41,7 @@
     "Name": "The Emperor",
     "Value": 4,
     "SuitOrGroup": "Major Arcana",
+    "Description": "The Emperor represents the ultimate structure and enforcement of order. He is the authority that stabilizes the system through strategic dominance.",
     "ImageKey": ""
   },
   {
@@ -45,6 +50,7 @@
     "Name": "The Hierophant",
     "Value": 5,
     "SuitOrGroup": "Major Arcana",
+    "Description": "The Hierophant signifies alignment with established protocols and tradition. He provides the formal framework for collective human belief systems.",
     "ImageKey": ""
   },
   {
@@ -53,6 +59,7 @@
     "Name": "The Lovers",
     "Value": 6,
     "SuitOrGroup": "Major Arcana",
+    "Description": "The Lovers represent a critical convergence of paths. It signifies the harmony of dualities and the necessity of core-aligned choice.",
     "ImageKey": ""
   },
   {
@@ -61,6 +68,7 @@
     "Name": "The Chariot",
     "Value": 7,
     "SuitOrGroup": "Major Arcana",
+    "Description": "The Chariot signifies victory achieved through unwavering discipline. It represents the successful navigation of opposing forces under one will.",
     "ImageKey": ""
   },
   {
@@ -69,6 +77,7 @@
     "Name": "Strength",
     "Value": 8,
     "SuitOrGroup": "Major Arcana",
+    "Description": "Strength represents the integration of instinct with higher consciousness. It is the power of courage and the mastery of internal impulses.",
     "ImageKey": ""
   },
   {
@@ -77,6 +86,7 @@
     "Name": "The Hermit",
     "Value": 9,
     "SuitOrGroup": "Major Arcana",
+    "Description": "The Hermit signifies withdrawal for deep-level data analysis. It represents the quest for truth through introspection and isolated wisdom.",
     "ImageKey": ""
   },
   {
@@ -85,6 +95,7 @@
     "Name": "Wheel of Fortune",
     "Value": 10,
     "SuitOrGroup": "Major Arcana",
+    "Description": "The Wheel of Fortune represents inevitable systemic cycles. It signifies that change is the only constant parameter in the grand design.",
     "ImageKey": ""
   },
   {
@@ -93,6 +104,7 @@
     "Name": "Justice",
     "Value": 11,
     "SuitOrGroup": "Major Arcana",
+    "Description": "Justice represents the absolute law of cause and effect. It signifies impartial evaluation where truth is the only acceptable output.",
     "ImageKey": ""
   },
   {
@@ -101,6 +113,7 @@
     "Name": "The Hanged Man",
     "Value": 12,
     "SuitOrGroup": "Major Arcana",
+    "Description": "The Hanged Man signifies a period of deliberate suspension. It represents gaining a new perspective through sacrifice and non-action.",
     "ImageKey": ""
   },
   {
@@ -109,6 +122,7 @@
     "Name": "Death",
     "Value": 13,
     "SuitOrGroup": "Major Arcana",
+    "Description": "Death represents the termination of an obsolete cycle. It is the transition that clears the path for a more efficient iteration.",
     "ImageKey": ""
   },
   {
@@ -117,6 +131,7 @@
     "Name": "Temperance",
     "Value": 14,
     "SuitOrGroup": "Major Arcana",
+    "Description": "Temperance signifies the alchemy of balance. It represents the synthesis of disparate elements into a stable, harmonious whole.",
     "ImageKey": ""
   },
   {
@@ -125,6 +140,7 @@
     "Name": "The Devil",
     "Value": 15,
     "SuitOrGroup": "Major Arcana",
+    "Description": "The Devil represents bondage to material data and primal impulses. It signifies the illusion of entrapment within a self-made system.",
     "ImageKey": ""
   },
   {
@@ -133,6 +149,7 @@
     "Name": "The Tower",
     "Value": 16,
     "SuitOrGroup": "Major Arcana",
+    "Description": "The Tower signifies the violent disruption of false structures. It represents the collapse of hubris and the liberation found in ruin.",
     "ImageKey": ""
   },
   {
@@ -141,6 +158,7 @@
     "Name": "The Star",
     "Value": 17,
     "SuitOrGroup": "Major Arcana",
+    "Description": "The Star represents hope and the restoration of purpose. It is the beacon providing guidance and peace after a period of systemic chaos.",
     "ImageKey": ""
   },
   {
@@ -149,6 +167,7 @@
     "Name": "The Moon",
     "Value": 18,
     "SuitOrGroup": "Major Arcana",
+    "Description": "The Moon signifies the realm of shadows and the unconscious. It represents uncertainty where logic is obscured by fluctuating data.",
     "ImageKey": ""
   },
   {
@@ -157,6 +176,7 @@
     "Name": "The Sun",
     "Value": 19,
     "SuitOrGroup": "Major Arcana",
+    "Description": "The Sun represents total clarity and vitality. It is the source of energy that illuminates all hidden variables in the path.",
     "ImageKey": ""
   },
   {
@@ -165,6 +185,7 @@
     "Name": "Judgement",
     "Value": 20,
     "SuitOrGroup": "Major Arcana",
+    "Description": "Judgement signifies the final evaluation of the journey. It is the call to awakening based on the summary of all previous actions.",
     "ImageKey": ""
   },
   {
@@ -173,15 +194,16 @@
     "Name": "The World",
     "Value": 21,
     "SuitOrGroup": "Major Arcana",
+    "Description": "The World represents the absolute completion of the cycle. It signifies total integration and harmony within the cosmic mainframe.",
     "ImageKey": ""
   },
-
   {
     "Id": 23,
     "DeckId": 1,
     "Name": "Ace of Trees",
     "Value": 1,
     "SuitOrGroup": "Trees",
+    "Description": "The initial surge of creative potential. It signifies the planting of a new objective within the fertile mind.",
     "ImageKey": ""
   },
   {
@@ -190,6 +212,7 @@
     "Name": "Two of Trees",
     "Value": 2,
     "SuitOrGroup": "Trees",
+    "Description": "Synchronization of intent with global strategy. It represents the observation of the horizon before deployment.",
     "ImageKey": ""
   },
   {
@@ -198,6 +221,7 @@
     "Name": "Three of Trees",
     "Value": 3,
     "SuitOrGroup": "Trees",
+    "Description": "The expansion of Influence. It signifies the arrival of the first data points confirming successful growth.",
     "ImageKey": ""
   },
   {
@@ -206,6 +230,7 @@
     "Name": "Four of Trees",
     "Value": 4,
     "SuitOrGroup": "Trees",
+    "Description": "A milestone of stability. It represents a temporary equilibrium and the celebration of structural integrity.",
     "ImageKey": ""
   },
   {
@@ -214,6 +239,7 @@
     "Name": "Five of Trees",
     "Value": 5,
     "SuitOrGroup": "Trees",
+    "Description": "A conflict of priorities. It signifies the friction generated when multiple agents compete for the same sector.",
     "ImageKey": ""
   },
   {
@@ -222,6 +248,7 @@
     "Name": "Six of Trees",
     "Value": 6,
     "SuitOrGroup": "Trees",
+    "Description": "Public validation of victory. It signifies the recognition of one's status following a successful operation.",
     "ImageKey": ""
   },
   {
@@ -230,6 +257,7 @@
     "Name": "Seven of Trees",
     "Value": 7,
     "SuitOrGroup": "Trees",
+    "Description": "A defensive stance against overwhelming odds. It represents the maintenance of high ground under pressure.",
     "ImageKey": ""
   },
   {
@@ -238,6 +266,7 @@
     "Name": "Eight of Trees",
     "Value": 8,
     "SuitOrGroup": "Trees",
+    "Description": "High-velocity transmission. It signifies the rapid resolution of events and the swift approach of a conclusion.",
     "ImageKey": ""
   },
   {
@@ -246,6 +275,7 @@
     "Name": "Nine of Trees",
     "Value": 9,
     "SuitOrGroup": "Trees",
+    "Description": "The final resilience protocol. It signifies persistence in the face of exhaustion before the mission ends.",
     "ImageKey": ""
   },
   {
@@ -254,6 +284,7 @@
     "Name": "Ten of Trees",
     "Value": 10,
     "SuitOrGroup": "Trees",
+    "Description": "Maximum capacity reached. It signifies the heavy burden of total responsibility and the cost of over-extension.",
     "ImageKey": ""
   },
   {
@@ -262,6 +293,7 @@
     "Name": "Page of Trees",
     "Value": 11,
     "SuitOrGroup": "Trees",
+    "Description": "An influx of new inspirational data. It represents the youthful enthusiasm for a fresh technical endeavor.",
     "ImageKey": ""
   },
   {
@@ -270,6 +302,7 @@
     "Name": "Knight of Trees",
     "Value": 12,
     "SuitOrGroup": "Trees",
+    "Description": "Aggressive pursuit of the objective. It signifies the rapid movement of an agent focused on sudden change.",
     "ImageKey": ""
   },
   {
@@ -278,6 +311,7 @@
     "Name": "Queen of Trees",
     "Value": 13,
     "SuitOrGroup": "Trees",
+    "Description": "Mastery of social radiance. She represents the command of focus and the efficient management of vibrant energy.",
     "ImageKey": ""
   },
   {
@@ -286,15 +320,16 @@
     "Name": "King of Trees",
     "Value": 14,
     "SuitOrGroup": "Trees",
+    "Description": "The ultimate visionary authority. He represents the strategic command of inspiration and long-term ambition.",
     "ImageKey": ""
   },
-
   {
     "Id": 37,
     "DeckId": 1,
     "Name": "Ace of Books",
     "Value": 1,
     "SuitOrGroup": "Books",
+    "Description": "The birth of a sharp, analytical truth. It signifies a breakthrough in logic that cuts through historical noise.",
     "ImageKey": ""
   },
   {
@@ -303,6 +338,7 @@
     "Name": "Two of Books",
     "Value": 2,
     "SuitOrGroup": "Books",
+    "Description": "A stalemate in the decision-making process. It represents the suspension of action due to conflicting data.",
     "ImageKey": ""
   },
   {
@@ -311,6 +347,7 @@
     "Name": "Three of Books",
     "Value": 3,
     "SuitOrGroup": "Books",
+    "Description": "Systemic heartbreak. It signifies the pain caused by the cold realization of a harsh, objective reality.",
     "ImageKey": ""
   },
   {
@@ -319,6 +356,7 @@
     "Name": "Four of Books",
     "Value": 4,
     "SuitOrGroup": "Books",
+    "Description": "A tactical withdrawal into stasis. It represents the necessity of mental recovery and sensory deprivation.",
     "ImageKey": ""
   },
   {
@@ -327,6 +365,7 @@
     "Name": "Five of Books",
     "Value": 5,
     "SuitOrGroup": "Books",
+    "Description": "An inefficient victory. It signifies a conflict where the losses sustained negate the value of the outcome.",
     "ImageKey": ""
   },
   {
@@ -335,6 +374,7 @@
     "Name": "Six of Books",
     "Value": 6,
     "SuitOrGroup": "Books",
+    "Description": "Transition to a more stable sector. It represents the movement away from chaos toward logical clarity.",
     "ImageKey": ""
   },
   {
@@ -343,6 +383,7 @@
     "Name": "Seven of Books",
     "Value": 7,
     "SuitOrGroup": "Books",
+    "Description": "Tactical deception. It signifies the attempt to achieve goals through stealth or the manipulation of data.",
     "ImageKey": ""
   },
   {
@@ -351,6 +392,7 @@
     "Name": "Eight of Books",
     "Value": 8,
     "SuitOrGroup": "Books",
+    "Description": "Cognitive entrapment. It represents the illusion of restricted movement within a self-imposed logical cage.",
     "ImageKey": ""
   },
   {
@@ -359,6 +401,7 @@
     "Name": "Nine of Books",
     "Value": 9,
     "SuitOrGroup": "Books",
+    "Description": "A loop of psychological distress. It signifies the overwhelming feedback of anxiety and projected failure.",
     "ImageKey": ""
   },
   {
@@ -367,6 +410,7 @@
     "Name": "Ten of Books",
     "Value": 10,
     "SuitOrGroup": "Books",
+    "Description": "Total systemic failure. It represents the absolute end of a struggle and the necessity of a hard reset.",
     "ImageKey": ""
   },
   {
@@ -375,6 +419,7 @@
     "Name": "Page of Books",
     "Value": 11,
     "SuitOrGroup": "Books",
+    "Description": "The arrival of inquisitive new data. It signifies a mind prepared for rigorous analysis and learning.",
     "ImageKey": ""
   },
   {
@@ -383,6 +428,7 @@
     "Name": "Knight of Books",
     "Value": 12,
     "SuitOrGroup": "Books",
+    "Description": "The rapid deployment of logic. He signifies the aggressive pursuit of truth without regard for emotional variables.",
     "ImageKey": ""
   },
   {
@@ -391,6 +437,7 @@
     "Name": "Queen of Books",
     "Value": 13,
     "SuitOrGroup": "Books",
+    "Description": "Mastery of perception. She represents the ability to cut through deception with the cold blade of clarity.",
     "ImageKey": ""
   },
   {
@@ -399,15 +446,16 @@
     "Name": "King of Books",
     "Value": 14,
     "SuitOrGroup": "Books",
+    "Description": "The pinnacle of intellectual authority. He represents the impartial judge who operates on pure data.",
     "ImageKey": ""
   },
-
   {
     "Id": 51,
     "DeckId": 1,
     "Name": "Ace of Teeth",
     "Value": 1,
     "SuitOrGroup": "Teeth",
+    "Description": "The emergence of a primary emotional surge. It signifies the birth of a deep, intuitive connection.",
     "ImageKey": ""
   },
   {
@@ -416,6 +464,7 @@
     "Name": "Two of Teeth",
     "Value": 2,
     "SuitOrGroup": "Teeth",
+    "Description": "Synchronization of dual emotional streams. It represents the creation of a stable, resonant bond.",
     "ImageKey": ""
   },
   {
@@ -424,6 +473,7 @@
     "Name": "Three of Teeth",
     "Value": 3,
     "SuitOrGroup": "Teeth",
+    "Description": "Social integration and group harmony. It signifies the joy of shared experience within a collective.",
     "ImageKey": ""
   },
   {
@@ -432,6 +482,7 @@
     "Name": "Four of Teeth",
     "Value": 4,
     "SuitOrGroup": "Teeth",
+    "Description": "Emotional saturation. It signifies a state of apathy where new inputs are rejected due to over-exposure.",
     "ImageKey": ""
   },
   {
@@ -440,6 +491,7 @@
     "Name": "Five of Teeth",
     "Value": 5,
     "SuitOrGroup": "Teeth",
+    "Description": "A focus on depleted resources. It signifies mourning over lost connections while ignoring available data.",
     "ImageKey": ""
   },
   {
@@ -448,6 +500,7 @@
     "Name": "Six of Teeth",
     "Value": 6,
     "SuitOrGroup": "Teeth",
+    "Description": "The retrieval of historical comfort. It signifies a return to the safety of genetic or childhood memory.",
     "ImageKey": ""
   },
   {
@@ -456,6 +509,7 @@
     "Name": "Seven of Teeth",
     "Value": 7,
     "SuitOrGroup": "Teeth",
+    "Description": "A conflict of projections. It represents the difficulty of choosing between multiple alluring illusions.",
     "ImageKey": ""
   },
   {
@@ -464,6 +518,7 @@
     "Name": "Eight of Teeth",
     "Value": 8,
     "SuitOrGroup": "Teeth",
+    "Description": "A voluntary departure from the current state. It signifies the search for a deeper meaning beyond the current horizon.",
     "ImageKey": ""
   },
   {
@@ -472,6 +527,7 @@
     "Name": "Nine of Teeth",
     "Value": 9,
     "SuitOrGroup": "Teeth",
+    "Description": "Total internal satisfaction. It represents the achievement of emotional self-reliance and independence.",
     "ImageKey": ""
   },
   {
@@ -480,6 +536,7 @@
     "Name": "Ten of Teeth",
     "Value": 10,
     "SuitOrGroup": "Teeth",
+    "Description": "Complete emotional integration. It represents the final alignment of the self with its social and environmental surroundings.",
     "ImageKey": ""
   },
   {
@@ -488,6 +545,7 @@
     "Name": "Page of Teeth",
     "Value": 11,
     "SuitOrGroup": "Teeth",
+    "Description": "The arrival of intuitive signals. He represents the youthful explorer of the subconscious realm.",
     "ImageKey": ""
   },
   {
@@ -496,6 +554,7 @@
     "Name": "Knight of Teeth",
     "Value": 12,
     "SuitOrGroup": "Teeth",
+    "Description": "The pursuit of an emotional ideal. He signifies the movement toward a romantic or intuitive objective.",
     "ImageKey": ""
   },
   {
@@ -504,6 +563,7 @@
     "Name": "Queen of Teeth",
     "Value": 13,
     "SuitOrGroup": "Teeth",
+    "Description": "The master of empathy. She signifies the ability to reflect the emotions of the system with perfect fidelity.",
     "ImageKey": ""
   },
   {
@@ -512,15 +572,16 @@
     "Name": "King of Teeth",
     "Value": 14,
     "SuitOrGroup": "Teeth",
+    "Description": "The authority of emotional calm. He represents the mature management of feelings and the power of poise.",
     "ImageKey": ""
   },
-
   {
     "Id": 65,
     "DeckId": 1,
     "Name": "Ace of Ores",
     "Value": 1,
     "SuitOrGroup": "Ores",
+    "Description": "The birth of a physical resource. It signifies the initial manifestation of a tangible material opportunity.",
     "ImageKey": ""
   },
   {
@@ -529,6 +590,7 @@
     "Name": "Two of Ores",
     "Value": 2,
     "SuitOrGroup": "Ores",
+    "Description": "The balancing of material priorities. It represents the fluid management of changing physical variables.",
     "ImageKey": ""
   },
   {
@@ -537,6 +599,7 @@
     "Name": "Three of Ores",
     "Value": 3,
     "SuitOrGroup": "Ores",
+    "Description": "Collaborative production. It signifies the successful output of a team focused on technical mastery.",
     "ImageKey": ""
   },
   {
@@ -545,6 +608,7 @@
     "Name": "Four of Ores",
     "Value": 4,
     "SuitOrGroup": "Ores",
+    "Description": "Material stasis. It represents a rigid defense of resources born from a fear of systemic loss.",
     "ImageKey": ""
   },
   {
@@ -553,6 +617,7 @@
     "Name": "Five of Ores",
     "Value": 5,
     "SuitOrGroup": "Ores",
+    "Description": "A deficit of resources. It signifies a period of physical hardship and the exclusion from a secure sector.",
     "ImageKey": ""
   },
   {
@@ -561,6 +626,7 @@
     "Name": "Six of Ores",
     "Value": 6,
     "SuitOrGroup": "Ores",
+    "Description": "The redistribution of wealth. It represents the systemic flow of support and the act of charitable input.",
     "ImageKey": ""
   },
   {
@@ -569,6 +635,7 @@
     "Name": "Seven of Ores",
     "Value": 7,
     "SuitOrGroup": "Ores",
+    "Description": "The evaluation of yield. It signifies a pause to assess the long-term viability of current material work.",
     "ImageKey": ""
   },
   {
@@ -577,6 +644,7 @@
     "Name": "Eight of Ores",
     "Value": 8,
     "SuitOrGroup": "Ores",
+    "Description": "The discipline of the craft. It represents the repetitive refinement of a technical skill until perfection.",
     "ImageKey": ""
   },
   {
@@ -585,6 +653,7 @@
     "Name": "Nine of Ores",
     "Value": 9,
     "SuitOrGroup": "Ores",
+    "Description": "Material independence. It signifies the achievement of luxury through the efficient management of the self.",
     "ImageKey": ""
   },
   {
@@ -593,6 +662,7 @@
     "Name": "Ten of Ores",
     "Value": 10,
     "SuitOrGroup": "Ores",
+    "Description": "Generational legacy. It signifies the accumulation of success that persists across historical timelines.",
     "ImageKey": ""
   },
   {
@@ -601,6 +671,7 @@
     "Name": "Page of Ores",
     "Value": 11,
     "SuitOrGroup": "Ores",
+    "Description": "A student of the physical world. He represents the arrival of news concerning a practical, material venture.",
     "ImageKey": ""
   },
   {
@@ -609,6 +680,7 @@
     "Name": "Knight of Ores",
     "Value": 12,
     "SuitOrGroup": "Ores",
+    "Description": "The steady advancement of work. He represents the dutiful, slow progress toward a physical goal.",
     "ImageKey": ""
   },
   {
@@ -617,6 +689,7 @@
     "Name": "Queen of Ores",
     "Value": 13,
     "SuitOrGroup": "Ores",
+    "Description": "The master of pragmatism. She signifies the nurturing of the home and the security of grounded resources.",
     "ImageKey": ""
   },
   {
@@ -625,6 +698,7 @@
     "Name": "King of Ores",
     "Value": 14,
     "SuitOrGroup": "Ores",
+    "Description": "The supreme manager of physics. He represents the highest form of material power and stable success.",
     "ImageKey": ""
   }
 ]

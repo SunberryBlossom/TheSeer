@@ -65,7 +65,6 @@ namespace TheSeer.Business.Services
 
                     if (deck.SystemType?.Name?.Equals("Runes", StringComparison.OrdinalIgnoreCase) == true)
                     {
-                        // Check if this rune/card has any reversed meanings
                         bool runeHasReversedMeaning = card.Meanings?.Any(m => m.IsReversed) == true;
                         isReversed = runeHasReversedMeaning ? (rng.Next(0, 2) == 1) : false;
                     }
@@ -111,6 +110,10 @@ namespace TheSeer.Business.Services
                 SpreadName = r.Spread.Name,
                 DrawnCards = r.DrawnCards.Select(dc =>
                 {
+                    var meanings = canBeReversed
+                        ? dc.Card.Meanings.Where(m => m.IsReversed == dc.IsReversed)
+                        : dc.Card.Meanings.Where(m => !m.IsReversed);
+
                     return new DrawnCardDto
                     {
                         Card = dc.Card.Name,
@@ -119,9 +122,13 @@ namespace TheSeer.Business.Services
                         SpreadPositionDescription = dc.SpreadPosition.Description,
                         DrawOrder = dc.DrawOrder,
                         IsReversed = dc.IsReversed,
-                        MeaningText = canBeReversed
-                            ? dc.Card.Meanings.Where(m => m.IsReversed == dc.IsReversed).ToList()
-                            : dc.Card.Meanings.Where(m => !m.IsReversed).ToList()
+                        MeaningText = meanings.Select(m => new MeaningDto
+                        {
+                            Category = m.Category,
+                            Content = m.Content,
+                            KeyWords = m.KeyWords,
+                            IsReversed = m.IsReversed
+                        }).ToList()
                     };
                 }).ToList(),
                 Question = r.Question
@@ -139,6 +146,38 @@ namespace TheSeer.Business.Services
                 SpreadName = r.Spread.Name,
                 Summary = $"{r.DrawnCards.Count} cards drawn."
             });
+        }
+
+        public ReadingResultDto? GetReadingResult(Guid readingId)
+        {
+            var reading = _uow.Readings.GetFullReadingDetails(readingId);
+
+            if (reading == null)
+                return null;
+
+            return new ReadingResultDto
+            {
+                ReadingId = reading.Id,
+                PerformedAt = reading.PerformedAt,
+                SpreadName = reading.Spread.Name,
+                Question = reading.Question,
+                DrawnCards = reading.DrawnCards.Select(dc => new DrawnCardDto
+                {
+                    Card = dc.Card.Name,
+                    SpreadPositionId = dc.SpreadPositionId,
+                    SpreadPosition = dc.SpreadPosition.Label,
+                    SpreadPositionDescription = dc.SpreadPosition.Description,
+                    DrawOrder = dc.DrawOrder,
+                    IsReversed = dc.IsReversed,
+                    MeaningText = dc.Card.Meanings.Select(m => new MeaningDto
+                    {
+                        Category = m.Category,
+                        Content = m.Content,
+                        KeyWords = m.KeyWords,
+                        IsReversed = m.IsReversed
+                    }).ToList()
+                }).ToList()
+            };
         }
     }
 }

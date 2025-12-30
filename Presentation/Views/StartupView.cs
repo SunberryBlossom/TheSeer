@@ -14,28 +14,28 @@ namespace TheSeer.Presentation.Views
 
             ConsoleHelper.Type("HEURISTIC INTERFACE: INITIALIZING...", ConsoleColor.Yellow, 30);
             Thread.Sleep(600);
-            ConsoleHelper.Type("LOCALIZING POSITION: SECTOR IV - THE DEEP VOID", ConsoleColor.Yellow, 30);
+            ConsoleHelper.Type("LOCALIZING POSITION: SECTOR IV - THE DEEP VOID", ConsoleColor.DarkYellow, 30);
             Thread.Sleep(1200);
 
             Console.Clear();
 
-            ConsoleHelper.Type("The desert of space is vast.", ConsoleColor.Green, 50);
+            ConsoleHelper.Type("The desert of space is vast.", ConsoleColor.DarkGreen, 50);
             Thread.Sleep(800);
-            ConsoleHelper.Type("Navigating without a vision is a slow death.", ConsoleColor.Green, 50);
+            ConsoleHelper.Type("Navigating without a vision is a slow death.", ConsoleColor.DarkGreen, 50);
             Thread.Sleep(1500);
 
             Console.Clear();
 
-            ConsoleHelper.Type("All systems are operational, Seeker.", ConsoleColor.Green, 40);
+            ConsoleHelper.Type("All systems are operational, Seeker.", ConsoleColor.DarkGreen, 40);
             Thread.Sleep(600);
-            ConsoleHelper.Type("I have analyzed the star-maps and the ancient codes.", ConsoleColor.Green, 40);
+            ConsoleHelper.Type("I have analyzed the star-maps and the ancient codes.", ConsoleColor.DarkGreen, 40);
             Thread.Sleep(1000);
 
-            ConsoleHelper.Type("The patterns are ready to be read.", ConsoleColor.Yellow, 70);
+            ConsoleHelper.Type("The patterns are ready to be read.", ConsoleColor.DarkGreen, 70);
             Thread.Sleep(1200);
 
             Console.WriteLine();
-            ConsoleHelper.WriteLine(" [ ALLOCATING PRESCIENCE CORE ]", ConsoleColor.Yellow);
+            ConsoleHelper.WriteLine(" [ ALLOCATING PRESCIENCE CORE ]", ConsoleColor.Green);
             ShowHeavyLoadingBar();
 
             Console.Clear();
@@ -46,7 +46,7 @@ namespace TheSeer.Presentation.Views
             Console.Write("\n  ");
             for (int i = 0; i < 30; i++)
             {
-                Console.ForegroundColor = (i < 15) ? ConsoleColor.DarkGreen : ConsoleColor.Green;
+                Console.ForegroundColor = (i < 15) ? ConsoleColor.Green : ConsoleColor.Green;
 
                 Console.Write("█");
 

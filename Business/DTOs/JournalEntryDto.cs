@@ -8,9 +8,12 @@ namespace TheSeer.Business.DTOs
     {
         public Guid Id { get; set; }
         public Guid ReadingId { get; set; }
+        public Guid UserId { get; set; }
         public DateTime ReadingDate { get; set; }
         public string SpreadName { get; set; }
+        public string Header { get; set; }        
         public string TextContent { get; set; }
-        public DateTime CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; }    
+        public DateTime? UpdatedAt { get; set; } 
     }
 }

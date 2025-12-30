@@ -14,7 +14,7 @@ namespace TheSeer.Domain.Models
         public DateTime CreatedAt { get; set; }
         public DateTime LastLoginAt { get; set; }
         public bool IsActive { get; set; }
-        public DateTime UpdatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; } // Not yet implemented! 
         public string Role { get; set; } = null!;
 
         public ICollection<Reading> Readings { get; set; } = new List<Reading>();

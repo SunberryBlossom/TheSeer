@@ -1,7 +1,6 @@
 ﻿using System;
 using TheSeer.Business.DTOs;
 using TheSeer.Business.Interfaces;
-using TheSeer.Data;
 using TheSeer.Data.Interfaces;
 using TheSeer.Domain.Models;
 
@@ -26,10 +25,7 @@ namespace TheSeer.Business.Services
                 throw new InvalidOperationException("This Email address is already registered");
             }
 
-            var existingUsername = _uow.Users.GetAll()
-        .FirstOrDefault(u => u.Username == registerDto.Username);
-
-            if (existingUsername != null)
+            if (_uow.Users.GetAll().Any(u => u.Username == registerDto.Username))
             {
                 return false;
             }
