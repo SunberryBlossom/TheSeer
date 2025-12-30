@@ -19,7 +19,6 @@ namespace TheSeer.Business.Services
 
         public void ToggleFavorite(Guid userId, int deckId)
         {
-            // Vi kollar om kopplingen redan finns
             var existing = _uow.FavoriteDecks.GetById(userId, deckId);
 
             if (existing != null)

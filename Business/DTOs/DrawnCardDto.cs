@@ -13,6 +13,6 @@ namespace TheSeer.Business.DTOs
         public string SpreadPositionDescription { get; set; }
         public int DrawOrder { get; set; }
         public bool IsReversed { get; set; }
-        public ICollection<Meaning> MeaningText { get; set; }
+        public ICollection<MeaningDto> MeaningText { get; set; }
     }
 }

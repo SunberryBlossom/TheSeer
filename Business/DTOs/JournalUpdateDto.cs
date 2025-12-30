@@ -7,6 +7,7 @@ namespace TheSeer.Business.DTOs
     public class JournalUpdateDto
     {
         public Guid Id { get; set; }
+        public string NewHeader { get; set; }
         public string NewTextContent { get; set; }
     }
 }
