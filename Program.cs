@@ -19,6 +19,9 @@ namespace TheSeer.ConsoleApp
 
             using (var scope = host.Services.CreateScope())
             {
+                var db = scope.ServiceProvider.GetRequiredService<TheSeerDbContext>();
+                db.Database.Migrate();
+
                 var services = scope.ServiceProvider;
                 var app = services.GetRequiredService<App>();
 
