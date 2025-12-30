@@ -11,6 +11,8 @@ namespace TheSeer.Domain.Models
         public int SequenceNumber { get; set; }
         public string? Label { get; set; }
         public string Description { get; set; } = null!;
+
+        // These three will be implemented first when The Seer becomes a webapplication, most likely v3.0.0. Stay tuned!
         public int XPos { get; set; }
         public int YPos { get; set; }
         public int RotationDegrees { get; set; }

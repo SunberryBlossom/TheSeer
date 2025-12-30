@@ -12,7 +12,7 @@ namespace TheSeer.Presentation.Helpers
         private const ConsoleColor Muted = ConsoleColor.DarkGray;
         private const ConsoleColor Error = ConsoleColor.Red;
 
-        private const int DefaultSpeed = 20;
+        private const int DefaultSpeed = 22;
 
         public static void Type(string message, ConsoleColor color = ConsoleColor.Gray, int speed = DefaultSpeed)
         {
@@ -41,8 +41,22 @@ namespace TheSeer.Presentation.Helpers
             string top = $"{spice}{new string('═', width - 2)}{spice}";
             string bottom = $"{spice}{new string('═', width - 2)}{spice}";
             string centeredTitle = $" {eye}  {title.ToUpper()}  {eye} ";
-            int pad = (width - centeredTitle.Length) / 2;
-            string titleLine = new string(' ', pad) + centeredTitle + new string(' ', width - pad - centeredTitle.Length);
+
+            string titleLine;
+            if (centeredTitle.Length >= width)
+            {
+                int maxTitleLength = width - ("  ".Length + 2 * eye.Length + 2);
+                string truncatedTitle = title.ToUpper();
+                if (truncatedTitle.Length > maxTitleLength)
+                    truncatedTitle = truncatedTitle.Substring(0, Math.Max(0, maxTitleLength - 3)) + "...";
+                centeredTitle = $" {eye}  {truncatedTitle}  {eye} ";
+                titleLine = centeredTitle.PadRight(width);
+            }
+            else
+            {
+                int pad = (width - centeredTitle.Length) / 2;
+                titleLine = new string(' ', pad) + centeredTitle + new string(' ', width - pad - centeredTitle.Length);
+            }
 
             WriteLine(top, Accent);
 
@@ -80,12 +94,15 @@ namespace TheSeer.Presentation.Helpers
             WriteLine(new string('-', 55), Muted);
         }
 
-        public static string Input(string prompt)
+        public static string Input(string prompt, bool allowBack = false)
         {
             Console.Write($"{prompt}: ", Secondary);
             Console.ForegroundColor = Accent;
             string input = Console.ReadLine() ?? string.Empty;
             Console.ResetColor();
+
+            if (allowBack && (input.Trim().ToUpper() == "Q"))
+                return "BACK";
             return input;
         }
 
@@ -122,7 +139,7 @@ namespace TheSeer.Presentation.Helpers
         public static void Wait()
         {
             Console.WriteLine();
-            Type("[Press any key to continue]", Muted, 10);
+            Type("[Press any key to proceed]", Muted, 10);
             Console.ReadKey(true);
         }
 
@@ -133,6 +150,24 @@ namespace TheSeer.Presentation.Helpers
             Console.ForegroundColor = ConsoleColor.Gray;
             Console.WriteLine(description);
             Console.ResetColor();
+        }
+
+        public static bool Confirm(string prompt)
+        {
+            while (true)
+            {
+                Console.Write($"{prompt} ", Secondary);
+                Console.ForegroundColor = Accent;
+                var input = Console.ReadLine()?.Trim().ToUpperInvariant();
+                Console.ResetColor();
+
+                if (input == "Y" || input == "YES")
+                    return true;
+                if (input == "N" || input == "NO")
+                    return false;
+
+                Alert("Please enter [Y] or [N].", true);
+            }
         }
     }
 }

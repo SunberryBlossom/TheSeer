@@ -32,7 +32,8 @@ namespace TheSeer.Presentation.Menus
 
                 ConsoleHelper.Type("CONNECTED USER: ", ConsoleColor.Yellow);
                 ConsoleHelper.WriteLine(_currentUser.Username.ToUpper(), ConsoleColor.Yellow);
-                ConsoleHelper.Type("Spice injection initialized. All precognition circuits are primed.", ConsoleColor.Green, 30);
+                ConsoleHelper.Type("User recognized. Welcome, " + _currentUser.Username.ToUpper() + ".", ConsoleColor.Yellow);
+                ConsoleHelper.Type("System initialization complete. All circuits are operational.", ConsoleColor.Green, 30);
                 Console.WriteLine();
 
                 ConsoleHelper.MenuOption("1", "THE SEER (Get a reading)");
@@ -64,7 +65,7 @@ namespace TheSeer.Presentation.Menus
                         inSession = false;
                         break;
                     default:
-                        ConsoleHelper.Alert("I'm sorry, Seeker. I'm afraid I can't do that. Command unknown.", true);
+                        ConsoleHelper.Alert("I'm sorry, Seeker. I can't comply with that command.", true);
                         ConsoleHelper.Wait();
                         break;
                 }
