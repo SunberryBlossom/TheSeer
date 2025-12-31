@@ -19,7 +19,7 @@ A C# Console app that handles your Tarot, Oracle and Rune readings.
 ### Notes on V1.0.0
 - This is the initial release of The Seer. I developed this version before I started my .NET fullstack studies, so the code may not follow best practices or be optimally structured.
 
-## V2.*.*
+## V2.x.x
 - Version 2 and is finally released!
 - Database integration, OOP optimized code with LINQ, EF Core usage
 - Better file management and seed data
